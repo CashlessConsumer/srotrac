@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — SROTrac</title>
+<meta name="description" content="Independent tracker of India's RBI-recognised self-regulatory organisations in fintech, NBFC and payments: members, governance, activity, and what they mean for consumers.">
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">SRO<span>Trac</span></a>
+    <nav><a href="/">Home</a><a href="/sro-face.html">FACE</a><a href="/sro-uff.html">UFF</a><a href="/sro-fidc.html">FIDC</a><a href="/sro-srpa.html">SRPA</a><a href="/members.html">Members</a><a href="/overlap.html">Overlap</a><a href="/timeline.html">Timeline</a><a href="/activity.html">Activity</a><a href="/about.html" class="active">About</a></nav>
+  </div>
+</header>
+<main>
+
+<section class="hero slim"><div class="wrap">
+  <h1>About SROTrac</h1>
+  <p class="lede">An independent, open-data tracker of India's RBI-recognised self-regulatory organisations — built by CashlessConsumer, a consumer collective working on digital payments and fintech.</p>
+</div></section>
+<section class="wrap cols">
+  <div class="col">
+    <h2>Method</h2>
+    <ul class="ticks">
+      <li>Member rosters are parsed from each SRO's own published member pages (captured <strong>2026-09-10</strong>).</li>
+      <li>Governance data comes from SRO governance/leadership pages; roles are quoted as published.</li>
+      <li>The activity log links only to primary sources (RBI press releases, TRAI filings, SRO pages) or dated news reports.</li>
+      <li>The SRPA roster was decoded from its logo wall (filenames are truncated) — treat spelling with care.</li>
+      <li>Everything rebuilds from CSV via a single script; the <a href="https://github.com/CashlessConsumer/srotrac">GitHub repo</a> carries the raw captures.</li>
+    </ul>
+  </div>
+  <div class="col">
+    <h2>Caveats</h2>
+    <ul class="watchlist">
+      <li>SRO member pages are <strong>marketing pages, not registers</strong>. FACE claims 200+ members but shows ~85 logos; treat counts as a floor.</li>
+      <li><strong>FIDC publishes no member roster at all</strong> — its "list of NBFCs" page holds RBI registration statistics, not membership.</li>
+      <li>Membership changes constantly; dates matter. Each dataset notes its capture date.</li>
+      <li>Recognition ≠ effectiveness. An SRO can be fully compliant on paper and still never discipline a member. This tracker will log enforcement actions as they surface.</li>
+    </ul>
+  </div>
+</section>
+<section class="wrap">
+  <h2>License &amp; reuse</h2>
+  <p>Code: MIT. Data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> — copy, remix and republish with attribution to SROTrac / CashlessConsumer.</p>
+  <h2>Related CashlessConsumer properties</h2>
+  <ul>
+    <li><a href="https://cyber.cashlessconsumer.in">cyber.cashlessconsumer.in</a> — security investigations hub</li>
+    <li><a href="https://cashlessconsumer.in">cashlessconsumer.in</a> — fintech newsletter &amp; research</li>
+  </ul>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>SROTrac</strong> — an independent CashlessConsumer project tracking India's fintech self-regulatory organisations. Not affiliated with RBI or any SRO.</p>
+    <p><a href="https://cashlessconsumer.in">cashlessconsumer.in</a> · data: <a href="https://github.com/CashlessConsumer/srotrac">GitHub</a> · <a href="/about.html">methodology</a></p>
+  </div>
+</footer>
+<script src="/js/main.js"></script>
+</body>
+</html>

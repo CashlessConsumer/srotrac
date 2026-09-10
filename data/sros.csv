@@ -1,0 +1,5 @@
+sro_id,name,abbr,website,nlp_site,recognition,recognised_date,status,sector
+face,Fintech Association for Consumer Empowerment,FACE,https://faceofindia.org,https://faceofindia.org/membership/,RBI-recognised SRO-FT (first),2024-08-28,active,fintech
+uff,Unified Fintech Forum,UFF,https://unifiedfintech.in,https://unifiedfintech.in/members-network/,RBI-recognised SRO-FT (second); rebranded from DLAI (Apr 2025),2026-09-10,active,fintech
+srpa,Self-Regulated PSO Association,SRPA,https://srpa.org.in,https://srpa.org.in/,RBI-recognised SRO for Payment System Operators (not a fintech SRO-FT); tracked for context,2025-11-11,related,pso
+fidc,Finance Industry Development Council,FIDC,https://www.fidcindia.org.in,https://www.fidcindia.org.in/membership-details/,RBI-recognised SRO for NBFCs (not a fintech SRO-FT); tracked for context,2025-10-03,related,nbfc
