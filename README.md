@@ -6,6 +6,17 @@ Knowledge repository tracking India's **fintech self-regulatory organisations (S
 
 RBI created a Self-Regulatory Organisation framework for the fintech sector (draft Jan 2024) and has since recognised two SRO-FTs. SROTrac records who they are, and — the part that matters for a consumer desk — **who their members are**, because membership is where industry consensus on fees, grievance handling, and codes of conduct actually gets formed.
 
+## Deployment
+
+- Repo: `CashlessConsumer/srotrac` → GitHub Pages, workflow deploy (`.github/workflows/deploy.yml`).
+- Fallback while DNS is pending: https://cashlessconsumer.github.io/srotrac/
+- Custom domain `srotrac.cashlessconsumer.in` is set in repo Pages config + `CNAME`.
+- **DNS TODO:** zone `cashlessconsumer.in` is on Netlify DNS (NS1). The stored
+  `NETLIFY_AUTH_TOKEN` cannot write DNS records (records API 404s). Add manually:
+  Netlify dashboard → Domain management → cashlessconsumer.in → DNS → new record:
+  `CNAME`, host `srotrac`, value `cashlessconsumer.github.io`, TTL 3600.
+  HTTPS cert provisions automatically after DNS propagates.
+
 ## The SROs tracked
 
 | SRO | Full name | Recognised | Website |
