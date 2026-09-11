@@ -1,0 +1,45 @@
+# SROTrac — India's RBI-recognised SROs, tracked
+
+> Independent register of the seven self-regulatory organisations (SROs) recognised by the Reserve Bank of India: FACE and UFF (fintech SRO-FTs), FIDC (NBFCs), SRPA (payment system operators), MFIN and Sa-Dhan (microfinance), FEDAI (foreign-exchange dealers). Tracks member rosters, governance, activity and enforcement gaps from a consumer-protection lens. Run by CashlessConsumer. Scope: RBI-recognised SROs only — SEBI/IRDAI industry bodies are out of scope. Data CC BY 4.0.
+
+Base URL: https://srotrac.cashlessconsumer.in
+
+## Register
+- [FACE](https://srotrac.cashlessconsumer.in/sro-face.html): Fintech Association for Consumer Empowerment — RBI recognition 2024-08-28; 85 listed members.
+- [UFF](https://srotrac.cashlessconsumer.in/sro-uff.html): Unified Fintech Forum — RBI recognition 2026-09-10; 121 listed members.
+- [FIDC](https://srotrac.cashlessconsumer.in/sro-fidc.html): Finance Industry Development Council — RBI recognition 2025-10-03; no published roster.
+- [SRPA](https://srotrac.cashlessconsumer.in/sro-srpa.html): Self-Regulated PSO Association — RBI recognition 2025-11-11; 18 listed members.
+- [MFIN](https://srotrac.cashlessconsumer.in/sro-mfin.html): Microfinance Institutions Network — RBI recognition 2014-06-16; 84 listed members.
+- [Sa-Dhan](https://srotrac.cashlessconsumer.in/sro-sadhan.html): Sa-Dhan (Association of Community Development Finance Institutions) — RBI recognition 2015-03-11; no published roster.
+- [FEDAI](https://srotrac.cashlessconsumer.in/sro-fedai.html): Foreign Exchange Dealers' Association of India — RBI recognition 2026-01-14; 108 listed members.
+
+## Deep dives (what each SRO actually does)
+- [FACE work](https://srotrac.cashlessconsumer.in/work-face.html): Standards, oversight & dispute resolution for digital lending
+- [UFF work](https://srotrac.cashlessconsumer.in/work-uff.html): Digital lending's second SRO-FT: born as DLAI, recognised 10 Sep 2026
+- [FIDC work](https://srotrac.cashlessconsumer.in/work-fidc.html): NBFCs' SRO: the most active consultation respondent
+- [SRPA work](https://srotrac.cashlessconsumer.in/work-srpa.html): Payment aggregators' young SRO: founded by practitioners, one year old
+- [MFIN work](https://srotrac.cashlessconsumer.in/work-mfin.html): The original SRO experiment: NBFC-MFIs since 16 June 2014
+- [Sa-Dhan work](https://srotrac.cashlessconsumer.in/work-sadhan.html): Community-development finance's SRO: standards since 2015
+- [FEDAI work](https://srotrac.cashlessconsumer.in/work-fedai.html): Authorised dealers' rulebook: 30 years of forex standards
+
+## Cross-cutting pages
+- [All members](https://srotrac.cashlessconsumer.in/members.html): searchable 416-row roster with per-SRO filters.
+- [Overlap](https://srotrac.cashlessconsumer.in/overlap.html): organisations that sit in more than one SRO.
+- [Timeline](https://srotrac.cashlessconsumer.in/timeline.html): 2020–2026 regulatory milestones (frameworks, recognitions, consultations).
+- [Activity](https://srotrac.cashlessconsumer.in/activity.html): dated log of SRO/RBI developments with sources.
+- [About & methodology](https://srotrac.cashlessconsumer.in/about.html): scope, method, caveats, FAQ.
+- [Blog](https://srotrac.cashlessconsumer.in/blog/index.html): weekly summaries.
+
+## Datasets (CC BY 4.0)
+- [activity.csv](https://srotrac.cashlessconsumer.in/data/activity.csv)
+- [face_members.csv](https://srotrac.cashlessconsumer.in/data/face_members.csv)
+- [fedai_members.csv](https://srotrac.cashlessconsumer.in/data/fedai_members.csv)
+- [leadership.csv](https://srotrac.cashlessconsumer.in/data/leadership.csv)
+- [mfin_members.csv](https://srotrac.cashlessconsumer.in/data/mfin_members.csv)
+- [sros.csv](https://srotrac.cashlessconsumer.in/data/sros.csv)
+- [srpa_members.csv](https://srotrac.cashlessconsumer.in/data/srpa_members.csv)
+- [uff_members.csv](https://srotrac.cashlessconsumer.in/data/uff_members.csv)
+
+## For agents
+- Full text of this site: https://srotrac.cashlessconsumer.in/llms-full.txt
+- Machine-readable pages: semantic HTML, JSON-LD (Dataset, Organization, FAQPage), canonical URLs.

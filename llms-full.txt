@@ -1,0 +1,608 @@
+# SROTrac — full text for AI agents
+Source: https://srotrac.cashlessconsumer.in (CC BY 4.0). One section per page.
+
+
+## home — https://srotrac.cashlessconsumer.in/
+Register of RBI-recognised self-regulatory organisations · India 
+ Who watches India’s fintech watchdogs ? 
+
+ RBI-Recognised × 7 
+ 2 × SRO-FT 
+
+ RBI outsources first-line supervision of fintechs, NBFCs and payment operators to self-regulatory organisations — industry bodies with the power to write conduct codes and police their own members. SROTrac tracks who sits on these SROs, what they do, and whether they work for consumers. Scope: only the seven SROs recognised by RBI — industry bodies under SEBI, IRDAI or other regulators are out of scope. 
+
+ 7 RBI-recognised SROs 
+ 416 listed member orgs 
+ 30 in 2+ SROs 
+ 2 fintech SRO-FTs 
+
+ The register 
+ Seven bodies, one contract with the regulator. Click a folder for members, governance and activity. 
+
+ Active SRO-FT 
+ Fintech Association for Consumer Empowerment 
+ Fintech / digital lending 
+ Recognised 28 Aug 2024 · 85 listed members 
+
+ Active SRO-FT (recognised at GFF 2026) 
+ Unified Fintech Forum 
+ Fintech (broad): lenders, wallets/PPIs, neobanks, BNPL 
+ Recognised 10 Sep 2026 · 121 listed members 
+
+ Active SRO (NBFC) 
+ Finance Industry Development Council 
+ NBFCs (incl. digital lenders) — recognised under omnibus framework, not the SRO-FT framework 
+ Recognised 03 Oct 2025 · 0 listed members 
+
+ Active SRO (PSO) 
+ Self-Regulated PSO Association 
+ Payment system operators: payment aggregators, wallets/PPIs, POS 
+ Recognised 11 Nov 2025 · 18 listed members 
+
+ Active SRO (microfinance; RBI letter 16 Jun 2014 — first SRO in this family) 
+ Microfinance Institutions Network 
+ NBFC-MFIs (+ banks/SFBs lending microfinance as associate members) 
+ Recognised 16 Jun 2014 · 84 listed members 
+
+ Active SRO (microfinance; recognised Mar 2015) 
+ Sa-Dhan (Association of Community Development Finance Institutions) 
+ Microfinance (broad network: MFIs, SFBs, banks, investors) 
+ Recognised 11 Mar 2015 · 0 listed members 
+
+ Active SRO (FX; Omnibus framework; 1-yr transition to Jan 2027) 
+ Foreign Exchange Dealers' Association of India 
+ Authorised Dealers in foreign exchange (banks + FEMA-authorised entities) 
+ Recognised 14 Jan 2026 · 108 listed members 
+
+ What is an SRO, in plain words? 
+ RBI can't directly supervise thousands of fintechs, NBFCs and payment companies. So it recognises industry associations as self-regulatory organisations — with a contract: broad membership, independent boards, codes of conduct, monitoring of member compliance, and grievance redress. In return the regulator gets a first line of supervision, and the industry gets a single voice. 
+ For consumers, the SRO is one more place to escalate when a lender or payment company misbehaves — but only if the SRO actually enforces. That is what this tracker watches: rosters, governance, consultations, enforcement, and the gaps in between. 
+
+ Latest activity 
+
+ 2026-09-10 UFF 
+ UFF recognised as India's second SRO-FT 
+ 2026-08 FACE 
+ FACE Personal Loan Report 2026 
+ 2026-06-05 FIDC 
+ FIDC views on RBI monetary policy statement (June 2026) 
+ 2026-01-14 FEDAI 
+ FEDAI recognised as SRO for all Authorised Dealers 
+ 2025-11-11 SRPA 
+ SRPA becomes RBI-recognised SRO for payment system operators 
+ 2025-10-03 FIDC 
+ FIDC recognised as RBI's SRO for NBFCs 
+
+ Full activity log → 
+
+ Weekly gazette 
+ SROTrac Weekly 
+ A weekly digest of what moved in SRO-land — roster changes, consultations,
+ enforcement, recognition news — generated from the tracker's own diffs. 
+ Read the blog →
+
+
+## members — https://srotrac.cashlessconsumer.in/members.html
+All members 
+ 416 rows across FACE, UFF, SRPA, MFIN and FEDAI (FIDC and Sa-Dhan publish no roster). Filter by SRO or search by name. 
+
+ All 
+ FACE 
+ UFF 
+ SRPA 
+ In 2+ SROs 
+
+ Organisation SRO Type Website 
+
+ Enable JavaScript to browse the interactive table, or grab the raw CSVs on GitHub.
+
+
+## overlap — https://srotrac.cashlessconsumer.in/overlap.html
+Cross-SRO overlap 
+ Companies (and people) sitting in more than one self-regulatory organisation. Useful for spotting conflicts of interest and coordinated lobbying. 
+
+ Organisations in 2+ SROs (30) 
+ Organisation SROs Apollo Finvest FACE UFF Aspire FACE UFF Bank of Baroda FEDAI UFF BharatPe FACE UFF Branch FACE UFF Bureau FACE UFF CADRE FACE UFF CRED SRPA UFF Decentro FACE UFF GetVantage FACE UFF HyperVerge FACE UFF InCred FACE UFF KreditBee FACE UFF Light Microfinance MFIN UFF MobiKwik FACE SRPA UFF Moneyview FACE UFF Northern Arc FACE UFF Paisabazaar FACE UFF Paytm FACE UFF Perfios FACE UFF PhonePe FACE SRPA Progcap FACE UFF Razorpay FACE SRPA RBL Bank MFIN UFF Revfin FACE UFF Saafe FACE UFF Spice Money SRPA UFF True Balance FACE UFF Uni FACE UFF Zeta FACE UFF 
+
+ People in 2+ SROs 
+ Person Roles Jiji Mammen FIDC: Advisory Council; Sa-Dhan: Executive Director & CEO N S Vishwanathan FIDC: Governing Council Member (Additional Director wef 2026-06-23); UFF: Independent Board Member Shachindra Nath FIDC: Governing Council Member; UFF: EC Member Sugandh Saxena FACE: CEO (first CEO; MFIN: Member Secretary 
+
+ Why this matters: the omnibus SRO framework requires SROs to avoid conflicts of interest. Shared directors and EC members across SROs are legal — but when the same fintech executives shape conduct rules at multiple bodies, consumers should know whose interests get harmonised first.
+
+
+## timeline — https://srotrac.cashlessconsumer.in/timeline.html
+Regulatory timeline 
+ How RBI built the SRO system — frameworks, recognitions, and what each SRO did about it. 
+
+ 2026 
+
+ 2026-09-10 UFF recognition 
+ UFF recognised as India's second SRO-FT 
+ RBI granted SRO-FT registration to Unified Fintech Forum (ex-DLAI) ahead of RBI's Global Fintech Fest address; second fintech SRO after FACE. 
+
+ 2026-08 FACE report 
+ FACE Personal Loan Report 2026 
+ Consumer-facing study of India's personal loan market: borrower profiles, pricing, top lenders, delinquency and origination trends. 
+
+ 2026-06-05 FIDC consultation 
+ FIDC views on RBI monetary policy statement (June 2026) 
+ FIDC publicly responded to the June 2026 monetary policy, representing NBFC sector interests on liquidity and rate transmission. 
+
+ 2026-01-14 FEDAI recognition 
+ FEDAI recognised as SRO for all Authorised Dealers 
+ RBI recognised FEDAI (est. 1958) as SRO for the foreign-exchange market under the Omnibus SRO framework, with a one-year transition (to Jan 2027) to align governance and extend membership to all AD categories. 
+
+ 2025 
+
+ 2025-11-11 SRPA recognition 
+ SRPA becomes RBI-recognised SRO for payment system operators 
+ Self-Regulated PSO Association (SRPA) recognised under the SRO-PSO framework; founded by Vishwas Patel (CCAvenue) and M N Srinivasu (BillDesk); 18 members. 
+
+ 2025-10-03 FIDC recognition 
+ FIDC recognised as RBI's SRO for NBFCs 
+ Finance Industry Development Council became the recognised self-regulatory organisation for NBFCs under the omnibus framework. 
+
+ 2025-08 FACE tool 
+ DLA Validator — consumer tool for checking digital lending apps 
+ FACE's consumer corner offers a DLA (digital lending application) validator so borrowers can check an app before taking a loan. 
+
+ 2025-04-16 UFF announcement 
+ DLAI rebrands as Unified Fintech Forum (UFF); new leadership elected 
+ DLAI became UFF with ~120 members: Manish Lunia (FlexiLoans) as President, Upasana Taku (MobiKwik) as Vice-President. Sought RBI SRO-FT recognition as a broad fintech body. 
+
+ 2025-04 UFF announcement 
+ UFF executive committee and working-group chairs in place 
+ UFF EC formed: Manish Lunia (President), Upasana Taku (VP & Events Chair), chairs for SRO, Knowledge, Policy/Product/Tech, Events, PR portfolios. 
+
+ 2024 
+
+ 2024-09 UFF announcement 
+ DLAI among fintech bodies that applied to RBI for SRO-FT status 
+ Three associations applied for SRO-FT recognition after the final framework; Digital Lenders Association of India's application was returned/kept pending. 
+
+ 2024-08-28 FACE recognition 
+ FACE becomes India's first RBI-recognised fintech SRO (SRO-FT) 
+ Fintech Association for Consumer Empowerment recognised as the first SRO-FT, effective from date of issue of certificate of registration. 
+
+ 2024-08-14 FACE consultation 
+ FACE response to TRAI consultation on DLT-based transaction scrubbing 
+ FACE filed detailed views (218 pages, 8 annexures) on TRAI's draft 'The Telecommunications (DLT-based Scrubbing) Regulations, 2025', from the digital-lending industry perspective. 
+
+ 2024-06-19 RBI announcement 
+ RBI invites applications for recognition of SROs for NBFCs 
+ RBI press release inviting SRO applications under the omnibus framework from NBFC industry associations. 
+
+ 2024-05-30 RBI framework 
+ Final framework for recognising Self-Regulatory Organisations in the fintech sector (SRO-FT) 
+ Final SRO-FT framework: recognised SRO-FTs to monitor fintech compliance with regulations and codes, support innovation, and protect consumers. 
+
+ 2024-03-21 RBI framework 
+ Omnibus framework for recognising self-regulatory organisations in regulated financial entities 
+ Generic framework applicable across RBI-regulated sectors (NBFCs, PSOs, etc.), each sector supervisor to invite/recognise SROs. 
+
+ 2024-01-15 RBI framework 
+ Draft framework for recognising Self-Regulatory Organisations for the fintech sector (SRO-FT) 
+ RBI's first fintech-specific SRO framework: eligibility, membership openness, governance, oversight of members' compliance and consumer protection. 
+
+ 2023 
+
+ 2023-09 FACE partnership 
+ Google x FACE collaboration against predatory digital lending apps 
+ Partnership to identify and act against predatory lending apps on Android; part of FACE's consumer-protection and app-fraud agenda. 
+
+ 2021 
+
+ 2021-08 FACE announcement 
+ FACE applies to RBI for SRO recognition (digital lending) 
+ FACE was among the first industry bodies to apply to RBI for SRO status in digital lending, months after the draft framework chatter began. 
+
+ 2020 
+
+ 2020-10-22 RBI framework 
+ Framework for recognition of Self-Regulatory Organisation for Payment System Operators (SRO-PSO) 
+ First SRO framework in payments: Recognised associations of PSOs to set standards, ensure compliance, and address grievances. Enabled payments SROs under Section 43A/43E PSS Act. 
+
+ 2020-10-22 RBI framework 
+ Omnibus framework path: PSO + RBI SRO-FT + sector SROs 
+ RBI's omnibus framework for recognising SROs across regulated entities set the template later used for NBFC (FIDC), PSO (SRPA) and FX (FEDAI) SRO recognition. 
+
+ 2015 
+
+ 2015-03-11 RBI recognition 
+ Sa-Dhan recognised as SRO for NBFC-MFIs 
+ RBI recognition made Sa-Dhan the second microfinance SRO, giving NBFC-MFIs a choice of SRO membership. 
+
+ 2014 
+
+ 2014-06-16 MFIN recognition 
+ MFIN becomes India's first SRO for NBFC-MFIs 
+ RBI letter dated 16 June 2014 accorded MFIN recognition as the first self-regulatory organisation of NBFC-MFIs, post-Andhra crisis (Malegam committee route).
+
+
+## activity — https://srotrac.cashlessconsumer.in/activity.html
+Activity log 
+ Frameworks, recognitions, consultation responses, reports and announcements — dated and linked. 
+
+ All announcement (5) consultation (2) framework (5) partnership (1) recognition (7) report (1) tool (1)
+
+
+## about — https://srotrac.cashlessconsumer.in/about.html
+About SROTrac 
+ An independent, open-data register of India's RBI-recognised self-regulatory organisations — built by CashlessConsumer, a consumer collective working on digital payments and fintech. Licensed CC BY 4.0 (data) and MIT (code). 
+
+ Scope: RBI’s SROs only 
+ India has several self-regulatory bodies across financial regulators. SROTrac tracks only the seven recognised by the Reserve Bank of India : the two SRO-FTs (FACE, UFF), FIDC (NBFCs), SRPA (payment operators), MFIN and Sa-Dhan (microfinance), and FEDAI (authorised dealers). Bodies under other regulators — e.g. AMFI and IIFL under SEBI, the Insurance Institute under IRDAI — are not covered here, however senior their profiles. 
+
+ Method 
+
+ Member rosters are parsed from each SRO's own published member pages (captured 2026-09-10 ). 
+ Governance data comes from SRO governance/leadership pages; roles are quoted as published. 
+ The activity log links only to primary sources (RBI press releases, TRAI filings, SRO pages) or dated news reports. 
+ The SRPA roster was decoded from its logo wall (filenames are truncated) — treat spelling with care. 
+ Everything rebuilds from CSV via a single script; the GitHub repo carries the raw captures. 
+
+ Caveats 
+
+ SRO member pages are marketing pages, not registers . FACE claims 200+ members but shows ~85 logos; treat counts as a floor. 
+ FIDC publishes no member roster at all — its "list of NBFCs" page holds RBI registration statistics, not membership. 
+ Membership changes constantly; dates matter. Each dataset notes its capture date. 
+ Recognition ≠ effectiveness. An SRO can be fully compliant on paper and still never discipline a member. This tracker will log enforcement actions as they surface. 
+
+ FAQ 
+ Which SROs does India have? The Reserve Bank of India has recognised seven self-regulatory organisations: FACE and UFF for fintech (SRO-FT framework), FIDC for NBFCs, SRPA for payment system operators, MFIN and Sa-Dhan for microfinance lenders, and FEDAI for authorised dealers in foreign exchange. Does SROTrac cover SEBI or IRDAI industry bodies? No. SROTrac tracks only RBI-recognised SROs. Bodies like AMFI (mutual funds) or the Insurance Institute are recognised by other regulators and are out of scope. Is SROTrac affiliated with the RBI or any SRO? No. SROTrac is an independent project by CashlessConsumer, a consumer collective. It uses only publicly available sources: SRO websites, RBI press releases and dated news reports. How many members do the SROs have? As of the latest capture: FACE 85, UFF 121, SRPA 18, MFIN 84 and FEDAI 108 listed members — 416 rows across the seven SROs. FIDC and Sa-Dhan publish no public roster. Counts are floors, not filings: SRO member pages are marketing pages. Can I reuse the data? Yes. Data is licensed CC BY 4.0 — copy, remix and republish with attribution to SROTrac / CashlessConsumer. The CSVs are linked on the members page and in the GitHub repo. 
+
+ License & reuse 
+ Code: MIT. Data: CC BY 4.0 — copy, remix and republish with attribution to SROTrac / CashlessConsumer. 
+ Related CashlessConsumer properties 
+
+ cyber.cashlessconsumer.in — security investigations hub 
+ cashlessconsumer.in — fintech newsletter & research
+
+
+## FACE register entry — https://srotrac.cashlessconsumer.in/sro-face.html
+RBI-recognised SRO 
+ Fintech Association for Consumer Empowerment FACE 
+ Deep-dive: what FACE actually does → 
+ Fintech / digital lending 
+
+ Recognised 28 Aug 2024 
+ Status Active SRO-FT 
+ Listed members 85 (85 member) 
+ Site faceofindia.org 
+
+ Why it matters if you borrow or pay 
+ Runs the DLA Validator — check a lending app before you borrow from it. Publishes a Grievance & Dispute Resolution (GDR) framework and an Oversight & Enforcement policy for members. Studies personal-loan pricing and borrower outcomes (Personal Loan Report 2026) and pushed Google on predatory lending apps. 
+
+ What we're watching 
+ Member count claims (~200+) vs published roster (~85 logos) — the public list is a marketing page, not a register. Enforcement actions are not published; the SRO-FT framework expects oversight of member conduct. 
+
+ Governance 
+ Board / Governing Council Name Role Affiliation Ram Rastogi Independent Director & Chair Manoranjan Mishra Independent Director Avtar Monga Member Director Srinath Sridharan Member Director Ashish Goyal Member Director Nitin Gupta Member Director Madhusudan Ekambaram Member Director Sanjay Aggarwal Member Director Vineet Sukumar Member Director Executive Committee / Office bearers Name Role Affiliation Sugandh Saxena CEO (first CEO appointed Aug 2021) Dheeraj Bhardwaj Vice President - Technology Jay Tripathi Vice President Monami Dasgupta AVP - Policy & Research Board committees Name Role Affiliation Ashish Goyal Audit, Finance & Remuneration Committee Avtar Monga Audit, Finance & Remuneration Committee Srinath Sridharan Audit, Finance & Remuneration Committee Vineet Sukumar Audit, Finance & Remuneration Committee 
+
+ Members (85) 
+
+ Organisation Type Website 
+ Airpay member Airtel Finance member www.airtel.in/airtel-finance AngelOne member www.angelone.in Apollo Finvest member www.apollofinvest.in Aspire member www.letsaspire.in Ayekart member www.ayekart.com Bajaj Finserv member www.bajajfinserv.in Bankbazaar member www.bankbazaar.com BharatPe member www.bharatpe.com BillMart member www.billmart.in BimaPay member www.bimapay.in Branch member www.branch.co.in Bureau member www.bureau.id CADRE member www.cadre.org.in Cashfree Payments member www.cashfree.com Castler member www.castler.com Credgenics member www.credgenics.com Credit Saison India member www.creditsaison.in CRIF member www.crif.com/in Decentro member www.decentro.tech Digio member www.digio.in Doqfy member www.doqfy.in DPDzero member www.dpdzero.com Easebuzz member www.easebuzz.in Faircent member www.faircent.com Fibe member www.fibe.in FinAGG member www.finagg.in Finarkein member www.finarkein.com Finbox member www.finbox.in finmantri member finmantri.com Finvu member www.finvu.in Flexmoney member www.flexmoney.in GetVantage member www.getvantage.co Glimmer Technologies member www.glimmertech.in Gnani.ai member www.gnani.ai Groww member www.groww.in HyperVerge member www.hyperverge.co IDfy member www.idfy.com InCred member www.incred.com India Gold member www.indiagold.co Kissht member www.kissht.com Knight Fintech member www.knightfintech.com KreditBee member www.kreditbee.in LeadSquared member www.leadsquared.com Lendbox member www.lendbox.in LightMoney member www.lightmoney.in LiquiLoans member www.liquiloans.com Lxme member www.lxme.in Manipal Fintech member www.manipalfintech.com MAS Financial member www.masfin.in MicroSave Consulting member www.microsave.net MobiKwik member www.mobikwik.com Moneyview member www.moneyview.in Navanc member www.navanc.com Newtap Finance member www.newtap.in Northern Arc member www.northernarc.com Novopay member www.novopay.in Olyv member www.olyv.co.in OneCard member www.getonecard.app OneMoney member www.onemoney.in OnGrid member www.ongrid.in Paisabazaar member www.paisabazaar.com Pay Nearby member www.paynearby.in Paytm member www.paytm.com PayU member www.payu.in Perfios member www.perfios.com PhonePe member www.phonepe.com Pine Labs member www.pinelabs.com Pocketly member www.pocketly.in Progcap member www.progcap.com Razorpay member www.razorpay.com Revfin member www.revfin.in Rezolv member www.getrezolv.com Rupeek member www.rupeek.com Saafe member www.saafe.in Simpl member www.simpl.credit Spocto X member www.spocto.com Stable Money member www.stablemoney.in Surepass member www.surepass.io TransBnk member www.transbnk.co.in True Balance member www.truebalanceindia.com Uni member www.uni.cards Zerodha Capital member www.zerodha.com Zeta member www.zeta.tech Zoop Money member www.zoop.one 
+
+ Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+
+ Activity 
+ 2026-08 report FACE Personal Loan Report 2026 2025-08 tool DLA Validator — consumer tool for checking digital lending apps 2024-08-28 recognition FACE becomes India's first RBI-recognised fintech SRO (SRO-FT) 2024-08-14 consultation FACE response to TRAI consultation on DLT-based transaction scrubbing 2023-09 partnership Google x FACE collaboration against predatory digital lending apps 2021-08 announcement FACE applies to RBI for SRO recognition (digital lending)
+
+
+## FACE work deep-dive — https://srotrac.cashlessconsumer.in/work-face.html
+What FACE actually does 
+ Fintech Association for Consumer Empowerment FACE 
+ Standards, oversight & dispute resolution for digital lending 
+
+ FACE (registered 24 August 2020, recognised 28 August 2024) is the first RBI-recognised SRO-FT. Its published work splits into five streams: standards, oversight & enforcement, grievance & dispute resolution (GDR), policy engagement, and knowledge tooling. 
+ Standards & guidelines (dated trail) Guidelines on Arbitration Framework in Loan Agreement — 2 Sep 2026 Guidelines on DLG (Default Loss Guarantee) disclosure — Jul 2026 Guidelines for LSP–RE agreements (lending service provider ↔ regulated entity) — 31 Mar 2026 Guidelines on Whistleblower Mechanism — Sep 2025 Guidelines on Debt Recovery — 29 Aug 2025 Guidelines on Penal Charges — Jun 2025 Guidelines on Cybersecurity Measures — 13 May 2025 Pricing of Digital Loans by NBFCs — Jan 2025 Practical tooling for members List of Regulatory Policies for base-layer NBFCs — 31 Aug 2026 List of Supervisory Returns for NBFCs — 28 Aug 2026 Checklist for Responsible & Trustworthy AI in digital lending (with Dvara and PwC) — 18 Mar 2026 Checklist for public disclosure on DLAs and LSP/RE websites — 14 Aug 2025 Checklist on Customer Grievance Redressal — 13 Mar 2024; defence guide against unauthorised use of company details — 4 Mar 2024 Baseline technology standards suggestions for DLAs — Mar 2023 Oversight & enforcement The Oversight & Enforcement Policy (18 Aug 2025) sets out monitoring, review, escalation and enforcement across self-regulatory work: company-level monitoring, industry-level pattern analysis (including tracking app marketplaces), distinguishing isolated lapses from recurring deviations, with escalation paths to member-support, cautions, and RBI referral. Grievance & dispute resolution (GDR) A governed pathway for member disputes and complaints: submission via prescribed digital channels → initial review by the nodal officer and CEO → escalation to the Grievance and Dispute Redressal Committee → examination → formal closure. Documented, confidential, time-bound; positioned as an alternative to escalation and litigation. Policy & knowledge work Consultation responses and structured dialogue with RBI, government and regulators — engagement framed as evidence-based and balanced across buy/sell side Industry surveys and reports under its Knowledge stream; member-only advisories Client-insight channel and engagement with marketplaces and app ecosystems 
+ Gaps & open questions The DAK (Digital Assurance & Keeping?) scorecard detail referenced in its framework pages is not published as a standalone document No public complaint statistics or enforcement actions register Full member agreements/code sign-offs are not public 
+ Sources faceofindia.org — Standards FACE — Oversight & Enforcement Policy FACE — Grievance & Dispute Resolution FACE — Policy FACE — Governance 
+ Captured 2026-09-10–11 from FACE’s own site. Deep-dive under methodology · ← register entry
+
+
+## UFF register entry — https://srotrac.cashlessconsumer.in/sro-uff.html
+RBI-recognised SRO 
+ Unified Fintech Forum UFF 
+ Deep-dive: what UFF actually does → 
+ Fintech (broad): lenders, wallets/PPIs, neobanks, BNPL 
+
+ Recognised 10 Sep 2026 
+ Status Active SRO-FT (recognised at GFF 2026) 
+ Listed members 121 (18 associate · 103 member) 
+ Site unifiedfintech.in 
+
+ Why it matters if you borrow or pay 
+ Second RBI-recognised fintech SRO — now both major fintech lobbies are under RBI's SRO-FT rules: codes of conduct, member monitoring, grievance redress. Has a dedicated SRO portfolio in its Executive Committee (Chair: Progcap; Co-chair: Vivifi) — the desk expected to police members. Independent board stacked with ex-regulators: two former RBI Deputy Governor/ED-level officials, ex-CMD of SIDBI, ex-SBI Deputy MD. 
+
+ What we're watching 
+ Freshly recognised — codes of conduct and enforcement machinery are yet to be tested in public. Track whether UFF publishes member-discipline actions, unlike FACE's unpublished enforcement record. 
+
+ Governance 
+ Board / Governing Council Name Role Affiliation Alok Prasad Chairman - Independent Board Member Ex veteran banker Dhananjay Tambe Independent Board Member Ex-Deputy MD & CIO, SBI Meena Hemchandra Independent Board Member Ex-ED, Department of Supervision, RBI Mohammad Mustafa Independent Board Member Ex-Chairman & MD, SIDBI / NHB / CERSAI N S Vishwanathan Independent Board Member Ex-Deputy Governor, RBI Y G Parande Independent Board Member Ex-Member, CBEC, MoF, IRS Alok Mittal Board Member Co-Founder - Indifi Anuj Kacker Board Member Co-Founder & COO - Freo Harshvardhan Lunia Board Member Founder & CEO - Finsagex Technologies (Lendingkart) Jitendra Gupta Board Member Founder - Jupiter Manish Lunia Board Member Co-Founder - FlexiLoans Sunil Kulkarni Board Member Advisor BCFI - Chair WG Reserve Bank Innovation Hub Executive Committee / Office bearers Name Role Affiliation Manish Lunia President Co-Founder - FlexiLoans Upasana Taku Vice-President & Chair Events Co-Founder, ED & CFO - MobiKwik Anil Pinapala Co-Chair SRO Founder & MD - Vivifi Pallavi Shrivastava Chair SRO Co-Founder - Progcap Sangram Singh Chair Knowledge CEO - Indifi Anurag Sinha Chair Knowledge Co-founder - Onecard Sashank Rishyasringa Co-Chair Policy Product & Tech Co-Founder - Axio Gaurav Chopra Co-Chair Events Founder - Indialends Anuj Kacker Chair PR Co-Founder & COO - Freo Shachindra Nath EC Member Founder & MD - UGRO Capital Chiranth Patil EC Member Co-founder - Riskcovry Srikanth Rajgopalan EC Member CEO - Perfios AA Nalin Negi EC Member CEO - BharatPe Advisory Council Name Role Affiliation Sathyan David Advisory Council Former CGM (Dept. of Supervision) RBI Alpana Killawala Advisory Council Veteran central bank communications & PR expert Siba Narayan Panda Advisory Council Veteran central banker and technology specialist 
+
+ Members (121) 
+
+ Organisation Type Website 
+ Achiievers Finance member www.achiieversfinance.com Advance.ai member www.advance.ai Apollo Finvest member www.apollofinvest.com Aspire member www.letsaspire.in AuthBridge member authbridge.com Avanse member www.avanse.com Axio member www.axio.co.in Bank of Baroda associate www.bankofbaroda.in BDO associate www.bdo.global/en-gb/home BharatNXT member web.bharatnxt.in BharatPe member www.bharatpe.com BPJ N BFC member bpjnbfc.in Branch member branchapp.in BSFG Finance member bsfg.finance Bueno Finance member buenofinanceinc.com Bureau associate www.bureau.id CADRE member cadreodr.com Capitabel member capitabel.com Capri Loans member www.capriloans.in CARS24 member www.cars24.com Chinmay Finlease member www.chinmayfinlease.com Clari5 associate www.clari5.com CRED member www.cred.club Credit Saison member creditsaison.in CreditSea member www.creditsea.com Creditt member creditt.in CRIF High Mark associate www.crifhighmark.com Cyber Ambassador associate www.cyberambassador.co.in Decentro member decentro.tech Deleverage member www.deleverage.in DMI Finance member www.dmifinance.in DRN Legal associate www.drnlegal.com Ecofin Services member www.ecofinservices.com Eduvanz member eduvanz.com Eko member eko.in Entitled member www.entitled.co.in Experian member www.experian.in EY associate www.ey.com/en_in Ezfinanz member ezfinanz.com FameScore member famescore.in Fi Money member fi.money FinBox member finbox.in Finova member www.finova.in Finpedia member www.finpedia.id FlexiLoans member flexiloans.com Freo member freo.money Frog8 member frog8.co.in Fundfina member www.fundfina.com GetKosh member getkosh.com GetVantage member getvantage.co Gromor member gromor.in HyperVerge member hyperverge.co/in iGnosis member ignosis.ai IIFL member www.iifl.com InCred member www.incred.com IndiaGold member refer.indiagold.co IndiaLends member indialends.com Indifi member www.indifi.com iSPIRT associate ispirt.in Khaitan & Co associate www.khaitanco.com Kinara Capital member kinaracapital.com KPMG associate kpmg.com/in/en.html KreditBee member www.kreditbee.in Lendingkart member www.lendingkart.com LendingPlate member lendingplate.com LexisNexis Risk associate lexisnexisrisk.com Light Microfinance member lightmicrofinance.com Loaney member loaney.in Lucid Ledger member www.lucidledger.co.in MiMo IQ member mimoiq.com MobiKwik member www.mobikwik.com Moneyloji member www.moneyloji.com Moneyview member moneyview.in Muthoot Fincorp member www.muthootfincorp.com MyPaisaa member www.mypaisaa.com Navi member navi.com NBFC Advisor associate www.nbfcadvisor.com Nelito associate www.nelito.com NeoGrowth member neogrowth.in NeoKred member www.neokred.tech Niro member niro.money Niyogin member www.niyogin.in Northern Arc member www.northernarc.com OKCredit member okcredit.com Oxyzo member www.oxyzo.in Paisabazaar member www.paisabazaar.com PayRupik member www.payrupikloan.in PaySprint member www.paysprint.in/index.html Paytm member paytm.com PayU Finance member payufin.in Perfios member www.perfios.com Progcap member progcap.com Protium member protium.co.in Quadrillion Finance member www.quadrillion.finance RapidRupee member www.rapidrupee.in RBL Bank associate www.rblbank.com Revfin member www.revfin.in Rezolve.ai member www.rezolve.ai Saafe member saafe.in SalaryDay member salaryday.in ScoreMe member www.scoreme.in Shubh Loans member www.shubhloans.com Signzy associate www.signzy.com SmartCoin member smartcoin.co.in SMC Finance member www.smcfinance.com Spice Money member spicemoney.com SwipeLoan member swipeloan.in Tala member tala.co.in TeleSign associate www.telesign.com Tezz Capital member tezzcapital.com/company True Balance member www.truebalance.io Udaan member udaan.com UGRO Capital member www.ugrocapital.com Uni member www.uni.cards Vaibhav Vyapaar member www.vaibhav-vyapaar.com Vivifi member vivifin.com Voxomos associate voxomos.ai WeRize member www.werize.com Yubi member www.go-yubi.com Zaggle member www.zaggle.in Zeta member www.zeta.tech 
+
+ Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+
+ Activity 
+ 2026-09-10 recognition UFF recognised as India's second SRO-FT 2025-04-16 announcement DLAI rebrands as Unified Fintech Forum (UFF); new leadership elected 2025-04 announcement UFF executive committee and working-group chairs in place 2024-09 announcement DLAI among fintech bodies that applied to RBI for SRO-FT status
+
+
+## UFF work deep-dive — https://srotrac.cashlessconsumer.in/work-uff.html
+What UFF actually does 
+ Unified Fintech Forum UFF 
+ Digital lending's second SRO-FT: born as DLAI, recognised 10 Sep 2026 
+
+ The Unified Fintech Forum (formerly the Digital Lenders Association of India, founded 2016) became RBI's second fintech SRO on 10 September 2026. Its self-described remit spans the fintech stack — digital lending, payments, wealthtech, insurtech — with working groups under a governance council and a secretariat. 
+ Governance architecture Independent-dominated board: Alok Prasad (Chair) with ex-RBI Deputy Governor N S Vishwanathan, ex-RBI ED Meena Hemchandra, ex-SBI Deputy MD Dhananjay Tambe, ex-SIDBI CMD Mohammad Mustafa and others alongside founder-member promoters (Indifi, Freo, Axio, Lendingkart) Governance Council, committees, working groups, and a Code-of-Conduct sub-committee under its published governance philosophy Professional secretariat; executive committee drawn from member CEOs Client protection work Voluntary Code of Conduct for digital lenders — developed pre-SRO as a market benchmark that fed into the RBI's digital lending framework Capacity building and collaborations on predatory lending, harassment and fraud concerns Public trust positioning: consumer research and fair-recovery / collections norms advocacy Policy & consultation engagement Position papers and consultation responses to RBI, Ministry of Finance, MeitY and NITI Aayog Roundtables with policymakers; the association advocated for the SRO-FT framework it now operates under Publications: whitepapers and industry reports via its publications portal 
+ Gaps & open questions The UFF Code of Conduct text is not published as a downloadable PDF on its site No published member disciplinary/enforcement log yet (SRO licence granted 10 Sep 2026 — early days) Member counts claimed in press (~200+) vs the site's own member wall (121 listed) — treat roster as directional 
+ Sources UFF — Governance & Secretariat UFF — Client Protection UFF — Policy & Advocacy UFF — Publications 
+ Captured 2026-09-10–11 from UFF’s own site. Deep-dive under methodology · ← register entry
+
+
+## FIDC register entry — https://srotrac.cashlessconsumer.in/sro-fidc.html
+RBI-recognised SRO 
+ Finance Industry Development Council FIDC 
+ Deep-dive: what FIDC actually does → 
+ NBFCs (incl. digital lenders) — recognised under omnibus framework, not the SRO-FT framework 
+
+ Recognised 03 Oct 2025 
+ Status Active SRO (NBFC) 
+ Listed members 0 () 
+ Site www.fidcindia.org.in 
+
+ Why it matters if you borrow or pay 
+ Self-regulates the NBFC industry — the sector behind most vehicle, gold, MSME and many personal loans. Monitors fair-practices-code compliance and recovery-agent conduct across member NBFCs. 
+
+ What we're watching 
+ No public member roster. Claims ~400 members in press material but publishes no list — a transparency gap this tracker flags. The 'List of NBFCs' page on its site contains RBI registration statistics, not its own membership. 
+
+ Governance 
+ Board / Governing Council Name Role Affiliation Umesh Revankar Chairman (since Aug 2023) Executive Vice Chairman - Shriram Finance Kamlesh Gandhi Governing Council Member Founder & MD - MAS Financial Services K V Srinivasan Governing Council Member (Additional Director wef 2026-01-20) CEO - Profectus Capital Mahesh Thakkar Governing Council Member Former Director General - FIDC V P Nandakumar Governing Council Member MD & CEO - Manappuram Finance Shachindra Nath Governing Council Member Founder & MD - UGRO Capital N S Vishwanathan Governing Council Member (Additional Director wef 2026-06-23) Ex-Deputy Governor - RBI Sudipta Roy Governing Council Member MD & CEO - L&T Finance Rajeev Jain Governing Council Member (Additional Director wef 2026-06-23) Vice Chairman - Bajaj Finance Alok Sondhi Governing Council Member Dinesh Kanabar Governing Council Member Deepak Mehta Governing Council Member Hemant Chordia Governing Council Member Manish Shah Governing Council Member Raul Rebello Governing Council Member (Additional Director wef 2026-02-01) Ravindra Kumar Kundu Governing Council Member Rajiv Sabharwal Non-Executive Director Vice Chairman & MD - Tata Capital Rajiv Lochan Non-Executive Director MD & CEO - Poonawalla Fincorp Narendra Jadhav Independent Director (resigned wef 2026-06-23) Executive Committee / Office bearers Name Role Affiliation Raman Agrawal CEO Advisory Council Name Role Affiliation Dr. Aneish Kumar Advisory Council Mohindar Kumar Advisory Council M Narendra Advisory Council Jiji Mammen Advisory Council ED - Sa-Dhan T R Achha Advisory Council Prem Kumar Arora Advisory Council TR Achhna Advisory Council 
+
+ Members (0) 
+
+ Organisation Type Website 
+
+ Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+
+ Activity 
+ 2026-06-05 consultation FIDC views on RBI monetary policy statement (June 2026) 2025-10-03 recognition FIDC recognised as RBI's SRO for NBFCs
+
+
+## FIDC work deep-dive — https://srotrac.cashlessconsumer.in/work-fidc.html
+What FIDC actually does 
+ Finance Industry Development Council FIDC 
+ NBFCs' SRO: the most active consultation respondent 
+
+ FIDC (Section 8 company, incorporated 10 August 2011; recognised 3 October 2025) is the SRO for NBFCs — a broader, older sector than fintech lending. Its distinctive published work is a dense, dated trail of policy representations and member advisories, plus a governing council of 14 drawn from the biggest NBFC groups. 
+ Policy representations (selected, dated) Feedback on RBI draft circular on Interest Rate on Loans — 11 Sep 2026 Revolving credit feedback — 27 Aug 2026; credit-risk implications of AGR — 11 Aug 2026 Responsible Business Conduct comments — 30 May 2026; eNACH feedback — 25 May 2026 Comments on prevention of financial fraud via voice/SMS — 24 Dec 2025 Regulatory parity for loan-against-shares (LAS) — 8 Dec 2025; pre-budget memorandum FY2026-27 Feedback on scale-based regulation amendments — 21 Nov 2025; lending to related parties — 20 Oct 2025 Member advisories (selected) GST on co-lending arrangements — 13 Mar 2025 Fair Business Practices advisory — 23 Dec 2024 Code of Conduct — 11 Jan 2024; Vision Document for NBFCs — 11 Jan 2024 Outsourcing guidelines — 14 Oct 2022; microfinance code of conduct — 4 Oct 2022 COVID-19 moratorium advisory — 4 Apr 2020 Governance & advocacy machinery Governing Council of 14: Chair Umesh Revankar (EVC, Shriram Finance), Vice-Chair Sanjay Gulati (Aditya Birla Finance), with representatives of Tata Sons, Bajaj Finance, Cholamandalam, L&T Finance, Piramal and others CEO Raman Agrawal; committee structure covering regulations, taxation and state-level advocacy Members asked to follow RBI's Fair Practices Code; FIDC positions itself as the NBFC sector's single voice 
+ Gaps & open questions No public member roster — annual reports 2019-20 through 2025-26 contain no member list; the only register found is the 14-name Section-8 register in the 15th Annual Report (2018-19) Claims 400+ members in PR materials — unverifiable from its own publications Advisories are PDF-backed but many sit behind vague page links; some circulars are member-only 
+ Sources FIDC — Representation FIDC — Advisories FIDC — 22nd Annual Report 2025-26 (PDF) FIDC — 15th Annual Report 2018-19 (member register) 
+ Captured 2026-09-10–11 from FIDC’s own site. Deep-dive under methodology · ← register entry
+
+
+## SRPA register entry — https://srotrac.cashlessconsumer.in/sro-srpa.html
+RBI-recognised SRO 
+ Self-Regulated PSO Association SRPA 
+ Deep-dive: what SRPA actually does → 
+ Payment system operators: payment aggregators, wallets/PPIs, POS 
+
+ Recognised 11 Nov 2025 
+ Status Active SRO (PSO) 
+ Listed members 18 (18 member) 
+ Site srpa.org.in 
+
+ Why it matters if you borrow or pay 
+ Founded by the people who run India's payment rails at the merchant end: CCAvenue's Vishwas Patel and BillDesk's M N Srinivasu. Expected to police member PSOs on settlement reliability, outage handling, merchant onboarding fraud and RBI payment-circular compliance. 
+
+ What we're watching 
+ Website is skeletal ('more details coming soon') — no code of conduct, grievance process or member list published yet. 18 members vs ~30+ licensed payment aggregators: check who is and isn't covered. 
+
+ Governance 
+ Board / Governing Council Name Role Affiliation Vishwas Patel Director Joint Managing Director - Infibeam Avenues (CCAvenue) M N Srinivasu Director Co-founder - BillDesk Executive Committee / Office bearers Name Role Affiliation Secretariat Mumbai secretariat - Info@srpa.org.in 
+
+ Members (18) 
+
+ Organisation Type Website 
+ BillDesk member www.billdesk.com Concerto Software & Systems member CRED member cred.club Euronet member www.euronetworldwide.com In-Solutions Global (ISG) member insolutionsglobal.com Infibeam Avenues member www.infibeam.com MobiKwik member www.mobikwik.com Mswipe member www.mswipe.com Open member open.money OxyMoney member www.oxymoney.com PayGlocal member payglocal.com PayWorld member www.payworldindia.com PhonePe member www.phonepe.com Razorpay member razorpay.com SabPaisa member sabpaisa.com Spice Money member www.spicemoney.com Unimoni member www.unimoni.com Zokudo member www.zokudo.com 
+
+ Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+
+ Activity 
+ 2025-11-11 recognition SRPA becomes RBI-recognised SRO for payment system operators
+
+
+## SRPA work deep-dive — https://srotrac.cashlessconsumer.in/work-srpa.html
+What SRPA actually does 
+ Self-Regulated PSO Association SRPA 
+ Payment aggregators' young SRO: founded by practitioners, one year old 
+
+ SRPA (recognised 11 November 2025) is the youngest SRO — founded by payment-system operators, with CCAvenue's Vishwas Patel and BillDesk's M N Srinivasu on its board. Its first-year output is deliberately narrow: a code of conduct, market-integrity cautions, and DPIIT recognition plumbing. 
+ Code of conduct & standards Code of Conduct adopted 8 Jan 2026 — fair merchant pricing, transparent onboarding, consumer data protection EMI and chargeback standards in draft per its public materials Marketplace-integrity positioning against onboarding fraud Ecosystem & trust work Caution circulars aligned with RBI and police cyber-CID warnings on payment fraud DPIIT recognition application (industry status for PA sector) Merchant-education advocacy; 18 payment operators on its partner wall (Razorpay, PhonePe, CRED, MobiKwik, Mswipe, SabPaisa, PayU and others) 
+ Gaps & open questions Site is sparse — no roster page with membership categories or join dates; logos are the only roster signal No published enforcement or complaint-handling framework yet Founding date/entity registration details not published on the site 
+ Sources SRPA — home (partner wall, code of conduct) 
+ Captured 2026-09-10–11 from SRPA’s own site. Deep-dive under methodology · ← register entry
+
+
+## MFIN register entry — https://srotrac.cashlessconsumer.in/sro-mfin.html
+RBI-recognised SRO 
+ Microfinance Institutions Network MFIN 
+ Deep-dive: what MFIN actually does → 
+ NBFC-MFIs (+ banks/SFBs lending microfinance as associate members) 
+
+ Recognised 16 Jun 2014 
+ Status Active SRO (microfinance; RBI letter 16 Jun 2014 — first SRO in this family) 
+ Listed members 84 (84 member) 
+ Site mfinindia.org 
+
+ Why it matters if you borrow or pay 
+ India's oldest RBI-recognised SRO in this set — created after the 2010 Andhra Pradesh microfinance crisis on the Malegam committee's recommendation. Runs a code of conduct with field-level monitoring and its own dispute-resolution machinery for micro-borrower complaints. 84 member institutions listed on its member wall, from Fusion, Asirvad and CreditAccess Grameen to bank lenders like Axis, HDFC and ICICI. 
+
+ What we're watching 
+ Roster is a logo wall organised by region — no join/exit dates published. Site text says 53 primary members (Mar 2025) but the logo wall shows 84 organisations — the extra tiles are likely associates; MFIN does not label them. Microfinance distress and RBI tightening make MFIN's enforcement record the one to watch for borrower-side harm. 
+
+ Governance 
+ Board / Governing Council Name Role Affiliation Devesh Sachdev Chairperson Founder, Fusion Microfinance Arnab Roy Independent Member Former Senior Executive Director, RBI Executive Committee / Office bearers Name Role Affiliation Alok Misra CEO & Director (ex-officio, non-voting) Sugandh Saxena Member Secretary 
+
+ Members (84) 
+
+ Organisation Type Website 
+ Adhikar Microfinance member adhikarindia.in Adi Chitragupta Finance member acfl.co.in Agora member www.amil.co.in Annapurna Finance member ampl.net.in Arohan Financial Services member www.arohan.in Arth member www.arthfinance.com ASA India member www.asaindia.in Asirvad Microfinance member asirvadmicrofinance.co.in AU Small Finance Bank member www.aubank.in Avanti Finance member avantifinance.in Aviral Finance member www.aviralfinance.com Axis Bank member www.axisbank.com Bajaj Finance member www.bajajfinserv.in Bandhan Bank member bandhanbank.com Belstar Microfinance member www.belstar.in BWDA Finance member bwdafinanceltd.com Centrum Microcredit member www.centrummicrocredit.com CreditAccess Grameen member www.creditaccessgrameen.com DJT Finserv member www.djtfinserv.in Dvara KGFS member www.dvarakgfs.com Equitas SFB member www.equitasbank.com ESAF SFB member www.esafbank.com Fincare Small Finance Bank member fincarebank.com Fino Finance member www.finofinance.in Fusion Microfinance member www.fusionmicrofinance.com Grameen Koota (Growing Opportunity) member www.gopportunity.net Grameen Shakti member www.grameenshakti.co.in GU Finance member www.gufinance.com HDFC Bank member www.hdfcbank.com Hindusthan Microfinance member www.hindusthanmfi.com ICICI Bank member www.icicibank.com IDFC First Bank member www.idfcfirstbank.com Inditrade Capital member www.inditrade.com IndusInd Bank member www.indusind.com ITI Vikas Trust member www.itiorg.com Jagaran Microfin member www.jagaranmf.com Jana SFB member www.janabank.com Janakalyan Financial Services member www.janakalyan.net Jeevan Utthan member jeevanutthan.in K P Microfin member kpmicrofin.in L&T Finance member www.ltfs.com Light Microfinance member www.lightmicrofinance.com LOLC (India) member www.lolc.com M Power Microfinance member mpowermicro.com Magenta Finance member magentafinance.co.in Margdarshak Financial Services member www.margdarshak.org.in Midland Microfin member midlandmicrofin.com Mitrata Inclusive Financial Services member www.mitrata.in MSM Microfinance member msmmicrofinance.com Muthoot Microfin member www.muthootmicrofin.com Namra Finance member namrafinance.com Navi (Chaitanya India Fin) member www.chaitanyaindia.in Nightingale Finvest member www.nightingalefinvest.in Northern Arc Capital member www.northernarc.com Piramal Enterprises member www.piramalfinance.com RBL Bank member www.rblbank.com Saija Finance member saija.in Samasta Microfinance member www.samasta.co.in Samavesh MFI member www.samaveshmfi.com Sarala (Adikar?) member sarala.co.in Sarwadi member www.sarwadi.com Sarwadi (Swarna) member www.sarwadi.in Satin Creditcare member www.satincreditcare.com Satya Microcapital member www.satyamicrocapital.com Save Microfinance (Savi) member savemicrofinance.com Share Microfin (Mera Money) member www.sharemicrofin.com SMFG India Credit member www.smfgindiacredit.com South India Finvest member southindiafinvest.com Spandana Sphoorty member www.spandanasphoorty.com Srifin Credit member www.srifincredit.com Suryoday SFB member www.suryodaybank.com Svasti Microfinance member www.svasti.in Svatantra Microfin member www.svatantramicrofin.com Tata Capital member www.tatacapital.com Ujjivan SFB member www.ujjivansfb.in Unacco Finance member www.unacco.in Unity Small Finance Bank member theunitybank.com Unnati Microfinance member www.unnatimfi.com Utkarsh SFB member www.utkarsh.bank Vaya Finserv member www.vayaindia.com Vector Finance member vectorfinance.in VFSC Capital member www.vfscapital.in Vruksha member vrukshamicrofin.com Yes Bank member www.yesbank.in 
+
+ Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+
+ Activity 
+ 2014-06-16 recognition MFIN becomes India's first SRO for NBFC-MFIs
+
+
+## MFIN work deep-dive — https://srotrac.cashlessconsumer.in/work-mfin.html
+What MFIN actually does 
+ Microfinance Institutions Network MFIN 
+ The original SRO experiment: NBFC-MFIs since 16 June 2014 
+
+ MFIN (formed Sep 2013; RBI recognition letter dated 16 June 2014) was the first sector SRO under RBI's 2011 NBFC-MFI direction. Its SRO machinery — supervision, field visits, watchlists, client protection — is a decade old and is the template the fintech SRO-FTs are now judged against. 
+ SRO functions & supervision Monitoring member compliance with RBI's NBFC-MFI direction and the industry Code of Conduct Field assessment visits and a Self-Assessment & Monitoring Tool for members Interest-rate monitoring and public rates disclosure for NBFC-MFIs Early-warning watchlists; institutional-level risk analysis Client protection & consumer touchpoints Toll-free customer helpline 1800-102-1080 and customercomplaint@mfinindia.org for grievances against member NBFC-MFIs Client-protection code framework aligned to global SMART-Campaign practice Collector training and conduct standards for field recovery agents Data & industry reporting Quarterly industry data capture (Microscope) covering the large majority of NBFC-MFI loan volumes Annual state-of-sector reporting; district-level outreach studies Membership structure 53 primary NBFC-MFI members; an Associate programme admits banks, SFBs, wholesale/direct NBFCs, credit bureaus, insurers, payment banks, fintechs and telcos — which is why its site wall shows ~84 organisations Governance: board chaired by Devesh Sachdev (Fusion Microfinance founder) with former RBI ED Arnab Roy as independent member; CEO Dr Alok Misra 
+ Gaps & open questions Primary-member roster (the 53) is not published as a clean list; the public wall mixes members and associates Enforcement actions and watchlist contents are not public 
+ Sources MFIN — SRO recognition (16 Jun 2014) MFIN — Client protection & associates MFIN — Leadership 
+ Captured 2026-09-10–11 from MFIN’s own site. Deep-dive under methodology · ← register entry
+
+
+## Sa-Dhan register entry — https://srotrac.cashlessconsumer.in/sro-sadhan.html
+RBI-recognised SRO 
+ Sa-Dhan (Association of Community Development Finance Institutions) Sa-Dhan 
+ Deep-dive: what Sa-Dhan actually does → 
+ Microfinance (broad network: MFIs, SFBs, banks, investors) 
+
+ Recognised 11 Mar 2015 
+ Status Active SRO (microfinance; recognised Mar 2015) 
+ Listed members 0 () 
+ Site www.sa-dhan.net 
+
+ Why it matters if you borrow or pay 
+ Second microfinance SRO — RBI recognition gave NBFC-MFIs a choice between MFIN and Sa-Dhan. Publishes the Bharat Microfinance Report, the sector's main data benchmark. Claims 200+ member institutions but publishes no public member directory — roster visibility is a gap this tracker flags. 
+
+ What we're watching 
+ No public member list; membership data only via its report/portal. Watch its stricter member norms (2024) translate into visible discipline actions. 
+
+ Governance 
+ Board / Governing Council Name Role Affiliation K. Paul Thomas Chairman MD & CEO, ESAF Small Finance Bank Surekha Marandi Independent Member Former Executive Director, RBI Executive Committee / Office bearers Name Role Affiliation Jiji Mammen Executive Director & CEO 
+
+ Members (0) 
+
+ Organisation Type Website 
+
+ Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+
+ Activity 
+ No dated public activity captured yet.
+
+
+## Sa-Dhan work deep-dive — https://srotrac.cashlessconsumer.in/work-sadhan.html
+What Sa-Dhan actually does 
+ Sa-Dhan (Association of Community Development Finance Institutions) Sa-Dhan 
+ Community-development finance's SRO: standards since 2015 
+
+ Sa-Dhan (RBI recognition 2015) is the SRO for the microfinance and community-development finance sector. Its published SRO practice is the most tool-like of the older SROs: field assessment, self-assessment instruments, district-level studies and an annual statistical benchmark (Bharat Microfinance Report). 
+ SRO tools & supervision Regular Field Assessment Visits to member MFIs Self-Assessment & Monitoring Tool; institutional-level risk analysis Credit Assessment Framework; district-level microfinance status studies Compliance Officer mechanism anchoring SRO processes Consumer touchpoints GRM toll-free grievance number 1800-8899-270 Industry Code of Conduct; Sankalp guardrails for sector conduct District-wise interest-rate tracking and publication Data & benchmarking Bharat Microfinance Report — the sector's annual statistical benchmark Quarterly microfinance reports; '10 Years As SRO' retrospective (2015-2025) 
+ Gaps & open questions Member roster not published (claims 200+ institutions in PR materials) GRM outcomes/complaint statistics not published 
+ Sources Sa-Dhan — SRO Sa-Dhan — 10 Years As SRO 
+ Captured 2026-09-10–11 from Sa-Dhan’s own site. Deep-dive under methodology · ← register entry
+
+
+## FEDAI register entry — https://srotrac.cashlessconsumer.in/sro-fedai.html
+RBI-recognised SRO 
+ Foreign Exchange Dealers' Association of India FEDAI 
+ Deep-dive: what FEDAI actually does → 
+ Authorised Dealers in foreign exchange (banks + FEMA-authorised entities) 
+
+ Recognised 14 Jan 2026 
+ Status Active SRO (FX; Omnibus framework; 1-yr transition to Jan 2027) 
+ Listed members 108 (108 member) 
+ Site www.fedai.org.in 
+
+ Why it matters if you borrow or pay 
+ The newest RBI-recognised SRO (Jan 2026) — formalises six decades of self-set forex rules for banks dealing in foreign exchange. 108 member authorised dealers listed with LEI numbers — the cleanest public roster of any SRO tracked here. For customers: FEDAI rules govern how banks quote, convert and disclose FX charges on your inward/outward remittances and card spends abroad. 
+
+ What we're watching 
+ Has until Jan 2027 to align governance with the Omnibus SRO framework and extend membership to all AD categories. Website is a legacy frameset — public disclosure quality lags its new regulatory status. 
+
+ Governance 
+ Board committees Name Role Affiliation State Bank of India Chairman of Managing Committee DBS Bank India Vice Chairman HDFC Bank Additional Vice Chairman 
+
+ Members (108) 
+
+ Organisation Type Website 
+ (Surrendered Banking Licence to RBI and in process of winding up) Firstrand Bank member (Surrendered Banking Licence to RBI and in process of winding up) Krung Thai Bank Public Company Limited member AB Bank PLC member Abhyudaya Co-op. Bank Limited member Abu Dhabi Commercial Bank - &quot;Surrender of AD Category I License is under Process&quot; member AU Small Finance Bank Limited member Australia and New Zealand Banking Group Limited member AXIS Bank Limited member Bandhan Bank Limited member Bank of America NA. member Bank of Bahrain &amp; Kuwait B.S.C. member Bank of Baroda member Bank of Ceylon member Bank of China Limited member Bank of India member Bank of Maharashtra member Barclays Bank PLC member Bassein Catholic Cooperative Bank Ltd member BNP Paribas member Bombay Mercantile Co-operative Bank Limited member Canara Bank member Central Bank of India member Citibank N.A. member City Union Bank Limited member Cooperatieve Rabobank U.A member Credit Agricole Corporate and Investment Bank member Credit Suisse AG member CSB Bank Limited member CTBC Bank Co Ltd member DBS Bank India Limited member DCB Bank Limited member Deutsche Bank AG member Dhanlaxmi Bank Limited member Doha Bank Q.P.S.C. member Emirates NBD Bank (P.J.S.C) member Equitas Small Finance Bank Limited member ESAF Small Finance Bank Ltd member Export-Import Bank of India member First Abu Dhabi Bank PJSC member Goldman Sachs (India) Capital Markets Pvt. Ltd member HDFC Bank Limited member ICICI Bank Limited member ICICI Securities Primary Dealership Limited member IDBI Bank Ltd member IDFC FIRST Bank Limited member IFCI Limited member Indian Bank member Indian Overseas Bank member IndusInd Bank Limited member Industrial and Commercial Bank of China Limited member Industrial Bank of Korea member Jana Small Finance Bank Ltd member JP Morgan Chase Bank N.A. member JSC VTB Bank member Karnataka Bank Limited member KEB Hana Bank member Kookmin Bank member Kotak Mahindra Bank Limited member MashreqBank p.s.c member Mizuho Bank Limited member Morgan Stanley India Primary Dealer Private Limited member MUFG Bank, Ltd. member NatWest Markets Plc. member NKGSB Co-operative Bank Limited member Nomura Fixed Income Securities Pvt Ltd member NongHyup Bank member PNB Gilts Limited member PT Bank Maybank Indonesia TBK member Punjab &amp; Sind Bank member Punjab and Maharashtra Co-operative Bank Limited member Punjab National Bank member Qatar National Bank (Q.P.S.C.) member RBL Bank Limited member SBERBANK member SBM Bank (India) Ltd member Shinhan Bank member Small Industries Development Bank of India member Societe Generale member Sonali Bank PLC member Standard Chartered Bank member State Bank of India member Sumitomo Mitsui Banking Corporation member SVC Co-operative Bank Limited member Tamilnad Mercantile Bank Limited member The Ahmedabad Mercantile Co-op. Bank Limited - &quot;Surrender of AD Category I License is under Process&quot; member The Bank of Nova Scotia member The Bharat Co op Bank (Mumbai) Ltd member The Clearing Corporation of India Ltd member The Cosmos Co-operative Bank Limited member The Federal Bank Limited member The Hongkong and Shanghai Banking Corporation Limited member The Jammu &amp; Kashmir Bank Limited member The Kalupur Commercial Co-operative Bank Limited member The Karur Vysya Bank Limited member The Lakshmi Vilas Bank Limited - (Amalgamated in to DBS Bank India Ltd. w.e.f November 27, 2020.) member The Maharashtra State Co-operative Bank Limited member The Saraswat Co-operative Bank Limited member The South Indian Bank Limited member Thomas Cook (India) Limited member TJSB Sahakari Bank Limited member UBS AG member UCO Bank member Ujjivan Small Finance Bank Limited member Union Bank of India member United Overseas Bank Limited member Unity Small Finance Bank Ltd member Woori Bank member YES Bank Limited member 
+
+ Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+
+ Activity 
+ 2026-01-14 recognition FEDAI recognised as SRO for all Authorised Dealers
+
+
+## FEDAI work deep-dive — https://srotrac.cashlessconsumer.in/work-fedai.html
+What FEDAI actually does 
+ Foreign Exchange Dealers' Association of India FEDAI 
+ Authorised dealers' rulebook: 30 years of forex standards 
+
+ FEDAI (established 12 Feb 1995; recognised as AD SRO 14 January 2026) has long set the rules for forex business among banks — quoting practices, risk management, broker accreditation — and runs the sector's training machinery. Recognition formalised its role in RBI's new AD-SRO framework. 
+ Rule-making & standards Frames rules for forex business inter se ADs (with RBI approval): quotation, documentation, risk practices Accreditation framework for foreign-exchange brokers Daily reference-rate and market-convention publications (incl. USD/INR 10-year LAV) Training & committees Workshop calendar: 5-day orientation programmes, FX-derivative workshops with Bloomberg, TBML counter-measures, LC documentation Technical Advisory Committee (16 banks) and an Education Committee; local committees across centres Managing Committee chaired by State Bank of India, with DBS Bank India as Vice Chairman Membership 108 Authorised Dealer members with LEIs (published list with categories: foreign banks incl. branches, PSBs, private banks, SFBs, others) Liaison role between RBI and ADs on forex-market operations 
+ Gaps & open questions Rule books and circular archives require member access; the public site publishes only summaries As an AD SRO recognised in Jan 2026, its SRO-period enforcement record is still building 
+ Sources FEDAI — About FEDAI — Managing Committee FEDAI — Member banks FEDAI — Workshops 
+ Captured 2026-09-10–11 from FEDAI’s own site. Deep-dive under methodology · ← register entry
+
+
+## Blog post: 2026-09-11-srotrac-weekly-1 — https://srotrac.cashlessconsumer.in/blog/2026-09-11-srotrac-weekly-1.html
+---
+title: "SROTrac Weekly #1 — UFF's licence, FEDAI's transition, and a tracker goes live"
+date: 2026-09-11
+summary: "The week India got its second fintech SRO; what the full RBI SRO map looks like; why rosters matter and who won't publish theirs."
+---
+
+# SROTrac Weekly #1
+
+_Week to 11 September 2026_
+
+## The big event: UFF gets its SRO-FT licence
+
+The Reserve Bank formally recognised the **Unified Fintech Forum (UFF)** — rebranded from the Digital Lenders Association of India in April 2025 — as the **second SRO for the fintech sector**, at the Global Fintech Fest on 10 September. UFF joins **FACE** (recognised August 2024) under the SRO-FT framework. With this, both major fintech industry bodies are inside RBI's self-regulation perimeter: codes of conduct, member monitoring and grievance machinery that consumers can (in principle) invoke.
+
+What makes UFF interesting on paper: its board carries heavyweight independent directors — former RBI Deputy Governor **N S Vishwanathan**, former RBI ED **Dr Meena Hemchandra**, ex-SIDBI CMD **Mohammad Mustafa**, and veteran banker **Alok Prasad** as Chair. Its executive committee has a dedicated **SRO portfolio** (chair: Progcap, co-chair: Vivifi). The test now is whether any of this machinery produces visible member discipline — FACE's enforcement record, for contrast, is unpublished.
+
+## The full RBI SRO map, as of this week
+
+| SRO | Sector | Recognised | Members published? |
+| --- | --- | --- | --- |
+| MFIN | NBFC-MFIs | 16 Jun 2014 | Yes — ~84 listed |
+| Sa-Dhan | NBFC-MFIs | Mar 2015 | No — via BMR report/portal |
+| FACE | Fintech (SRO-FT) | 28 Aug 2024 | Yes — 85 listed |
+| FIDC | NBFCs | 3 Oct 2025 | No — claims ~400 in press |
+| SRPA | Payment system operators | 11 Nov 2025 | Yes — 18 logos |
+| UFF | Fintech (SRO-FT) | 10 Sep 2026 | Yes — ~120 logos |
+| FEDAI | Authorised dealers (FX) | 14 Jan 2026 | Yes — 108 with LEIs |
+
+Seven RBI-recognised SROs, spanning microfinance (2014 origin), fintech, NBFCs, payments and now the forex market. Two patterns worth a consumer's attention:
+
+1. **Publication asymmetry.** Three of seven publish full rosters with member websites. FIDC and Sa-Dhan — between them covering most of India's NBFC and MFI lending — publish none. A consumer cannot check whether their lender answers to an SRO unless the SRO says who its members are.
+2. **Transition debt.** FEDAI has until January 2027 to align with the Omnibus SRO framework. SRPA's public face remains a one-page site with no code of conduct published. Recognition is the start of the accountability story, not the end.
+
+## Why we built SROTrac
+
+SROs sit between regulator and industry: they write the codes, monitor conduct, and are supposed to be the first door a complainant knocks on. But their public output — rosters, governance, consultation responses, enforcement actions — is scattered across six websites of varying quality. SROTrac consolidates the register, the member lists, the boards, and the activity trail in one place, with source snapshots for every claim. Everything here is re-verified daily by an automated refresh; roster changes are diffed and logged.
+
+## Watchlist for next week
+
+- UFF's first public act under the SRO-FT banner — a code of conduct? An enforcement note?
+- Whether FIDC publishes a member roster or stays a ~400-member claim in press releases.
+- FEDAI's membership expansion beyond AD Category-I banks (the one-year clock is running).
+
+---
+
+_SROTrac is an independent CashlessConsumer project. Data: [members](/members.html), [timeline](/timeline.html), [activity log](/activity.html). Corrections welcome._
+

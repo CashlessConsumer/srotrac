@@ -85,3 +85,5 @@ var SRO_KEYS = ["FACE", "UFF", "FIDC", "SRPA", "MFIN", "Sa-Dhan", "FEDAI"];
     render2();
   }
 })();
+
+/** mobile: nav drop opens on tap via .open class (handled above) */

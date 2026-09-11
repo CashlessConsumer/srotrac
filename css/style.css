@@ -241,3 +241,17 @@ tbody tr:hover{background:var(--paper-hi)}
 .srcs a{word-break:break-all}
 .site-footer .colophon{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faded)}
 @media print{body::after{display:none}.site-header{position:static}}
+/* ---------- mobile + wide tables ---------- */
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.table-scroll table.listing,.table-scroll .people{min-width:640px}
+@media(max-width:700px){
+  body{font-size:16px}
+  .hero{padding:2.6rem 0 1.8rem}
+  .stats{grid-template-columns:1fr 1fr}
+  .factbar{grid-template-columns:1fr 1fr}
+  .factbar div{border-right:1px solid var(--rule-soft)}
+  .factbar div:nth-child(2n){border-right:none}
+  nav a{padding:10px 12px}
+  .sro-grid{grid-template-columns:1fr 1fr;gap:14px}
+}
+@media(max-width:460px){.sro-grid{grid-template-columns:1fr}}

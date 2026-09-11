@@ -11,6 +11,7 @@ import csv
 import html
 import json
 import os
+import re
 import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from work_content import WORK
@@ -194,7 +195,11 @@ NAV = [
 ]
 
 
-def page(title, active, body, extra_head=""):
+BASE = "https://srotrac.cashlessconsumer.in"
+GENERIC_DESC = "Independent tracker of India's RBI-recognised self-regulatory organisations in fintech, NBFC and payments: members, governance, activity, and what they mean for consumers."
+
+
+def page(title, active, body, extra_head="", desc=None):
     import time
     v = time.strftime("%Y%m%d%H%M")
     # SRO dropdown: single menu holding the register
@@ -223,7 +228,16 @@ def page(title, active, body, extra_head=""):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)} — SROTrac</title>
-<meta name="description" content="Independent tracker of India's RBI-recognised self-regulatory organisations in fintech, NBFC and payments: members, governance, activity, and what they mean for consumers.">
+<meta name="description" content="{esc(desc or GENERIC_DESC)}">
+<link rel="canonical" href="{BASE}/{active}">
+<meta property="og:site_name" content="SROTrac">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{esc(title)} — SROTrac">
+<meta property="og:description" content="{esc(desc or GENERIC_DESC)}">
+<meta property="og:url" content="{BASE}/{active}">
+<meta property="og:image" content="{BASE}/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#f2ecdd">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap">
@@ -251,8 +265,8 @@ def page(title, active, body, extra_head=""):
     <p><a href="https://cashlessconsumer.in">cashlessconsumer.in</a> · data: <a href="https://github.com/CashlessConsumer/srotrac">GitHub</a> · <a href="/about.html">methodology</a></p>
     <p>Scope: <strong>RBI-recognised SROs only</strong> — this register does not cover SROs recognised by other regulators (SEBI, IRDAI, etc.).</p>
     <p><strong>Data: CC BY 4.0</strong> — copy, remix and republish with attribution to SROTrac / CashlessConsumer. Code: MIT.</p>
-    <p class="colophon">Scope: RBI-recognised SROs only — not SEBI/IRDAI or other regulators&rsquo; SROs &middot; Data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> &middot; Code: MIT</p>
-    <p class="colophon">Set in Fraunces, Newsreader &amp; IBM Plex Mono · Regenerated nightly from source captures</p>
+    <p class="colophon">Scope: RBI-recognised SROs only — not SEBI/IRDAI or other regulators&rsquo; SROs &middot; Data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> &middot; Code: MIT &middot; <a href="/llms.txt">llms.txt</a></p>
+    <p class="colophon">Set in Fraunces, Newsreader &amp; IBM Plex Mono · Regenerated nightly from source captures · Agent entry: <a href="/llms.txt">llms.txt</a></p>
   </div>
 </footer>
 <script src="/js/main.js?v={v}"></script>
@@ -278,6 +292,16 @@ def sro_badge(sro_id):
 
 
 def build_home(members, activity, overlap):
+    home_ld = json.dumps({
+        "@context": "https://schema.org",
+        "@graph": [
+            {"@type": "WebSite", "name": "SROTrac", "url": BASE + "/",
+             "publisher": {"@type": "Organization", "name": "CashlessConsumer", "url": "https://cashlessconsumer.in"}},
+            {"@type": "Organization", "name": "SROTrac", "url": BASE + "/",
+             "description": "Independent register of India's RBI-recognised self-regulatory organisations.",
+             "parentOrganization": {"@type": "Organization", "name": "CashlessConsumer"}},
+        ],
+    })
     total = len(members)
     both = sum(1 for o in overlap if len(o["sros"]) > 1)
     srofts = sum(1 for s in SROS.values() if "SRO-FT" in s["status"])
@@ -348,11 +372,19 @@ def build_home(members, activity, overlap):
 </section>
 <script type="application/ld+json">
 {{"@context":"https://schema.org","@type":"Dataset","name":"SROTrac","description":"Members, governance and activity of RBI-recognised self-regulatory organisations in India (FACE, UFF, FIDC, SRPA, MFIN, Sa-Dhan, FEDAI)","url":"https://srotrac.cashlessconsumer.in/","creator":{{"@type":"Organization","name":"CashlessConsumer","url":"https://cashlessconsumer.in"}},"license":"https://creativecommons.org/licenses/by/4.0/"}}
-</script>"""
+</script>
+<script type="application/ld+json">{home_ld}</script>"""
     return page("India's fintech SROs, tracked", "", body)
 
 def build_sro(sid, members, activity, leadership):
     s = SROS[sid]
+    org_ld = json.dumps({
+        "@context": "https://schema.org", "@type": "Organization",
+        "name": s["name"], "alternateName": s["abbr"], "url": s["website"],
+        "description": "RBI-recognised self-regulatory organisation for " + s["sector"]
+                       + ". Recognised by the Reserve Bank of India on " + s["recognised"] + ".",
+        "identifier": {"@type": "PropertyValue", "name": "RBI SRO recognition", "value": s["recognised"]},
+    })
     mem = [m for m in members if sid_of(m["sro"]) == sid]
     types = defaultdict(int)
     for m in mem:
@@ -427,8 +459,10 @@ def build_sro(sid, members, activity, leadership):
   <h2>Activity</h2>
   <ul class="feed">{act_html if act_html else '<li>No dated public activity captured yet.</li>'}
   </ul>
-</section>"""
-    return page(s["abbr"] + " — " + s["name"], f"sro-{sid}.html", body)
+</section>
+<script type="application/ld+json">{org_ld}</script>"""
+    return page(s["abbr"] + " — " + s["name"], f"sro-{sid}.html", body,
+                desc=f"{s['name']} ({s['abbr']}), the RBI-recognised SRO for {s['sector']}. Full member list, governance, activity and gaps — tracked by SROTrac.")
 
 
 def build_members(members):
@@ -569,6 +603,12 @@ def build_activity(activity):
 def build_work(sid):
     w = WORK[sid]
     s = SROS[sid]
+    org_ld = json.dumps({
+        "@context": "https://schema.org", "@type": "Organization",
+        "name": s["name"], "alternateName": s["abbr"], "url": s["website"],
+        "description": w["tagline"],
+        "identifier": {"@type": "PropertyValue", "name": "RBI SRO recognition", "value": s["recognised"]},
+    })
     secs = ""
     for sec in w["sections"]:
         body = ""
@@ -592,11 +632,31 @@ def build_work(sid):
   <section class="work-sec"><h2>Gaps &amp; open questions</h2><ul class="watchlist">{gaps}</ul></section>
   <section class="work-sec"><h2>Sources</h2><ul class="srcs">{srcs}</ul>
   <p class="meta">Captured 2026-09-10&ndash;11 from {s['abbr']}&rsquo;s own site. Deep-dive under <a href="/about.html">methodology</a> &middot; <a href="/sro-{sid}.html">&larr; register entry</a></p></section>
-</section>"""
-    return page(f"{s['abbr']} — work", f"work-{sid}.html", body)
+</section>
+<script type="application/ld+json">{org_ld}</script>"""
+    return page(f"{s['abbr']} — work", f"work-{sid}.html", body,
+                desc=w["tagline"] + " — what " + s["abbr"] + " does for its members and consumers, tracked by SROTrac.")
 
 
 def build_about(members, activity):
+    faq = [
+        ("Which SROs does India have?",
+         "The Reserve Bank of India has recognised seven self-regulatory organisations: FACE and UFF for fintech (SRO-FT framework), FIDC for NBFCs, SRPA for payment system operators, MFIN and Sa-Dhan for microfinance lenders, and FEDAI for authorised dealers in foreign exchange."),
+        ("Does SROTrac cover SEBI or IRDAI industry bodies?",
+         "No. SROTrac tracks only RBI-recognised SROs. Bodies like AMFI (mutual funds) or the Insurance Institute are recognised by other regulators and are out of scope."),
+        ("Is SROTrac affiliated with the RBI or any SRO?",
+         "No. SROTrac is an independent project by CashlessConsumer, a consumer collective. It uses only publicly available sources: SRO websites, RBI press releases and dated news reports."),
+        ("How many members do the SROs have?",
+         "As of the latest capture: FACE 85, UFF 121, SRPA 18, MFIN 84 and FEDAI 108 listed members — 416 rows across the seven SROs. FIDC and Sa-Dhan publish no public roster. Counts are floors, not filings: SRO member pages are marketing pages."),
+        ("Can I reuse the data?",
+         "Yes. Data is licensed CC BY 4.0 — copy, remix and republish with attribution to SROTrac / CashlessConsumer. The CSVs are linked on the members page and in the GitHub repo."),
+    ]
+    faq_html = "".join(f"<h3>{esc(q)}</h3><p>{esc(a)}</p>" for q, a in faq)
+    faq_ld = json.dumps({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        "mainEntity": [{"@type": "Question", "name": q,
+                        "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq],
+    }, ensure_ascii=False)
     body = f"""
 <section class="hero slim"><div class="wrap">
   <h1>About SROTrac</h1>
@@ -629,6 +689,11 @@ def build_about(members, activity):
     </ul>
   </div>
 </section>
+<section class="wrap" id="faq">
+  <h2>FAQ</h2>
+  {faq_html}
+</section>
+<script type="application/ld+json">{faq_ld}</script>
 <section class="wrap">
   <h2>License &amp; reuse</h2>
   <p>Code: MIT. Data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> — copy, remix and republish with attribution to SROTrac / CashlessConsumer.</p>
@@ -638,7 +703,8 @@ def build_about(members, activity):
     <li><a href="https://cashlessconsumer.in">cashlessconsumer.in</a> — fintech newsletter &amp; research</li>
   </ul>
 </section>"""
-    return page("About", "about.html", body)
+    return page("About", "about.html", body,
+                desc="What SROTrac covers (RBI-recognised SROs only), how the data is built, caveats, FAQ, and CC BY 4.0 licensing. An independent CashlessConsumer project.")
 
 
 CSS = """:root{
@@ -884,6 +950,20 @@ tbody tr:hover{background:var(--paper-hi)}
 .srcs a{word-break:break-all}
 .site-footer .colophon{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faded)}
 @media print{body::after{display:none}.site-header{position:static}}
+/* ---------- mobile + wide tables ---------- */
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.table-scroll table.listing,.table-scroll .people{min-width:640px}
+@media(max-width:700px){
+  body{font-size:16px}
+  .hero{padding:2.6rem 0 1.8rem}
+  .stats{grid-template-columns:1fr 1fr}
+  .factbar{grid-template-columns:1fr 1fr}
+  .factbar div{border-right:1px solid var(--rule-soft)}
+  .factbar div:nth-child(2n){border-right:none}
+  nav a{padding:10px 12px}
+  .sro-grid{grid-template-columns:1fr 1fr;gap:14px}
+}
+@media(max-width:460px){.sro-grid{grid-template-columns:1fr}}
 """
 
 JS = """// SROTrac: nav helpers + members/activity filtering
@@ -973,7 +1053,128 @@ var SRO_KEYS = ["FACE", "UFF", "FIDC", "SRPA", "MFIN", "Sa-Dhan", "FEDAI"];
     render2();
   }
 })();
+
+/** mobile: nav drop opens on tap via .open class (handled above) */
 """
+
+
+def strip_html(h):
+    h = re.sub(r"<script.*?</script>", "", h, flags=re.S)
+    h = re.sub(r"<style.*?</style>", "", h, flags=re.S)
+    h = re.sub(r"<[^>]+>", " ", h)
+    h = html.unescape(h)
+    h = re.sub(r"&nbsp;", " ", h)
+    h = re.sub(r"[ \t]+", " ", h)
+    return re.sub(r"\n\s*\n+", "\n\n", h).strip()
+
+
+def write_agent_files(members, outputs):
+    """robots.txt, sitemap.xml, llms.txt, llms-full.txt (SEO/AEO/agent layer)."""
+    root = ROOT
+    today = date.today().isoformat()
+
+    # --- robots.txt: everyone + AI crawlers explicitly allowed ---
+    robots = "User-agent: *\nAllow: /\n\n"
+    for bot in ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-Web",
+                "anthropic-ai", "PerplexityBot", "Google-Extended", "Applebot-Extended", "CCBot"]:
+        robots += f"User-agent: {bot}\nAllow: /\n\n"
+    robots += f"Sitemap: {BASE}/sitemap.xml\n"
+    with open(os.path.join(root, "robots.txt"), "w", encoding="utf-8") as f:
+        f.write(robots)
+
+    # --- sitemap.xml ---
+    core = [("members.html", "0.9", "daily"),
+            ("activity.html", "0.8", "daily"), ("timeline.html", "0.7", "weekly"),
+            ("overlap.html", "0.7", "weekly"), ("about.html", "0.6", "monthly")]
+    entries = [("", "1.0", "daily")] + core
+    for sid in SROS:
+        entries.append((f"sro-{sid}.html", "0.9", "daily"))
+        entries.append((f"work-{sid}.html", "0.8", "weekly"))
+    entries.append(("blog/index.html", "0.7", "weekly"))
+    blog_dir = os.path.join(root, "blog", "posts")
+    if os.path.isdir(blog_dir):
+        for fn in sorted(os.listdir(blog_dir)):
+            if fn.endswith(".md"):
+                entries.append((f"blog/{fn[:-3]}.html", "0.7", "weekly"))
+    urls = []
+    for path, pri, freq in entries:
+        loc = BASE + "/" if not path else f"{BASE}/{path}"
+        urls.append(f"  <url><loc>{loc}</loc><lastmod>{today}</lastmod>"
+                    f"<changefreq>{freq}</changefreq><priority>{pri}</priority></url>")
+    sm = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+          '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+          + "\n".join(urls) + "\n</urlset>\n")
+    with open(os.path.join(root, "sitemap.xml"), "w", encoding="utf-8") as f:
+        f.write(sm)
+
+    # --- llms.txt (llmstxt.org) ---
+    reg = []
+    for sid, s in SROS.items():
+        n = sum(1 for m in members if sid_of(m["sro"]) == sid)
+        roster = "no published roster" if n == 0 else f"{n} listed members"
+        reg.append(f"- [{s['abbr']}]({BASE}/sro-{sid}.html): {s['name']} — RBI recognition {s['recognised']}; {roster}.")
+    dives = [f"- [{s['abbr']} work]({BASE}/work-{sid}.html): {WORK[sid]['tagline']}" for sid, s in SROS.items()]
+    datasets = sorted(fn for fn in os.listdir(os.path.join(root, "data")) if fn.endswith(".csv"))
+    ds = "\n".join(f"- [{fn}]({BASE}/data/{fn})" for fn in datasets)
+    llms = f"""# SROTrac — India's RBI-recognised SROs, tracked
+
+> Independent register of the seven self-regulatory organisations (SROs) recognised by the Reserve Bank of India: FACE and UFF (fintech SRO-FTs), FIDC (NBFCs), SRPA (payment system operators), MFIN and Sa-Dhan (microfinance), FEDAI (foreign-exchange dealers). Tracks member rosters, governance, activity and enforcement gaps from a consumer-protection lens. Run by CashlessConsumer. Scope: RBI-recognised SROs only — SEBI/IRDAI industry bodies are out of scope. Data CC BY 4.0.
+
+Base URL: {BASE}
+
+## Register
+{chr(10).join(reg)}
+
+## Deep dives (what each SRO actually does)
+{chr(10).join(dives)}
+
+## Cross-cutting pages
+- [All members]({BASE}/members.html): searchable 416-row roster with per-SRO filters.
+- [Overlap]({BASE}/overlap.html): organisations that sit in more than one SRO.
+- [Timeline]({BASE}/timeline.html): 2020–2026 regulatory milestones (frameworks, recognitions, consultations).
+- [Activity]({BASE}/activity.html): dated log of SRO/RBI developments with sources.
+- [About & methodology]({BASE}/about.html): scope, method, caveats, FAQ.
+- [Blog]({BASE}/blog/index.html): weekly summaries.
+
+## Datasets (CC BY 4.0)
+{ds}
+
+## For agents
+- Full text of this site: {BASE}/llms-full.txt
+- Machine-readable pages: semantic HTML, JSON-LD (Dataset, Organization, FAQPage), canonical URLs.
+"""
+    with open(os.path.join(root, "llms.txt"), "w", encoding="utf-8") as f:
+        f.write(llms)
+
+    # --- llms-full.txt: text of every page + blog posts raw ---
+    pages = []
+    for name in ["index.html", "members.html", "overlap.html", "timeline.html",
+                 "activity.html", "about.html"]:
+        title = name.replace(".html", "").replace("index", "home")
+        h = outputs.get(name, "")
+        mstart, mend = h.find("<main"), h.find("</main>")
+        body_html = h[mstart:mend] if 0 <= mstart < mend else h
+        pages.append((name, title, strip_html(body_html)))
+    for sid, s in SROS.items():
+        h = outputs.get(f"sro-{sid}.html", "")
+        mstart, mend = h.find("<main"), h.find("</main>")
+        pages.append((f"sro-{sid}.html", f"{s['abbr']} register entry", strip_html(h[mstart:mend])))
+        h = outputs.get(f"work-{sid}.html", "")
+        mstart, mend = h.find("<main"), h.find("</main>")
+        pages.append((f"work-{sid}.html", f"{s['abbr']} work deep-dive", strip_html(h[mstart:mend])))
+    parts = [f"# SROTrac — full text for AI agents\nSource: {BASE} (CC BY 4.0). One section per page."]
+    for name, title, text in pages:
+        loc = BASE + "/" if name == "index.html" else f"{BASE}/{name}"
+        parts.append(f"\n## {title} — {loc}\n{text}")
+    blog_dir = os.path.join(root, "blog", "posts")
+    if os.path.isdir(blog_dir):
+        for fn in sorted(os.listdir(blog_dir)):
+            if fn.endswith(".md"):
+                md = open(os.path.join(blog_dir, fn), encoding="utf-8").read()
+                parts.append(f"\n## Blog post: {fn[:-3]} — {BASE}/blog/{fn[:-3]}.html\n{md}")
+    with open(os.path.join(root, "llms-full.txt"), "w", encoding="utf-8") as f:
+        f.write("\n\n".join(parts) + "\n")
+    print(f"wrote robots.txt, sitemap.xml ({len(urls)} urls), llms.txt, llms-full.txt ({len(pages)} pages + blog)")
 
 
 def main():
@@ -1017,6 +1218,15 @@ def main():
     with open(os.path.join(js_dir, "main.js"), "w") as f:
         f.write(JS)
     print("wrote css/style.css, js/main.js")
+
+    # wide-table wrappers for mobile scroll
+    for name, content in list(outputs.items()):
+        outputs[name] = re.sub(r'(<table class="(?:listing|people)".*?</table>)',
+                               r'<div class="table-scroll">\1</div>', content, flags=re.S)
+        with open(os.path.join(ROOT, name), "w", encoding="utf-8") as f:
+            f.write(outputs[name])
+
+    write_agent_files(members, outputs)
 
 
 if __name__ == "__main__":
