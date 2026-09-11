@@ -192,6 +192,8 @@ NAV = [
 
 
 def page(title, active, body, extra_head=""):
+    import time
+    v = time.strftime("%Y%m%d%H%M")
     # SRO dropdown: single menu holding the register
     is_sro = active.startswith("sro-")
     sro_rows = ""
@@ -221,7 +223,7 @@ def page(title, active, body, extra_head=""):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap">
 <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="%230f766e"/><text x="32" y="46" font-family="Georgia,serif" font-size="38" font-weight="bold" text-anchor="middle" fill="%23faf9f7">S</text></svg>'>
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/style.css?v={v}">
 {extra_head}
 </head>
 <body>
@@ -245,7 +247,7 @@ def page(title, active, body, extra_head=""):
     <p class="colophon">Set in Fraunces, Newsreader &amp; IBM Plex Mono · Regenerated nightly from source captures</p>
   </div>
 </footer>
-<script src="/js/main.js"></script>
+<script src="/js/main.js?v={v}"></script>
 </body>
 </html>"""
 
