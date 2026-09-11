@@ -47,7 +47,9 @@ Add new SROs there.
 | `docs/members.md` | Human-readable member listings + overlap between the two SROs |
 | `data/raw/` | Raw HTML snapshots the lists were parsed from |
 
-Snapshot (2026-09-10): **FACE 85 members**, **UFF 121** (103 members + 18 associates), **SRPA 18 PSO members** — 224 rows total, **27 organisations appear in more than one SRO** (23 in both FACE and UFF).
+Snapshot (2026-09-11): register expanded to **7 RBI-recognised SROs** — FACE (85 listed members), UFF (121), SRPA (18), MFIN (84), FEDAI (108, with LEIs), plus FIDC and Sa-Dhan whose rosters are not published (flagged). 416 rows total, 30 organisations in 2+ SROs.
+
+**Automation:** `scripts/refresh.sh` re-fetches all source pages, rebuilds data + site, and pushes on change. Run daily by a scheduled agent (07:30 IST); a weekly agent (Mon 08:30 IST) writes the SROTrac Weekly post in `blog/posts/` and deploys it.
 
 ## Build
 
