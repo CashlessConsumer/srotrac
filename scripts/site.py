@@ -708,7 +708,7 @@ main{min-height:60vh;padding-bottom:3.5rem}
 .stats span{font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--faded)}
 
 /* ---------- register cards (file folders) ---------- */
-.sro-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin:1.4rem 0 2rem}
+.sro-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin:2.4rem 0 2rem}
 .sro-card{--c:var(--seal);position:relative;display:block;background:var(--card);border:1px solid var(--rule);border-top:none;
   padding:1.15rem 1.1rem .95rem;margin-top:14px;text-decoration:none;color:var(--ink);
   box-shadow:0 1px 0 var(--rule);transition:transform .18s cubic-bezier(.2,.7,.3,1),box-shadow .18s}
