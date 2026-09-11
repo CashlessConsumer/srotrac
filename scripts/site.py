@@ -182,13 +182,6 @@ def fmt_date(d):
 
 NAV = [
     ("", "Home"),
-    ("sro-face.html", "FACE"),
-    ("sro-uff.html", "UFF"),
-    ("sro-fidc.html", "FIDC"),
-    ("sro-srpa.html", "SRPA"),
-    ("sro-mfin.html", "MFIN"),
-    ("sro-sadhan.html", "Sa-Dhan"),
-    ("sro-fedai.html", "FEDAI"),
     ("members.html", "Members"),
     ("overlap.html", "Overlap"),
     ("timeline.html", "Timeline"),
@@ -199,10 +192,24 @@ NAV = [
 
 
 def page(title, active, body, extra_head=""):
+    # SRO dropdown: single menu holding the register
+    is_sro = active.startswith("sro-")
+    sro_rows = ""
+    for sid, s in SROS.items():
+        row_cls = ' class="active"' if active == f"sro-{sid}.html" else ""
+        sro_rows += (f'<a href="/sro-{sid}.html"{row_cls}>'
+                     f'<span class="dd-abbr" style="--c:{s["accent"]}">{s["abbr"]}</span>'
+                     f'<span class="dd-name">{esc(s["name"])}</span></a>')
+    trig_cls = ' class="trigger active"' if is_sro else ' class="trigger"'
+    drop = (f'<div class="nav-drop"><a{trig_cls} href="/#register">'
+            f'SROs <span class="caret">▾</span></a>'
+            f'<div class="dd-panel">{sro_rows}</div></div>')
     nav = ""
     for href, label in NAV:
         cls = ' class="active"' if href == active else ""
         nav += f'<a href="/{href}"{cls}>{label}</a>'
+        if href == "":
+            nav += drop
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -300,7 +307,7 @@ def build_home(members, activity, overlap):
     </div>
   </div>
 </section>
-<section class="wrap">
+<section class="wrap" id="register">
   <h2>The register</h2>
   <p class="muted small">Seven bodies, one contract with the regulator. Click a folder for members, governance and activity.</p>
   <div class="sro-grid">{cards}
@@ -649,6 +656,36 @@ main{min-height:60vh;padding-bottom:3.5rem}
 .stamp.alt{color:var(--gold);border-color:var(--gold);transform:rotate(3deg);box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--gold) 30%,transparent)}
 .stamp.small{font-size:.58rem;border-width:2px;padding:.35em .7em}
 
+/* ---------- SRO dropdown ---------- */
+.nav-drop{position:relative}
+.nav-drop .trigger{font-family:var(--mono);font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--ink-soft);text-decoration:none;padding:8px 9px;border-bottom:2px solid transparent;
+  display:inline-flex;align-items:center;gap:.35rem;cursor:pointer;white-space:nowrap}
+.nav-drop .trigger:hover{color:var(--seal);border-bottom-color:var(--rule)}
+.nav-drop .trigger.active{color:var(--paper-hi);background:var(--seal);border-bottom-color:var(--ink)}
+.nav-drop .trigger.active:hover{border-bottom-color:var(--ink)}
+.nav-drop .caret{font-size:.55rem;transition:transform .18s}
+.dd-panel{display:none;position:absolute;top:100%;right:0;min-width:min(340px,86vw);
+  background:var(--card);border:1px solid var(--ink);box-shadow:5px 5px 0 var(--rule);
+  padding:6px;z-index:300}
+.dd-panel a{display:flex;gap:.6rem;align-items:center;padding:.42rem .55rem;
+  text-decoration:none;border-bottom:1px dotted var(--rule-soft)}
+.dd-panel a:last-child{border-bottom:none}
+.dd-panel a:hover{background:var(--paper-hi)}
+.dd-panel a.active{background:var(--paper-hi);outline:1px solid var(--rule)}
+.dd-abbr{font-family:var(--mono);font-size:.62rem;font-weight:600;color:var(--c,#5f5540);
+  border:1px solid color-mix(in srgb,var(--c,#5f5540) 55%,transparent);border-radius:2px;
+  padding:.08em .35em;min-width:4.1em;text-align:center;flex:none;background:color-mix(in srgb,var(--c,#5f5540) 8%,var(--paper-hi))}
+.dd-name{font-family:var(--serif);font-size:.9rem;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dd-name small{display:block;font-family:var(--mono);font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faded)}
+.nav-drop.open .dd-panel{display:block}
+.nav-drop.open .caret{transform:rotate(180deg)}
+.nav-drop:focus-within .dd-panel{display:block}
+@media(hover:hover) and (min-width:801px){
+  .nav-drop:hover .dd-panel{display:block}
+  .nav-drop:hover .caret{transform:rotate(180deg)}
+}
+
 /* ---------- hero ---------- */
 .hero{padding:3.4rem 0 2.4rem;border-bottom:1px solid var(--rule);position:relative;
   background:linear-gradient(180deg,var(--paper-hi),var(--paper))}
@@ -795,10 +832,21 @@ JS = """// SROTrac: nav helpers + members/activity filtering
   // highlight current page
   function normPath(p){ return (p.length > 1 && p.charAt(p.length-1) === '/') ? p.slice(0, -1) : p; }
   var path = normPath(location.pathname) || '/';
-  document.querySelectorAll('nav a').forEach(function(a){
+  document.querySelectorAll('nav > a').forEach(function(a){
     var href = normPath(a.getAttribute('href')) || '/';
     if (href === path) a.classList.add('active'); else a.classList.remove('active');
   });
+
+  // SRO dropdown: tap/click toggles on touch; hover handled by CSS on pointer devices
+  var drop = document.querySelector('.nav-drop');
+  if (drop) {
+    drop.querySelector('.trigger').addEventListener('click', function(e){
+      if (!drop.classList.contains('open')) { e.preventDefault(); drop.classList.add('open'); }
+    });
+    document.addEventListener('click', function(e){
+      if (!drop.contains(e.target)) drop.classList.remove('open');
+    });
+  }
 
   function chipFilter(containerSel, apply){
     var box = document.querySelector(containerSel);

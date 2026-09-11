@@ -3,10 +3,21 @@
   // highlight current page
   function normPath(p){ return (p.length > 1 && p.charAt(p.length-1) === '/') ? p.slice(0, -1) : p; }
   var path = normPath(location.pathname) || '/';
-  document.querySelectorAll('nav a').forEach(function(a){
+  document.querySelectorAll('nav > a').forEach(function(a){
     var href = normPath(a.getAttribute('href')) || '/';
     if (href === path) a.classList.add('active'); else a.classList.remove('active');
   });
+
+  // SRO dropdown: tap/click toggles on touch; hover handled by CSS on pointer devices
+  var drop = document.querySelector('.nav-drop');
+  if (drop) {
+    drop.querySelector('.trigger').addEventListener('click', function(e){
+      if (!drop.classList.contains('open')) { e.preventDefault(); drop.classList.add('open'); }
+    });
+    document.addEventListener('click', function(e){
+      if (!drop.contains(e.target)) drop.classList.remove('open');
+    });
+  }
 
   function chipFilter(containerSel, apply){
     var box = document.querySelector(containerSel);
