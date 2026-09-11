@@ -11,6 +11,9 @@ import csv
 import html
 import json
 import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from work_content import WORK
 from collections import defaultdict
 from datetime import date
 
@@ -195,13 +198,15 @@ def page(title, active, body, extra_head=""):
     import time
     v = time.strftime("%Y%m%d%H%M")
     # SRO dropdown: single menu holding the register
-    is_sro = active.startswith("sro-")
+    is_sro = active.startswith(("sro-", "work-"))
     sro_rows = ""
     for sid, s in SROS.items():
-        row_cls = ' class="active"' if active == f"sro-{sid}.html" else ""
-        sro_rows += (f'<a href="/sro-{sid}.html"{row_cls}>'
+        row_cls = ' class="active"' if active in (f"sro-{sid}.html", f"work-{sid}.html") else ""
+        wcls = ' class="dd-work active"' if active == f"work-{sid}.html" else ' class="dd-work"'
+        sro_rows += (f'<div class="dd-row"><a href="/sro-{sid}.html"{row_cls}>'
                      f'<span class="dd-abbr" style="--c:{s["accent"]}">{s["abbr"]}</span>'
-                     f'<span class="dd-name">{esc(s["name"])}</span></a>')
+                     f'<span class="dd-name">{esc(s["name"])}</span></a>'
+                     f'<a{wcls} href="/work-{sid}.html">work</a></div>')
     trig_cls = ' class="trigger active"' if is_sro else ' class="trigger"'
     drop = (f'<div class="nav-drop"><a{trig_cls} href="/#register">'
             f'SROs <span class="caret">▾</span></a>'
@@ -229,11 +234,11 @@ def page(title, active, body, extra_head=""):
 <body>
 <header class="site-header">
   <div class="mast-top"><div class="wrap">
-    <span>A CashlessConsumer Register</span><span>Open data · CC BY 4.0</span>
+    <span>A CashlessConsumer Register</span>
   </div></div>
   <div class="wrap mast-main">
     <a class="brand" href="/">SRO<span>Trac</span></a>
-    <p class="mast-sub">India&rsquo;s self-regulatory organisations, watched</p>
+    <p class="mast-sub">RBI&rsquo;s recognised self-regulatory organisations, watched</p>
     <nav>{nav}</nav>
   </div>
 </header>
@@ -244,6 +249,9 @@ def page(title, active, body, extra_head=""):
   <div class="wrap">
     <p><strong>SROTrac</strong> — an independent CashlessConsumer project tracking India's self-regulatory organisations. Not affiliated with RBI or any SRO.</p>
     <p><a href="https://cashlessconsumer.in">cashlessconsumer.in</a> · data: <a href="https://github.com/CashlessConsumer/srotrac">GitHub</a> · <a href="/about.html">methodology</a></p>
+    <p>Scope: <strong>RBI-recognised SROs only</strong> — this register does not cover SROs recognised by other regulators (SEBI, IRDAI, etc.).</p>
+    <p><strong>Data: CC BY 4.0</strong> — copy, remix and republish with attribution to SROTrac / CashlessConsumer. Code: MIT.</p>
+    <p class="colophon">Scope: RBI-recognised SROs only — not SEBI/IRDAI or other regulators&rsquo; SROs &middot; Data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> &middot; Code: MIT</p>
     <p class="colophon">Set in Fraunces, Newsreader &amp; IBM Plex Mono · Regenerated nightly from source captures</p>
   </div>
 </footer>
@@ -295,13 +303,13 @@ def build_home(members, activity, overlap):
     body = f"""
 <section class="hero">
   <div class="wrap">
-    <p class="kicker rise">Register of self-regulatory organisations · India</p>
+    <p class="kicker rise">Register of RBI-recognised self-regulatory organisations · India</p>
     <h1 class="rise">Who watches India&rsquo;s fintech <em>watchdogs</em>?</h1>
     <div class="hero-stamps">
       <span class="stamp seal-in">RBI-Recognised × {len(SROS)}</span>
       <span class="stamp blue seal-in" style="animation-delay:.45s">{srofts} × SRO-FT</span>
     </div>
-    <p class="lede rise">RBI outsources first-line supervision of fintechs, NBFCs and payment operators to <strong>self-regulatory organisations</strong> — industry bodies with the power to write conduct codes and police their own members. SROTrac tracks who sits on these SROs, what they do, and whether they work for consumers.</p>
+    <p class="lede rise">RBI outsources first-line supervision of fintechs, NBFCs and payment operators to <strong>self-regulatory organisations</strong> — industry bodies with the power to write conduct codes and police their own members. SROTrac tracks who sits on these SROs, what they do, and whether they work for consumers. Scope: <strong>only the seven SROs recognised by RBI</strong> — industry bodies under SEBI, IRDAI or other regulators are out of scope.</p>
     <div class="stats rise">
       <div><strong>{len(SROS)}</strong><span>RBI-recognised SROs</span></div>
       <div><strong>{total}</strong><span>listed member orgs</span></div>
@@ -383,6 +391,7 @@ def build_sro(sid, members, activity, leadership):
   <div class="wrap">
     <p class="kicker">RBI-recognised SRO</p>
     <h1>{esc(s['name'])} <span class="abbr-chip">{s['abbr']}</span></h1>
+  <p class="work-jump"><a href="/work-{sid}.html">Deep-dive: what {s['abbr']} actually does &rarr;</a></p>
     <p class="lede">{esc(s['sector'])}</p>
     <div class="factbar">
       <div><span>Recognised</span><strong>{fmt_date(s['recognised'])}</strong></div>
@@ -557,12 +566,48 @@ def build_activity(activity):
     return page("Activity log", "activity.html", body)
 
 
+def build_work(sid):
+    w = WORK[sid]
+    s = SROS[sid]
+    secs = ""
+    for sec in w["sections"]:
+        body = ""
+        if "prose" in sec:
+            body += f'<p>{esc(sec["prose"])}</p>'
+        for it in sec.get("items", []):
+            body += f'<li>{esc(it)}</li>'
+        items = f'<ul class="ticks">{body}</ul>' if sec.get("items") else ""
+        secs += f'<section class="work-sec"><h2>{esc(sec["h"])}</h2>{body if not sec.get("items") else ""}{items}</section>'
+    gaps = "".join(f"<li>{esc(g)}</li>" for g in w["gaps"])
+    srcs = "".join(f'<li><a href="{esc(u)}" rel="noopener">{esc(t)}</a></li>' for t, u in w["sources"])
+    body = f"""
+<section class="hero slim"><div class="wrap">
+  <p class="kicker">What {s['abbr']} actually does</p>
+  <h1>{esc(s['name'])} <span class="abbr-chip">{s['abbr']}</span></h1>
+  <p class="lede">{esc(w['tagline'])}</p>
+</div></section>
+<section class="wrap">
+  <p class="work-summary">{esc(w['summary'])}</p>
+  {secs}
+  <section class="work-sec"><h2>Gaps &amp; open questions</h2><ul class="watchlist">{gaps}</ul></section>
+  <section class="work-sec"><h2>Sources</h2><ul class="srcs">{srcs}</ul>
+  <p class="meta">Captured 2026-09-10&ndash;11 from {s['abbr']}&rsquo;s own site. Deep-dive under <a href="/about.html">methodology</a> &middot; <a href="/sro-{sid}.html">&larr; register entry</a></p></section>
+</section>"""
+    return page(f"{s['abbr']} — work", f"work-{sid}.html", body)
+
+
 def build_about(members, activity):
     body = f"""
 <section class="hero slim"><div class="wrap">
   <h1>About SROTrac</h1>
-  <p class="lede">An independent, open-data tracker of India's RBI-recognised self-regulatory organisations — built by CashlessConsumer, a consumer collective working on digital payments and fintech.</p>
+  <p class="lede">An independent, open-data register of India's <strong>RBI-recognised</strong> self-regulatory organisations — built by CashlessConsumer, a consumer collective working on digital payments and fintech. Licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> (data) and MIT (code).</p>
 </div></section>
+<section class="wrap"><div class="callout">
+    <h2>Scope: RBI&rsquo;s SROs only</h2>
+    <p>India has several self-regulatory bodies across financial regulators. SROTrac tracks only the seven recognised by the <strong>Reserve Bank of India</strong>: the two SRO-FTs (FACE, UFF), FIDC (NBFCs), SRPA (payment operators), MFIN and Sa-Dhan (microfinance), and FEDAI (authorised dealers). Bodies under other regulators — e.g. AMFI and IIFL under SEBI, the Insurance Institute under IRDAI — are not covered here, however senior their profiles.</p>
+  </div></section>
+<section class="wrap">
+  </section>
 <section class="wrap cols">
   <div class="col">
     <h2>Method</h2>
@@ -669,7 +714,7 @@ main{min-height:60vh;padding-bottom:3.5rem}
 .nav-drop .trigger.active{color:var(--paper-hi);background:var(--seal);border-bottom-color:var(--ink)}
 .nav-drop .trigger.active:hover{border-bottom-color:var(--ink)}
 .nav-drop .caret{font-size:.55rem;transition:transform .18s}
-.dd-panel{display:none;position:absolute;top:100%;right:0;min-width:min(340px,86vw);
+.dd-panel{display:none;position:absolute;top:100%;right:0;width:min(430px,calc(100vw - 16px));
   background:var(--card);border:1px solid var(--ink);box-shadow:5px 5px 0 var(--rule);
   padding:6px;z-index:300}
 .dd-panel a{display:flex;gap:.6rem;align-items:center;padding:.42rem .55rem;
@@ -680,7 +725,7 @@ main{min-height:60vh;padding-bottom:3.5rem}
 .dd-abbr{font-family:var(--mono);font-size:.62rem;font-weight:600;color:var(--c,#5f5540);
   border:1px solid color-mix(in srgb,var(--c,#5f5540) 55%,transparent);border-radius:2px;
   padding:.08em .35em;min-width:4.1em;text-align:center;flex:none;background:color-mix(in srgb,var(--c,#5f5540) 8%,var(--paper-hi))}
-.dd-name{font-family:var(--serif);font-size:.9rem;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dd-name{font-family:var(--serif);font-size:.9rem;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1;min-width:0}
 .dd-name small{display:block;font-family:var(--mono);font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faded)}
 .nav-drop.open .dd-panel{display:block}
 .nav-drop.open .caret{transform:rotate(180deg)}
@@ -826,6 +871,17 @@ tbody tr:hover{background:var(--paper-hi)}
 .site-footer{border-top:1px solid var(--ink);background:var(--paper-deep);padding:1.8rem 0;color:var(--ink-soft);font-size:.88rem;position:relative}
 .site-footer::before{content:"";position:absolute;top:4px;left:0;right:0;border-top:1px solid var(--rule)}
 .site-footer p{margin:.35rem 0}
+.dd-row{display:flex;align-items:center;gap:10px;justify-content:space-between}
+.dd-row>a:first-child{flex:1;min-width:0}
+.dd-work{font-family:var(--mono);font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--faded);border:1px solid var(--rule);padding:3px 8px;border-radius:2px;white-space:nowrap}
+.dd-row:hover .dd-work{color:var(--seal);border-color:var(--seal)}
+.work-jump{margin:-.4rem 0 1.6rem}
+.work-jump a{font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;border-bottom:1px solid var(--seal)}
+.work-summary{font-size:1.05rem;max-width:52rem;border-left:3px solid var(--seal);padding-left:14px;margin:0 0 1.8rem;color:var(--ink-soft)}
+.work-sec{margin:0 0 2rem}
+.work-sec h2{font-size:1.05rem;margin-bottom:.7rem}
+.srcs{font-size:.86rem;color:var(--muted)}
+.srcs a{word-break:break-all}
 .site-footer .colophon{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faded)}
 @media print{body::after{display:none}.site-header{position:static}}
 """
@@ -944,6 +1000,8 @@ def main():
     }
     for sid in SROS:
         outputs[f"sro-{sid}.html"] = build_sro(sid, members, activity, leadership)
+    for sid in SROS:
+        outputs[f"work-{sid}.html"] = build_work(sid)
 
     for name, content in outputs.items():
         with open(os.path.join(ROOT, name), "w", encoding="utf-8") as f:

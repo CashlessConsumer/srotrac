@@ -71,7 +71,7 @@ main{min-height:60vh;padding-bottom:3.5rem}
 .nav-drop .trigger.active{color:var(--paper-hi);background:var(--seal);border-bottom-color:var(--ink)}
 .nav-drop .trigger.active:hover{border-bottom-color:var(--ink)}
 .nav-drop .caret{font-size:.55rem;transition:transform .18s}
-.dd-panel{display:none;position:absolute;top:100%;right:0;min-width:min(340px,86vw);
+.dd-panel{display:none;position:absolute;top:100%;right:0;width:min(430px,calc(100vw - 16px));
   background:var(--card);border:1px solid var(--ink);box-shadow:5px 5px 0 var(--rule);
   padding:6px;z-index:300}
 .dd-panel a{display:flex;gap:.6rem;align-items:center;padding:.42rem .55rem;
@@ -82,7 +82,7 @@ main{min-height:60vh;padding-bottom:3.5rem}
 .dd-abbr{font-family:var(--mono);font-size:.62rem;font-weight:600;color:var(--c,#5f5540);
   border:1px solid color-mix(in srgb,var(--c,#5f5540) 55%,transparent);border-radius:2px;
   padding:.08em .35em;min-width:4.1em;text-align:center;flex:none;background:color-mix(in srgb,var(--c,#5f5540) 8%,var(--paper-hi))}
-.dd-name{font-family:var(--serif);font-size:.9rem;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dd-name{font-family:var(--serif);font-size:.9rem;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1;min-width:0}
 .dd-name small{display:block;font-family:var(--mono);font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faded)}
 .nav-drop.open .dd-panel{display:block}
 .nav-drop.open .caret{transform:rotate(180deg)}
@@ -228,5 +228,16 @@ tbody tr:hover{background:var(--paper-hi)}
 .site-footer{border-top:1px solid var(--ink);background:var(--paper-deep);padding:1.8rem 0;color:var(--ink-soft);font-size:.88rem;position:relative}
 .site-footer::before{content:"";position:absolute;top:4px;left:0;right:0;border-top:1px solid var(--rule)}
 .site-footer p{margin:.35rem 0}
+.dd-row{display:flex;align-items:center;gap:10px;justify-content:space-between}
+.dd-row>a:first-child{flex:1;min-width:0}
+.dd-work{font-family:var(--mono);font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--faded);border:1px solid var(--rule);padding:3px 8px;border-radius:2px;white-space:nowrap}
+.dd-row:hover .dd-work{color:var(--seal);border-color:var(--seal)}
+.work-jump{margin:-.4rem 0 1.6rem}
+.work-jump a{font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;border-bottom:1px solid var(--seal)}
+.work-summary{font-size:1.05rem;max-width:52rem;border-left:3px solid var(--seal);padding-left:14px;margin:0 0 1.8rem;color:var(--ink-soft)}
+.work-sec{margin:0 0 2rem}
+.work-sec h2{font-size:1.05rem;margin-bottom:.7rem}
+.srcs{font-size:.86rem;color:var(--muted)}
+.srcs a{word-break:break-all}
 .site-footer .colophon{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faded)}
 @media print{body::after{display:none}.site-header{position:static}}
