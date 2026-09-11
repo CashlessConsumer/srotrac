@@ -318,7 +318,6 @@ def build_home(members, activity, overlap):
 </section>
 <section class="wrap">
   <div class="callout">
-    <p class="kicker">Consumer notice</p>
     <h2>What is an SRO, in plain words?</h2>
     <p>RBI can't directly supervise thousands of fintechs, NBFCs and payment companies. So it recognises industry associations as <em>self-regulatory organisations</em> — with a contract: broad membership, independent boards, codes of conduct, monitoring of member compliance, and grievance redress. In return the regulator gets a first line of supervision, and the industry gets a single voice.</p>
     <p>For consumers, the SRO is one more place to escalate when a lender or payment company misbehaves — but only if the SRO actually enforces. That is what this tracker watches: rosters, governance, consultations, enforcement, and the gaps in between.</p>
