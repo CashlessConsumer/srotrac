@@ -1,9 +1,10 @@
 // SROTrac: nav helpers + members/activity filtering
 (function(){
   // highlight current page
-  var path = location.pathname.split('/').pop() || 'index.html';
+  function normPath(p){ return (p.length > 1 && p.charAt(p.length-1) === '/') ? p.slice(0, -1) : p; }
+  var path = normPath(location.pathname) || '/';
   document.querySelectorAll('nav a').forEach(function(a){
-    var href = a.getAttribute('href').split('/').pop();
+    var href = normPath(a.getAttribute('href')) || '/';
     if (href === path) a.classList.add('active'); else a.classList.remove('active');
   });
 

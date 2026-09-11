@@ -27,7 +27,7 @@ SROS = {
         "hq": "INNOV8, Peninsula Business Park, Lower Parel, Mumbai 400013",
         "cin": "U91990MH2020NPL346315",
         "status": "Active SRO-FT",
-        "accent": "#b91c1c",
+        "accent": "#7c2d3a",
         "consumer": [
             "Runs the <strong>DLA Validator</strong> — check a lending app before you borrow from it.",
             "Publishes a <strong>Grievance &amp; Dispute Resolution</strong> (GDR) framework and an Oversight &amp; Enforcement policy for members.",
@@ -47,7 +47,7 @@ SROS = {
         "hq": "Mumbai (rebranded from Digital Lenders Association of India, Apr 2025)",
         "cin": "",
         "status": "Active SRO-FT (recognised at GFF 2026)",
-        "accent": "#1d4ed8",
+        "accent": "#1f3a5f",
         "consumer": [
             "Second RBI-recognised fintech SRO — now both major fintech lobbies are under RBI's SRO-FT rules: codes of conduct, member monitoring, grievance redress.",
             "Has a dedicated <strong>SRO portfolio</strong> in its Executive Committee (Chair: Progcap; Co-chair: Vivifi) — the desk expected to police members.",
@@ -67,7 +67,7 @@ SROS = {
         "hq": "Mumbai",
         "cin": "",
         "status": "Active SRO (NBFC)",
-        "accent": "#6d28d9",
+        "accent": "#6e4a1f",
         "consumer": [
             "Self-regulates the NBFC industry — the sector behind most vehicle, gold, MSME and many personal loans.",
             "Monitors fair-practices-code compliance and recovery-agent conduct across member NBFCs.",
@@ -86,7 +86,7 @@ SROS = {
         "hq": "Siddharth, 11th Floor, Tilak Road, Santacruz West, Mumbai 400054",
         "cin": "",
         "status": "Active SRO (PSO)",
-        "accent": "#047857",
+        "accent": "#55612c",
         "consumer": [
             "Founded by the people who run India's payment rails at the merchant end: CCAvenue's Vishwas Patel and BillDesk's M N Srinivasu.",
             "Expected to police member PSOs on settlement reliability, outage handling, merchant onboarding fraud and RBI payment-circular compliance.",
@@ -105,7 +105,7 @@ SROS = {
         "hq": "New Delhi / Mumbai",
         "cin": "",
         "status": "Active SRO (microfinance; RBI letter 16 Jun 2014 — first SRO in this family)",
-        "accent": "#b45309",
+        "accent": "#2f5d5a",
         "consumer": [
             "India's oldest RBI-recognised SRO in this set — created after the 2010 Andhra Pradesh microfinance crisis on the Malegam committee's recommendation.",
             "Runs a code of conduct with field-level monitoring and its own dispute-resolution machinery for micro-borrower complaints.",
@@ -126,7 +126,7 @@ SROS = {
         "hq": "New Delhi",
         "cin": "",
         "status": "Active SRO (microfinance; recognised Mar 2015)",
-        "accent": "#15803d",
+        "accent": "#4b3a70",
         "consumer": [
             "Second microfinance SRO — RBI recognition gave NBFC-MFIs a choice between MFIN and Sa-Dhan.",
             "Publishes the Bharat Microfinance Report, the sector's main data benchmark.",
@@ -146,7 +146,7 @@ SROS = {
         "hq": "Mumbai (est. 1958, Section 25 company)",
         "cin": "",
         "status": "Active SRO (FX; Omnibus framework; 1-yr transition to Jan 2027)",
-        "accent": "#1e40af",
+        "accent": "#8f4a26",
         "consumer": [
             "The newest RBI-recognised SRO (Jan 2026) — formalises six decades of self-set forex rules for banks dealing in foreign exchange.",
             "108 member authorised dealers listed with LEI numbers — the cleanest public roster of any SRO tracked here.",
@@ -210,13 +210,20 @@ def page(title, active, body, extra_head=""):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)} — SROTrac</title>
 <meta name="description" content="Independent tracker of India's RBI-recognised self-regulatory organisations in fintech, NBFC and payments: members, governance, activity, and what they mean for consumers.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap">
 <link rel="stylesheet" href="/css/style.css">
 {extra_head}
 </head>
 <body>
 <header class="site-header">
-  <div class="wrap">
+  <div class="mast-top"><div class="wrap">
+    <span>A CashlessConsumer Register</span><span>Open data · CC BY 4.0</span>
+  </div></div>
+  <div class="wrap mast-main">
     <a class="brand" href="/">SRO<span>Trac</span></a>
+    <p class="mast-sub">India&rsquo;s self-regulatory organisations, watched</p>
     <nav>{nav}</nav>
   </div>
 </header>
@@ -225,14 +232,14 @@ def page(title, active, body, extra_head=""):
 </main>
 <footer class="site-footer">
   <div class="wrap">
-    <p><strong>SROTrac</strong> — an independent CashlessConsumer project tracking India's fintech self-regulatory organisations. Not affiliated with RBI or any SRO.</p>
+    <p><strong>SROTrac</strong> — an independent CashlessConsumer project tracking India's self-regulatory organisations. Not affiliated with RBI or any SRO.</p>
     <p><a href="https://cashlessconsumer.in">cashlessconsumer.in</a> · data: <a href="https://github.com/CashlessConsumer/srotrac">GitHub</a> · <a href="/about.html">methodology</a></p>
+    <p class="colophon">Set in Fraunces, Newsreader &amp; IBM Plex Mono · Regenerated nightly from source captures</p>
   </div>
 </footer>
 <script src="/js/main.js"></script>
 </body>
 </html>"""
-
 
 def sid_of(v):
     v = str(v).strip()
@@ -263,11 +270,11 @@ def build_home(members, activity, overlap):
     cards = ""
     for sid, s in SROS.items():
         cards += f"""
-    <a class="sro-card" href="/sro-{sid}.html" style="--c:{s['accent']}">
+    <a class="sro-card" href="/sro-{sid}.html" style="--c:{s['accent']}" data-abbr="{s['abbr']}">
       <div class="sro-card-head"><span class="sro-abbr">{s['abbr']}</span>
       <span class="pill">{esc(s['status'])}</span></div>
       <h3>{esc(s['name'])}</h3>
-      <p class="muted">{esc(s['sector'])}</p>
+      <p class="sector">{esc(s['sector'])}</p>
       <p class="meta">Recognised {fmt_date(s['recognised'])} · {counts.get(sid, 0)} listed members</p>
     </a>"""
     items = ""
@@ -278,9 +285,14 @@ def build_home(members, activity, overlap):
     body = f"""
 <section class="hero">
   <div class="wrap">
-    <h1>Who watches India's fintech watchdogs?</h1>
-    <p class="lede">RBI outsources first-line supervision of fintechs, NBFCs and payment operators to <strong>self-regulatory organisations</strong> — industry bodies with the power to write conduct codes and police their own members. SROTrac tracks who sits on these SROs, what they do, and whether they work for consumers.</p>
-    <div class="stats">
+    <p class="kicker rise">Register of self-regulatory organisations · India</p>
+    <h1 class="rise">Who watches India&rsquo;s fintech <em>watchdogs</em>?</h1>
+    <div class="hero-stamps">
+      <span class="stamp seal-in">RBI-Recognised × {len(SROS)}</span>
+      <span class="stamp blue seal-in" style="animation-delay:.45s">{srofts} × SRO-FT</span>
+    </div>
+    <p class="lede rise">RBI outsources first-line supervision of fintechs, NBFCs and payment operators to <strong>self-regulatory organisations</strong> — industry bodies with the power to write conduct codes and police their own members. SROTrac tracks who sits on these SROs, what they do, and whether they work for consumers.</p>
+    <div class="stats rise">
       <div><strong>{len(SROS)}</strong><span>RBI-recognised SROs</span></div>
       <div><strong>{total}</strong><span>listed member orgs</span></div>
       <div><strong>{both}</strong><span>in 2+ SROs</span></div>
@@ -290,11 +302,13 @@ def build_home(members, activity, overlap):
 </section>
 <section class="wrap">
   <h2>The register</h2>
+  <p class="muted small">Seven bodies, one contract with the regulator. Click a folder for members, governance and activity.</p>
   <div class="sro-grid">{cards}
   </div>
 </section>
 <section class="wrap">
   <div class="callout">
+    <p class="kicker">Consumer notice</p>
     <h2>What is an SRO, in plain words?</h2>
     <p>RBI can't directly supervise thousands of fintechs, NBFCs and payment companies. So it recognises industry associations as <em>self-regulatory organisations</em> — with a contract: broad membership, independent boards, codes of conduct, monitoring of member compliance, and grievance redress. In return the regulator gets a first line of supervision, and the industry gets a single voice.</p>
     <p>For consumers, the SRO is one more place to escalate when a lender or payment company misbehaves — but only if the SRO actually enforces. That is what this tracker watches: rosters, governance, consultations, enforcement, and the gaps in between.</p>
@@ -307,16 +321,18 @@ def build_home(members, activity, overlap):
   <p><a class="btn" href="/activity.html">Full activity log →</a></p>
 </section>
 <section class="wrap">
-  <h2>SROTrac Weekly</h2>
-  <p>A weekly digest of what moved in SRO-land — roster changes, consultations,
-  enforcement, recognition news — generated from the tracker's own diffs.</p>
-  <p><a class="btn" href="/blog/index.html">Read the blog →</a></p>
+  <div class="notice">
+    <p class="kicker">Weekly gazette</p>
+    <h2>SROTrac Weekly</h2>
+    <p>A weekly digest of what moved in SRO-land — roster changes, consultations,
+    enforcement, recognition news — generated from the tracker's own diffs.</p>
+    <p><a class="btn" href="/blog/index.html">Read the blog →</a></p>
+  </div>
 </section>
 <script type="application/ld+json">
 {{"@context":"https://schema.org","@type":"Dataset","name":"SROTrac","description":"Members, governance and activity of RBI-recognised self-regulatory organisations in India (FACE, UFF, FIDC, SRPA, MFIN, Sa-Dhan, FEDAI)","url":"https://srotrac.cashlessconsumer.in/","creator":{{"@type":"Organization","name":"CashlessConsumer","url":"https://cashlessconsumer.in"}},"license":"https://creativecommons.org/licenses/by/4.0/"}}
 </script>"""
     return page("India's fintech SROs, tracked", "", body)
-
 
 def build_sro(sid, members, activity, leadership):
     s = SROS[sid]
@@ -569,89 +585,218 @@ def build_about(members, activity):
     return page("About", "about.html", body)
 
 
-CSS = """:root{--ink:#101828;--muted:#667085;--bg:#faf9f7;--card:#fff;--line:#e6e2da;--accent:#0f766e;--serif:Georgia,'Times New Roman',serif}
+CSS = """:root{
+  --paper:#f2ecdd; --paper-deep:#e9e1cc; --paper-hi:#f8f4e9; --card:#fbf7ec;
+  --ink:#211b10; --ink-soft:#4a4232; --faded:#7d735d;
+  --rule:#c9bd9f; --rule-soft:#ddd3b8;
+  --seal:#9e2b25; --seal-soft:#b9574f;
+  --gold:#8a6d1f;
+  --accent:#9e2b25;
+  --mono:'IBM Plex Mono',ui-monospace,'Courier New',monospace;
+  --serif:'Fraunces',Georgia,'Times New Roman',serif;
+  --text:'Newsreader',Georgia,serif;
+}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;font:16px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
-.wrap{max-width:1060px;margin:0 auto;padding:0 20px}
-a{color:var(--accent)}
-h1,h2,h3{line-height:1.25}
-h1{font-family:var(--serif);font-size:2.1rem;margin:.4em 0}
-h2{font-family:var(--serif);font-size:1.5rem;margin-top:2em;border-bottom:1px solid var(--line);padding-bottom:.3em}
-h3{font-size:1.05rem}
-.muted{color:var(--muted)}.small{font-size:.85rem}
-.site-header{position:sticky;top:0;background:rgba(250,249,247,.95);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);z-index:50}
-.site-header .wrap{display:flex;align-items:center;justify-content:space-between;height:56px}
-.brand{font-weight:800;font-size:1.2rem;color:var(--ink);text-decoration:none;letter-spacing:-.02em}
-.brand span{color:var(--accent)}
-nav{display:flex;gap:2px;flex-wrap:wrap}
-nav a{color:var(--muted);text-decoration:none;font-size:.88rem;padding:6px 9px;border-radius:6px}
-nav a:hover{background:#efece6;color:var(--ink)}
-nav a.active{background:var(--ink);color:#fff}
-main{min-height:60vh;padding-bottom:3rem}
-.hero{padding:3.2rem 0 2.2rem;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#fff, var(--bg))}
-.hero.slim{padding:2.2rem 0 1.4rem}
-.hero .kicker{text-transform:uppercase;letter-spacing:.14em;font-size:.75rem;color:var(--accent);font-weight:700;margin:0}
-.lede{font-size:1.08rem;color:#3d4757;max-width:52rem}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-top:1.6rem;max-width:52rem}
-.stats div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.7rem 1rem}
-.stats strong{display:block;font-size:1.7rem;font-family:var(--serif)}
-.stats span{font-size:.8rem;color:var(--muted)}
-.sro-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin:1rem 0 2rem}
-.sro-card{--c:var(--accent);display:block;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:10px;padding:1rem 1.1rem;text-decoration:none;color:var(--ink);transition:box-shadow .15s}
-.sro-card:hover{box-shadow:0 4px 18px rgba(16,24,40,.09)}
-.sro-card-head{display:flex;justify-content:space-between;align-items:center;gap:8px}
-.sro-abbr{font-weight:800;color:var(--c);font-size:1.15rem}
-.sro-card h3{margin:.35rem 0 .2rem;font-size:1rem}
-.pill{display:inline-block;font-size:.68rem;background:color-mix(in srgb,var(--accent) 10%,#fff);border:1px solid var(--line);color:var(--ink);padding:2px 8px;border-radius:999px}
-.pill.small{font-size:.66rem}
-.badge{--c:#57534e;display:inline-block;font-size:.68rem;font-weight:700;color:var(--c);border:1px solid color-mix(in srgb,var(--c) 40%,#fff);background:color-mix(in srgb,var(--c) 8%,#fff);padding:1px 7px;border-radius:6px;text-decoration:none;margin-right:6px}
-.meta{font-size:.82rem;color:var(--muted)}
-.callout{background:#f2f7f6;border:1px solid #d5e5e2;border-radius:12px;padding:1.2rem 1.4rem;margin:1.2rem 0}
-.feed{list-style:none;padding:0;margin:1rem 0}
-.feed li{padding:.55rem 0;border-bottom:1px dashed var(--line)}
-.date{font-variant-numeric:tabular-nums;font-size:.8rem;color:var(--muted);margin-right:.5rem}
-.btn{display:inline-block;background:var(--ink);color:#fff;padding:.55rem 1.1rem;border-radius:8px;text-decoration:none;font-size:.9rem}
-.cols{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem}
+body{
+  margin:0;font:17px/1.65 var(--text);color:var(--ink);background:var(--paper);
+  background-image:repeating-linear-gradient(0deg,transparent 0 31px,rgba(120,105,70,.055) 31px 32px);
+}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;opacity:.5;z-index:99;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .05 0'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+::selection{background:var(--seal);color:var(--paper-hi)}
+a{color:var(--seal);text-decoration-thickness:1px;text-underline-offset:3px;text-decoration-color:color-mix(in srgb,var(--seal) 45%,transparent);transition:text-decoration-color .15s}
+a:hover{text-decoration-color:var(--seal);text-decoration-style:wavy}
+h1,h2,h3{line-height:1.18;font-family:var(--serif);font-weight:560;letter-spacing:-.01em}
+h1{font-size:clamp(2rem,4.5vw,3.1rem);margin:.4em 0;font-variation-settings:"opsz" 100}
+h2{font-size:1.55rem;margin-top:2.2em;padding-bottom:.3em;border-bottom:2px solid var(--ink);position:relative}
+h2::after{content:"";position:absolute;left:0;bottom:-5px;width:56px;border-bottom:1px solid var(--ink)}
+h3{font-size:1.08rem;margin:1.4em 0 .4em}
+.muted{color:var(--faded)}.small{font-size:.85rem}
+p{margin:.6em 0}
+
+/* ---------- masthead ---------- */
+.site-header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--paper) 94%,transparent);backdrop-filter:blur(5px);border-bottom:1px solid var(--ink)}
+.site-header::before{content:"";display:block;height:5px;border-top:3px double var(--seal);border-bottom:1px solid var(--seal)}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:60px;flex-wrap:wrap;padding-top:6px;padding-bottom:6px}
+.brand{font-family:var(--serif);font-weight:800;font-size:1.5rem;color:var(--ink);text-decoration:none;letter-spacing:-.02em;line-height:1;display:flex;align-items:baseline;gap:.6rem}
+.brand em{font-style:normal;color:var(--seal)}
+.brand small{font-family:var(--mono);font-weight:400;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:var(--faded);border-left:1px solid var(--rule);padding-left:.6rem}
+nav{display:flex;gap:1px;flex-wrap:wrap}
+nav a{font-family:var(--mono);font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-soft);text-decoration:none;padding:8px 9px;border-bottom:2px solid transparent}
+nav a:hover{color:var(--seal);border-bottom-color:var(--rule)}
+nav a.active{color:var(--paper-hi);background:var(--seal);border-bottom-color:var(--ink)}
+main{min-height:60vh;padding-bottom:3.5rem}
+
+/* ---------- load-in motion ---------- */
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes stampIn{0%{opacity:0;transform:rotate(-14deg) scale(1.9)}55%{opacity:1;transform:rotate(-6deg) scale(.94)}75%{transform:rotate(-7deg) scale(1.03)}100%{opacity:1;transform:rotate(-6.5deg) scale(1)}}
+@media(prefers-reduced-motion:no-preference){
+  .hero .wrap>*{animation:rise .5s cubic-bezier(.2,.7,.3,1) backwards}
+  .hero .wrap>*:nth-child(2){animation-delay:.08s}.hero .wrap>*:nth-child(3){animation-delay:.16s}
+  .hero .wrap>*:nth-child(4){animation-delay:.24s}.hero .wrap>*:nth-child(5){animation-delay:.32s}
+  .stamp{animation:stampIn .55s cubic-bezier(.2,.9,.3,1.2) .35s backwards}
+  .sro-card,.stats div,.factbar div{animation:rise .5s cubic-bezier(.2,.7,.3,1) backwards}
+  .sro-card:nth-child(2){animation-delay:.07s}.sro-card:nth-child(3){animation-delay:.14s}
+  .sro-card:nth-child(4){animation-delay:.21s}.sro-card:nth-child(5){animation-delay:.28s}
+  .sro-card:nth-child(6){animation-delay:.35s}.sro-card:nth-child(7){animation-delay:.42s}
+}
+
+/* ---------- stamps ---------- */
+.stamp{display:inline-block;font-family:var(--mono);font-size:.68rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--seal);
+  border:3px double var(--seal);border-radius:5px;padding:.5em 1em;transform:rotate(-6.5deg);
+  mix-blend-mode:multiply;opacity:.92;box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--seal) 30%,transparent)}
+.stamp.alt{color:var(--gold);border-color:var(--gold);transform:rotate(3deg);box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--gold) 30%,transparent)}
+.stamp.small{font-size:.58rem;border-width:2px;padding:.35em .7em}
+
+/* ---------- hero ---------- */
+.hero{padding:3.4rem 0 2.4rem;border-bottom:1px solid var(--rule);position:relative;
+  background:linear-gradient(180deg,var(--paper-hi),var(--paper))}
+.hero::after{content:"";position:absolute;right:0;top:0;width:44%;height:100%;pointer-events:none;opacity:.6;
+  background-image:radial-gradient(circle at 78% 30%,color-mix(in srgb,var(--seal) 7%,transparent),transparent 60%)}
+.hero.slim{padding:2.4rem 0 1.6rem}
+.kicker{font-family:var(--mono);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--seal);font-weight:600;margin:0 0 .6rem}
+.lede{font-size:1.12rem;color:var(--ink-soft);max-width:54rem}
+.lede strong{color:var(--ink)}
+
+/* ---------- stats ledger ---------- */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:0;margin-top:2rem;max-width:56rem;border:1px solid var(--ink);background:var(--card);box-shadow:4px 4px 0 var(--rule)}
+.stats div{padding:.8rem 1.1rem;border-right:1px solid var(--rule-soft);border-bottom:1px solid var(--rule-soft)}
+.stats div:nth-child(2n){border-right:none}
+.stats div:nth-last-child(-n+2){border-bottom:none}
+.stats strong{display:block;font-family:var(--serif);font-weight:600;font-size:2.1rem;line-height:1.1;color:var(--seal);font-variant-numeric:tabular-nums}
+.stats span{font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--faded)}
+
+/* ---------- register cards (file folders) ---------- */
+.sro-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin:1.4rem 0 2rem}
+.sro-card{--c:var(--seal);position:relative;display:block;background:var(--card);border:1px solid var(--rule);border-top:none;
+  padding:1.15rem 1.1rem .95rem;margin-top:14px;text-decoration:none;color:var(--ink);
+  box-shadow:0 1px 0 var(--rule);transition:transform .18s cubic-bezier(.2,.7,.3,1),box-shadow .18s}
+.sro-card::before{content:attr(data-abbr);position:absolute;top:-14px;left:10px;font-family:var(--mono);font-size:.66rem;font-weight:600;letter-spacing:.14em;
+  background:color-mix(in srgb,var(--c) 16%,var(--card));color:var(--c);border:1px solid var(--rule);border-bottom:none;padding:.22em .8em .5em}
+.sro-card::after{content:"";position:absolute;top:-1px;right:-1px;width:20px;height:20px;
+  background:linear-gradient(225deg,var(--paper) 50%,transparent 50%);border-left:1px solid var(--rule)}
+.sro-card:hover{transform:translateY(-5px);box-shadow:0 10px 22px rgba(60,45,20,.18)}
+.sro-card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-top:.2rem}
+.sro-abbr{display:none}
+.sro-card h3{margin:.4rem 0 .25rem;font-size:1.02rem;font-weight:600}
+.pill{display:inline-block;font-family:var(--mono);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--ink-soft);border:1px solid var(--rule);background:var(--paper-hi);padding:2px 8px;border-radius:2px;white-space:nowrap}
+.pill.small{font-size:.58rem}
+.badge{--c:#5f5540;display:inline-block;font-family:var(--mono);font-size:.64rem;font-weight:600;letter-spacing:.06em;
+  color:var(--c);border:1.5px solid color-mix(in srgb,var(--c) 65%,transparent);background:color-mix(in srgb,var(--c) 7%,var(--paper-hi));
+  padding:1px 7px;border-radius:3px;text-decoration:none;margin-right:6px;transform:rotate(-1deg)}
+a.badge:hover{background:color-mix(in srgb,var(--c) 16%,var(--paper-hi));text-decoration:none}
+.meta{font-family:var(--mono);font-size:.72rem;color:var(--faded)}
+
+/* ---------- notice / callout ---------- */
+.callout{position:relative;background:var(--paper-hi);border:1px solid var(--ink);box-shadow:5px 5px 0 var(--rule);
+  padding:1.3rem 1.5rem;margin:1.6rem 0}
+.callout::before{content:"CONSUMER NOTICE";position:absolute;top:-0.7em;left:14px;background:var(--paper-hi);
+  font-family:var(--mono);font-size:.6rem;letter-spacing:.2em;color:var(--seal);padding:0 .6em}
+.callout p:first-of-type{margin-top:0}
+
+/* ---------- feed ---------- */
+.feed{list-style:none;padding:0;margin:1.2rem 0}
+.feed li{display:flex;flex-wrap:wrap;align-items:baseline;gap:.45rem;padding:.6rem .2rem;border-bottom:1px dotted var(--rule)}
+.feed a{font-weight:500}
+.date{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:.72rem;color:var(--faded);margin-right:.25rem}
+
+/* ---------- buttons ---------- */
+.btn{display:inline-block;font-family:var(--mono);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;
+  color:var(--ink);background:transparent;border:1.5px solid var(--ink);padding:.65rem 1.25rem;text-decoration:none;
+  box-shadow:3px 3px 0 var(--ink);transition:all .15s}
+.btn:hover{background:var(--ink);color:var(--paper-hi);box-shadow:1px 1px 0 var(--ink);transform:translate(2px,2px);text-decoration:none}
+
+/* ---------- columns & lists ---------- */
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:3rem}
 @media(max-width:800px){.cols{grid-template-columns:1fr}}
-.ticks{padding-left:1.1rem}.ticks li{margin:.5rem 0}
-.watchlist{padding-left:1.1rem}.watchlist li{margin:.5rem 0}
-.sro-hero{--c:var(--accent);border-bottom:1px solid var(--line);background:linear-gradient(180deg,color-mix(in srgb,var(--c) 6%,#fff),var(--bg));padding:2.4rem 0 1.6rem}
-.abbr-chip{font-family:-apple-system,sans-serif;font-size:.9rem;vertical-align:middle;color:var(--c);border:2px solid var(--c);border-radius:8px;padding:2px 10px;margin-left:.4rem}
-.factbar{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-top:1.2rem}
-.factbar div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.6rem .9rem}
-.factbar span{display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
-table.listing,.people{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:.92rem}
-th,td{text-align:left;padding:.55rem .8rem;border-bottom:1px solid var(--line);vertical-align:top}
-th{background:#f4f1ea;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.ticks li,.watchlist li{margin:.55rem 0;padding-left:1.4rem;position:relative;list-style:none}
+.ticks li::before{content:"✓";position:absolute;left:0;color:var(--gold);font-weight:700}
+.watchlist{padding-left:0}
+.watchlist li::before{content:"→";position:absolute;left:0;color:var(--seal)}
+
+/* ---------- SRO file page ---------- */
+.sro-hero{--c:var(--seal);border-bottom:1px solid var(--rule);padding:2.6rem 0 1.8rem;position:relative;
+  background:linear-gradient(180deg,color-mix(in srgb,var(--c) 5%,var(--paper-hi)),var(--paper))}
+.sro-hero::before{content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:repeating-linear-gradient(90deg,transparent 0 46px,color-mix(in srgb,var(--c) 5%,transparent) 46px 47px)}
+.abbr-chip{font-family:var(--mono);font-size:.95rem;font-weight:600;vertical-align:.35em;color:var(--paper-hi);background:var(--c);
+  padding:.15em .55em;margin-left:.5rem;letter-spacing:.05em}
+.factbar{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:0;margin-top:1.6rem;border:1px solid var(--ink);background:var(--card);box-shadow:4px 4px 0 var(--rule)}
+.factbar div{padding:.65rem .95rem;border-right:1px solid var(--rule-soft)}
+.factbar div:last-child{border-right:none}
+.factbar span{display:block;font-family:var(--mono);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--faded)}
+.factbar strong{font-weight:600}
+.factbar a{word-break:break-all}
+
+/* ---------- ledgers (tables) ---------- */
+table.listing,.people{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--ink);
+  box-shadow:4px 4px 0 var(--rule);font-size:.9rem;margin:1.2rem 0}
+th,td{text-align:left;padding:.55rem .85rem;border-bottom:1px dotted var(--rule);vertical-align:top}
+th{font-family:var(--mono);font-size:.64rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);
+  background:var(--paper-deep);border-bottom:2px solid var(--ink)}
 tbody tr:last-child td{border-bottom:none}
-tbody tr:hover{background:#fbf8f2}
-.linkcell a{word-break:break-all;color:var(--muted)}
-.filters{display:flex;flex-wrap:wrap;gap:.8rem;align-items:center;margin:1rem 0}
+tbody tr:hover{background:var(--paper-hi)}
+.linkcell a{font-family:var(--mono);font-size:.74rem;word-break:break-all;color:var(--faded)}
+.people td{font-size:.86rem}
+
+/* ---------- filters ---------- */
+.filters{display:flex;flex-wrap:wrap;gap:.9rem;align-items:center;margin:1.2rem 0}
 #mq,#achips{width:100%}
-#mq{padding:.6rem .9rem;border:1px solid var(--line);border-radius:8px;font-size:1rem;background:var(--card);max-width:380px}
-.chips{display:flex;gap:6px;flex-wrap:wrap}
-.chip{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:.35rem .9rem;font-size:.85rem;cursor:pointer;color:var(--ink)}
-.chip.active{background:var(--ink);color:#fff;border-color:var(--ink)}
-.timeline{position:relative;margin:1.5rem 0;padding-left:26px;border-left:2px solid var(--line)}
-.tl-year{font-family:var(--serif);font-weight:700;font-size:1.25rem;margin:1.6rem 0 .6rem;color:var(--accent)}
-.tl-item{position:relative;padding:0 0 1.4rem}
-.tl-dot{position:absolute;left:-34px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 3px var(--bg),0 0 0 4px var(--line)}
-.tl-dot[data-t="recognition"]{background:#b45309}
-.tl-dot[data-t="framework"]{background:#1d4ed8}
-.tl-body h3{margin:.15rem 0 .2rem;font-size:1.02rem}
-.tl-body p{margin:.2rem 0;color:#3d4757}
-.alist{display:grid;gap:.7rem}
-.alist .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.85rem 1.1rem}
-.alist .card h3{margin:.1rem 0 .2rem;font-size:1rem}
-.site-footer{border-top:1px solid var(--line);background:#f4f1ea;padding:1.6rem 0;color:var(--muted);font-size:.85rem}
-.site-footer p{margin:.3rem 0}"""
+#mq{font-family:var(--mono);padding:.65rem .95rem;border:1.5px solid var(--ink);background:var(--card);font-size:.95rem;max-width:400px;box-shadow:3px 3px 0 var(--rule)}
+#mq:focus{outline:none;box-shadow:3px 3px 0 var(--seal);border-color:var(--seal)}
+.chips{display:flex;gap:7px;flex-wrap:wrap}
+.chip{font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--rule);
+  background:var(--card);padding:.4rem .85rem;cursor:pointer;color:var(--ink-soft);transition:all .12s}
+.chip:hover{border-color:var(--seal);color:var(--seal)}
+.chip.active{background:var(--ink);color:var(--paper-hi);border-color:var(--ink)}
+
+/* ---------- timeline (notification register) ---------- */
+.timeline{position:relative;margin:1.8rem 0 1rem;padding-left:30px;border-left:2px solid var(--ink)}
+.tl-year{display:inline-block;font-family:var(--mono);font-weight:600;font-size:.85rem;letter-spacing:.16em;color:var(--paper-hi);
+  background:var(--ink);padding:.15em .7em;margin:1.8rem 0 .7rem;transform:rotate(-1deg)}
+.tl-item{position:relative;padding:0 0 1.5rem}
+.tl-dot{position:absolute;left:-38px;top:8px;width:11px;height:11px;background:var(--seal);transform:rotate(45deg);
+  box-shadow:0 0 0 4px var(--paper),0 0 0 5px var(--rule)}
+.tl-dot[data-t="framework"]{background:var(--gold)}
+.tl-dot[data-t="consultation"]{background:#1f3a5f}
+.tl-dot[data-t="report"],.tl-dot[data-t="newsletter"]{background:var(--ink-soft)}
+.tl-body h3{margin:.15rem 0 .25rem;font-size:1.05rem}
+.tl-body p{margin:.25rem 0;color:var(--ink-soft);max-width:46rem}
+
+/* ---------- activity cards ---------- */
+.alist{display:grid;gap:.9rem}
+.alist .card{background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--seal);padding:.9rem 1.15rem}
+.alist .card h3{margin:.15rem 0 .25rem;font-size:1.02rem}
+
+/* ---------- blog ---------- */
+.grid-posts{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:18px;margin-top:1.4rem}
+.post-card{background:var(--card);border:1px solid var(--rule);box-shadow:3px 3px 0 var(--rule);padding:1.2rem 1.25rem;transition:transform .16s,box-shadow .16s}
+.post-card:hover{transform:translateY(-4px);box-shadow:6px 8px 0 var(--rule)}
+.post-card h2{font-size:1.15rem;margin:.4em 0;border:none}
+.post-card h2::after{display:none}
+.post-card .date{display:block;margin-bottom:.2rem}
+.page-head{margin:2.4rem 0 .4rem}
+.page-head h1{margin-bottom:.15em}
+.post-full{max-width:46rem}
+.post-full h2{font-size:1.3rem}
+
+/* ---------- footer ---------- */
+.site-footer{border-top:1px solid var(--ink);background:var(--paper-deep);padding:1.8rem 0;color:var(--ink-soft);font-size:.88rem;position:relative}
+.site-footer::before{content:"";position:absolute;top:4px;left:0;right:0;border-top:1px solid var(--rule)}
+.site-footer p{margin:.35rem 0}
+.site-footer .colophon{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faded)}
+@media print{body::after{display:none}.site-header{position:static}}
+"""
 
 JS = """// SROTrac: nav helpers + members/activity filtering
 (function(){
   // highlight current page
-  var path = location.pathname.split('/').pop() || 'index.html';
+  function normPath(p){ return (p.length > 1 && p.charAt(p.length-1) === '/') ? p.slice(0, -1) : p; }
+  var path = normPath(location.pathname) || '/';
   document.querySelectorAll('nav a').forEach(function(a){
-    var href = a.getAttribute('href').split('/').pop();
+    var href = normPath(a.getAttribute('href')) || '/';
     if (href === path) a.classList.add('active'); else a.classList.remove('active');
   });
 
