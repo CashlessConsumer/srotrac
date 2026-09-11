@@ -69,7 +69,7 @@ def build():
         items = '<p class="muted">No posts yet.</p>'
 
     (out_dir / "index.html").write_text(page(
-        "Blog — SROTrac", "blog/index.html",
+        "Blog", "blog/index.html",
         f'''<section class="page-head"><h1>SROTrac Weekly</h1>
         <p>What changed in India's SRO-land this week — roster moves, consultations,
         enforcement, recognition news. Generated from the tracker's own diffs plus
@@ -79,7 +79,7 @@ def build():
 
     for p in posts:
         (out_dir / f'{p["slug"]}.html').write_text(page(
-            f'{p["title"]} — SROTrac', "blog/index.html",
+            f'{p["title"]}', "blog/index.html",
             f'''<article class="post-full"><div class="date">{fmt_date(p["date"])}</div>
             <h1>{esc(p["title"])}</h1>
             {p["html"]}</article>
