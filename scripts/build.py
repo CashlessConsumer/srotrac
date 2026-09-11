@@ -176,6 +176,168 @@ def parse_srpa():
     return rows
 
 
+def clean_logo_name(fn):
+    """Derive a member name from a logo filename: strip ext, region prefixes, numerics."""
+    n = fn.rsplit(".", 1)[0]
+    n = re.sub(r"[-_](?:North|South|East|West|Central)$", "", n, flags=re.I)
+    n = re.sub(r"^\d+[.\-]\d*[-_]?", "", n)
+    n = re.sub(r"[_-]+", " ", n).strip()
+    return n.title() if n and not re.fullmatch(r"[\d ]+", n) else ""
+
+
+def parse_mfin():
+    """Parse MFIN member logo wall (region carousels tab01-tab05)."""
+    src = RAW / "mfin_members.html"
+    if not src.exists():
+        return []
+    h = src.read_text(encoding="utf-8", errors="ignore")
+    rows, seen = [], set()
+    for tab in ["tab01", "tab02", "tab03", "tab04", "tab05"]:
+        i = h.find(f'id="{tab}"')
+        if i < 0:
+            continue
+        j = h.find(f'id="tab0', i + 10)
+        seg = h[i:j if j > 0 else i + 200000]
+        for m in re.finditer(r'<a href="([^"]+)"[^>]*>\s*<img src="[^"]*/([^"/]+)"', seg):
+            u, fn = m.group(1).strip(), m.group(2)
+            if fn.lower() in seen or u in ("#", "#0"):
+                continue
+            seen.add(fn.lower())
+            name = NAME_MAP_MFIN.get(fn.lower()) or clean_logo_name(fn)
+            rows.append({"sro": "MFIN", "member_name": name, "website": u,
+                         "member_type": "member", "logo_file": fn})
+    return rows
+
+
+
+def parse_fedai():
+    """Parse FEDAI member tables (bank name + LEI, grouped by category)."""
+    src = RAW / "fedai_members.html"
+    if not src.exists():
+        return []
+    h = src.read_text(encoding="utf-8", errors="ignore")
+    rows, seen = [], set()
+    # sections: Public Sector Banks / Foreign Banks / Private Sector Banks / Co-Operative...
+    for m in re.finditer(r"<tr[^>]*>(.*?)</tr>", h, flags=re.S):
+        cells = [re.sub(r"<[^>]+>", "", c) for c in re.findall(r"<td[^>]*>(.*?)</td>", m.group(1), flags=re.S)]
+        cells = [re.sub(r"\s+", " ", c).strip() for c in cells]
+        if len(cells) < 2:
+            continue
+        # find slno + name + optional lei
+        name = None
+        lei = ""
+        for idx, c in enumerate(cells):
+            if re.fullmatch(r"\d{1,3}", c) and idx + 1 < len(cells) and len(cells[idx + 1]) > 2:
+                name = cells[idx + 1]
+                if idx + 2 < len(cells) and re.fullmatch(r"[A-Z0-9]{10,}", cells[idx + 2].replace(" ", "")):
+                    lei = cells[idx + 2].replace(" ", "")
+                break
+        if not name:
+            continue
+        name = re.sub(r"\s*[-\u2013]?\s*\"Surrender of AD.*$", "", name).strip(" -")
+        if name.lower() in seen or len(name) < 3:
+            continue
+        seen.add(name.lower())
+        rows.append({"sro": "FEDAI", "member_name": name, "website": "",
+                     "member_type": "member", "lei": lei})
+    return rows
+
+NAME_MAP_MFIN = {
+    "fccl - iti vikas logo.jpg": "ITI Vikas (FCCL)",
+    "bwda.jpg": "BWDA Finance",
+    "vikas.png": "ITI Vikas Trust",
+    "smfg.png": "SMFG India Credit",
+    "advertising-finance-pvt-ltd-west.jpg": "Avanti Finance",
+    "fincare.jpg": "Fincare Small Finance Bank",
+    "avanti.png": "Avanti Finance",
+    "axis_bank.jpg": "Axis Bank",
+    "yes_bank.png": "Yes Bank",
+    "hdfc-bank-logo.png": "HDFC Bank",
+    "icici_bank.png": "ICICI Bank",
+    "idfc_first_bharat.jpg": "IDFC First Bank",
+    "l&t-1.jpg": "L&T Finance",
+    "rbl_apno_ka_bank.jpg": "RBL Bank",
+    "indusind_bank.jpg": "IndusInd Bank",
+    "unity logo.jpg": "Unity Small Finance Bank",
+    "au sfb.jpg": "AU Small Finance Bank",
+    "utkarsh.png": "Utkarsh SFB",
+    "bandhan.jpeg": "Bandhan Bank",
+    "jana.jpg": "Jana SFB",
+    "esaf.png": "ESAF SFB",
+    "equitas.png": "Equitas SFB",
+    "ujjivan.jpg": "Ujjivan SFB",
+    "suryoday.png": "Suryoday SFB",
+    "sib.jpg": "South Indian Bank",
+    "bajaj_1200x1200px-01.jpg": "Bajaj Finance",
+    "tatacapital.png": "Tata Capital",
+    "piramal finance-01.jpg": "Piramal Enterprises",
+    "northernarc.png": "Northern Arc Capital",
+    "creditaccess_grameen_ltd.jpg": "CreditAccess Grameen",
+    "chaitanya.jpg": "Navi (Chaitanya India Fin)",
+    "growing-opp.jpg": "Grameen Koota (Growing Opportunity)",
+    "swarna.jpeg": "Sarwadi (Swarna)",
+    "sarwana.jpeg": "Sarwadi",
+    "sarala.png": "Sarala (Adikar?)",
+    "adhikar.jpg": "Adhikar Microfinance",
+    "light.jpg": "Light Microfinance",
+    "svatantra.jpg": "Svatantra Microfin",
+    "hindustan_micro.jpg": "Hindusthan Microfinance",
+    "unnatti finserv pvt ltd logo.png": "Unnati Microfinance",
+    "m_power.jpg": "M Power Microfinance",
+    "satin.jpg": "Satin Creditcare",
+    "vrukhsha.jpg": "Vrukhsha Microfin",
+    "asirvad_microfinance.png": "Asirvad Microfinance",
+    "dvara.png": "Dvara KGFS",
+    "muthoot.jpg": "Muthoot Microfin",
+    "share.jpg": "Share Microfin (Mera Money)",
+    "spandana.jpg": "Spandana Sphoorty",
+    "samasta.png": "Samasta Microfinance",
+    "inditrade.jpg": "Inditrade Capital",
+    "msm-microfinance-pvt-ltd-south.jpg": "MSM Microfinance",
+    "kpb.jpg": "K P Microfin",
+    "gsms logo.png": "Grameen Shakti",
+    "adi_chitragupta.png": "Adi Chitragupta Finance",
+    "annapurna.png": "Annapurna Finance",
+    "annapurna.jpg": "Annapurna Finance",
+    "annapurna.JPG": "Annapurna Finance",
+    "asai_logo.jpg": "ASA India",
+    "gu_finance.png": "GU Finance",
+    "jagran.png": "Jagaran Microfin",
+    "janakalyan.jpg": "Janakalyan Financial Services",
+    "saija.jpg": "Saija Finance",
+    "nightingale.jpg": "Nightingale Finvest",
+    "savi.jpg": "Save Microfinance (Savi)",
+    "unacco-finance-pvt-ltd-east.jpg": "Unacco Finance",
+    "vector_finance.png": "Vector Finance",
+    "vfs.jpg": "VFSC Capital",
+    "aviral-finance-private.png": "Aviral Finance",
+    "agora.JPG": "AMIL (Agora)",
+    "centrum-microcredit-pvt-ltd.jpg": "Centrum Microcredit",
+    "finofinance.png": "Fino Finance",
+    "namra.png": "Namra Finance",
+    "svasti.jpg": "Svasti Microfinance",
+    "lolc_logo.png": "LOLC (India)",
+    "radhya.jpg": "Radhya Financing",
+    "arth.png": "Arth",
+    "margdarshak-financial-services-ltd-north.jpg": "Margdarshak Financial Services",
+    "mitrata.png": "Mitrata Inclusive Financial Services",
+    "samavesh.jpg": "Samavesh MFI",
+    "satya.png": "Satya Microcapital",
+    "djt microfinance secondary logo (full).png": "DJT Finserv",
+    "midland microfin-1.jpg": "Midland Microfin",
+    "belstar.jpeg": "Belstar Microfinance",
+    "vaya.jpg": "Vaya Finserv",
+    "srifin.jpg": "Srifin Credit",
+    "southindiafinvest.png": "South India Finvest",
+    "magentafinance": "Magenta Finance",
+    "magenta.jpg": "Magenta Finance",
+    "fusion.jpg": "Fusion Microfinance",
+    "fusion.JPG": "Fusion Microfinance",
+    "arohan.jpg": "Arohan Financial Services",
+    "vrukhsha.jpg": "Vruksha Microfin",
+}
+
+
 SROS = [
     {
         "sro_id": "face", "name": "Fintech Association for Consumer Empowerment",
@@ -205,10 +367,34 @@ SROS = [
         "recognition": "RBI-recognised SRO for NBFCs (not a fintech SRO-FT); tracked for context",
         "recognised_date": "2025-10-03", "status": "related", "sector": "nbfc",
     },
+    {
+        "sro_id": "mfin", "name": "Microfinance Institutions Network",
+        "abbr": "MFIN", "website": "https://mfinindia.org",
+        "nlp_site": "https://mfinindia.org/members",
+        "recognition": "RBI-recognised SRO for NBFC-MFIs (first; RBI letter dated 16 Jun 2014)",
+        "recognised_date": "2014-06-16", "status": "active", "sector": "microfinance",
+    },
+    {
+        "sro_id": "sadhan", "name": "Sa-Dhan",
+        "abbr": "Sa-Dhan", "website": "https://www.sa-dhan.net",
+        "nlp_site": "https://www.sa-dhan.net/what-we-do/sro/",
+        "recognition": "RBI-recognised SRO for NBFC-MFIs (second; Mar 2015)",
+        "recognised_date": "2015-03-11", "status": "active", "sector": "microfinance",
+    },
+    {
+        "sro_id": "fedai", "name": "Foreign Exchange Dealers' Association of India",
+        "abbr": "FEDAI", "website": "https://www.fedai.org.in",
+        "nlp_site": "https://www.fedai.org.in/Default.aspx",
+        "recognition": "RBI-recognised SRO for all Authorised Dealers in foreign exchange (Omnibus framework; 1-yr transition to Jan 2027)",
+        "recognised_date": "2026-01-14", "status": "active", "sector": "forex",
+    },
 ]
 
 # SROs whose full member roster is not published on the public site.
 NO_ROSTER = {
+    "Sa-Dhan": "No public member directory on sa-dhan.net. Sa-Dhan is a broad network "
+               "(claims 200+ institutions incl. MFIs, banks, SFBs); membership data is "
+               "published via its Bharat Microfinance Report / portal, not a webpage.",
     "FIDC": "No public member roster. The 'list of NBFCs' page is RBI registration "
             "lists by scale/type, not FIDC's own membership. FIDC claims ~400 members "
             "in press material; roster available only via annual report / on request.",
@@ -289,11 +475,15 @@ def main():
     face = parse_face()
     uff = parse_uff()
     srpa = parse_srpa()
-    rosters = {"FACE": face, "UFF": uff, "SRPA": srpa}
+    mfin = parse_mfin()
+    fedai = parse_fedai()
+    rosters = {"FACE": face, "UFF": uff, "SRPA": srpa, "MFIN": mfin, "FEDAI": fedai}
 
     write_csv(OUT / "face_members.csv", face, ["sro", "member_name", "website", "member_type"])
     write_csv(OUT / "uff_members.csv", uff, ["sro", "member_name", "website", "member_type", "logo_file"])
     write_csv(OUT / "srpa_members.csv", srpa, ["sro", "member_name", "website", "member_type", "logo_file"])
+    write_csv(OUT / "mfin_members.csv", mfin, ["sro", "member_name", "website", "member_type", "logo_file"])
+    write_csv(OUT / "fedai_members.csv", fedai, ["sro", "member_name", "website", "member_type", "lei"])
     write_csv(OUT / "sros.csv", SROS, ["sro_id", "name", "abbr", "website", "nlp_site", "recognition", "recognised_date", "status", "sector"])
 
     db = OUT / "srotrac.duckdb"
@@ -301,7 +491,7 @@ def main():
         db.unlink()
     union = "\n      UNION ALL ".join(
         f"SELECT sro, member_name, website, member_type FROM read_csv_auto('{OUT/f'{k.lower()}_members.csv'}')"
-        for k in ["face", "uff", "srpa"]
+        for k in ["face", "uff", "srpa", "mfin", "fedai"]
     )
     sql = f"""
     CREATE TABLE sros AS SELECT * FROM read_csv_auto('{OUT/'sros.csv'}');

@@ -96,6 +96,66 @@ SROS = {
             "18 members vs ~30+ licensed payment aggregators: check who is and isn't covered.",
         ],
     },
+    "mfin": {
+        "abbr": "MFIN", "name": "Microfinance Institutions Network",
+        "sector": "NBFC-MFIs (+ banks/SFBs lending microfinance as associate members)",
+        "order": "1st", "recognised": "2014-06-16",
+        "website": "https://mfinindia.org",
+        "members_site": "https://mfinindia.org/members",
+        "hq": "New Delhi / Mumbai",
+        "cin": "",
+        "status": "Active SRO (microfinance; RBI letter 16 Jun 2014 — first SRO in this family)",
+        "accent": "#b45309",
+        "consumer": [
+            "India's oldest RBI-recognised SRO in this set — created after the 2010 Andhra Pradesh microfinance crisis on the Malegam committee's recommendation.",
+            "Runs a code of conduct with field-level monitoring and its own dispute-resolution machinery for micro-borrower complaints.",
+            "84 member institutions listed on its member wall, from Fusion, Asirvad and CreditAccess Grameen to bank lenders like Axis, HDFC and ICICI.",
+        ],
+        "watch": [
+            "Roster is a logo wall organised by region — no join/exit dates published.",
+            "Microfinance distress and RBI tightening make MFIN's enforcement record the one to watch for borrower-side harm.",
+        ],
+    },
+    "sadhan": {
+        "abbr": "Sa-Dhan", "name": "Sa-Dhan (Association of Community Development Finance Institutions)",
+        "sector": "Microfinance (broad network: MFIs, SFBs, banks, investors)",
+        "order": "2nd", "recognised": "2015-03-11",
+        "website": "https://www.sa-dhan.net",
+        "members_site": "https://www.sa-dhan.net/what-we-do/sro/",
+        "hq": "New Delhi",
+        "cin": "",
+        "status": "Active SRO (microfinance; recognised Mar 2015)",
+        "accent": "#15803d",
+        "consumer": [
+            "Second microfinance SRO — RBI recognition gave NBFC-MFIs a choice between MFIN and Sa-Dhan.",
+            "Publishes the Bharat Microfinance Report, the sector's main data benchmark.",
+            "Claims 200+ member institutions but publishes no public member directory — roster visibility is a gap this tracker flags.",
+        ],
+        "watch": [
+            "No public member list; membership data only via its report/portal.",
+            "Watch its stricter member norms (2024) translate into visible discipline actions.",
+        ],
+    },
+    "fedai": {
+        "abbr": "FEDAI", "name": "Foreign Exchange Dealers' Association of India",
+        "sector": "Authorised Dealers in foreign exchange (banks + FEMA-authorised entities)",
+        "order": "—", "recognised": "2026-01-14",
+        "website": "https://www.fedai.org.in",
+        "members_site": "https://www.fedai.org.in/InnerPageContent.aspx?Cid=2&SCid=1&SSCid=0",
+        "hq": "Mumbai (est. 1958, Section 25 company)",
+        "cin": "",
+        "status": "Active SRO (FX; Omnibus framework; 1-yr transition to Jan 2027)",
+        "accent": "#1e40af",
+        "consumer": [
+            "The newest RBI-recognised SRO (Jan 2026) — formalises six decades of self-set forex rules for banks dealing in foreign exchange.",
+            "108 member authorised dealers listed with LEI numbers — the cleanest public roster of any SRO tracked here.",
+            "For customers: FEDAI rules govern how banks quote, convert and disclose FX charges on your inward/outward remittances and card spends abroad.",
+        ],
+        "watch": [
+            "Has until Jan 2027 to align governance with the Omnibus SRO framework and extend membership to all AD categories.",
+            "Website is a legacy frameset — public disclosure quality lags its new regulatory status.",
+        ],
+    },
 }
 
 
@@ -125,10 +185,14 @@ NAV = [
     ("sro-uff.html", "UFF"),
     ("sro-fidc.html", "FIDC"),
     ("sro-srpa.html", "SRPA"),
+    ("sro-mfin.html", "MFIN"),
+    ("sro-sadhan.html", "Sa-Dhan"),
+    ("sro-fedai.html", "FEDAI"),
     ("members.html", "Members"),
     ("overlap.html", "Overlap"),
     ("timeline.html", "Timeline"),
     ("activity.html", "Activity"),
+    ("blog/index.html", "Blog"),
     ("about.html", "About"),
 ]
 
@@ -190,6 +254,7 @@ def sro_badge(sro_id):
 def build_home(members, activity, overlap):
     total = len(members)
     both = sum(1 for o in overlap if len(o["sros"]) > 1)
+    srofts = sum(1 for s in SROS.values() if "SRO-FT" in s["status"])
     counts = defaultdict(int)
     for m in members:
         counts[sid_of(m["sro"])] += 1
@@ -215,10 +280,10 @@ def build_home(members, activity, overlap):
     <h1>Who watches India's fintech watchdogs?</h1>
     <p class="lede">RBI outsources first-line supervision of fintechs, NBFCs and payment operators to <strong>self-regulatory organisations</strong> — industry bodies with the power to write conduct codes and police their own members. SROTrac tracks who sits on these SROs, what they do, and whether they work for consumers.</p>
     <div class="stats">
-      <div><strong>4</strong><span>RBI-recognised SROs</span></div>
+      <div><strong>{len(SROS)}</strong><span>RBI-recognised SROs</span></div>
       <div><strong>{total}</strong><span>listed member orgs</span></div>
       <div><strong>{both}</strong><span>in 2+ SROs</span></div>
-      <div><strong>2</strong><span>fintech SRO-FTs</span></div>
+      <div><strong>{srofts}</strong><span>fintech SRO-FTs</span></div>
     </div>
   </div>
 </section>
@@ -240,8 +305,14 @@ def build_home(members, activity, overlap):
   </ul>
   <p><a class="btn" href="/activity.html">Full activity log →</a></p>
 </section>
+<section class="wrap">
+  <h2>SROTrac Weekly</h2>
+  <p>A weekly digest of what moved in SRO-land — roster changes, consultations,
+  enforcement, recognition news — generated from the tracker's own diffs.</p>
+  <p><a class="btn" href="/blog/index.html">Read the blog →</a></p>
+</section>
 <script type="application/ld+json">
-{{"@context":"https://schema.org","@type":"Dataset","name":"SROTrac","description":"Members, governance and activity of RBI-recognised self-regulatory organisations in India (FACE, UFF, FIDC, SRPA)","url":"https://srotrac.cashlessconsumer.in/","creator":{{"@type":"Organization","name":"CashlessConsumer","url":"https://cashlessconsumer.in"}},"license":"https://creativecommons.org/licenses/by/4.0/"}}
+{{"@context":"https://schema.org","@type":"Dataset","name":"SROTrac","description":"Members, governance and activity of RBI-recognised self-regulatory organisations in India (FACE, UFF, FIDC, SRPA, MFIN, Sa-Dhan, FEDAI)","url":"https://srotrac.cashlessconsumer.in/","creator":{{"@type":"Organization","name":"CashlessConsumer","url":"https://cashlessconsumer.in"}},"license":"https://creativecommons.org/licenses/by/4.0/"}}
 </script>"""
     return page("India's fintech SROs, tracked", "", body)
 
@@ -652,10 +723,9 @@ JS = """// SROTrac: nav helpers + members/activity filtering
 
 
 def main():
-    face = read_csv("face_members.csv")
-    uff = read_csv("uff_members.csv")
-    srpa = read_csv("srpa_members.csv")
-    members = face + uff + srpa
+    members = []
+    for s in SROS.values():
+        members.extend(read_csv(f"{s['abbr'].lower()}_members.csv"))
     for m in members:
         m["sro"] = m["sro"].upper()
     activity = sorted(read_csv("activity.csv"), key=lambda a: a["date"], reverse=True)

@@ -1,6 +1,6 @@
 # SROTrac — Member Listings
 
-_Generated 2026-09-10 by `scripts/build.py`. Do not hand-edit._
+_Generated 2026-09-11 by `scripts/build.py`. Do not hand-edit._
 
 India's RBI-recognised self-regulatory organisations in payments and fintech. **FACE** and the **Unified Fintech Forum** are the two SRO-FTs; **SRPA** (payment system operators) and **FIDC** (NBFCs) are included for context.
 
@@ -12,11 +12,15 @@ India's RBI-recognised self-regulatory organisations in payments and fintech. **
 | UFF | fintech | active | 121 |
 | SRPA | pso | related | 18 |
 | FIDC | nbfc | related | not published |
+| MFIN | microfinance | active | 84 |
+| Sa-Dhan | microfinance | active | not published |
+| FEDAI | forex | active | 108 |
 
 ## Organisations in more than one SRO
 
 - Apollo Finvest — FACE, UFF
 - Aspire — FACE, UFF
+- Bank of Baroda — FEDAI, UFF
 - BharatPe — FACE, UFF
 - Branch — FACE, UFF
 - Bureau — FACE, UFF
@@ -27,6 +31,7 @@ India's RBI-recognised self-regulatory organisations in payments and fintech. **
 - HyperVerge — FACE, UFF
 - InCred — FACE, UFF
 - KreditBee — FACE, UFF
+- Light Microfinance — MFIN, UFF
 - MobiKwik — FACE, SRPA, UFF
 - Moneyview — FACE, UFF
 - Northern Arc — FACE, UFF
@@ -35,6 +40,7 @@ India's RBI-recognised self-regulatory organisations in payments and fintech. **
 - Perfios — FACE, UFF
 - PhonePe — FACE, SRPA
 - Progcap — FACE, UFF
+- RBL Bank — MFIN, UFF
 - Razorpay — FACE, SRPA
 - Revfin — FACE, UFF
 - Saafe — FACE, UFF
@@ -281,6 +287,208 @@ India's RBI-recognised self-regulatory organisations in payments and fintech. **
 | 16 | Spice Money | https://www.spicemoney.com | member |
 | 17 | Unimoni | https://www.unimoni.com | member |
 | 18 | Zokudo | https://www.zokudo.com | member |
+
+## MFIN — 84 members
+
+| # | Member | Website | Type |
+|---|--------|---------|------|
+| 1 | Magenta Finance | https://magentafinance.co.in/ | member |
+| 2 | Fusion Microfinance | http://www.fusionmicrofinance.com/ | member |
+| 3 | Arth | https://www.arthfinance.com/ | member |
+| 4 | Satin Creditcare | https://www.satincreditcare.com/ | member |
+| 5 | Margdarshak Financial Services | http://www.margdarshak.org.in/ | member |
+| 6 | Mitrata Inclusive Financial Services | http://www.mitrata.in/ | member |
+| 7 | Samavesh MFI | https://www.samaveshmfi.com/ | member |
+| 8 | Satya Microcapital | http://www.satyamicrocapital.com/ | member |
+| 9 | DJT Finserv | https://www.djtfinserv.in/ | member |
+| 10 | Midland Microfin | http://midlandmicrofin.com/ | member |
+| 11 | K P Microfin | https://kpmicrofin.in/ | member |
+| 12 | Vruksha | https://vrukshamicrofin.com/ | member |
+| 13 | Asirvad Microfinance | https://asirvadmicrofinance.co.in/ | member |
+| 14 | Belstar Microfinance | https://www.belstar.in/ | member |
+| 15 | BWDA Finance | http://bwdafinanceltd.com/ | member |
+| 16 | Navi (Chaitanya India Fin) | http://www.chaitanyaindia.in/ | member |
+| 17 | Northern Arc Capital | http://www.northernarc.com | member |
+| 18 | CreditAccess Grameen | https://www.creditaccessgrameen.com/ | member |
+| 19 | Grameen Koota (Growing Opportunity) | http://www.gopportunity.net/ | member |
+| 20 | Inditrade Capital | http://www.inditrade.com/ | member |
+| 21 | MSM Microfinance | http://msmmicrofinance.com/ | member |
+| 22 | Muthoot Microfin | http://www.muthootmicrofin.com/ | member |
+| 23 | Vaya Finserv | http://www.vayaindia.com/ | member |
+| 24 | Share Microfin (Mera Money) | http://www.sharemicrofin.com/ | member |
+| 25 | ITI Vikas Trust | https://www.itiorg.com/ | member |
+| 26 | Spandana Sphoorty | https://www.spandanasphoorty.com | member |
+| 27 | Samasta Microfinance | http://www.samasta.co.in/ | member |
+| 28 | South India Finvest | https://southindiafinvest.com/ | member |
+| 29 | Ujjivan SFB | https://www.ujjivansfb.in/ | member |
+| 30 | Srifin Credit | https://www.srifincredit.com/ | member |
+| 31 | Jana SFB | https://www.janabank.com/ | member |
+| 32 | ESAF SFB | https://www.esafbank.com/ | member |
+| 33 | Equitas SFB | https://www.equitasbank.com/ | member |
+| 34 | Dvara KGFS | https://www.dvarakgfs.com/ | member |
+| 35 | SMFG India Credit | https://www.smfgindiacredit.com/ | member |
+| 36 | Grameen Shakti | https://www.grameenshakti.co.in/ | member |
+| 37 | Adi Chitragupta Finance | https://acfl.co.in/ | member |
+| 38 | Annapurna Finance | http://ampl.net.in/ | member |
+| 39 | Arohan Financial Services | http://www.arohan.in/ | member |
+| 40 | ASA India | http://www.asaindia.in/ | member |
+| 41 | GU Finance | https://www.gufinance.com/ | member |
+| 42 | Jagaran Microfin | http://www.jagaranmf.com/ | member |
+| 43 | Janakalyan Financial Services | http://www.janakalyan.net/ | member |
+| 44 | Bandhan Bank | https://bandhanbank.com/ | member |
+| 45 | Saija Finance | http://saija.in/ | member |
+| 46 | Nightingale Finvest | http://www.nightingalefinvest.in/ | member |
+| 47 | Sarwadi (Swarna) | http://www.sarwadi.in/ | member |
+| 48 | Sarala (Adikar?) | https://sarala.co.in/ | member |
+| 49 | Sarwadi | http://www.sarwadi.com/ | member |
+| 50 | Jeevan Utthan | https://jeevanutthan.in/ | member |
+| 51 | Save Microfinance (Savi) | http://savemicrofinance.com/ | member |
+| 52 | Unacco Finance | https://www.unacco.in/ | member |
+| 53 | Vector Finance | https://vectorfinance.in/ | member |
+| 54 | VFSC Capital | https://www.vfscapital.in/ | member |
+| 55 | Adhikar Microfinance | http://adhikarindia.in/ | member |
+| 56 | Axis Bank | https://www.axisbank.com/ | member |
+| 57 | Agora | https://www.amil.co.in/ | member |
+| 58 | Avanti Finance | https://avantifinance.in/ | member |
+| 59 | Suryoday SFB | https://www.suryodaybank.com/ | member |
+| 60 | Centrum Microcredit | https://www.centrummicrocredit.com/ | member |
+| 61 | Fino Finance | http://www.finofinance.in/ | member |
+| 62 | Light Microfinance | http://www.lightmicrofinance.com/ | member |
+| 63 | M Power Microfinance | http://mpowermicro.com/ | member |
+| 64 | Namra Finance | https://namrafinance.com/ | member |
+| 65 | Svasti Microfinance | https://www.svasti.in/ | member |
+| 66 | Svatantra Microfin | https://www.svatantramicrofin.com/ | member |
+| 67 | Unnati Microfinance | http://www.unnatimfi.com/ | member |
+| 68 | Hindusthan Microfinance | http://www.hindusthanmfi.com/ | member |
+| 69 | Yes Bank | https://www.yesbank.in/ | member |
+| 70 | Bajaj Finance | https://www.bajajfinserv.in/ | member |
+| 71 | Tata Capital | https://www.tatacapital.com/ | member |
+| 72 | HDFC Bank | https://www.hdfcbank.com/ | member |
+| 73 | IDFC First Bank | https://www.idfcfirstbank.com/ | member |
+| 74 | L&T Finance | https://www.ltfs.com/ | member |
+| 75 | ICICI Bank | https://www.icicibank.com/ | member |
+| 76 | RBL Bank | http://www.rblbank.com | member |
+| 77 | IndusInd Bank | https://www.indusind.com/ | member |
+| 78 | Unity Small Finance Bank | https://theunitybank.com/ | member |
+| 79 | AU Small Finance Bank | https://www.aubank.in/ | member |
+| 80 | Fincare Small Finance Bank | https://fincarebank.com/ | member |
+| 81 | Utkarsh SFB | https://www.utkarsh.bank/ | member |
+| 82 | LOLC (India) | https://www.lolc.com | member |
+| 83 | Aviral Finance | http://www.aviralfinance.com/ | member |
+| 84 | Piramal Enterprises | http://www.piramalfinance.com | member |
+
+## FEDAI — 108 members
+
+| # | Member | Website | Type |
+|---|--------|---------|------|
+| 1 | Bank of Baroda |  | member |
+| 2 | Bank of India |  | member |
+| 3 | Bank of Maharashtra |  | member |
+| 4 | Canara Bank |  | member |
+| 5 | Central Bank of India |  | member |
+| 6 | Indian Bank |  | member |
+| 7 | Indian Overseas Bank |  | member |
+| 8 | Punjab &amp; Sind Bank |  | member |
+| 9 | Punjab National Bank |  | member |
+| 10 | State Bank of India |  | member |
+| 11 | UCO Bank |  | member |
+| 12 | Union Bank of India |  | member |
+| 13 | AB Bank PLC |  | member |
+| 14 | Abu Dhabi Commercial Bank - &quot;Surrender of AD Category I License is under Process&quot; |  | member |
+| 15 | Australia and New Zealand Banking Group Limited |  | member |
+| 16 | Bank of America NA. |  | member |
+| 17 | Bank of Bahrain &amp; Kuwait B.S.C. |  | member |
+| 18 | Bank of Ceylon |  | member |
+| 19 | Bank of China Limited |  | member |
+| 20 | Barclays Bank PLC |  | member |
+| 21 | BNP Paribas |  | member |
+| 22 | CTBC Bank Co Ltd |  | member |
+| 23 | Citibank N.A. |  | member |
+| 24 | Cooperatieve Rabobank U.A |  | member |
+| 25 | Credit Agricole Corporate and Investment Bank |  | member |
+| 26 | Credit Suisse AG |  | member |
+| 27 | DBS Bank India Limited |  | member |
+| 28 | Deutsche Bank AG |  | member |
+| 29 | Doha Bank Q.P.S.C. |  | member |
+| 30 | Emirates NBD Bank (P.J.S.C) |  | member |
+| 31 | First Abu Dhabi Bank PJSC |  | member |
+| 32 | (Surrendered Banking Licence to RBI and in process of winding up) Firstrand Bank |  | member |
+| 33 | Industrial and Commercial Bank of China Limited |  | member |
+| 34 | Industrial Bank of Korea |  | member |
+| 35 | JP Morgan Chase Bank N.A. |  | member |
+| 36 | JSC VTB Bank |  | member |
+| 37 | KEB Hana Bank |  | member |
+| 38 | Kookmin Bank |  | member |
+| 39 | (Surrendered Banking Licence to RBI and in process of winding up) Krung Thai Bank Public Company Limited |  | member |
+| 40 | MashreqBank p.s.c |  | member |
+| 41 | Mizuho Bank Limited |  | member |
+| 42 | MUFG Bank, Ltd. |  | member |
+| 43 | NatWest Markets Plc. |  | member |
+| 44 | NongHyup Bank |  | member |
+| 45 | PT Bank Maybank Indonesia TBK |  | member |
+| 46 | Qatar National Bank (Q.P.S.C.) |  | member |
+| 47 | SBERBANK |  | member |
+| 48 | Shinhan Bank |  | member |
+| 49 | Societe Generale |  | member |
+| 50 | Sonali Bank PLC |  | member |
+| 51 | Standard Chartered Bank |  | member |
+| 52 | SBM Bank (India) Ltd |  | member |
+| 53 | Sumitomo Mitsui Banking Corporation |  | member |
+| 54 | The Bank of Nova Scotia |  | member |
+| 55 | The Hongkong and Shanghai Banking Corporation Limited |  | member |
+| 56 | UBS AG |  | member |
+| 57 | United Overseas Bank Limited |  | member |
+| 58 | Woori Bank |  | member |
+| 59 | AU Small Finance Bank Limited |  | member |
+| 60 | AXIS Bank Limited |  | member |
+| 61 | Bandhan Bank Limited |  | member |
+| 62 | City Union Bank Limited |  | member |
+| 63 | CSB Bank Limited |  | member |
+| 64 | DCB Bank Limited |  | member |
+| 65 | Dhanlaxmi Bank Limited |  | member |
+| 66 | Equitas Small Finance Bank Limited |  | member |
+| 67 | ESAF Small Finance Bank Ltd |  | member |
+| 68 | HDFC Bank Limited |  | member |
+| 69 | ICICI Bank Limited |  | member |
+| 70 | IDBI Bank Ltd |  | member |
+| 71 | IDFC FIRST Bank Limited |  | member |
+| 72 | IndusInd Bank Limited |  | member |
+| 73 | Jana Small Finance Bank Ltd |  | member |
+| 74 | Karnataka Bank Limited |  | member |
+| 75 | Kotak Mahindra Bank Limited |  | member |
+| 76 | RBL Bank Limited |  | member |
+| 77 | Tamilnad Mercantile Bank Limited |  | member |
+| 78 | The Federal Bank Limited |  | member |
+| 79 | The Jammu &amp; Kashmir Bank Limited |  | member |
+| 80 | The Karur Vysya Bank Limited |  | member |
+| 81 | The Lakshmi Vilas Bank Limited - (Amalgamated in to DBS Bank India Ltd. w.e.f November 27, 2020.) |  | member |
+| 82 | The South Indian Bank Limited |  | member |
+| 83 | Ujjivan Small Finance Bank Limited |  | member |
+| 84 | Unity Small Finance Bank Ltd |  | member |
+| 85 | YES Bank Limited |  | member |
+| 86 | Abhyudaya Co-op. Bank Limited |  | member |
+| 87 | Bassein Catholic Cooperative Bank Ltd |  | member |
+| 88 | Bombay Mercantile Co-operative Bank Limited |  | member |
+| 89 | Export-Import Bank of India |  | member |
+| 90 | Goldman Sachs (India) Capital Markets Pvt. Ltd |  | member |
+| 91 | ICICI Securities Primary Dealership Limited |  | member |
+| 92 | IFCI Limited |  | member |
+| 93 | Morgan Stanley India Primary Dealer Private Limited |  | member |
+| 94 | NKGSB Co-operative Bank Limited |  | member |
+| 95 | Nomura Fixed Income Securities Pvt Ltd |  | member |
+| 96 | PNB Gilts Limited |  | member |
+| 97 | Punjab and Maharashtra Co-operative Bank Limited |  | member |
+| 98 | Small Industries Development Bank of India |  | member |
+| 99 | SVC Co-operative Bank Limited&nbsp; |  | member |
+| 100 | The Ahmedabad Mercantile Co-op. Bank Limited - &quot;Surrender of AD Category I License is under Process&quot; |  | member |
+| 101 | The Bharat Co op Bank (Mumbai) Ltd |  | member |
+| 102 | The Clearing Corporation of India Ltd |  | member |
+| 103 | The Cosmos Co-operative Bank Limited |  | member |
+| 104 | The Kalupur Commercial Co-operative Bank Limited |  | member |
+| 105 | The Maharashtra State Co-operative Bank Limited |  | member |
+| 106 | The Saraswat Co-operative Bank Limited |  | member |
+| 107 | Thomas Cook (India) Limited |  | member |
+| 108 | TJSB Sahakari Bank Limited |  | member |
 
 ## Caveats
 
