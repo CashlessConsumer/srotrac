@@ -32,7 +32,7 @@ SROS = {
         "hq": "INNOV8, Peninsula Business Park, Lower Parel, Mumbai 400013",
         "cin": "U91990MH2020NPL346315",
         "status": "Active SRO-FT",
-        "accent": "#7c2d3a",
+        "accent": "#1d4ed8",
         "consumer": [
             "Runs the <strong>DLA Validator</strong> — check a lending app before you borrow from it.",
             "Publishes a <strong>Grievance &amp; Dispute Resolution</strong> (GDR) framework and an Oversight &amp; Enforcement policy for members.",
@@ -52,7 +52,7 @@ SROS = {
         "hq": "Mumbai (rebranded from Digital Lenders Association of India, Apr 2025)",
         "cin": "",
         "status": "Active SRO-FT (recognised at GFF 2026)",
-        "accent": "#1f3a5f",
+        "accent": "#0e7490",
         "consumer": [
             "Second RBI-recognised fintech SRO — now both major fintech lobbies are under RBI's SRO-FT rules: codes of conduct, member monitoring, grievance redress.",
             "Has a dedicated <strong>SRO portfolio</strong> in its Executive Committee (Chair: Progcap; Co-chair: Vivifi) — the desk expected to police members.",
@@ -72,7 +72,7 @@ SROS = {
         "hq": "Mumbai",
         "cin": "",
         "status": "Active SRO (NBFC)",
-        "accent": "#6e4a1f",
+        "accent": "#475569",
         "consumer": [
             "Self-regulates the NBFC industry — the sector behind most vehicle, gold, MSME and many personal loans.",
             "Monitors fair-practices-code compliance and recovery-agent conduct across member NBFCs.",
@@ -91,7 +91,7 @@ SROS = {
         "hq": "Siddharth, 11th Floor, Tilak Road, Santacruz West, Mumbai 400054",
         "cin": "",
         "status": "Active SRO (PSO)",
-        "accent": "#55612c",
+        "accent": "#64748b",
         "consumer": [
             "Founded by the people who run India's payment rails at the merchant end: CCAvenue's Vishwas Patel and BillDesk's M N Srinivasu.",
             "Expected to police member PSOs on settlement reliability, outage handling, merchant onboarding fraud and RBI payment-circular compliance.",
@@ -110,7 +110,7 @@ SROS = {
         "hq": "New Delhi / Mumbai",
         "cin": "",
         "status": "Active SRO (microfinance; RBI letter 16 Jun 2014 — first SRO in this family)",
-        "accent": "#2f5d5a",
+        "accent": "#334155",
         "consumer": [
             "India's oldest RBI-recognised SRO in this set — created after the 2010 Andhra Pradesh microfinance crisis on the Malegam committee's recommendation.",
             "Runs a code of conduct with field-level monitoring and its own dispute-resolution machinery for micro-borrower complaints.",
@@ -131,7 +131,7 @@ SROS = {
         "hq": "New Delhi",
         "cin": "",
         "status": "Active SRO (microfinance; recognised Mar 2015)",
-        "accent": "#4b3a70",
+        "accent": "#5b6472",
         "consumer": [
             "Second microfinance SRO — RBI recognition gave NBFC-MFIs a choice between MFIN and Sa-Dhan.",
             "Publishes the Bharat Microfinance Report, the sector's main data benchmark.",
@@ -151,7 +151,7 @@ SROS = {
         "hq": "Mumbai (est. 1958, Section 25 company)",
         "cin": "",
         "status": "Active SRO (FX; Omnibus framework; 1-yr transition to Jan 2027)",
-        "accent": "#8f4a26",
+        "accent": "#6b7280",
         "consumer": [
             "The newest RBI-recognised SRO (Jan 2026) — formalises six decades of self-set forex rules for banks dealing in foreign exchange.",
             "108 member authorised dealers listed with LEI numbers — the cleanest public roster of any SRO tracked here.",
@@ -171,7 +171,7 @@ SROS = {
         "hq": "Mumbai (Section 8; founded 2019 as AA ecosystem collective)",
         "cin": "",
         "status": "Active SRO (AA ecosystem; 8th RBI-recognised SRO)",
-        "accent": "#7c2d92",
+        "accent": "#2563eb",
         "consumer": [
             "The 8th RBI-recognised SRO (5 Jun 2026) and the first for open finance — it governs the account aggregator network you may use to share bank statements with a lender or app.",
             "110 ecosystem REs listed: account aggregators, banks/NBFCs as data providers (FIPs), data consumers (FIUs) and tech service providers — searchable in the members table.",
@@ -208,7 +208,6 @@ def fmt_date(d):
 NAV = [
     ("", "Home"),
     ("members.html", "Members"),
-    ("overlap.html", "Overlap"),
     ("timeline.html", "Timeline"),
     ("activity.html", "Activity"),
     ("blog/index.html", "Blog"),
@@ -258,22 +257,18 @@ def page(title, active, body, extra_head="", desc=None):
 <meta property="og:url" content="{BASE}/{active}">
 <meta property="og:image" content="{BASE}/og.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#f2ecdd">
+<meta name="theme-color" content="#ededf0">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap">
-<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="%230f766e"/><text x="32" y="46" font-family="Georgia,serif" font-size="38" font-weight="bold" text-anchor="middle" fill="%23faf9f7">S</text></svg>'>
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="%231d4ed8"/><text x="32" y="46" font-family="Georgia,serif" font-size="38" font-weight="bold" text-anchor="middle" fill="%23faf9f7">S</text></svg>'>
 <link rel="stylesheet" href="/css/style.css?v={v}">
 {extra_head}
 </head>
 <body>
 <header class="site-header">
-  <div class="mast-top"><div class="wrap">
-    <span>A CashlessConsumer Register</span>
-  </div></div>
   <div class="wrap mast-main">
-    <a class="brand" href="/">SRO<span>Trac</span></a>
-    <p class="mast-sub">RBI&rsquo;s recognised self-regulatory organisations, watched</p>
+    <a class="brand" href="/">SRO<span>Trac</span><small>A CashlessConsumer Register</small></a>
     <nav>{nav}</nav>
   </div>
 </header>
@@ -284,10 +279,8 @@ def page(title, active, body, extra_head="", desc=None):
   <div class="wrap">
     <p><strong>SROTrac</strong> — an independent CashlessConsumer project tracking India's self-regulatory organisations. Not affiliated with RBI or any SRO.</p>
     <p><a href="https://cashlessconsumer.in">cashlessconsumer.in</a> · data: <a href="https://github.com/CashlessConsumer/srotrac">GitHub</a> · <a href="/about.html">methodology</a></p>
-    <p>Scope: <strong>RBI-recognised SROs only</strong> — this register does not cover SROs recognised by other regulators (SEBI, IRDAI, etc.).</p>
     <p><strong>Data: CC BY 4.0</strong> — copy, remix and republish with attribution to SROTrac / CashlessConsumer. Code: MIT.</p>
-    <p class="colophon">Scope: RBI-recognised SROs only — not SEBI/IRDAI or other regulators&rsquo; SROs &middot; Data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> &middot; Code: MIT &middot; <a href="/llms.txt">llms.txt</a></p>
-    <p class="colophon">Set in Fraunces, Newsreader &amp; IBM Plex Mono · Regenerated nightly from source captures · Agent entry: <a href="/llms.txt">llms.txt</a></p>
+    <p class="colophon">Scope: RBI-recognised SROs only — not SEBI/IRDAI or other regulators&rsquo; SROs &middot; Agent entry: <a href="/llms.txt">llms.txt</a></p>
   </div>
 </footer>
 <script src="/js/main.js?v={v}"></script>
@@ -514,7 +507,7 @@ def org_table(members):
             "ty": ty,
             "g": grp,
             "t": TYPES[ty][0],
-            "c": {x: accents.get(x, "#57534e") for x in o["sros"]},
+            "c": {x: accents.get(x, "#6b7280") for x in o["sros"]},
             "w": o["w"],
         })
     payload.sort(key=lambda x: x["n"].lower())
@@ -525,7 +518,7 @@ def SROS_abbr_order():
     return [s["abbr"] for s in SROS.values()]
 
 
-def build_members(members):
+def build_members(members, leadership):
     payload = org_table(members)
     ty_counts = defaultdict(int)
     for r in payload:
@@ -539,11 +532,46 @@ def build_members(members):
         f'<button class="chip" data-sro="{esc(s["abbr"])}">{esc(s["abbr"])}</button>'
         for s in SROS.values() if s["abbr"] in {r for p in payload for r in p["s"]}
     )
+    abbrs = SROS_abbr_order()
+    matrix = {a: {b: 0 for b in abbrs} for a in abbrs}
+    for r in payload:
+        for x in r["s"]:
+            for b in r["s"]:
+                matrix[x][b] += 1
+    mrows = ""
+    for a in abbrs:
+        cells = ""
+        for b in abbrs:
+            v = matrix[a][b]
+            if a == b:
+                cells += f'<td class="mx-self">{v}</td>'
+            else:
+                link = f"#sro={a.lower()},{b.lower()}&multi=1" if v else ""
+                cells += (f'<td class="mx-cell{" mx-hot" if v else ""}">'
+                          + (f'<a href="{link}">{v}</a>' if v else "&middot;") + "</td>")
+        mrows += f'<tr><th class="mx-row">{esc(a)}</th>{cells}</tr>'
+    head = "<tr><th></th>" + "".join(f'<th class="mx-col">{esc(b)}</th>' for b in abbrs) + "</tr>"
+    multi = [r for r in payload if len(r["s"]) > 1]
+    rows = ""
+    for r in multi:
+        badges = "".join(sro_badge(x.lower()) for x in r["s"])
+        ty = f'<span class="pill small">{esc(TYPES[r["ty"]][0])}</span>'
+        rows += f"<tr><td>{esc(r['n'])}</td><td>{ty}</td><td>{badges}</td></tr>"
+    people = defaultdict(set)
+    for l in leadership:
+        key = l["name"].lower().replace("mr. ", "").replace("ms. ", "").replace("dr. ", "").strip()
+        people[key].add((l["sro"], l["name"], l["role"]))
+    prows = ""
+    for key, entries in sorted(people.items()):
+        sros = {e[0] for e in entries}
+        if len(sros) > 1:
+            detail = "; ".join(f"{e[0]}: {e[2]}" for e in sorted(entries))
+            prows += f"<tr><td>{esc(next(iter(entries))[1])}</td><td>{esc(detail)}</td></tr>"
     body = f"""
 <section class="hero slim">
   <div class="wrap">
     <h1>All members</h1>
-    <p class="lede">{len(payload)} organisations across the six published rosters (FIDC and Sa-Dhan publish no public roster). One row per organisation — SRO badges show every register it appears in. Filter by SRO, entity type, or search by name.</p>
+    <p class="lede">{len(payload)} organisations across the six published rosters (FIDC and Sa-Dhan publish no public roster). One row per organisation — SRO badges show every register it appears in. Filter by SRO, entity type, or search by name. Cross-SRO membership overlap is <a href="#overlap">below the table</a>.</p>
   </div>
 </section>
 <section class="wrap">
@@ -570,58 +598,8 @@ def build_members(members):
   </div>
   <noscript><p>Enable JavaScript to browse the interactive table, or grab the raw CSVs on GitHub.</p></noscript>
 </section>
-<script id="member-data" type="application/json">{json.dumps(payload)}</script>"""
-    return page("Members", "members.html", body)
 
-
-def build_overlap(members, leadership):
-    payload = org_table(members)
-    abbrs = SROS_abbr_order()
-    # matrix
-    matrix = {a: {b: 0 for b in abbrs} for a in abbrs}
-    for r in payload:
-        ss = r["s"]
-        for a in ss:
-            for b in ss:
-                matrix[a][b] += 1
-    mrows = ""
-    for a in abbrs:
-        cells = ""
-        for b in abbrs:
-            v = matrix[a][b]
-            if a == b:
-                cells += f'<td class="mx-self">{v}</td>'
-            else:
-                link = f"/members.html#sro={a.lower()},{b.lower()}&multi=1" if v else ""
-                cells += (f'<td class="mx-cell{" mx-hot" if v else ""}">'
-                          + (f'<a href="{link}">{v}</a>' if v else "·") + "</td>")
-        mrows += f'<tr><th class="mx-row">{esc(a)}</th>{cells}</tr>'
-    head = "<tr><th></th>" + "".join(f'<th class="mx-col">{esc(a)}</th>' for a in abbrs) + "</tr>"
-    multi = [r for r in payload if len(r["s"]) > 1]
-    rows = ""
-    for r in multi:
-        badges = "".join(sro_badge(x.lower()) for x in r["s"])
-        ty = f'<span class="pill small">{esc(TYPES[r["ty"]][0])}</span>'
-        rows += f"<tr><td>{esc(r['n'])}</td><td>{ty}</td><td>{badges}</td></tr>"
-    # people overlap: same person in two SROs' leadership
-    people = defaultdict(set)
-    for l in leadership:
-        key = l["name"].lower().replace("mr. ", "").replace("ms. ", "").replace("dr. ", "").strip()
-        people[key].add((l["sro"], l["name"], l["role"]))
-    prows = ""
-    for key, entries in sorted(people.items()):
-        sros = {e[0] for e in entries}
-        if len(sros) > 1:
-            detail = "; ".join(f"{e[0]}: {e[2]}" for e in sorted(entries))
-            prows += f"<tr><td>{esc(entries.pop()[1])}</td><td>{esc(detail)}</td></tr>"
-    body = f"""
-<section class="hero slim">
-  <div class="wrap">
-    <h1>Cross-SRO overlap</h1>
-    <p class="lede">Companies (and people) sitting in more than one self-regulatory organisation. Useful for spotting conflicts of interest and coordinated lobbying.</p>
-  </div>
-</section>
-<section class="wrap">
+<section class="wrap" id="overlap">
   <h2>Shared members matrix</h2>
   <p class="muted small">Each cell counts organisations registered with <em>both</em> the row and column SRO. Click a cell to open those organisations in the members table.</p>
   <div class="table-scroll">
@@ -640,8 +618,9 @@ def build_overlap(members, leadership):
   <div class="callout">
     <p><strong>Why this matters:</strong> the omnibus SRO framework requires SROs to avoid conflicts of interest. Shared directors and EC members across SROs are legal — but when the same fintech executives shape conduct rules at multiple bodies, consumers should know whose interests get harmonised first.</p>
   </div>
-</section>"""
-    return page("Cross-SRO overlap", "overlap.html", body)
+</section>
+<script id="member-data" type="application/json">{json.dumps(payload)}</script>"""
+    return page("Members", "members.html", body)
 
 
 def build_timeline(activity):
@@ -812,12 +791,12 @@ def build_about(members, activity):
 
 
 CSS = """:root{
-  --paper:#f2ecdd; --paper-deep:#e9e1cc; --paper-hi:#f8f4e9; --card:#fbf7ec;
-  --ink:#211b10; --ink-soft:#4a4232; --faded:#7d735d;
-  --rule:#c9bd9f; --rule-soft:#ddd3b8;
-  --seal:#9e2b25; --seal-soft:#b9574f;
-  --gold:#8a6d1f;
-  --accent:#9e2b25;
+  --paper:#ededf0; --paper-deep:#e2e3e7; --paper-hi:#f8f8fa; --card:#fbfbfc;
+  --ink:#191b20; --ink-soft:#41454e; --faded:#6f747f;
+  --rule:#c6c9cf; --rule-soft:#dbdde1;
+  --seal:#1d4ed8; --seal-soft:#5b7cd6;
+  --gold:#5c6470;
+  --accent:#1d4ed8;
   --mono:'IBM Plex Mono',ui-monospace,'Courier New',monospace;
   --serif:'Fraunces',Georgia,'Times New Roman',serif;
   --text:'Newsreader',Georgia,serif;
@@ -825,7 +804,7 @@ CSS = """:root{
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{
   margin:0;font:17px/1.65 var(--text);color:var(--ink);background:var(--paper);
-  background-image:repeating-linear-gradient(0deg,transparent 0 31px,rgba(120,105,70,.055) 31px 32px);
+  background-image:repeating-linear-gradient(0deg,transparent 0 31px,rgba(90,95,112,.06) 31px 32px);
 }
 body::after{content:"";position:fixed;inset:0;pointer-events:none;opacity:.5;z-index:99;
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .05 0'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");}
@@ -843,13 +822,13 @@ p{margin:.6em 0}
 
 /* ---------- masthead ---------- */
 .site-header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--paper) 94%,transparent);backdrop-filter:blur(5px);border-bottom:1px solid var(--ink)}
-.site-header::before{content:"";display:block;height:5px;border-top:3px double var(--seal);border-bottom:1px solid var(--seal)}
-.site-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:60px;flex-wrap:wrap;padding-top:6px;padding-bottom:6px}
-.brand{font-family:var(--serif);font-weight:800;font-size:1.5rem;color:var(--ink);text-decoration:none;letter-spacing:-.02em;line-height:1;display:flex;align-items:baseline;gap:.6rem}
+.site-header::before{content:"";display:block;height:3px;border-top:2px double var(--seal);border-bottom:1px solid var(--seal)}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:42px;flex-wrap:wrap;padding-top:3px;padding-bottom:3px}
+.brand{font-family:var(--serif);font-weight:800;font-size:1.12rem;color:var(--ink);text-decoration:none;letter-spacing:-.02em;line-height:1;display:flex;align-items:baseline;gap:.6rem}
 .brand em{font-style:normal;color:var(--seal)}
-.brand small{font-family:var(--mono);font-weight:400;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:var(--faded);border-left:1px solid var(--rule);padding-left:.6rem}
+.brand small{font-family:var(--mono);font-weight:400;font-size:.56rem;letter-spacing:.14em;text-transform:uppercase;color:var(--faded);border-left:1px solid var(--rule);padding-left:.55rem}
 nav{display:flex;gap:1px;flex-wrap:wrap}
-nav a{font-family:var(--mono);font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-soft);text-decoration:none;padding:8px 9px;border-bottom:2px solid transparent}
+nav a{font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);text-decoration:none;padding:5px 8px;border-bottom:2px solid transparent}
 nav a:hover{color:var(--seal);border-bottom-color:var(--rule)}
 nav a.active{color:var(--paper-hi);background:var(--seal);border-bottom-color:var(--ink)}
 main{min-height:60vh;padding-bottom:3.5rem}
@@ -877,8 +856,8 @@ main{min-height:60vh;padding-bottom:3.5rem}
 
 /* ---------- SRO dropdown ---------- */
 .nav-drop{position:relative}
-.nav-drop .trigger{font-family:var(--mono);font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;
-  color:var(--ink-soft);text-decoration:none;padding:8px 9px;border-bottom:2px solid transparent;
+.nav-drop .trigger{font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--ink-soft);text-decoration:none;padding:5px 8px;border-bottom:2px solid transparent;
   display:inline-flex;align-items:center;gap:.35rem;cursor:pointer;white-space:nowrap}
 .nav-drop .trigger:hover{color:var(--seal);border-bottom-color:var(--rule)}
 .nav-drop .trigger.active{color:var(--paper-hi);background:var(--seal);border-bottom-color:var(--ink)}
@@ -1242,7 +1221,7 @@ def write_agent_files(members, outputs):
     # --- sitemap.xml ---
     core = [("members.html", "0.9", "daily"),
             ("activity.html", "0.8", "daily"), ("timeline.html", "0.7", "weekly"),
-            ("overlap.html", "0.7", "weekly"), ("about.html", "0.6", "monthly")]
+            ("about.html", "0.6", "monthly")]
     entries = [("", "1.0", "daily")] + core
     for sid in SROS:
         entries.append((f"sro-{sid}.html", "0.9", "daily"))
@@ -1287,7 +1266,7 @@ Base URL: {BASE}
 
 ## Cross-cutting pages
 - [All members]({BASE}/members.html): searchable 416-row roster with per-SRO filters.
-- [Overlap]({BASE}/overlap.html): organisations that sit in more than one SRO.
+- [Members]({BASE}/members.html): filterable register of all listed entities; includes the cross-SRO overlap matrix and 2+ SRO memberships.
 - [Timeline]({BASE}/timeline.html): 2020–2026 regulatory milestones (frameworks, recognitions, consultations).
 - [Activity]({BASE}/activity.html): dated log of SRO/RBI developments with sources.
 - [About & methodology]({BASE}/about.html): scope, method, caveats, FAQ.
@@ -1305,7 +1284,7 @@ Base URL: {BASE}
 
     # --- llms-full.txt: text of every page + blog posts raw ---
     pages = []
-    for name in ["index.html", "members.html", "overlap.html", "timeline.html",
+    for name in ["index.html", "members.html", "timeline.html",
                  "activity.html", "about.html"]:
         title = name.replace(".html", "").replace("index", "home")
         h = outputs.get(name, "")
@@ -1350,8 +1329,7 @@ def main():
 
     outputs = {
         "index.html": build_home(members, activity, overlap),
-        "members.html": build_members(members),
-        "overlap.html": build_overlap(members, leadership),
+        "members.html": build_members(members, leadership),
         "timeline.html": build_timeline(activity),
         "activity.html": build_activity(activity),
         "about.html": build_about(members, activity),
@@ -1375,6 +1353,15 @@ def main():
     with open(os.path.join(js_dir, "main.js"), "w") as f:
         f.write(JS)
     print("wrote css/style.css, js/main.js")
+
+    # overlap.html retired -> redirect stub
+    with open(os.path.join(ROOT, "overlap.html"), "w", encoding="utf-8") as f:
+        f.write('<!doctype html><html lang="en"><head><meta charset="utf-8">'
+                '<title>Cross-SRO overlap — SROTrac</title>'
+                '<link rel="canonical" href="https://srotrac.cashlessconsumer.in/members.html#overlap">'
+                '<meta http-equiv="refresh" content="0;url=/members.html#overlap"></head>'
+                '<body>Moved to <a href="/members.html#overlap">Members → Cross-SRO overlap</a>.</body></html>')
+    print("wrote overlap.html (redirect stub)")
 
     # wide-table wrappers for mobile scroll
     for name, content in list(outputs.items()):

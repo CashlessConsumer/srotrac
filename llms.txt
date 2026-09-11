@@ -26,7 +26,7 @@ Base URL: https://srotrac.cashlessconsumer.in
 
 ## Cross-cutting pages
 - [All members](https://srotrac.cashlessconsumer.in/members.html): searchable 416-row roster with per-SRO filters.
-- [Overlap](https://srotrac.cashlessconsumer.in/overlap.html): organisations that sit in more than one SRO.
+- [Members](https://srotrac.cashlessconsumer.in/members.html): filterable register of all listed entities; includes the cross-SRO overlap matrix and 2+ SRO memberships.
 - [Timeline](https://srotrac.cashlessconsumer.in/timeline.html): 2020–2026 regulatory milestones (frameworks, recognitions, consultations).
 - [Activity](https://srotrac.cashlessconsumer.in/activity.html): dated log of SRO/RBI developments with sources.
 - [About & methodology](https://srotrac.cashlessconsumer.in/about.html): scope, method, caveats, FAQ.

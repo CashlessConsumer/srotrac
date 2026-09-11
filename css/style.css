@@ -1,10 +1,10 @@
 :root{
-  --paper:#f2ecdd; --paper-deep:#e9e1cc; --paper-hi:#f8f4e9; --card:#fbf7ec;
-  --ink:#211b10; --ink-soft:#4a4232; --faded:#7d735d;
-  --rule:#c9bd9f; --rule-soft:#ddd3b8;
-  --seal:#9e2b25; --seal-soft:#b9574f;
-  --gold:#8a6d1f;
-  --accent:#9e2b25;
+  --paper:#ededf0; --paper-deep:#e2e3e7; --paper-hi:#f8f8fa; --card:#fbfbfc;
+  --ink:#191b20; --ink-soft:#41454e; --faded:#6f747f;
+  --rule:#c6c9cf; --rule-soft:#dbdde1;
+  --seal:#1d4ed8; --seal-soft:#5b7cd6;
+  --gold:#5c6470;
+  --accent:#1d4ed8;
   --mono:'IBM Plex Mono',ui-monospace,'Courier New',monospace;
   --serif:'Fraunces',Georgia,'Times New Roman',serif;
   --text:'Newsreader',Georgia,serif;
@@ -12,7 +12,7 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{
   margin:0;font:17px/1.65 var(--text);color:var(--ink);background:var(--paper);
-  background-image:repeating-linear-gradient(0deg,transparent 0 31px,rgba(120,105,70,.055) 31px 32px);
+  background-image:repeating-linear-gradient(0deg,transparent 0 31px,rgba(90,95,112,.06) 31px 32px);
 }
 body::after{content:"";position:fixed;inset:0;pointer-events:none;opacity:.5;z-index:99;
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .05 0'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");}
@@ -30,13 +30,13 @@ p{margin:.6em 0}
 
 /* ---------- masthead ---------- */
 .site-header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--paper) 94%,transparent);backdrop-filter:blur(5px);border-bottom:1px solid var(--ink)}
-.site-header::before{content:"";display:block;height:5px;border-top:3px double var(--seal);border-bottom:1px solid var(--seal)}
-.site-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:60px;flex-wrap:wrap;padding-top:6px;padding-bottom:6px}
-.brand{font-family:var(--serif);font-weight:800;font-size:1.5rem;color:var(--ink);text-decoration:none;letter-spacing:-.02em;line-height:1;display:flex;align-items:baseline;gap:.6rem}
+.site-header::before{content:"";display:block;height:3px;border-top:2px double var(--seal);border-bottom:1px solid var(--seal)}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:42px;flex-wrap:wrap;padding-top:3px;padding-bottom:3px}
+.brand{font-family:var(--serif);font-weight:800;font-size:1.12rem;color:var(--ink);text-decoration:none;letter-spacing:-.02em;line-height:1;display:flex;align-items:baseline;gap:.6rem}
 .brand em{font-style:normal;color:var(--seal)}
-.brand small{font-family:var(--mono);font-weight:400;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:var(--faded);border-left:1px solid var(--rule);padding-left:.6rem}
+.brand small{font-family:var(--mono);font-weight:400;font-size:.56rem;letter-spacing:.14em;text-transform:uppercase;color:var(--faded);border-left:1px solid var(--rule);padding-left:.55rem}
 nav{display:flex;gap:1px;flex-wrap:wrap}
-nav a{font-family:var(--mono);font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-soft);text-decoration:none;padding:8px 9px;border-bottom:2px solid transparent}
+nav a{font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);text-decoration:none;padding:5px 8px;border-bottom:2px solid transparent}
 nav a:hover{color:var(--seal);border-bottom-color:var(--rule)}
 nav a.active{color:var(--paper-hi);background:var(--seal);border-bottom-color:var(--ink)}
 main{min-height:60vh;padding-bottom:3.5rem}
@@ -64,8 +64,8 @@ main{min-height:60vh;padding-bottom:3.5rem}
 
 /* ---------- SRO dropdown ---------- */
 .nav-drop{position:relative}
-.nav-drop .trigger{font-family:var(--mono);font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;
-  color:var(--ink-soft);text-decoration:none;padding:8px 9px;border-bottom:2px solid transparent;
+.nav-drop .trigger{font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--ink-soft);text-decoration:none;padding:5px 8px;border-bottom:2px solid transparent;
   display:inline-flex;align-items:center;gap:.35rem;cursor:pointer;white-space:nowrap}
 .nav-drop .trigger:hover{color:var(--seal);border-bottom-color:var(--rule)}
 .nav-drop .trigger.active{color:var(--paper-hi);background:var(--seal);border-bottom-color:var(--ink)}

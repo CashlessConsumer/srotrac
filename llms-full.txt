@@ -89,7 +89,7 @@ Register of RBI-recognised self-regulatory organisations · India
 
 ## members — https://srotrac.cashlessconsumer.in/members.html
 All members 
- 486 organisations across the six published rosters (FIDC and Sa-Dhan publish no public roster). One row per organisation — SRO badges show every register it appears in. Filter by SRO, entity type, or search by name. 
+ 486 organisations across the six published rosters (FIDC and Sa-Dhan publish no public roster). One row per organisation — SRO badges show every register it appears in. Filter by SRO, entity type, or search by name. Cross-SRO membership overlap is below the table . 
 
  SRO 
  All 
@@ -102,12 +102,7 @@ All members
 
  Organisation Entity type SROs Website 
 
- Enable JavaScript to browse the interactive table, or grab the raw CSVs on GitHub.
-
-
-## overlap — https://srotrac.cashlessconsumer.in/overlap.html
-Cross-SRO overlap 
- Companies (and people) sitting in more than one self-regulatory organisation. Useful for spotting conflicts of interest and coordinated lobbying. 
+ Enable JavaScript to browse the interactive table, or grab the raw CSVs on GitHub. 
 
  Shared members matrix 
  Each cell counts organisations registered with both the row and column SRO. Click a cell to open those organisations in the members table. 
