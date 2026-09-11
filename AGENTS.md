@@ -27,6 +27,8 @@ Tracking India's fintech SROs (self-regulatory organisations) and their member r
 ## Open items
 
 - Seeded: the two RBI fintech SRO-FTs (FACE, UFF) plus two related RBI SROs for context — SRPA (PSOs, 11 Nov 2025) and FIDC (NBFCs, 3 Oct 2025). FIDC does not publish its member roster.
-- Other SROs exist in Indian finance (RBI SRO framework; also SEBI/IRDAI, MFIN/Sa-Dhan for microfinance). Add others to `sros.csv` as they gain recognition.
+- Register now covers all 7 RBI-recognised SROs: FACE, UFF (SRO-FTs), FIDC, SRPA, MFIN, Sa-Dhan, FEDAI. Wider landscape (SEBI: AMFI, ANMI, BASL; IRDAI: GI Council, IBAI) is context-only on About — not tracked.
+- `scripts/refresh.sh` = fetch → build.py → site.py → bloggen.py → commit/push on change. Run daily 07:30 IST by automation agent `c2bd955d` (posts to Discord #policy-research). Weekly blog agent (`45950f8d`) writes `blog/posts/` Mon 09:20 IST.
+- FEDAI/MFIN/Sa-Dhan sites are JS-heavy or frames-based: raw curl fetches may fail (refresh.sh logs FETCH FAIL, non-fatal); use agent-browser to re-capture data/raw/*.html when rosters look stale.
 - UFF logo filenames without an obvious company name rely on a manual name map in `scripts/build.py`; spot-check when the roster changes.
 - Possible next steps: categorise members by segment, capture join dates, track roster changes over time, link FACE grievance/DAK data.
