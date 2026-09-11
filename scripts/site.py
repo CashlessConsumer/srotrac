@@ -926,8 +926,8 @@ var SRO_KEYS = ["FACE", "UFF", "FIDC", "SRPA", "MFIN", "Sa-Dhan", "FEDAI"];
 
 def main():
     members = []
-    for s in SROS.values():
-        members.extend(read_csv(f"{s['abbr'].lower()}_members.csv"))
+    for sid in SROS:
+        members.extend(read_csv(f"{sid}_members.csv"))
     for m in members:
         m["sro"] = m["sro"].upper()
     activity = sorted(read_csv("activity.csv"), key=lambda a: a["date"], reverse=True)
