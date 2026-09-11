@@ -12,7 +12,7 @@ FACE,committee,Ashish Goyal,"Audit, Finance & Remuneration Committee",,https://f
 FACE,committee,Avtar Monga,"Audit, Finance & Remuneration Committee",,https://faceofindia.org/governance/
 FACE,committee,Srinath Sridharan,"Audit, Finance & Remuneration Committee",,https://faceofindia.org/governance/
 FACE,committee,Vineet Sukumar,"Audit, Finance & Remuneration Committee",,https://faceofindia.org/governance/
-FACE,executive,Sugandh Saxena,CEO (first CEO, appointed Aug 2021),,https://faceofindia.org/team/
+FACE,executive,Sugandh Saxena,CEO (first CEO, appointed Aug 2021),
 FACE,executive,Dheeraj Bhardwaj,Vice President - Technology,,https://faceofindia.org/team/
 FACE,executive,Jay Tripathi,Vice President,,https://faceofindia.org/team/
 FACE,executive,Monami Dasgupta,AVP - Policy & Research,,https://faceofindia.org/team/
@@ -47,31 +47,44 @@ UFF,advisory,Siba Narayan Panda,Advisory Council,Veteran central banker and tech
 FIDC,board,Umesh Revankar,Chairman (since Aug 2023),Executive Vice Chairman - Shriram Finance,https://bfsi.eletsonline.com/fidc-appoints-umesh-revankar-as-new-chairman/
 FIDC,executive,Raman Agrawal,CEO,,https://www.fidcindia.org.in/
 FIDC,board,Kamlesh Gandhi,Governing Council Member,Founder & MD - MAS Financial Services,https://www.fidcindia.org.in/
-FIDC,board,K V Srinivasan,Governing Council Member,CEO - Profectus Capital,https://www.fidcindia.org.in/
+FIDC,board,K V Srinivasan,Governing Council Member (Additional Director wef 2026-01-20),CEO - Profectus Capital,https://www.fidcindia.org.in/
 FIDC,board,Mahesh Thakkar,Governing Council Member,Former Director General - FIDC,https://www.fidcindia.org.in/
 FIDC,board,V P Nandakumar,Governing Council Member,MD & CEO - Manappuram Finance,https://www.fidcindia.org.in/
 FIDC,board,Shachindra Nath,Governing Council Member,Founder & MD - UGRO Capital,https://www.fidcindia.org.in/
-FIDC,board,N S Vishwanathan,Governing Council Member,Ex-Deputy Governor - RBI,https://www.fidcindia.org.in/
+FIDC,board,N S Vishwanathan,Governing Council Member (Additional Director wef 2026-06-23),Ex-Deputy Governor - RBI,https://www.fidcindia.org.in/
 FIDC,board,Sudipta Roy,Governing Council Member,MD & CEO - L&T Finance,https://www.fidcindia.org.in/
-FIDC,board,Rajeev Jain,Governing Council Member,Vice Chairman - Bajaj Finance,https://www.fidcindia.org.in/
+FIDC,board,Rajeev Jain,Governing Council Member (Additional Director wef 2026-06-23),Vice Chairman - Bajaj Finance,https://www.fidcindia.org.in/
 FIDC,board,Alok Sondhi,Governing Council Member,,https://www.fidcindia.org.in/
 FIDC,board,Dinesh Kanabar,Governing Council Member,,https://www.fidcindia.org.in/
 FIDC,board,Deepak Mehta,Governing Council Member,,https://www.fidcindia.org.in/
-FIDC,board,Dr. Aneish Kumar,Governing Council Member,,https://www.fidcindia.org.in/
+FIDC,advisory,Dr. Aneish Kumar,Advisory Council,,https://www.fidcindia.org.in/
 FIDC,board,Hemant Chordia,Governing Council Member,,https://www.fidcindia.org.in/
 FIDC,board,Manish Shah,Governing Council Member,,https://www.fidcindia.org.in/
-FIDC,board,Raul Rebello,Governing Council Member,,https://www.fidcindia.org.in/
+FIDC,board,Raul Rebello,Governing Council Member (Additional Director wef 2026-02-01),,https://www.fidcindia.org.in/
 FIDC,board,Ravindra Kumar Kundu,Governing Council Member,,https://www.fidcindia.org.in/
 SRPA,board,Vishwas Patel,Director,Joint Managing Director - Infibeam Avenues (CCAvenue),https://srpa.org.in/
 SRPA,board,M N Srinivasu,Director,Co-founder - BillDesk,https://srpa.org.in/
-SRPA,executive,"Secretariat","Mumbai secretariat - Info@srpa.org.in",,https://srpa.org.in/
+SRPA,executive,Secretariat,Mumbai secretariat - Info@srpa.org.in,,https://srpa.org.in/
 MFIN,board,Devesh Sachdev,Chairperson,"Founder, Fusion Microfinance",https://mfinindia.org/about/leadership
 MFIN,board,Arnab Roy,Independent Member,"Former Senior Executive Director, RBI",https://mfinindia.org/about/leadership
 MFIN,executive,Alok Misra,"CEO & Director (ex-officio, non-voting)",,https://mfinindia.org/about/leadership
 MFIN,executive,Sugandh Saxena,Member Secretary,,https://mfinindia.org/about/leadership
 Sa-Dhan,board,K. Paul Thomas,Chairman,"MD & CEO, ESAF Small Finance Bank",https://www.sa-dhan.net/our-board/
 Sa-Dhan,board,Surekha Marandi,Independent Member,"Former Executive Director, RBI",https://www.sa-dhan.net/our-board/
-Sa-Dhan,executive,Jiji Mammen,"Executive Director & CEO",,https://www.sa-dhan.net/our-team/
+Sa-Dhan,executive,Jiji Mammen,Executive Director & CEO,,https://www.sa-dhan.net/our-team/
 FEDAI,committee,State Bank of India,Chairman of Managing Committee,,https://www.fedai.org.in/InnerPageContent.aspx?Cid=2&SCid=2&SSCid=0
 FEDAI,committee,DBS Bank India,Vice Chairman,,https://www.fedai.org.in/InnerPageContent.aspx?Cid=2&SCid=2&SSCid=0
 FEDAI,committee,HDFC Bank,Additional Vice Chairman,,https://www.fedai.org.in/InnerPageContent.aspx?Cid=2&SCid=2&SSCid=0
+FIDC,board,Rajiv Sabharwal,Non-Executive Director,Vice Chairman & MD - Tata Capital,https://www.fidcindia.org.in/wp-content/uploads/2026/07/FIDC-22ND-ANNUAL-REPORT-2025-26.pdf
+FIDC,board,Rajiv Lochan,Non-Executive Director,MD & CEO - Poonawalla Fincorp,https://www.fidcindia.org.in/wp-content/uploads/2026/07/FIDC-22ND-ANNUAL-REPORT-2025-26.pdf
+FIDC,independent,Vidushi Gupta,Independent Director,,https://www.fidcindia.org.in/wp-content/uploads/2026/07/FIDC-22ND-ANNUAL-REPORT-2025-26.pdf
+FIDC,independent,Madhav Nair,Independent Director,,https://www.fidcindia.org.in/wp-content/uploads/2026/07/FIDC-22ND-ANNUAL-REPORT-2025-26.pdf
+FIDC,independent,Dr. Bhimraya Metri,Independent Director,,https://www.fidcindia.org.in/wp-content/uploads/2026/07/FIDC-22ND-ANNUAL-REPORT-2025-26.pdf
+FIDC,independent,Narendra Jadhav,Independent Director (resigned wef 2026-06-23),,https://www.fidcindia.org.in/wp-content/uploads/2026/07/FIDC-22ND-ANNUAL-REPORT-2025-26.pdf
+FIDC,advisory,Mohindar Kumar,Advisory Council,,https://www.fidcindia.org.in/wp-content/uploads/2026/07/FIDC-22ND-ANNUAL-REPORT-2025-26.pdf
+FIDC,advisory,M Narendra,Advisory Council,,https://www.fidcindia.org.in/wp-content/uploads/2026/07/FIDC-22ND-ANNUAL-REPORT-2025-26.pdf
+FIDC,advisory,Jiji Mammen,Advisory Council,ED - Sa-Dhan,https://www.fidcindia.org.in/wp-content/uploads/2026/07/FIDC-22ND-ANNUAL-REPORT-2025-26.pdf
+FIDC,advisory,T R Achha,Advisory Council,,https://www.fidcindia.org.in/wp-content/uploads/2026/07/FIDC-22ND-ANNUAL-REPORT-2025-26.pdf
+FIDC,advisory,Prem Kumar Arora,Advisory Council,,https://www.fidcindia.org.in/wp-content/uploads/2026/07/FIDC-22ND-ANNUAL-REPORT-2025-26.pdf
+FIDC,board,Narendra Jadhav,Independent Director (resigned wef 2026-06-23),,https://www.fidcindia.org.in/wp-content/uploads/2026/07/FIDC-22ND-ANNUAL-REPORT-2025-26.pdf
+FIDC,advisory,TR Achhna,Advisory Council,,https://www.fidcindia.org.in/wp-content/uploads/2026/07/FIDC-22ND-ANNUAL-REPORT-2025-26.pdf

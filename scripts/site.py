@@ -113,6 +113,7 @@ SROS = {
         ],
         "watch": [
             "Roster is a logo wall organised by region — no join/exit dates published.",
+            "Site text says 53 primary members (Mar 2025) but the logo wall shows 84 organisations — the extra tiles are likely associates; MFIN does not label them.",
             "Microfinance distress and RBI tightening make MFIN's enforcement record the one to watch for borrower-side harm.",
         ],
     },
