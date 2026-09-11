@@ -7,6 +7,56 @@ the source published them. Gaps are stated honestly.
 """
 
 WORK = {
+    "sahamati": {
+        "tagline": "Standards body of the account-aggregator ecosystem — now its RBI-recognised SRO",
+        "summary": (
+            "Sahamati (non-profit catalyst for the Account Aggregator rail since 2020; "
+            "recognised as the AA ecosystem's SRO on 5 June 2026) is the eighth and newest "
+            "entry in RBI's SRO register. Its 110 RE members span AAs, FIPs, FIUs and TSPs, "
+            "and it publishes operational dashboards no other SRO matches."
+        ),
+        "sections": [
+            {
+                "h": "What Sahamati is",
+                "prose": "Sahamati began in 2020 as a non-profit ecosystem catalyst for the Account Aggregator (AA) framework — the RBI-regulated consent-based data-sharing rail that lets customers pull their financial data (bank accounts, investments, GST, insurance) into any FIU app with revocable, purpose-bound consent. Spun out of iSPIRT's product-thought work, it coordinated AAs, FIPs, FIUs and TSPs for five years before the RBI\u2019s omnibus SRO framework gave it a formal home: recognised on 5 June 2026 as the SRO for the AA ecosystem.",
+            },
+            {
+                "h": "Membership",
+                "items": [
+                    "110 RE members listed in its Current RE Members directory (captured 2026-09-11) — the widest net of any new SRO: the eight licensed AAs plus FIPs (banks, AMCs, depositories), FIUs (lenders, wealth apps) and TSPs.",
+                    "Membership categories mirror AA-ecosystem roles rather than legal form — a design choice worth watching as RBI's SRO rules technically cover 'regulated entities'.",
+                ],
+            },
+            {
+                "h": "Published infrastructure",
+                "items": [
+                    "AA Usage Metrics & Industry Stats dashboards — volumes of consents, data requests and fulfilled requests across the network.",
+                    "Grievances Dashboard — complaint volumes and resolution rates, self-published by the industry body itself.",
+                    "AA APIs Health Dashboard and Central Registry status — operational transparency tools no other SRO runs.",
+                    "Certification and FIP-AA integration playbooks — de facto standards for onboarding data providers.",
+                ],
+            },
+            {
+                "h": "What to watch",
+                "items": [
+                    "Enforcement record: dashboards show volumes, but no public disciplinary actions yet — the shift from catalyst to regulator is untested.",
+                    "Scope question: TSPs are not RBI-regulated entities; how an SRO recognised under the omnibus framework governs them remains to be seen.",
+                    "Conflict optics: Sahamati both promotes AA adoption and polices it — the dual hat the omnibus rules ask SROs to manage.",
+                ],
+            },
+        ],
+        "gaps": [
+            "No public disciplinary/enforcement log yet — dashboards show volumes, not actions.",
+            "Board, EC and conflict-of-interest disclosures are thinner than FACE's published governance.",
+            "Unclear how TSPs (not RBI-regulated) sit inside an omnibus-framework SRO.",
+        ],
+        "sources": [
+            ("Current RE Members", "https://sahamati.org.in/current-re-members/"),
+            ("Industry stats & dashboards", "https://sahamati.org.in/industry-stats/"),
+            ("SRO recognition (what-we-do)", "https://sahamati.org.in/what-we-do/sro/"),
+        ],
+    },
+
     "face": {
         "tagline": "Standards, oversight & dispute resolution for digital lending",
         "summary": (

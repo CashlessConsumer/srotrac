@@ -12,6 +12,7 @@ Base URL: https://srotrac.cashlessconsumer.in
 - [MFIN](https://srotrac.cashlessconsumer.in/sro-mfin.html): Microfinance Institutions Network — RBI recognition 2014-06-16; 84 listed members.
 - [Sa-Dhan](https://srotrac.cashlessconsumer.in/sro-sadhan.html): Sa-Dhan (Association of Community Development Finance Institutions) — RBI recognition 2015-03-11; no published roster.
 - [FEDAI](https://srotrac.cashlessconsumer.in/sro-fedai.html): Foreign Exchange Dealers' Association of India — RBI recognition 2026-01-14; 108 listed members.
+- [Sahamati](https://srotrac.cashlessconsumer.in/sro-sahamati.html): Sahamati — RBI recognition 2026-06-05; 110 listed members.
 
 ## Deep dives (what each SRO actually does)
 - [FACE work](https://srotrac.cashlessconsumer.in/work-face.html): Standards, oversight & dispute resolution for digital lending
@@ -21,6 +22,7 @@ Base URL: https://srotrac.cashlessconsumer.in
 - [MFIN work](https://srotrac.cashlessconsumer.in/work-mfin.html): The original SRO experiment: NBFC-MFIs since 16 June 2014
 - [Sa-Dhan work](https://srotrac.cashlessconsumer.in/work-sadhan.html): Community-development finance's SRO: standards since 2015
 - [FEDAI work](https://srotrac.cashlessconsumer.in/work-fedai.html): Authorised dealers' rulebook: 30 years of forex standards
+- [Sahamati work](https://srotrac.cashlessconsumer.in/work-sahamati.html): Standards body of the account-aggregator ecosystem — now its RBI-recognised SRO
 
 ## Cross-cutting pages
 - [All members](https://srotrac.cashlessconsumer.in/members.html): searchable 416-row roster with per-SRO filters.
@@ -36,6 +38,7 @@ Base URL: https://srotrac.cashlessconsumer.in
 - [fedai_members.csv](https://srotrac.cashlessconsumer.in/data/fedai_members.csv)
 - [leadership.csv](https://srotrac.cashlessconsumer.in/data/leadership.csv)
 - [mfin_members.csv](https://srotrac.cashlessconsumer.in/data/mfin_members.csv)
+- [sahamati_members.csv](https://srotrac.cashlessconsumer.in/data/sahamati_members.csv)
 - [sros.csv](https://srotrac.cashlessconsumer.in/data/sros.csv)
 - [srpa_members.csv](https://srotrac.cashlessconsumer.in/data/srpa_members.csv)
 - [uff_members.csv](https://srotrac.cashlessconsumer.in/data/uff_members.csv)

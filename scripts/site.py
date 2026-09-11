@@ -15,6 +15,7 @@ import re
 import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from work_content import WORK
+from entity_types import classify, TYPES, GROUP_ORDER
 from collections import defaultdict
 from datetime import date
 
@@ -159,6 +160,26 @@ SROS = {
         "watch": [
             "Has until Jan 2027 to align governance with the Omnibus SRO framework and extend membership to all AD categories.",
             "Website is a legacy frameset — public disclosure quality lags its new regulatory status.",
+        ],
+    },
+    "sahamati": {
+        "abbr": "Sahamati", "name": "Sahamati",
+        "sector": "Account Aggregator (AA) ecosystem — AAs, FIPs, FIUs, TSPs",
+        "order": "8", "recognised": "2026-06-05",
+        "website": "https://sahamati.org.in",
+        "members_site": "https://sahamati.org.in/current-re-members/",
+        "hq": "Mumbai (Section 8; founded 2019 as AA ecosystem collective)",
+        "cin": "",
+        "status": "Active SRO (AA ecosystem; 8th RBI-recognised SRO)",
+        "accent": "#7c2d92",
+        "consumer": [
+            "The 8th RBI-recognised SRO (5 Jun 2026) and the first for open finance — it governs the account aggregator network you may use to share bank statements with a lender or app.",
+            "110 ecosystem REs listed: account aggregators, banks/NBFCs as data providers (FIPs), data consumers (FIUs) and tech service providers — searchable in the members table.",
+            "For customers: Sahamati's dashboards track AA usage and grievances; if a fintech misuses your consented financial data, the AA framework is where accountability begins.",
+        ],
+        "watch": [
+            "Young SRO for a consent-based data ecosystem — watch how it handles complaints against FIUs and whether Fair Use rules get teeth.",
+            "Roster mixes differently-regulated entities (RBI banks, SEBI brokers, IRDAI insurers); cross-regulator discipline is its hardest test.",
         ],
     },
 }
@@ -333,7 +354,7 @@ def build_home(members, activity, overlap):
       <span class="stamp seal-in">RBI-Recognised × {len(SROS)}</span>
       <span class="stamp blue seal-in" style="animation-delay:.45s">{srofts} × SRO-FT</span>
     </div>
-    <p class="lede rise">RBI outsources first-line supervision of fintechs, NBFCs and payment operators to <strong>self-regulatory organisations</strong> — industry bodies with the power to write conduct codes and police their own members. SROTrac tracks who sits on these SROs, what they do, and whether they work for consumers. Scope: <strong>only the seven SROs recognised by RBI</strong> — industry bodies under SEBI, IRDAI or other regulators are out of scope.</p>
+    <p class="lede rise">RBI outsources first-line supervision of fintechs, NBFCs and payment operators to <strong>self-regulatory organisations</strong> — industry bodies with the power to write conduct codes and police their own members. SROTrac tracks who sits on these SROs, what they do, and whether they work for consumers. Scope: <strong>only the eight SROs recognised by RBI</strong> — industry bodies under SEBI, IRDAI or other regulators are out of scope.</p>
     <div class="stats rise">
       <div><strong>{len(SROS)}</strong><span>RBI-recognised SROs</span></div>
       <div><strong>{total}</strong><span>listed member orgs</span></div>
@@ -417,12 +438,15 @@ def build_sro(sid, members, activity, leadership):
         lead_html += "</tbody></table>"
     consumer_html = "".join(f"<li>{c}</li>" for c in s["consumer"])
     watch_html = "".join(f"<li>{c}</li>" for c in s["watch"])
-    typeline = " · ".join(f"{v} {k}" for k, v in sorted(types.items()))
+    ty_counts = defaultdict(int)
+    for m in mem:
+        ty_counts[classify(m["member_name"])[0]] += 1
+    typeline = " · ".join(f"{v} {TYPES[k][0]}" for k, v in sorted(ty_counts.items(), key=lambda x: -x[1])[:4])
     body = f"""
 <section class="sro-hero" style="--c:{s['accent']}">
   <div class="wrap">
     <p class="kicker">RBI-recognised SRO</p>
-    <h1>{esc(s['name'])} <span class="abbr-chip">{s['abbr']}</span></h1>
+    <h1>{esc(s['name'])}{'' if s['name'] == s['abbr'] else f' <span class="abbr-chip">{s["abbr"]}</span>'}</h1>
   <p class="work-jump"><a href="/work-{sid}.html">Deep-dive: what {s['abbr']} actually does &rarr;</a></p>
     <p class="lede">{esc(s['sector'])}</p>
     <div class="factbar">
@@ -465,36 +489,85 @@ def build_sro(sid, members, activity, leadership):
                 desc=f"{s['name']} ({s['abbr']}), the RBI-recognised SRO for {s['sector']}. Full member list, governance, activity and gaps — tracked by SROTrac.")
 
 
-def build_members(members):
+def org_table(members):
+    """Group member rows into unique organisations with SRO membership + entity type."""
     accents = {x["abbr"]: x["accent"] for x in SROS.values()}
-    payload = [
-        {"n": m["member_name"], "s": m["sro"].upper(), "t": m["member_type"] or "member", "w": m["website"],
-         "c": accents.get(m["sro"].upper(), "#57534e")}
-        for m in sorted(members, key=lambda x: (x["member_name"].lower(), x["sro"]))
-    ]
+    abbr_map = {x["abbr"].casefold(): x["abbr"] for x in SROS.values()}
+    orgs = {}
+    for m in members:
+        sro = abbr_map.get(m["sro"].strip().casefold(), m["sro"].strip().upper())
+        name = m["member_name"].strip()
+        o = orgs.setdefault(name, {"sros": [], "w": ""})
+        if sro not in o["sros"]:
+            o["sros"].append(sro)
+        if not o["w"] and m.get("website"):
+            o["w"] = m["website"]
+    etype_cache = {}
+    payload = []
+    for n, o in orgs.items():
+        if n not in etype_cache:
+            etype_cache[n] = classify(n)
+        ty, grp = etype_cache[n]
+        payload.append({
+            "n": n,
+            "s": sorted(o["sros"], key=lambda x: list(SROS_abbr_order()).index(x) if x in SROS_abbr_order() else 99),
+            "ty": ty,
+            "g": grp,
+            "t": TYPES[ty][0],
+            "c": {x: accents.get(x, "#57534e") for x in o["sros"]},
+            "w": o["w"],
+        })
+    payload.sort(key=lambda x: x["n"].lower())
+    return payload
+
+
+def SROS_abbr_order():
+    return [s["abbr"] for s in SROS.values()]
+
+
+def build_members(members):
+    payload = org_table(members)
+    ty_counts = defaultdict(int)
+    for r in payload:
+        ty_counts[r["ty"]] += 1
+    type_order = sorted(ty_counts, key=lambda t: (-ty_counts[t], TYPES[t][0]))
+    type_chips = "".join(
+        f'<button class="chip" data-ty="{esc(t)}">{esc(TYPES[t][0])} ({ty_counts[t]})</button>'
+        for t in type_order
+    )
+    sro_chips = "".join(
+        f'<button class="chip" data-sro="{esc(s["abbr"])}">{esc(s["abbr"])}</button>'
+        for s in SROS.values() if s["abbr"] in {r for p in payload for r in p["s"]}
+    )
     body = f"""
 <section class="hero slim">
   <div class="wrap">
     <h1>All members</h1>
-    <p class="lede">{len(members)} rows across FACE, UFF, SRPA, MFIN and FEDAI (FIDC and Sa-Dhan publish no roster). Filter by SRO or search by name.</p>
+    <p class="lede">{len(payload)} organisations across the six published rosters (FIDC and Sa-Dhan publish no public roster). One row per organisation — SRO badges show every register it appears in. Filter by SRO, entity type, or search by name.</p>
   </div>
 </section>
 <section class="wrap">
   <div class="filters">
     <input id="mq" type="search" placeholder="Search organisation…" autocomplete="off">
-    <div class="chips" id="chips">
-      <button class="chip active" data-f="ALL">All</button>
-      <button class="chip" data-f="FACE">FACE</button>
-      <button class="chip" data-f="UFF">UFF</button>
-      <button class="chip" data-f="SRPA">SRPA</button>
-      <button class="chip" data-f="MULTI">In 2+ SROs</button>
+    <div class="chips" id="srochips">
+      <span class="chip-label">SRO</span>
+      <button class="chip active" data-sro="ALL">All</button>
+      {sro_chips}
+      <button class="chip" data-sro="MULTI">In 2+ SROs</button>
+    </div>
+    <div class="chips" id="typechips">
+      <span class="chip-label">Type</span>
+      <button class="chip active" data-ty="ALL">All</button>
+      {type_chips}
     </div>
   </div>
   <p class="muted small" id="mcount"></p>
+  <div class="table-scroll">
   <table class="listing" id="mtable">
-    <thead><tr><th>Organisation</th><th>SRO</th><th>Type</th><th>Website</th></tr></thead>
+    <thead><tr><th>Organisation</th><th>Entity type</th><th>SROs</th><th>Website</th></tr></thead>
     <tbody id="mrows"></tbody>
   </table>
+  </div>
   <noscript><p>Enable JavaScript to browse the interactive table, or grab the raw CSVs on GitHub.</p></noscript>
 </section>
 <script id="member-data" type="application/json">{json.dumps(payload)}</script>"""
@@ -502,14 +575,34 @@ def build_members(members):
 
 
 def build_overlap(members, leadership):
-    orgs = defaultdict(set)
-    for m in members:
-        orgs[m["member_name"]].add(m["sro"])
-    multi = sorted(((n, sorted(s)) for n, s in orgs.items() if len(s) > 1), key=lambda x: x[0].lower())
+    payload = org_table(members)
+    abbrs = SROS_abbr_order()
+    # matrix
+    matrix = {a: {b: 0 for b in abbrs} for a in abbrs}
+    for r in payload:
+        ss = r["s"]
+        for a in ss:
+            for b in ss:
+                matrix[a][b] += 1
+    mrows = ""
+    for a in abbrs:
+        cells = ""
+        for b in abbrs:
+            v = matrix[a][b]
+            if a == b:
+                cells += f'<td class="mx-self">{v}</td>'
+            else:
+                link = f"/members.html#sro={a.lower()},{b.lower()}&multi=1" if v else ""
+                cells += (f'<td class="mx-cell{" mx-hot" if v else ""}">'
+                          + (f'<a href="{link}">{v}</a>' if v else "·") + "</td>")
+        mrows += f'<tr><th class="mx-row">{esc(a)}</th>{cells}</tr>'
+    head = "<tr><th></th>" + "".join(f'<th class="mx-col">{esc(a)}</th>' for a in abbrs) + "</tr>"
+    multi = [r for r in payload if len(r["s"]) > 1]
     rows = ""
-    for n, ss in multi:
-        badges = "".join(sro_badge(x.lower()) for x in ss)
-        rows += f"<tr><td>{esc(n)}</td><td>{badges}</td></tr>"
+    for r in multi:
+        badges = "".join(sro_badge(x.lower()) for x in r["s"])
+        ty = f'<span class="pill small">{esc(TYPES[r["ty"]][0])}</span>'
+        rows += f"<tr><td>{esc(r['n'])}</td><td>{ty}</td><td>{badges}</td></tr>"
     # people overlap: same person in two SROs' leadership
     people = defaultdict(set)
     for l in leadership:
@@ -529,8 +622,17 @@ def build_overlap(members, leadership):
   </div>
 </section>
 <section class="wrap">
+  <h2>Shared members matrix</h2>
+  <p class="muted small">Each cell counts organisations registered with <em>both</em> the row and column SRO. Click a cell to open those organisations in the members table.</p>
+  <div class="table-scroll">
+  <table class="listing matrix"><thead>{head}</thead><tbody>{mrows}</tbody></table>
+  </div>
+</section>
+<section class="wrap">
   <h2>Organisations in 2+ SROs ({len(multi)})</h2>
-  <table class="listing"><thead><tr><th>Organisation</th><th>SROs</th></tr></thead><tbody>{rows}</tbody></table>
+  <div class="table-scroll">
+  <table class="listing"><thead><tr><th>Organisation</th><th>Type</th><th>SROs</th></tr></thead><tbody>{rows}</tbody></table>
+  </div>
 </section>
 <section class="wrap">
   <h2>People in 2+ SROs</h2>
@@ -573,7 +675,6 @@ def build_timeline(activity):
 </section>"""
     return page("Timeline", "timeline.html", body)
 
-
 def build_activity(activity):
     counts = defaultdict(int)
     for a in activity:
@@ -598,6 +699,7 @@ def build_activity(activity):
 </section>
 <script id="activity-data" type="application/json">{json.dumps(payload)}</script>"""
     return page("Activity log", "activity.html", body)
+
 
 
 def build_work(sid):
@@ -641,13 +743,15 @@ def build_work(sid):
 def build_about(members, activity):
     faq = [
         ("Which SROs does India have?",
-         "The Reserve Bank of India has recognised seven self-regulatory organisations: FACE and UFF for fintech (SRO-FT framework), FIDC for NBFCs, SRPA for payment system operators, MFIN and Sa-Dhan for microfinance lenders, and FEDAI for authorised dealers in foreign exchange."),
+         "The Reserve Bank of India has recognised eight self-regulatory organisations: FACE and UFF for fintech (SRO-FT framework), FIDC for NBFCs, SRPA for payment system operators, MFIN and Sa-Dhan for microfinance lenders, FEDAI for authorised dealers in foreign exchange, and Sahamati for the account aggregator ecosystem."),
         ("Does SROTrac cover SEBI or IRDAI industry bodies?",
          "No. SROTrac tracks only RBI-recognised SROs. Bodies like AMFI (mutual funds) or the Insurance Institute are recognised by other regulators and are out of scope."),
         ("Is SROTrac affiliated with the RBI or any SRO?",
          "No. SROTrac is an independent project by CashlessConsumer, a consumer collective. It uses only publicly available sources: SRO websites, RBI press releases and dated news reports."),
+        ("Is Sahamati recognised by the RBI?",
+         "Yes. RBI recognised Sahamati as the SRO for the account aggregator (AA) ecosystem on 5 June 2026. Before recognition, Sahamati spent five years as the AA ecosystem's non-profit standards body (spun out of iSPIRT's work). Its directory lists 110 regulated entities across AAs, FIPs, FIUs and TSPs."),
         ("How many members do the SROs have?",
-         "As of the latest capture: FACE 85, UFF 121, SRPA 18, MFIN 84 and FEDAI 108 listed members — 416 rows across the seven SROs. FIDC and Sa-Dhan publish no public roster. Counts are floors, not filings: SRO member pages are marketing pages."),
+         "As of the latest capture: FACE 85, UFF 121, SRPA 18, MFIN 84, FEDAI 108 and Sahamati 110 listed members — 526 rows across the eight SROs. FIDC and Sa-Dhan publish no public roster. Counts are floors, not filings: SRO member pages are marketing pages."),
         ("Can I reuse the data?",
          "Yes. Data is licensed CC BY 4.0 — copy, remix and republish with attribution to SROTrac / CashlessConsumer. The CSVs are linked on the members page and in the GitHub repo."),
     ]
@@ -664,7 +768,7 @@ def build_about(members, activity):
 </div></section>
 <section class="wrap"><div class="callout">
     <h2>Scope: RBI&rsquo;s SROs only</h2>
-    <p>India has several self-regulatory bodies across financial regulators. SROTrac tracks only the seven recognised by the <strong>Reserve Bank of India</strong>: the two SRO-FTs (FACE, UFF), FIDC (NBFCs), SRPA (payment operators), MFIN and Sa-Dhan (microfinance), and FEDAI (authorised dealers). Bodies under other regulators — e.g. AMFI and IIFL under SEBI, the Insurance Institute under IRDAI — are not covered here, however senior their profiles.</p>
+    <p>India has several self-regulatory bodies across financial regulators. SROTrac tracks only the eight recognised by the <strong>Reserve Bank of India</strong>: the two SRO-FTs (FACE, UFF), FIDC (NBFCs), SRPA (payment operators), MFIN and Sa-Dhan (microfinance), FEDAI (authorised dealers), and Sahamati (Account Aggregator ecosystem). Bodies under other regulators — e.g. AMFI and IIFL under SEBI, the Insurance Institute under IRDAI — are not covered here, however senior their profiles.</p>
   </div></section>
 <section class="wrap">
   </section>
@@ -966,8 +1070,8 @@ tbody tr:hover{background:var(--paper-hi)}
 @media(max-width:460px){.sro-grid{grid-template-columns:1fr}}
 """
 
-JS = """// SROTrac: nav helpers + members/activity filtering
-var SRO_KEYS = ["FACE", "UFF", "FIDC", "SRPA", "MFIN", "Sa-Dhan", "FEDAI"];
+JS = r"""/// SROTrac: nav helpers + members/activity filtering
+var SRO_KEYS = ["FACE", "UFF", "FIDC", "SRPA", "MFIN", "Sa-Dhan", "FEDAI", "Sahamati"];
 (function(){
   // highlight current page
   function normPath(p){ return (p.length > 1 && p.charAt(p.length-1) === '/') ? p.slice(0, -1) : p; }
@@ -1001,33 +1105,88 @@ var SRO_KEYS = ["FACE", "UFF", "FIDC", "SRPA", "MFIN", "Sa-Dhan", "FEDAI"];
     });
   }
 
-  // Members page
+  // Members page: org-grouped rows, multi-select SRO + type chips, URL-hash state
   var dataEl = document.getElementById('member-data');
   if (dataEl){
     var members = JSON.parse(dataEl.textContent);
     var rowsEl = document.getElementById('mrows');
     var countEl = document.getElementById('mcount');
-    var q = '', f = 'ALL';
-    var countByOrg = {};
-    members.forEach(function(m){ countByOrg[m.n] = (countByOrg[m.n]||0)+1; });
+    var q = '', sroSel = new Set(), tySel = new Set(), multi = false;
+
+    function parseHash(){
+      var h = location.hash.replace(/^#/, '');
+      if (!h){ q=''; sroSel.clear(); tySel.clear(); multi=false; return; }
+      var parts = {};
+      h.split('&').forEach(function(kv){ var p = kv.split('='); parts[p[0]] = decodeURIComponent(p[1]||''); });
+      q = parts.q || '';
+      sroSel = new Set((parts.sro||'').split(',').filter(Boolean).map(function(v){
+        var k = v.toLowerCase();
+        var hit = SRO_KEYS.filter(function(K){ return K.toLowerCase() === k; })[0];
+        return hit || v;
+      }));
+      tySel = new Set((parts.ty||'').split(',').filter(Boolean));
+      multi = parts.multi === '1';
+      var iq = document.getElementById('mq'); if (iq) iq.value = q;
+    }
+    function writeHash(){
+      var h = [];
+      if (q) h.push('q='+encodeURIComponent(q));
+      if (sroSel.size) h.push('sro='+Array.from(sroSel).join(','));
+      if (tySel.size) h.push('ty='+Array.from(tySel).join(','));
+      if (multi) h.push('multi=1');
+      var newHash = h.length ? '#'+h.join('&') : '';
+      if (location.hash !== newHash) history.replaceState(null, '', location.pathname + newHash);
+    }
+    function syncChips(){
+      document.querySelectorAll('#srochips .chip').forEach(function(c){
+        var v = c.dataset.sro;
+        c.classList.toggle('active',
+          v === 'MULTI' ? multi : (v === 'ALL' ? sroSel.size===0 && !multi : sroSel.has(v)));
+      });
+      document.querySelectorAll('#typechips .chip').forEach(function(c){
+        var v = c.dataset.ty;
+        c.classList.toggle('active', v === 'ALL' ? tySel.size===0 : tySel.has(v));
+      });
+    }
+    function match(m){
+      if (multi && m.s.length < 2) return false;
+      if (sroSel.size && !m.s.some(function(x){ return sroSel.has(x) || sroSel.has(x.toLowerCase()); })) return false;
+      if (tySel.size && !tySel.has(m.ty)) return false;
+      if (q && m.n.toLowerCase().indexOf(q.toLowerCase()) === -1) return false;
+      return true;
+    }
     function render(){
       var out = '', shown = 0;
-      var needle = q.toLowerCase();
       members.forEach(function(m){
-        if (f === 'MULTI' && countByOrg[m.n] < 2) return;
-        if (f !== 'ALL' && f !== 'MULTI' && m.s !== f) return;
-        if (needle && m.n.toLowerCase().indexOf(needle) === -1) return;
+        if (!match(m)) return;
         shown++;
-        out += '<tr><td>'+m.n+'</td><td><span class="badge" style="--c:'+m.c+'">'+m.s+'</span></td>'+
-               '<td><span class="pill small">'+m.t+'</span></td>'+
-               '<td class="linkcell"><a href="'+m.w+'" rel="noopener">'+m.w.replace(/^https?:\\/\\//,'')+'</a></td></tr>';
+        var badges = m.s.map(function(x){
+          return '<a class="badge" style="--c:'+(m.c[x]||'#57534e')+'" href="/sro-'+x.toLowerCase().replace(' ','-')+'.html">'+x+'</a>';
+        }).join(' ');
+        var link = m.w ? '<a href="'+m.w+'" rel="noopener">'+m.w.replace(/^https?:\/\//,'')+'</a>' : '<span class="muted">—</span>';
+        out += '<tr><td>'+m.n+'</td><td><span class="pill small">'+m.t+'</span></td><td>'+badges+'</td><td class="linkcell">'+link+'</td></tr>';
       });
       rowsEl.innerHTML = out || '<tr><td colspan="4">No matches.</td></tr>';
-      countEl.textContent = shown + ' of ' + members.length + ' rows shown';
+      countEl.textContent = shown + ' of ' + members.length + ' organisations shown';
     }
-    document.getElementById('mq').addEventListener('input', function(e){ q = e.target.value; render(); });
-    chipFilter('#chips', function(v){ f = v; render(); });
-    render();
+    document.getElementById('mq').addEventListener('input', function(e){ q = e.target.value; writeHash(); render(); });
+    document.querySelector('#srochips').addEventListener('click', function(e){
+      var b = e.target.closest('.chip'); if (!b) return;
+      var v = b.dataset.sro;
+      if (v === 'ALL'){ sroSel.clear(); multi = false; }
+      else if (v === 'MULTI'){ multi = !multi; }
+      else { sroSel.has(v) ? sroSel.delete(v) : sroSel.add(v); }
+      writeHash(); syncChips(); render();
+    });
+    document.querySelector('#typechips').addEventListener('click', function(e){
+      var b = e.target.closest('.chip'); if (!b) return;
+      var v = b.dataset.ty;
+      if (v === 'ALL'){ tySel.clear(); }
+      else { tySel.has(v) ? tySel.delete(v) : tySel.add(v); }
+      writeHash(); syncChips(); render();
+    });
+    window.addEventListener('hashchange', function(){ parseHash(); syncChips(); render(); });
+    parseHash(); syncChips(); render();
   }
 
   // Activity page
@@ -1042,7 +1201,7 @@ var SRO_KEYS = ["FACE", "UFF", "FIDC", "SRPA", "MFIN", "Sa-Dhan", "FEDAI"];
         if (f2 !== 'ALL' && a.t !== f2) return;
         var sl = a.s.toLowerCase();
         var badge = SRO_KEYS.indexOf(a.s) >= 0
-          ? '<a class="badge" href="/sro-'+sl+'.html">'+a.s+'</a>'
+          ? '<a class="badge" href="/sro-'+sl.replace(/\s+/g,'-')+'.html">'+a.s+'</a>'
           : '<span class="badge">RBI</span>';
         out += '<div class="card"><p class="meta"><span class="date">'+a.d+'</span> '+badge+
                ' <span class="pill small">'+a.t+'</span></p><h3><a href="'+a.u+'" rel="noopener">'+a.h+'</a></h3><p>'+a.x+'</p></div>';
@@ -1053,8 +1212,6 @@ var SRO_KEYS = ["FACE", "UFF", "FIDC", "SRPA", "MFIN", "Sa-Dhan", "FEDAI"];
     render2();
   }
 })();
-
-/** mobile: nav drop opens on tap via .open class (handled above) */
 """
 
 

@@ -2,7 +2,7 @@
 
 _Generated 2026-09-11 by `scripts/build.py`. Do not hand-edit._
 
-India's RBI-recognised self-regulatory organisations in payments and fintech. **FACE** and the **Unified Fintech Forum** are the two SRO-FTs; **SRPA** (payment system operators) and **FIDC** (NBFCs) are included for context.
+India's eight RBI-recognised self-regulatory organisations. **FACE** and the **Unified Fintech Forum** are the two SRO-FTs (fintech); the register also covers **SRPA** (payment system operators), **FIDC** (NBFCs), **MFIN** and **Sa-Dhan** (NBFC-MFIs), **FEDAI** (authorised dealers in forex) and **Sahamati** (account aggregator ecosystem). FIDC and Sa-Dhan publish no member roster.
 
 ## Totals
 
@@ -15,12 +15,14 @@ India's RBI-recognised self-regulatory organisations in payments and fintech. **
 | MFIN | microfinance | active | 84 |
 | Sa-Dhan | microfinance | active | not published |
 | FEDAI | forex | active | 108 |
+| Sahamati | account aggregator / open finance | active | 110 |
 
 ## Organisations in more than one SRO
 
+- AU Small Finance Bank Limited — FEDAI, Sahamati
 - Apollo Finvest — FACE, UFF
 - Aspire — FACE, UFF
-- Bank of Baroda — FEDAI, UFF
+- Bank of Baroda — FEDAI, Sahamati, UFF
 - BharatPe — FACE, UFF
 - Branch — FACE, UFF
 - Bureau — FACE, UFF
@@ -28,8 +30,13 @@ India's RBI-recognised self-regulatory organisations in payments and fintech. **
 - CRED — SRPA, UFF
 - Decentro — FACE, UFF
 - GetVantage — FACE, UFF
+- HDFC Bank Limited — FEDAI, Sahamati
 - HyperVerge — FACE, UFF
+- ICICI Bank — MFIN, Sahamati
+- IDFC FIRST Bank Limited — FEDAI, Sahamati
 - InCred — FACE, UFF
+- IndusInd Bank Limited — FEDAI, Sahamati
+- Kotak Mahindra Bank Limited — FEDAI, Sahamati
 - KreditBee — FACE, UFF
 - Light Microfinance — MFIN, UFF
 - MobiKwik — FACE, SRPA, UFF
@@ -40,10 +47,12 @@ India's RBI-recognised self-regulatory organisations in payments and fintech. **
 - Perfios — FACE, UFF
 - PhonePe — FACE, SRPA
 - Progcap — FACE, UFF
+- Punjab National Bank — FEDAI, Sahamati
 - RBL Bank — MFIN, UFF
 - Razorpay — FACE, SRPA
 - Revfin — FACE, UFF
 - Saafe — FACE, UFF
+- Small Industries Development Bank of India — FEDAI, Sahamati
 - Spice Money — SRPA, UFF
 - True Balance — FACE, UFF
 - Uni — FACE, UFF
@@ -489,6 +498,121 @@ India's RBI-recognised self-regulatory organisations in payments and fintech. **
 | 106 | The Saraswat Co-operative Bank Limited |  | member |
 | 107 | Thomas Cook (India) Limited |  | member |
 | 108 | TJSB Sahakari Bank Limited |  | member |
+
+## Sahamati — 110 members
+
+| # | Member | Website | Type |
+|---|--------|---------|------|
+| 1 | Agya Technologies Private Limited | https://agya.co/ | member |
+| 2 | CAMS Financial Information Services Private Limited | https://camsfinserv.com/ | member |
+| 3 | Cookiejar Technologies Private Ltd (Finvu-AA) | https://finvu.in/ | member |
+| 4 | Cygnet Account Aggregation Private Limited | https://cygnet-aa.com/%20 | member |
+| 5 | Dashboard Account Aggregation Services Private Limited (Saafe) | https://saafe.in/ | member |
+| 6 | Digio Internet Private Limited | https://www.digio.link/ | member |
+| 7 | FinSec AA Solutions Private Limited (OneMoney) | https://www.onemoney.in/ | member |
+| 8 | INK (Unacores AA Solutions Private Limited) | https://ink-aa.com/ | member |
+| 9 | NESL Asset Data Limited (NADL) | https://www.nadl.co.in/ | member |
+| 10 | OMS Fintech Account Aggregator PVT LTD | https://www.omsaa.com/ | member |
+| 11 | PB Financial Account Aggregators Pvt Ltd | https://www.pbfintechaa.com/account-aggregator/home | member |
+| 12 | Perfios Account Aggregation Services Pvt. Ltd. (Anumati) | https://www.anumati.co.in/ | member |
+| 13 | Protean Suraksha AA | https://www.proteantech.in/ | member |
+| 14 | Scoreme Account Aggregation Solutions Private Limited | https://www.scoremeaa.com/ | member |
+| 15 | Tally Account Aggregator Services Private Limited | https://tallyedge.com/home | member |
+| 16 | Upmint Solutions Private Limited | https://www.upmintaa.com/ | member |
+| 17 | Kfin Technologies Limited | https://loksuvidha.com/ | member |
+| 18 | Si Creva Capital Services Private Limited | https://sicrevacapital.com/ | member |
+| 19 | YES BANK LIMITED | https://www.yes.bank.in/ | member |
+| 20 | 121 Finance Pvt ltd | https://121finance.com/ | member |
+| 21 | Abakkus Asset Manager Private Limited | http://www.abakkusinvest.com | member |
+| 22 | Aditya Birla Capital Digital Limited | https://www.adityabirlacapital.com/ | member |
+| 23 | Aditya Birla Capital Limited | https://www.adityabirlacapital.com/ | member |
+| 24 | Aditya Birla Health Insurance Co Ltd | https://www.adityabirlacapital.com/healthinsurance/homepage | member |
+| 25 | Aditya Birla Housing Finance Limited | https://homefinance.adityabirlacapital.com/ | member |
+| 26 | Aditya Birla Money Limited | https://stocksandsecurities.adityabirlacapital.com/ | member |
+| 27 | Aditya Birla Sun Life AMC | https://mutualfund.adityabirlacapital.com | member |
+| 28 | Aditya Birla Sun Life Insurance Company | https://lifeinsurance.adityabirlacapital.com/ | member |
+| 29 | ADJ Utility Apps Private Limited | https://khatabook.com/ | member |
+| 30 | Angel One Ltd. | https://www.angelone.in/ | member |
+| 31 | AU Small Finance Bank Limited | https://www.aubank.in/ | member |
+| 32 | Axis Bank Limited | https://www.axis.bank.in/ | member |
+| 33 | Axis Finance Limited | https://www.axisfinance.in/ | member |
+| 34 | Axis Mutual Fund | https://www.axismf.com/ | member |
+| 35 | Axis Securities Ltd | https://simplehai.axisdirect.in/ | member |
+| 36 | Bajaj Finance Limited | https://www.bajajgroup.company/core-companies/bajaj-finance-limited/ | member |
+| 37 | Bajaj Finserv Asset Management Limited | https://www.bajajamc.com/ | member |
+| 38 | Bajaj Finserv Direct Limited | https://www.bajajfinservmarkets.in | member |
+| 39 | Bajaj Housing Finance Limited | https://www.bajajhousingfinance.in/ | member |
+| 40 | Bajaj Life Insurance Limited | https://www.bajajlifeinsurance.com/ | member |
+| 41 | Bandhan Life Insurance Limited | https://www.bandhanlife.com/ | member |
+| 42 | Bank of Baroda | https://bankofbaroda.bank.in/ | member |
+| 43 | Capitalmind Asset Management Private Limited | https://www.capitalmind.in/ | member |
+| 44 | Cars24 Financial Services Private Limited | https://www.loans24.co.in/ | member |
+| 45 | Central Depository Services (India) Limited (CDSL) | https://www.cdslindia.com/ | member |
+| 46 | Computer Age Management Services Limited (NPS) | https://www.camsonline.com/ | member |
+| 47 | CreditAccess Life Insurance Limited | https://creditaccesslife.in | member |
+| 48 | CredRight Finance Private Limited | https://www.credrightfinance.com/ | member |
+| 49 | Crest Capital Management Private Limited | https://www.crest-capital.com | member |
+| 50 | Dezerv Investments Private Limited | https://www.dezerv.in/ | member |
+| 51 | DMI Finance Private Limited | https://www.dmifinance.in/ | member |
+| 52 | Dreamplug Advisory Solutions Private Limited | https://cred.money | member |
+| 53 | Earlysalary Services Private Limited (Fibe) | https://earlysalary.in/ | member |
+| 54 | ECL Finance Limited | https://www.eclf.com/ | member |
+| 55 | Epifi Wealth Private Ltd. | https://fi.money/ | member |
+| 56 | Federal Bank | https://www.federalbank.co.in/ | member |
+| 57 | Fee Only Investment Advisers LLP | https://feeonlyinvestmentadvisers.com/ | member |
+| 58 | Finny | https://finny.club/ | member |
+| 59 | Finodaya Capital Private Limited | https://finodayacapital.com/ | member |
+| 60 | Finteller Advisors Private Limited | https://goalteller.com/ | member |
+| 61 | Finuture Technologies Private Limited | https://www.folo.one/ | member |
+| 62 | Finwiser | https://www.finwiser.org | member |
+| 63 | Gromor Finance Private Limited | https://gromor.in/ | member |
+| 64 | HDB Financial Services Ltd | https://www.hdbfs.com/ | member |
+| 65 | HDFC Asset Management Company Ltd | https://www.hdfcfund.com/ | member |
+| 66 | HDFC Bank Limited | https://www.hdfc.bank.in/ | member |
+| 67 | HDFC Securities | https://hdfcsky.com/ | member |
+| 68 | ICICI Bank | https://www.icicibank.com/ | member |
+| 69 | IDFC FIRST Bank Limited | https://www.idfcfirstbank.com/ | member |
+| 70 | INCRED WEALTH AND INVESTMENT SERVICES PRIVATE LIMITED | https://www.incredwealth.com/ | member |
+| 71 | Indifi Capital Private Limited | https://www.indificapital.com/ | member |
+| 72 | INDstocks Private Limited | https://www.indmoney.com/ | member |
+| 73 | IndusInd Bank Limited | https://www.indusind.bank.in/ | member |
+| 74 | Innofin Solutions Pvt. Ltd | https://www.innofin.in/ | member |
+| 75 | Invsify Technologies Private Limited | https://invsify.com/ | member |
+| 76 | Jio BlackRock Investment Advisers Private Limited | http://jioblackrock.com | member |
+| 77 | Jio Finance Platform and Service Limited | https://www.jiofinance.in/ | member |
+| 78 | Karat Capital Advisors Private Limited | https://www.karatcapital.com | member |
+| 79 | Kisetsu Saison Finance ( India ) Private Limited (Credit Saison India) | https://creditsaison.in/ | member |
+| 80 | Kotak Mahindra Bank Limited | http://www.kotak.bank.in/ | member |
+| 81 | Kotak Mahindra Prime Limited | https://www.primeloans.kotak.com/ | member |
+| 82 | Krazybee Services Private Limited | https://www.kbnbfc.in/ | member |
+| 83 | L & T Finance Limited | https://www.ltfinance.com/ | member |
+| 84 | Lok Suvidha Finance Limited | https://loksuvidha.com | member |
+| 85 | Lunchbrake Classic Private Limited | https://fold.money/ | member |
+| 86 | MobiKwik Investment Adviser Private Limited | https://www.mobikwik.com/ | member |
+| 87 | NABARD | https://www.nabard.org/ | member |
+| 88 | Narendra Finance Co Pvt Ltd | https://nfcpl.in/ | member |
+| 89 | Navi Finserv Limited | https://navi.com/finserv | member |
+| 90 | NAVI INVESTMENT ADVISORS PRIVATE LIMITED | https://navi.com/niapl | member |
+| 91 | NSDL | https://nsdl.co.in/ | member |
+| 92 | Paisabazaar Marketing and Consulting Private Limited | https://www.paisabazaar.com/ | member |
+| 93 | Pivot Money | https://www.pivotmoney.app/ | member |
+| 94 | Protean eGovernance Technologies Limited | https://www.proteantech.in/ | member |
+| 95 | Punjab National Bank | https://pnb.bank.in/ | member |
+| 96 | Raise Financial Services ( Formerly known as Moneylicious Securities Pvt. Ltd.) | https://dhan.co/about/ | member |
+| 97 | SBI Mutual Fund | https://www.sbimf.com/ | member |
+| 98 | Small Industries Development Bank of India | http://www.sidbi.in/ | member |
+| 99 | State Bank Of India | https://sbi.bank.in/ | member |
+| 100 | STK Credit Private Limited (Inprime Finserv) | https://inprime.in/ | member |
+| 101 | TATA Capital Housing Finance Limited | https://www.tatacapital.com/ | member |
+| 102 | Tata Capital Limited | https://www.tatacapital.com/ | member |
+| 103 | The South Indian Bank Ltd | https://www.southindianbank.com/ | member |
+| 104 | Transwarranty Finance Limited | https://www.transwarranty.com%20,%20 | member |
+| 105 | Ugro Capital Ltd | https://www.ugrocapital.com/ | member |
+| 106 | Ujjivan Small Finance Bank | https://www.ujjivansfb.in/ | member |
+| 107 | Unifinz Capital India Limited | https://www.lendingplate.com/ | member |
+| 108 | Upstox | https://upstox.com/ | member |
+| 109 | Vivifi India Finance | https://www.vivifin.com/ | member |
+| 110 | Zerodha Broking Ltd | https://zerodha.com/ | member |
 
 ## Caveats
 

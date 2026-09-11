@@ -28,7 +28,7 @@ What makes UFF interesting on paper: its board carries heavyweight independent d
 
 Seven RBI-recognised SROs, spanning microfinance (2014 origin), fintech, NBFCs, payments and now the forex market. Two patterns worth a consumer's attention:
 
-1. **Publication asymmetry.** Three of seven publish full rosters with member websites. FIDC and Sa-Dhan — between them covering most of India's NBFC and MFI lending — publish none. A consumer cannot check whether their lender answers to an SRO unless the SRO says who its members are.
+1. **Publication asymmetry.** Six of eight publish full rosters (FACE, UFF, SRPA, MFIN, FEDAI and now Sahamati) with member websites. FIDC and Sa-Dhan — between them covering most of India's NBFC and MFI lending — publish none. A consumer cannot check whether their lender answers to an SRO unless the SRO says who its members are.
 2. **Transition debt.** FEDAI has until January 2027 to align with the Omnibus SRO framework. SRPA's public face remains a one-page site with no code of conduct published. Recognition is the start of the accountability story, not the end.
 
 ## Why we built SROTrac

@@ -6,14 +6,14 @@ Source: https://srotrac.cashlessconsumer.in (CC BY 4.0). One section per page.
 Register of RBI-recognised self-regulatory organisations · India 
  Who watches India’s fintech watchdogs ? 
 
- RBI-Recognised × 7 
+ RBI-Recognised × 8 
  2 × SRO-FT 
 
- RBI outsources first-line supervision of fintechs, NBFCs and payment operators to self-regulatory organisations — industry bodies with the power to write conduct codes and police their own members. SROTrac tracks who sits on these SROs, what they do, and whether they work for consumers. Scope: only the seven SROs recognised by RBI — industry bodies under SEBI, IRDAI or other regulators are out of scope. 
+ RBI outsources first-line supervision of fintechs, NBFCs and payment operators to self-regulatory organisations — industry bodies with the power to write conduct codes and police their own members. SROTrac tracks who sits on these SROs, what they do, and whether they work for consumers. Scope: only the eight SROs recognised by RBI — industry bodies under SEBI, IRDAI or other regulators are out of scope. 
 
- 7 RBI-recognised SROs 
- 416 listed member orgs 
- 30 in 2+ SROs 
+ 8 RBI-recognised SROs 
+ 526 listed member orgs 
+ 38 in 2+ SROs 
  2 fintech SRO-FTs 
 
  The register 
@@ -54,6 +54,11 @@ Register of RBI-recognised self-regulatory organisations · India
  Authorised Dealers in foreign exchange (banks + FEMA-authorised entities) 
  Recognised 14 Jan 2026 · 108 listed members 
 
+ Active SRO (AA ecosystem; 8th RBI-recognised SRO) 
+ Sahamati 
+ Account Aggregator (AA) ecosystem — AAs, FIPs, FIUs, TSPs 
+ Recognised 05 Jun 2026 · 110 listed members 
+
  What is an SRO, in plain words? 
  RBI can't directly supervise thousands of fintechs, NBFCs and payment companies. So it recognises industry associations as self-regulatory organisations — with a contract: broad membership, independent boards, codes of conduct, monitoring of member compliance, and grievance redress. In return the regulator gets a first line of supervision, and the industry gets a single voice. 
  For consumers, the SRO is one more place to escalate when a lender or payment company misbehaves — but only if the SRO actually enforces. That is what this tracker watches: rosters, governance, consultations, enforcement, and the gaps in between. 
@@ -84,15 +89,18 @@ Register of RBI-recognised self-regulatory organisations · India
 
 ## members — https://srotrac.cashlessconsumer.in/members.html
 All members 
- 416 rows across FACE, UFF, SRPA, MFIN and FEDAI (FIDC and Sa-Dhan publish no roster). Filter by SRO or search by name. 
+ 486 organisations across the six published rosters (FIDC and Sa-Dhan publish no public roster). One row per organisation — SRO badges show every register it appears in. Filter by SRO, entity type, or search by name. 
 
+ SRO 
  All 
- FACE 
- UFF 
- SRPA 
+ FACE UFF SRPA MFIN FEDAI Sahamati 
  In 2+ SROs 
 
- Organisation SRO Type Website 
+ Type 
+ All 
+ NBFC (106) Bank (96) Fintech / LSP (73) Tech / TSP (47) NBFC-MFI (31) Payments / PSO (28) Investments / Wealth (19) Other / Services (17) Small Finance Bank (16) Account Aggregator (11) Securities Broker (10) Cooperative Bank (9) AMC / Mutual Fund (6) Insurer (5) Credit Bureau (3) Housing Finance (3) Development FI (2) Forex / Remittance (2) Market Infrastructure (2) 
+
+ Organisation Entity type SROs Website 
 
  Enable JavaScript to browse the interactive table, or grab the raw CSVs on GitHub.
 
@@ -101,8 +109,14 @@ All members
 Cross-SRO overlap 
  Companies (and people) sitting in more than one self-regulatory organisation. Useful for spotting conflicts of interest and coordinated lobbying. 
 
- Organisations in 2+ SROs (30) 
- Organisation SROs Apollo Finvest FACE UFF Aspire FACE UFF Bank of Baroda FEDAI UFF BharatPe FACE UFF Branch FACE UFF Bureau FACE UFF CADRE FACE UFF CRED SRPA UFF Decentro FACE UFF GetVantage FACE UFF HyperVerge FACE UFF InCred FACE UFF KreditBee FACE UFF Light Microfinance MFIN UFF MobiKwik FACE SRPA UFF Moneyview FACE UFF Northern Arc FACE UFF Paisabazaar FACE UFF Paytm FACE UFF Perfios FACE UFF PhonePe FACE SRPA Progcap FACE UFF Razorpay FACE SRPA RBL Bank MFIN UFF Revfin FACE UFF Saafe FACE UFF Spice Money SRPA UFF True Balance FACE UFF Uni FACE UFF Zeta FACE UFF 
+ Shared members matrix 
+ Each cell counts organisations registered with both the row and column SRO. Click a cell to open those organisations in the members table. 
+
+ FACE UFF FIDC SRPA MFIN Sa-Dhan FEDAI Sahamati FACE 85 23 · 3 · · · · UFF 23 121 · 3 2 · 1 1 FIDC · · 0 · · · · · SRPA 3 3 · 18 · · · · MFIN · 2 · · 84 · · 1 Sa-Dhan · · · · · 0 · · FEDAI · 1 · · · · 108 8 Sahamati · 1 · · 1 · 8 110 
+
+ Organisations in 2+ SROs (38) 
+
+ Organisation Type SROs Apollo Finvest NBFC FACE UFF Aspire Fintech / LSP FACE UFF AU Small Finance Bank Limited Small Finance Bank FEDAI Sahamati Bank of Baroda Bank UFF FEDAI Sahamati BharatPe Payments / PSO FACE UFF Branch Fintech / LSP FACE UFF Bureau Tech / TSP FACE UFF CADRE Other / Services FACE UFF CRED Fintech / LSP UFF SRPA Decentro Tech / TSP FACE UFF GetVantage Fintech / LSP FACE UFF HDFC Bank Limited Bank FEDAI Sahamati HyperVerge Tech / TSP FACE UFF ICICI Bank Bank MFIN Sahamati IDFC FIRST Bank Limited Bank FEDAI Sahamati InCred NBFC FACE UFF IndusInd Bank Limited Bank FEDAI Sahamati Kotak Mahindra Bank Limited Bank FEDAI Sahamati KreditBee Fintech / LSP FACE UFF Light Microfinance NBFC-MFI UFF MFIN MobiKwik Payments / PSO FACE UFF SRPA Moneyview Fintech / LSP FACE UFF Northern Arc NBFC FACE UFF Paisabazaar Fintech / LSP FACE UFF Paytm Payments / PSO FACE UFF Perfios Tech / TSP FACE UFF PhonePe Payments / PSO FACE SRPA Progcap Fintech / LSP FACE UFF Punjab National Bank Bank FEDAI Sahamati Razorpay Payments / PSO FACE SRPA RBL Bank Bank UFF MFIN Revfin Fintech / LSP FACE UFF Saafe Tech / TSP FACE UFF Small Industries Development Bank of India Bank FEDAI Sahamati Spice Money Payments / PSO UFF SRPA True Balance Payments / PSO FACE UFF Uni Fintech / LSP FACE UFF Zeta Tech / TSP FACE UFF 
 
  People in 2+ SROs 
  Person Roles Jiji Mammen FIDC: Advisory Council; Sa-Dhan: Executive Director & CEO N S Vishwanathan FIDC: Governing Council Member (Additional Director wef 2026-06-23); UFF: Independent Board Member Shachindra Nath FIDC: Governing Council Member; UFF: EC Member Sugandh Saxena FACE: CEO (first CEO; MFIN: Member Secretary 
@@ -231,7 +245,7 @@ About SROTrac
  An independent, open-data register of India's RBI-recognised self-regulatory organisations — built by CashlessConsumer, a consumer collective working on digital payments and fintech. Licensed CC BY 4.0 (data) and MIT (code). 
 
  Scope: RBI’s SROs only 
- India has several self-regulatory bodies across financial regulators. SROTrac tracks only the seven recognised by the Reserve Bank of India : the two SRO-FTs (FACE, UFF), FIDC (NBFCs), SRPA (payment operators), MFIN and Sa-Dhan (microfinance), and FEDAI (authorised dealers). Bodies under other regulators — e.g. AMFI and IIFL under SEBI, the Insurance Institute under IRDAI — are not covered here, however senior their profiles. 
+ India has several self-regulatory bodies across financial regulators. SROTrac tracks only the eight recognised by the Reserve Bank of India : the two SRO-FTs (FACE, UFF), FIDC (NBFCs), SRPA (payment operators), MFIN and Sa-Dhan (microfinance), FEDAI (authorised dealers), and Sahamati (Account Aggregator ecosystem). Bodies under other regulators — e.g. AMFI and IIFL under SEBI, the Insurance Institute under IRDAI — are not covered here, however senior their profiles. 
 
  Method 
 
@@ -249,7 +263,7 @@ About SROTrac
  Recognition ≠ effectiveness. An SRO can be fully compliant on paper and still never discipline a member. This tracker will log enforcement actions as they surface. 
 
  FAQ 
- Which SROs does India have? The Reserve Bank of India has recognised seven self-regulatory organisations: FACE and UFF for fintech (SRO-FT framework), FIDC for NBFCs, SRPA for payment system operators, MFIN and Sa-Dhan for microfinance lenders, and FEDAI for authorised dealers in foreign exchange. Does SROTrac cover SEBI or IRDAI industry bodies? No. SROTrac tracks only RBI-recognised SROs. Bodies like AMFI (mutual funds) or the Insurance Institute are recognised by other regulators and are out of scope. Is SROTrac affiliated with the RBI or any SRO? No. SROTrac is an independent project by CashlessConsumer, a consumer collective. It uses only publicly available sources: SRO websites, RBI press releases and dated news reports. How many members do the SROs have? As of the latest capture: FACE 85, UFF 121, SRPA 18, MFIN 84 and FEDAI 108 listed members — 416 rows across the seven SROs. FIDC and Sa-Dhan publish no public roster. Counts are floors, not filings: SRO member pages are marketing pages. Can I reuse the data? Yes. Data is licensed CC BY 4.0 — copy, remix and republish with attribution to SROTrac / CashlessConsumer. The CSVs are linked on the members page and in the GitHub repo. 
+ Which SROs does India have? The Reserve Bank of India has recognised eight self-regulatory organisations: FACE and UFF for fintech (SRO-FT framework), FIDC for NBFCs, SRPA for payment system operators, MFIN and Sa-Dhan for microfinance lenders, FEDAI for authorised dealers in foreign exchange, and Sahamati for the account aggregator ecosystem. Does SROTrac cover SEBI or IRDAI industry bodies? No. SROTrac tracks only RBI-recognised SROs. Bodies like AMFI (mutual funds) or the Insurance Institute are recognised by other regulators and are out of scope. Is SROTrac affiliated with the RBI or any SRO? No. SROTrac is an independent project by CashlessConsumer, a consumer collective. It uses only publicly available sources: SRO websites, RBI press releases and dated news reports. Is Sahamati recognised by the RBI? Yes. RBI recognised Sahamati as the SRO for the account aggregator (AA) ecosystem on 5 June 2026. Before recognition, Sahamati spent five years as the AA ecosystem's non-profit standards body (spun out of iSPIRT's work). Its directory lists 110 regulated entities across AAs, FIPs, FIUs and TSPs. How many members do the SROs have? As of the latest capture: FACE 85, UFF 121, SRPA 18, MFIN 84, FEDAI 108 and Sahamati 110 listed members — 526 rows across the eight SROs. FIDC and Sa-Dhan publish no public roster. Counts are floors, not filings: SRO member pages are marketing pages. Can I reuse the data? Yes. Data is licensed CC BY 4.0 — copy, remix and republish with attribution to SROTrac / CashlessConsumer. The CSVs are linked on the members page and in the GitHub repo. 
 
  License & reuse 
  Code: MIT. Data: CC BY 4.0 — copy, remix and republish with attribution to SROTrac / CashlessConsumer. 
@@ -267,7 +281,7 @@ RBI-recognised SRO
 
  Recognised 28 Aug 2024 
  Status Active SRO-FT 
- Listed members 85 (85 member) 
+ Listed members 85 (37 Fintech / LSP · 18 Tech / TSP · 13 Payments / PSO · 10 NBFC) 
  Site faceofindia.org 
 
  Why it matters if you borrow or pay 
@@ -310,7 +324,7 @@ RBI-recognised SRO
 
  Recognised 10 Sep 2026 
  Status Active SRO-FT (recognised at GFF 2026) 
- Listed members 121 (18 associate · 103 member) 
+ Listed members 121 (39 Fintech / LSP · 32 NBFC · 21 Tech / TSP · 13 Other / Services) 
  Site unifiedfintech.in 
 
  Why it matters if you borrow or pay 
@@ -395,7 +409,7 @@ RBI-recognised SRO
 
  Recognised 11 Nov 2025 
  Status Active SRO (PSO) 
- Listed members 18 (18 member) 
+ Listed members 18 (13 Payments / PSO · 2 Fintech / LSP · 2 Tech / TSP · 1 Forex / Remittance) 
  Site srpa.org.in 
 
  Why it matters if you borrow or pay 
@@ -438,7 +452,7 @@ RBI-recognised SRO
 
  Recognised 16 Jun 2014 
  Status Active SRO (microfinance; RBI letter 16 Jun 2014 — first SRO in this family) 
- Listed members 84 (84 member) 
+ Listed members 84 (34 NBFC · 31 NBFC-MFI · 9 Small Finance Bank · 8 Bank) 
  Site mfinindia.org 
 
  Why it matters if you borrow or pay 
@@ -523,7 +537,7 @@ RBI-recognised SRO
 
  Recognised 14 Jan 2026 
  Status Active SRO (FX; Omnibus framework; 1-yr transition to Jan 2027) 
- Listed members 108 (108 member) 
+ Listed members 108 (83 Bank · 9 Cooperative Bank · 6 Small Finance Bank · 5 Securities Broker) 
  Site www.fedai.org.in 
 
  Why it matters if you borrow or pay 
@@ -558,6 +572,49 @@ What FEDAI actually does
  Captured 2026-09-10–11 from FEDAI’s own site. Deep-dive under methodology · ← register entry
 
 
+## Sahamati register entry — https://srotrac.cashlessconsumer.in/sro-sahamati.html
+RBI-recognised SRO 
+ Sahamati 
+ Deep-dive: what Sahamati actually does → 
+ Account Aggregator (AA) ecosystem — AAs, FIPs, FIUs, TSPs 
+
+ Recognised 05 Jun 2026 
+ Status Active SRO (AA ecosystem; 8th RBI-recognised SRO) 
+ Listed members 110 (31 NBFC · 16 Investments / Wealth · 13 Bank · 12 Tech / TSP) 
+ Site sahamati.org.in 
+
+ Why it matters if you borrow or pay 
+ The 8th RBI-recognised SRO (5 Jun 2026) and the first for open finance — it governs the account aggregator network you may use to share bank statements with a lender or app. 110 ecosystem REs listed: account aggregators, banks/NBFCs as data providers (FIPs), data consumers (FIUs) and tech service providers — searchable in the members table. For customers: Sahamati's dashboards track AA usage and grievances; if a fintech misuses your consented financial data, the AA framework is where accountability begins. 
+
+ What we're watching 
+ Young SRO for a consent-based data ecosystem — watch how it handles complaints against FIUs and whether Fair Use rules get teeth. Roster mixes differently-regulated entities (RBI banks, SEBI brokers, IRDAI insurers); cross-regulator discipline is its hardest test. 
+
+ Governance 
+ No published governance page. 
+
+ Members (110) 
+
+ Organisation Type Website 
+ 121 Finance Pvt ltd member 121finance.com Abakkus Asset Manager Private Limited member www.abakkusinvest.com Aditya Birla Capital Digital Limited member www.adityabirlacapital.com Aditya Birla Capital Limited member www.adityabirlacapital.com Aditya Birla Health Insurance Co Ltd member www.adityabirlacapital.com/healthinsurance/homepage Aditya Birla Housing Finance Limited member homefinance.adityabirlacapital.com Aditya Birla Money Limited member stocksandsecurities.adityabirlacapital.com Aditya Birla Sun Life AMC member mutualfund.adityabirlacapital.com Aditya Birla Sun Life Insurance Company member lifeinsurance.adityabirlacapital.com ADJ Utility Apps Private Limited member khatabook.com Agya Technologies Private Limited member agya.co Angel One Ltd. member www.angelone.in AU Small Finance Bank Limited member www.aubank.in Axis Bank Limited member www.axis.bank.in Axis Finance Limited member www.axisfinance.in Axis Mutual Fund member www.axismf.com Axis Securities Ltd member simplehai.axisdirect.in Bajaj Finance Limited member www.bajajgroup.company/core-companies/bajaj-finance-limited Bajaj Finserv Asset Management Limited member www.bajajamc.com Bajaj Finserv Direct Limited member www.bajajfinservmarkets.in Bajaj Housing Finance Limited member www.bajajhousingfinance.in Bajaj Life Insurance Limited member www.bajajlifeinsurance.com Bandhan Life Insurance Limited member www.bandhanlife.com Bank of Baroda member bankofbaroda.bank.in CAMS Financial Information Services Private Limited member camsfinserv.com Capitalmind Asset Management Private Limited member www.capitalmind.in Cars24 Financial Services Private Limited member www.loans24.co.in Central Depository Services (India) Limited (CDSL) member www.cdslindia.com Computer Age Management Services Limited (NPS) member www.camsonline.com Cookiejar Technologies Private Ltd (Finvu-AA) member finvu.in CreditAccess Life Insurance Limited member creditaccesslife.in CredRight Finance Private Limited member www.credrightfinance.com Crest Capital Management Private Limited member www.crest-capital.com Cygnet Account Aggregation Private Limited member cygnet-aa.com/%20 Dashboard Account Aggregation Services Private Limited (Saafe) member saafe.in Dezerv Investments Private Limited member www.dezerv.in Digio Internet Private Limited member www.digio.link DMI Finance Private Limited member www.dmifinance.in Dreamplug Advisory Solutions Private Limited member cred.money Earlysalary Services Private Limited (Fibe) member earlysalary.in ECL Finance Limited member www.eclf.com Epifi Wealth Private Ltd. member fi.money Federal Bank member www.federalbank.co.in Fee Only Investment Advisers LLP member feeonlyinvestmentadvisers.com Finny member finny.club Finodaya Capital Private Limited member finodayacapital.com FinSec AA Solutions Private Limited (OneMoney) member www.onemoney.in Finteller Advisors Private Limited member goalteller.com Finuture Technologies Private Limited member www.folo.one Finwiser member www.finwiser.org Gromor Finance Private Limited member gromor.in HDB Financial Services Ltd member www.hdbfs.com HDFC Asset Management Company Ltd member www.hdfcfund.com HDFC Bank Limited member www.hdfc.bank.in HDFC Securities member hdfcsky.com ICICI Bank member www.icicibank.com IDFC FIRST Bank Limited member www.idfcfirstbank.com INCRED WEALTH AND INVESTMENT SERVICES PRIVATE LIMITED member www.incredwealth.com Indifi Capital Private Limited member www.indificapital.com INDstocks Private Limited member www.indmoney.com IndusInd Bank Limited member www.indusind.bank.in INK (Unacores AA Solutions Private Limited) member ink-aa.com Innofin Solutions Pvt. Ltd member www.innofin.in Invsify Technologies Private Limited member invsify.com Jio BlackRock Investment Advisers Private Limited member jioblackrock.com Jio Finance Platform and Service Limited member www.jiofinance.in Karat Capital Advisors Private Limited member www.karatcapital.com Kfin Technologies Limited member loksuvidha.com Kisetsu Saison Finance ( India ) Private Limited (Credit Saison India) member creditsaison.in Kotak Mahindra Bank Limited member www.kotak.bank.in Kotak Mahindra Prime Limited member www.primeloans.kotak.com Krazybee Services Private Limited member www.kbnbfc.in L & T Finance Limited member www.ltfinance.com Lok Suvidha Finance Limited member loksuvidha.com Lunchbrake Classic Private Limited member fold.money MobiKwik Investment Adviser Private Limited member www.mobikwik.com NABARD member www.nabard.org Narendra Finance Co Pvt Ltd member nfcpl.in Navi Finserv Limited member navi.com/finserv NAVI INVESTMENT ADVISORS PRIVATE LIMITED member navi.com/niapl NESL Asset Data Limited (NADL) member www.nadl.co.in NSDL member nsdl.co.in OMS Fintech Account Aggregator PVT LTD member www.omsaa.com Paisabazaar Marketing and Consulting Private Limited member www.paisabazaar.com PB Financial Account Aggregators Pvt Ltd member www.pbfintechaa.com/account-aggregator/home Perfios Account Aggregation Services Pvt. Ltd. (Anumati) member www.anumati.co.in Pivot Money member www.pivotmoney.app Protean eGovernance Technologies Limited member www.proteantech.in Protean Suraksha AA member www.proteantech.in Punjab National Bank member pnb.bank.in Raise Financial Services ( Formerly known as Moneylicious Securities Pvt. Ltd.) member dhan.co/about SBI Mutual Fund member www.sbimf.com Scoreme Account Aggregation Solutions Private Limited member www.scoremeaa.com Si Creva Capital Services Private Limited member sicrevacapital.com Small Industries Development Bank of India member www.sidbi.in State Bank Of India member sbi.bank.in STK Credit Private Limited (Inprime Finserv) member inprime.in Tally Account Aggregator Services Private Limited member tallyedge.com/home TATA Capital Housing Finance Limited member www.tatacapital.com Tata Capital Limited member www.tatacapital.com The South Indian Bank Ltd member www.southindianbank.com Transwarranty Finance Limited member www.transwarranty.com%20,%20 Ugro Capital Ltd member www.ugrocapital.com Ujjivan Small Finance Bank member www.ujjivansfb.in Unifinz Capital India Limited member www.lendingplate.com Upmint Solutions Private Limited member www.upmintaa.com Upstox member upstox.com Vivifi India Finance member www.vivifin.com YES BANK LIMITED member www.yes.bank.in Zerodha Broking Ltd member zerodha.com 
+
+ Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+
+ Activity 
+ No dated public activity captured yet.
+
+
+## Sahamati work deep-dive — https://srotrac.cashlessconsumer.in/work-sahamati.html
+What Sahamati actually does 
+ Sahamati Sahamati 
+ Standards body of the account-aggregator ecosystem — now its RBI-recognised SRO 
+
+ Sahamati (non-profit catalyst for the Account Aggregator rail since 2020; recognised as the AA ecosystem's SRO on 5 June 2026) is the eighth and newest entry in RBI's SRO register. Its 110 RE members span AAs, FIPs, FIUs and TSPs, and it publishes operational dashboards no other SRO matches. 
+ What Sahamati is Sahamati began in 2020 as a non-profit ecosystem catalyst for the Account Aggregator (AA) framework — the RBI-regulated consent-based data-sharing rail that lets customers pull their financial data (bank accounts, investments, GST, insurance) into any FIU app with revocable, purpose-bound consent. Spun out of iSPIRT's product-thought work, it coordinated AAs, FIPs, FIUs and TSPs for five years before the RBI’s omnibus SRO framework gave it a formal home: recognised on 5 June 2026 as the SRO for the AA ecosystem. Membership 110 RE members listed in its Current RE Members directory (captured 2026-09-11) — the widest net of any new SRO: the eight licensed AAs plus FIPs (banks, AMCs, depositories), FIUs (lenders, wealth apps) and TSPs. Membership categories mirror AA-ecosystem roles rather than legal form — a design choice worth watching as RBI's SRO rules technically cover 'regulated entities'. Published infrastructure AA Usage Metrics & Industry Stats dashboards — volumes of consents, data requests and fulfilled requests across the network. Grievances Dashboard — complaint volumes and resolution rates, self-published by the industry body itself. AA APIs Health Dashboard and Central Registry status — operational transparency tools no other SRO runs. Certification and FIP-AA integration playbooks — de facto standards for onboarding data providers. What to watch Enforcement record: dashboards show volumes, but no public disciplinary actions yet — the shift from catalyst to regulator is untested. Scope question: TSPs are not RBI-regulated entities; how an SRO recognised under the omnibus framework governs them remains to be seen. Conflict optics: Sahamati both promotes AA adoption and polices it — the dual hat the omnibus rules ask SROs to manage. 
+ Gaps & open questions No public disciplinary/enforcement log yet — dashboards show volumes, not actions. Board, EC and conflict-of-interest disclosures are thinner than FACE's published governance. Unclear how TSPs (not RBI-regulated) sit inside an omnibus-framework SRO. 
+ Sources Current RE Members Industry stats & dashboards SRO recognition (what-we-do) 
+ Captured 2026-09-10–11 from Sahamati’s own site. Deep-dive under methodology · ← register entry
+
+
 ## Blog post: 2026-09-11-srotrac-weekly-1 — https://srotrac.cashlessconsumer.in/blog/2026-09-11-srotrac-weekly-1.html
 ---
 title: "SROTrac Weekly #1 — UFF's licence, FEDAI's transition, and a tracker goes live"
@@ -589,7 +646,7 @@ What makes UFF interesting on paper: its board carries heavyweight independent d
 
 Seven RBI-recognised SROs, spanning microfinance (2014 origin), fintech, NBFCs, payments and now the forex market. Two patterns worth a consumer's attention:
 
-1. **Publication asymmetry.** Three of seven publish full rosters with member websites. FIDC and Sa-Dhan — between them covering most of India's NBFC and MFI lending — publish none. A consumer cannot check whether their lender answers to an SRO unless the SRO says who its members are.
+1. **Publication asymmetry.** Six of eight publish full rosters (FACE, UFF, SRPA, MFIN, FEDAI and now Sahamati) with member websites. FIDC and Sa-Dhan — between them covering most of India's NBFC and MFI lending — publish none. A consumer cannot check whether their lender answers to an SRO unless the SRO says who its members are.
 2. **Transition debt.** FEDAI has until January 2027 to align with the Omnibus SRO framework. SRPA's public face remains a one-page site with no code of conduct published. Recognition is the start of the accountability story, not the end.
 
 ## Why we built SROTrac

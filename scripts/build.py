@@ -388,6 +388,13 @@ SROS = [
         "recognition": "RBI-recognised SRO for all Authorised Dealers in foreign exchange (Omnibus framework; 1-yr transition to Jan 2027)",
         "recognised_date": "2026-01-14", "status": "active", "sector": "forex",
     },
+    {
+        "sro_id": "sahamati", "name": "Sahamati",
+        "abbr": "Sahamati", "website": "https://sahamati.org.in",
+        "nlp_site": "https://sahamati.org.in/current-re-members/",
+        "recognition": "RBI-recognised SRO for the Account Aggregator (AA) ecosystem (5 Jun 2026)",
+        "recognised_date": "2026-06-05", "status": "active", "sector": "account aggregator / open finance",
+    },
 ]
 
 # SROs whose full member roster is not published on the public site.
@@ -416,9 +423,11 @@ def write_members_md(rosters, sros):
         "",
         f"_Generated {today} by `scripts/build.py`. Do not hand-edit._",
         "",
-        "India's RBI-recognised self-regulatory organisations in payments and fintech. "
-        "**FACE** and the **Unified Fintech Forum** are the two SRO-FTs; **SRPA** (payment "
-        "system operators) and **FIDC** (NBFCs) are included for context.",
+        "India's eight RBI-recognised self-regulatory organisations. **FACE** and the "
+        "**Unified Fintech Forum** are the two SRO-FTs (fintech); the register also covers "
+        "**SRPA** (payment system operators), **FIDC** (NBFCs), **MFIN** and **Sa-Dhan** "
+        "(NBFC-MFIs), **FEDAI** (authorised dealers in forex) and **Sahamati** (account "
+        "aggregator ecosystem). FIDC and Sa-Dhan publish no member roster.",
         "",
         "## Totals",
         "",
@@ -471,19 +480,47 @@ def write_csv(path, rows, fields):
             w.writerow({k: r.get(k, "") for k in fields})
 
 
+def parse_sahamati():
+    """Sahamati roster: logo-card grid under 'Current RE Members' (name in <p>, url in <a>)."""
+    path = RAW / "sahamati_members.html"
+    if not path.exists():
+        return []
+    h = path.read_text(encoding="utf-8", errors="ignore")
+    marker = "Current RE Members</h1>"
+    if marker in h:
+        h = h[h.index(marker):]
+    items = re.findall(
+        r'<div class="logo-card-item">.*?<a href="([^"]+)".*?'
+        r'<div class="logo-card-item-cnt">\s*<p>(.*?)</p>',
+        h, re.S)
+    seen, rows = set(), []
+    for url, name in items:
+        name = html.unescape(" ".join(re.sub(r"<[^>]+>", " ", name).split()))
+        if len(name) < 4 or name.casefold() in seen:
+            continue
+        seen.add(name.casefold())
+        rows.append({
+            "sro": "Sahamati", "member_name": name,
+            "website": url.strip(), "member_type": "member", "logo_file": "",
+        })
+    return rows
+
+
 def main():
     face = parse_face()
     uff = parse_uff()
     srpa = parse_srpa()
     mfin = parse_mfin()
     fedai = parse_fedai()
-    rosters = {"FACE": face, "UFF": uff, "SRPA": srpa, "MFIN": mfin, "FEDAI": fedai}
+    sahamati = parse_sahamati()
+    rosters = {"FACE": face, "UFF": uff, "SRPA": srpa, "MFIN": mfin, "FEDAI": fedai, "Sahamati": sahamati}
 
     write_csv(OUT / "face_members.csv", face, ["sro", "member_name", "website", "member_type"])
     write_csv(OUT / "uff_members.csv", uff, ["sro", "member_name", "website", "member_type", "logo_file"])
     write_csv(OUT / "srpa_members.csv", srpa, ["sro", "member_name", "website", "member_type", "logo_file"])
     write_csv(OUT / "mfin_members.csv", mfin, ["sro", "member_name", "website", "member_type", "logo_file"])
     write_csv(OUT / "fedai_members.csv", fedai, ["sro", "member_name", "website", "member_type", "lei"])
+    write_csv(OUT / "sahamati_members.csv", sahamati, ["sro", "member_name", "website", "member_type", "logo_file"])
     write_csv(OUT / "sros.csv", SROS, ["sro_id", "name", "abbr", "website", "nlp_site", "recognition", "recognised_date", "status", "sector"])
 
     db = OUT / "srotrac.duckdb"
@@ -491,7 +528,7 @@ def main():
         db.unlink()
     union = "\n      UNION ALL ".join(
         f"SELECT sro, member_name, website, member_type FROM read_csv_auto('{OUT/f'{k.lower()}_members.csv'}')"
-        for k in ["face", "uff", "srpa", "mfin", "fedai"]
+        for k in ["face", "uff", "srpa", "mfin", "fedai", "sahamati"]
     )
     sql = f"""
     CREATE TABLE sros AS SELECT * FROM read_csv_auto('{OUT/'sros.csv'}');
