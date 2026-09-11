@@ -32,3 +32,9 @@ Tracking India's fintech SROs (self-regulatory organisations) and their member r
 - FEDAI/MFIN/Sa-Dhan sites are JS-heavy or frames-based: raw curl fetches may fail (refresh.sh logs FETCH FAIL, non-fatal); use agent-browser to re-capture data/raw/*.html when rosters look stale.
 - UFF logo filenames without an obvious company name rely on a manual name map in `scripts/build.py`; spot-check when the roster changes.
 - Possible next steps: categorise members by segment, capture join dates, track roster changes over time, link FACE grievance/DAK data.
+
+## QA (2026-09-11 E2E pass, live via agent-browser)
+
+- All 15 pages: zero console/page errors; all assets 200.
+- Verified: nav dropdown (hover/click/Escape-outside/keyboard focus-within), active states incl. SRO trigger on sro-* pages, members search + SRO chips + MULTI (61), activity chips (recognition=7), per-SRO badge accents, card counts (85/121/0/18/84/0/108), stats (7/416/30/2), mobile 390px no horizontal overflow, prefers-reduced-motion safe (animations scoped to no-preference).
+- Conventions: css/js URLs are cache-busted per build (`?v=<UTC timestamp>` in `page()`); asset fixes must go through `scripts/site.py` (source of truth), then `python3 scripts/site.py && python3 scripts/bloggen.py`.
