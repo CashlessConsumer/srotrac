@@ -220,6 +220,7 @@ def page(title, active, body, extra_head=""):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="%230f766e"/><text x="32" y="46" font-family="Georgia,serif" font-size="38" font-weight="bold" text-anchor="middle" fill="%23faf9f7">S</text></svg>'>
 <link rel="stylesheet" href="/css/style.css">
 {extra_head}
 </head>
@@ -720,7 +721,7 @@ main{min-height:60vh;padding-bottom:3.5rem}
 .sro-abbr{display:none}
 .sro-card h3{margin:.4rem 0 .25rem;font-size:1.02rem;font-weight:600}
 .pill{display:inline-block;font-family:var(--mono);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;
-  color:var(--ink-soft);border:1px solid var(--rule);background:var(--paper-hi);padding:2px 8px;border-radius:2px;white-space:nowrap}
+  color:var(--ink-soft);border:1px solid var(--rule);background:var(--paper-hi);padding:2px 8px;border-radius:2px;white-space:normal;overflow-wrap:anywhere}
 .pill.small{font-size:.58rem}
 .badge{--c:#5f5540;display:inline-block;font-family:var(--mono);font-size:.64rem;font-weight:600;letter-spacing:.06em;
   color:var(--c);border:1.5px solid color-mix(in srgb,var(--c) 65%,transparent);background:color-mix(in srgb,var(--c) 7%,var(--paper-hi));

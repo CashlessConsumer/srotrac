@@ -124,7 +124,7 @@ main{min-height:60vh;padding-bottom:3.5rem}
 .sro-abbr{display:none}
 .sro-card h3{margin:.4rem 0 .25rem;font-size:1.02rem;font-weight:600}
 .pill{display:inline-block;font-family:var(--mono);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;
-  color:var(--ink-soft);border:1px solid var(--rule);background:var(--paper-hi);padding:2px 8px;border-radius:2px;white-space:nowrap}
+  color:var(--ink-soft);border:1px solid var(--rule);background:var(--paper-hi);padding:2px 8px;border-radius:2px;white-space:normal;overflow-wrap:anywhere}
 .pill.small{font-size:.58rem}
 .badge{--c:#5f5540;display:inline-block;font-family:var(--mono);font-size:.64rem;font-weight:600;letter-spacing:.06em;
   color:var(--c);border:1.5px solid color-mix(in srgb,var(--c) 65%,transparent);background:color-mix(in srgb,var(--c) 7%,var(--paper-hi));
