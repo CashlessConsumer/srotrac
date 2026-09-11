@@ -1,4 +1,5 @@
 // SROTrac: nav helpers + members/activity filtering
+var SRO_KEYS = ["FACE", "UFF", "FIDC", "SRPA", "MFIN", "Sa-Dhan", "FEDAI"];
 (function(){
   // highlight current page
   function normPath(p){ return (p.length > 1 && p.charAt(p.length-1) === '/') ? p.slice(0, -1) : p; }
@@ -12,7 +13,8 @@
   var drop = document.querySelector('.nav-drop');
   if (drop) {
     drop.querySelector('.trigger').addEventListener('click', function(e){
-      if (!drop.classList.contains('open')) { e.preventDefault(); drop.classList.add('open'); }
+      e.preventDefault();
+      drop.classList.toggle('open');
     });
     document.addEventListener('click', function(e){
       if (!drop.contains(e.target)) drop.classList.remove('open');
@@ -50,7 +52,7 @@
         if (f !== 'ALL' && f !== 'MULTI' && m.s !== f) return;
         if (needle && m.n.toLowerCase().indexOf(needle) === -1) return;
         shown++;
-        out += '<tr><td>'+m.n+'</td><td><span class="badge" style="--c:var(--accent)">'+m.s+'</span></td>'+
+        out += '<tr><td>'+m.n+'</td><td><span class="badge" style="--c:'+m.c+'">'+m.s+'</span></td>'+
                '<td><span class="pill small">'+m.t+'</span></td>'+
                '<td class="linkcell"><a href="'+m.w+'" rel="noopener">'+m.w.replace(/^https?:\/\//,'')+'</a></td></tr>';
       });
@@ -72,8 +74,9 @@
       var out = '';
       acts.forEach(function(a){
         if (f2 !== 'ALL' && a.t !== f2) return;
-        var badge = ['FACE','UFF','FIDC','SRPA'].indexOf(a.s) >= 0
-          ? '<a class="badge" href="/sro-'+a.s.toLowerCase()+'.html">'+a.s+'</a>'
+        var sl = a.s.toLowerCase();
+        var badge = SRO_KEYS.indexOf(a.s) >= 0
+          ? '<a class="badge" href="/sro-'+sl+'.html">'+a.s+'</a>'
           : '<span class="badge">RBI</span>';
         out += '<div class="card"><p class="meta"><span class="date">'+a.d+'</span> '+badge+
                ' <span class="pill small">'+a.t+'</span></p><h3><a href="'+a.u+'" rel="noopener">'+a.h+'</a></h3><p>'+a.x+'</p></div>';
