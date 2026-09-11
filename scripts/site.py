@@ -281,7 +281,7 @@ def build_home(members, activity, overlap):
     for sid, s in SROS.items():
         cards += f"""
     <a class="sro-card" href="/sro-{sid}.html" style="--c:{s['accent']}" data-abbr="{s['abbr']}">
-      <div class="sro-card-head"><span class="sro-abbr">{s['abbr']}</span>
+      <div class="sro-card-head">
       <span class="pill">{esc(s['status'])}</span></div>
       <h3>{esc(s['name'])}</h3>
       <p class="sector">{esc(s['sector'])}</p>
@@ -719,7 +719,6 @@ main{min-height:60vh;padding-bottom:3.5rem}
   background:linear-gradient(225deg,var(--paper) 50%,transparent 50%);border-left:1px solid var(--rule)}
 .sro-card:hover{transform:translateY(-5px);box-shadow:0 10px 22px rgba(60,45,20,.18)}
 .sro-card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-top:.2rem}
-.sro-abbr{display:none}
 .sro-card h3{margin:.4rem 0 .25rem;font-size:1.02rem;font-weight:600}
 .pill{display:inline-block;font-family:var(--mono);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;
   color:var(--ink-soft);border:1px solid var(--rule);background:var(--paper-hi);padding:2px 8px;border-radius:2px;white-space:normal;overflow-wrap:anywhere}
@@ -873,8 +872,6 @@ var SRO_KEYS = ["FACE", "UFF", "FIDC", "SRPA", "MFIN", "Sa-Dhan", "FEDAI"];
     var rowsEl = document.getElementById('mrows');
     var countEl = document.getElementById('mcount');
     var q = '', f = 'ALL';
-    var multi = {};
-    members.forEach(function(m){ multi[m.n] = (multi[m.n]||0)+ (multi[m.n]?0:0); });
     var countByOrg = {};
     members.forEach(function(m){ countByOrg[m.n] = (countByOrg[m.n]||0)+1; });
     function render(){

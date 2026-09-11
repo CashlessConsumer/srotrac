@@ -40,8 +40,6 @@ var SRO_KEYS = ["FACE", "UFF", "FIDC", "SRPA", "MFIN", "Sa-Dhan", "FEDAI"];
     var rowsEl = document.getElementById('mrows');
     var countEl = document.getElementById('mcount');
     var q = '', f = 'ALL';
-    var multi = {};
-    members.forEach(function(m){ multi[m.n] = (multi[m.n]||0)+ (multi[m.n]?0:0); });
     var countByOrg = {};
     members.forEach(function(m){ countByOrg[m.n] = (countByOrg[m.n]||0)+1; });
     function render(){
