@@ -1,6 +1,6 @@
 # SROTrac — India's RBI-recognised SROs, tracked
 
-> Independent register of the eight self-regulatory organisations (SROs) recognised by the Reserve Bank of India: FACE and UFF (fintech SRO-FTs), FIDC (NBFCs), SRPA (payment system operators), MFIN and Sa-Dhan (microfinance), FEDAI (foreign-exchange dealers), and Sahamati (account aggregator ecosystem). Tracks member rosters, governance, activity and enforcement gaps from a consumer-protection lens. Run by CashlessConsumer. Scope: RBI-recognised SROs only — SEBI/IRDAI industry bodies are out of scope. Data CC BY 4.0.
+> Independent register of the nine self-regulatory organisations (SROs) recognised by the Reserve Bank of India: FACE and UFF (fintech SRO-FTs), FIDC (NBFCs), SRPA (payment system operators), MFIN and Sa-Dhan (microfinance), FEDAI (foreign-exchange dealers), Sahamati (account aggregator ecosystem), and FIMMDA (fixed income / money market / derivatives markets). Tracks member rosters, governance, activity and enforcement gaps from a consumer-protection lens. Run by CashlessConsumer. Scope: RBI-recognised SROs only — SEBI/IRDAI industry bodies are out of scope. Data CC BY 4.0.
 
 Base URL: https://srotrac.cashlessconsumer.in
 
@@ -13,6 +13,7 @@ Base URL: https://srotrac.cashlessconsumer.in
 - [Sa-Dhan](https://srotrac.cashlessconsumer.in/sro-sadhan.html): Sa-Dhan (Association of Community Development Finance Institutions) — RBI recognition 2015-03-11; no published roster.
 - [FEDAI](https://srotrac.cashlessconsumer.in/sro-fedai.html): Foreign Exchange Dealers' Association of India — RBI recognition 2026-01-14; 108 listed members.
 - [Sahamati](https://srotrac.cashlessconsumer.in/sro-sahamati.html): Sahamati — RBI recognition 2026-06-05; 110 listed members.
+- [FIMMDA](https://srotrac.cashlessconsumer.in/sro-fimmda.html): Fixed Income Money Market and Derivatives Association of India — RBI recognition 2025-05-07; 116 listed members.
 
 ## Deep dives (what each SRO actually does)
 - [FACE work](https://srotrac.cashlessconsumer.in/work-face.html): Standards, oversight & dispute resolution for digital lending
@@ -23,9 +24,10 @@ Base URL: https://srotrac.cashlessconsumer.in
 - [Sa-Dhan work](https://srotrac.cashlessconsumer.in/work-sadhan.html): Community-development finance's SRO: standards since 2015
 - [FEDAI work](https://srotrac.cashlessconsumer.in/work-fedai.html): Authorised dealers' rulebook: 30 years of forex standards
 - [Sahamati work](https://srotrac.cashlessconsumer.in/work-sahamati.html): Standards body of the account-aggregator ecosystem — now its RBI-recognised SRO
+- [FIMMDA work](https://srotrac.cashlessconsumer.in/work-fimmda.html): The bond market's own rulebook: valuations, market practices and standard agreements
 
 ## Cross-cutting pages
-- [All members](https://srotrac.cashlessconsumer.in/members.html): searchable 416-row roster with per-SRO filters.
+- [All members](https://srotrac.cashlessconsumer.in/members.html): searchable 642-row roster with per-SRO filters.
 - [Members](https://srotrac.cashlessconsumer.in/members.html): filterable register of all listed entities; includes the cross-SRO overlap matrix and 2+ SRO memberships.
 - [Timeline](https://srotrac.cashlessconsumer.in/timeline.html): 2020–2026 regulatory milestones (frameworks, recognitions, consultations).
 - [Activity](https://srotrac.cashlessconsumer.in/activity.html): dated log of SRO/RBI developments with sources.
@@ -36,6 +38,7 @@ Base URL: https://srotrac.cashlessconsumer.in
 - [activity.csv](https://srotrac.cashlessconsumer.in/data/activity.csv)
 - [face_members.csv](https://srotrac.cashlessconsumer.in/data/face_members.csv)
 - [fedai_members.csv](https://srotrac.cashlessconsumer.in/data/fedai_members.csv)
+- [fimmda_members.csv](https://srotrac.cashlessconsumer.in/data/fimmda_members.csv)
 - [leadership.csv](https://srotrac.cashlessconsumer.in/data/leadership.csv)
 - [mfin_members.csv](https://srotrac.cashlessconsumer.in/data/mfin_members.csv)
 - [sahamati_members.csv](https://srotrac.cashlessconsumer.in/data/sahamati_members.csv)

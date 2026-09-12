@@ -29,6 +29,7 @@ TYPES = {
     "bureau": ("Credit Bureau", "Credit"),
     "invest": ("Investments / Wealth", "Capital Markets"),
     "other": ("Other / Services", "Other"),
+    "pd": ("Primary Dealer", "Capital Markets"),
 }
 
 GROUP_ORDER = ["Banking", "Credit", "Payments", "Open Finance",
@@ -108,8 +109,14 @@ for _n, _t in {
     "mashreqbank p.s.c": "bank", "sberbank": "bank",
     "natwest markets plc.": "broker", "natwest markets": "broker",
     "societe generale": "bank", "ubs ag": "bank",
-    "morgan stanley india primary dealer private limited": "broker",
-    "pnb gilts limited": "broker",
+    "morgan stanley india primary dealer private limited": "pd",
+    "morgan stanley india primary dealer private ltd": "pd",
+    "pnb gilts limited": "pd", "pnb gilts ltd": "pd", "pnb gilts": "pd",
+    "goldman sachs (i) capital markets private limited": "pd",
+    "sbi dfhi": "pd", "sbi dfhi ltd": "pd",
+    "nomura fixed income securities": "pd",
+    "stci primary dealer limited": "pd",
+    "icici securities primary dealership limited": "pd",
     "the clearing corporation of india ltd": "minfra",
     "thomas cook (india) limited": "pexchange",
     "deutsche bank ag": "bank", "standard chartered bank": "bank",
@@ -222,8 +229,11 @@ RULES = [
     (r"small finance bank", "sfb"),
     (r"payments bank", "ppb"),
     (r"co[- ]?operative", "coop"),
+    (r"development bank|\bnabfid\b|\bfinancing infrastructure\b|\bnational housing bank\b|\bexport[- ]import\b|\bdeposit insurance\b", "dfi"),
     (r"\bbank\b|\bbanking\b", "bank"),
-    (r"\bnabarl|\bnabcard|\bsidbi\b|\bnhb\b|\bexim\b|\bifci\b|\bidbi\b", "dfi"),
+    (r"\bnabarl|\bnabcard|\bsidbi\b|\bnhb\b|\bexim\b", "dfi"),
+    (r"\bifci\b|\bidbi\b", "dfi"),
+    (r"primary dealer", "pd"),
     # insurance
     (r"insurance|assurance|insurtech", "insurer"),
     # capital markets
@@ -258,3 +268,12 @@ def classify(name):
         if re.search(pat, key):
             return (t, TYPES[t][1])
     return DEFAULT
+
+# --- FIMMDA member-list spellings (captured 2026-09-12) ---
+for _n, _t in {
+    "citibank na": "bank", "emirates nbd pjsc": "bank", "mashreqbank psc": "bank",
+    "cooperatieve rabobak u.a": "bank", "sumitomo mitsui": "bank",
+    "natwest markets plc": "broker",
+    "india infrastructure finance company limited": "dfi",
+}.items():
+    OVERRIDES[_n] = (_t, None)

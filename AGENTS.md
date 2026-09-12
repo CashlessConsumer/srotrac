@@ -5,7 +5,7 @@ Tracking India's fintech SROs (self-regulatory organisations) and their member r
 ## Canonical paths
 
 - Register of SROs: `data/sros.csv`
-- Member lists: `data/face_members.csv`, `data/uff_members.csv`, `data/srpa_members.csv` (FIDC publishes no roster)
+- Member lists: `data/face_members.csv`, `data/uff_members.csv`, `data/srpa_members.csv`, `data/fimmda_members.csv` (FIDC and Sa-Dhan publish no roster; FIMMDA's roster is a PDF — raw capture in `data/raw/fimmda_members.pdf` + one-off extraction in `data/raw/fimmda_members.csv`)
 - Queryable DB: `data/srotrac.duckdb` (tables `sros`, `members`)
 - Readable output: `docs/members.md`
 - Build: `python3 scripts/build.py`
@@ -21,20 +21,21 @@ Tracking India's fintech SROs (self-regulatory organisations) and their member r
 ## Key facts
 
 - FACE = first RBI-recognised SRO-FT (28 Aug 2024). UFF = second (10 Sep 2026); UFF rebranded from DLAI in Apr 2025.
-- 27 organisations appear in more than one SRO (23 in both FACE and UFF; MobiKwik is in all three of FACE/UFF/SRPA) — useful for tracking where positions might align.
+- FIMMDA = first SRO recognised in the financial markets (7 May 2025, RBI PR 2025-2026/274) under the Aug 2024 financial-markets SRO framework; roster is a PDF dated 8 May 2025 (116 rows); its site overview still claims "115 member strong" with different category counts — flagged as a watch item.
+- 71 organisations appear in more than one SRO (FIMMDA's bank roster overlaps FEDAI's AD list heavily) — useful for tracking where positions might align.
 - Overlap query: `SELECT member_name FROM members GROUP BY 1 HAVING count(DISTINCT sro)>1;`
 
 ## Open items
 
 - Seeded: the two RBI fintech SRO-FTs (FACE, UFF) plus two related RBI SROs for context — SRPA (PSOs, 11 Nov 2025) and FIDC (NBFCs, 3 Oct 2025). FIDC does not publish its member roster.
-- Register now covers all 7 RBI-recognised SROs: FACE, UFF (SRO-FTs), FIDC, SRPA, MFIN, Sa-Dhan, FEDAI. Wider landscape (SEBI: AMFI, ANMI, BASL; IRDAI: GI Council, IBAI) is context-only on About — not tracked.
+- Register now covers all 9 RBI-recognised SROs: FACE, UFF (SRO-FTs), FIDC, SRPA, MFIN, Sa-Dhan, FEDAI, Sahamati, FIMMDA. Wider landscape (SEBI: AMFI, ANMI, BASL; IRDAI: GI Council, IBAI) is context-only on About — not tracked.
 - `scripts/refresh.sh` = fetch → build.py → site.py → bloggen.py → commit/push on change. Run daily 07:30 IST by automation agent `c2bd955d` (posts to Discord #policy-research). Weekly blog agent (`45950f8d`) writes `blog/posts/` Mon 09:20 IST.
-- FEDAI/MFIN/Sa-Dhan sites are JS-heavy or frames-based: raw curl fetches may fail (refresh.sh logs FETCH FAIL, non-fatal); use agent-browser to re-capture data/raw/*.html when rosters look stale.
+- FEDAI/MFIN/Sa-Dhan/FIMMDA sites are JS-heavy or frames-based: raw curl fetches may fail (refresh.sh logs FETCH FAIL, non-fatal); use agent-browser to re-capture data/raw/*.html when rosters look stale. FIMMDA's roster is a PDF (`data/raw/fimmda_members.pdf`); `build.py` reads the committed extraction `data/raw/fimmda_members.csv` — re-extract by hand if the PDF changes.
 - UFF logo filenames without an obvious company name rely on a manual name map in `scripts/build.py`; spot-check when the roster changes.
 - Possible next steps: categorise members by segment, capture join dates, track roster changes over time, link FACE grievance/DAK data.
 
 ## QA (2026-09-11 E2E pass, live via agent-browser)
 
 - All 15 pages: zero console/page errors; all assets 200.
-- Verified: nav dropdown (hover/click/Escape-outside/keyboard focus-within), active states incl. SRO trigger on sro-* pages, members search + SRO chips + MULTI (61), activity chips (recognition=7), per-SRO badge accents, card counts (85/121/0/18/84/0/108), stats (7/416/30/2), mobile 390px no horizontal overflow, prefers-reduced-motion safe (animations scoped to no-preference).
+- Verified 2026-09-12 (FIMMDA add): 9 sro-cards, stats 9/642/71/2, FIMMDA register + work pages render (116 members, typeline 66 Bank · 19 Insurer · 11 SFB · 8 DFI), sitemap/llms include sro-fimmda + work-fimmda. Earlier E2E pass (2026-09-11): nav dropdown (hover/click/Escape-outside/keyboard focus-within), members search + SRO chips + MULTI, activity chips, per-SRO badge accents, mobile 390px no horizontal overflow, prefers-reduced-motion safe.
 - Conventions: css/js URLs are cache-busted per build (`?v=<UTC timestamp>` in `page()`); asset fixes must go through `scripts/site.py` (source of truth), then `python3 scripts/site.py && python3 scripts/bloggen.py`.

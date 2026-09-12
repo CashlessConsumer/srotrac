@@ -182,6 +182,27 @@ SROS = {
             "Roster mixes differently-regulated entities (RBI banks, SEBI brokers, IRDAI insurers); cross-regulator discipline is its hardest test.",
         ],
     },
+    "fimmda": {
+        "abbr": "FIMMDA", "name": "Fixed Income Money Market and Derivatives Association of India",
+        "sector": "Financial markets: fixed income, money market and derivatives (banks, primary dealers, insurers, public financial institutions)",
+        "order": "1st", "recognised": "2025-05-07",
+        "website": "https://www.fimmda.org",
+        "members_site": "https://www.fimmda.org/UploadPopupPageFiles/MembersList_8May2025.pdf",
+        "hq": "Bandra Kurla Complex, Mumbai (incorporated 4 May 1998, Section 25 company)",
+        "cin": "",
+        "status": "Active SRO (financial markets; first under the Aug 2024 framework)",
+        "accent": "#0f766e",
+        "consumer": [
+            "The bond and money-market rules your mutual fund, pension fund and insurer trade under are drafted here — FIMMDA sets market practices, standard agreements and the code of fair conduct for the fixed-income market.",
+            "RBI mandates its valuation of government bonds, corporate bonds and securitised papers — the daily prices that sit inside nearly every debt portfolio in the country.",
+            "Constituted a Disciplinary Committee (1 Sep 2026, chaired by an independent director) — the enforcement machinery its new SRO status requires.",
+        ],
+        "watch": [
+            "Its overview page claims a “115 member strong” body (13 PSBs, 19 private banks, 35 foreign banks…) — its own member-list PDF (8 May 2025) shows 116 rows with different category counts, and the list has not been refreshed since.",
+            "Recognised on 7 May 2025; disciplinary committee only constituted 16 months later (Sep 2026) — enforcement record starts from zero.",
+            "Website is a legacy frameset and the roster ships as a PDF — public disclosure lags peer SROs like FEDAI.",
+        ],
+    },
 }
 
 
@@ -347,7 +368,7 @@ def build_home(members, activity, overlap):
       <span class="stamp seal-in">RBI-Recognised × {len(SROS)}</span>
       <span class="stamp blue seal-in" style="animation-delay:.45s">{srofts} × SRO-FT</span>
     </div>
-    <p class="lede rise">RBI outsources first-line supervision of fintechs, NBFCs and payment operators to <strong>self-regulatory organisations</strong> — industry bodies with the power to write conduct codes and police their own members. SROTrac tracks who sits on these SROs, what they do, and whether they work for consumers. Scope: <strong>only the eight SROs recognised by RBI</strong> — industry bodies under SEBI, IRDAI or other regulators are out of scope.</p>
+    <p class="lede rise">RBI outsources first-line supervision of fintechs, NBFCs and payment operators to <strong>self-regulatory organisations</strong> — industry bodies with the power to write conduct codes and police their own members. SROTrac tracks who sits on these SROs, what they do, and whether they work for consumers. Scope: <strong>only the nine SROs recognised by RBI</strong> — industry bodies under SEBI, IRDAI or other regulators are out of scope.</p>
     <div class="stats rise">
       <div><strong>{len(SROS)}</strong><span>RBI-recognised SROs</span></div>
       <div><strong>{total}</strong><span>listed member orgs</span></div>
@@ -358,7 +379,7 @@ def build_home(members, activity, overlap):
 </section>
 <section class="wrap" id="register">
   <h2>The register</h2>
-  <p class="muted small">Seven bodies, one contract with the regulator. Click a folder for members, governance and activity.</p>
+  <p class="muted small">Nine bodies, one contract with the regulator. Click a folder for members, governance and activity.</p>
   <div class="sro-grid">{cards}
   </div>
 </section>
@@ -385,7 +406,7 @@ def build_home(members, activity, overlap):
   </div>
 </section>
 <script type="application/ld+json">
-{{"@context":"https://schema.org","@type":"Dataset","name":"SROTrac","description":"Members, governance and activity of RBI-recognised self-regulatory organisations in India (FACE, UFF, FIDC, SRPA, MFIN, Sa-Dhan, FEDAI)","url":"https://srotrac.cashlessconsumer.in/","creator":{{"@type":"Organization","name":"CashlessConsumer","url":"https://cashlessconsumer.in"}},"license":"https://creativecommons.org/licenses/by/4.0/"}}
+{{"@context":"https://schema.org","@type":"Dataset","name":"SROTrac","description":"Members, governance and activity of RBI-recognised self-regulatory organisations in India (FACE, UFF, FIDC, SRPA, MFIN, Sa-Dhan, FEDAI, Sahamati, FIMMDA)","url":"https://srotrac.cashlessconsumer.in/","creator":{{"@type":"Organization","name":"CashlessConsumer","url":"https://cashlessconsumer.in"}},"license":"https://creativecommons.org/licenses/by/4.0/"}}
 </script>
 <script type="application/ld+json">{home_ld}</script>"""
     return page("India's fintech SROs, tracked", "", body)
@@ -571,7 +592,7 @@ def build_members(members, leadership):
 <section class="hero slim">
   <div class="wrap">
     <h1>All members</h1>
-    <p class="lede">{len(payload)} organisations across the six published rosters (FIDC and Sa-Dhan publish no public roster). One row per organisation — SRO badges show every register it appears in. Filter by SRO, entity type, or search by name. Cross-SRO membership overlap is <a href="#overlap">below the table</a>.</p>
+    <p class="lede">{len(payload)} organisations across the seven published rosters (FIDC and Sa-Dhan publish no public roster). One row per organisation — SRO badges show every register it appears in. Filter by SRO, entity type, or search by name. Cross-SRO membership overlap is <a href="#overlap">below the table</a>.</p>
   </div>
 </section>
 <section class="wrap">
@@ -722,7 +743,7 @@ def build_work(sid):
 def build_about(members, activity):
     faq = [
         ("Which SROs does India have?",
-         "The Reserve Bank of India has recognised eight self-regulatory organisations: FACE and UFF for fintech (SRO-FT framework), FIDC for NBFCs, SRPA for payment system operators, MFIN and Sa-Dhan for microfinance lenders, FEDAI for authorised dealers in foreign exchange, and Sahamati for the account aggregator ecosystem."),
+         "The Reserve Bank of India has recognised nine self-regulatory organisations: FACE and UFF for fintech (SRO-FT framework), FIDC for NBFCs, SRPA for payment system operators, MFIN and Sa-Dhan for microfinance lenders, FEDAI for authorised dealers in foreign exchange, Sahamati for the account aggregator ecosystem, and FIMMDA for the fixed income, money market and derivatives markets."),
         ("Does SROTrac cover SEBI or IRDAI industry bodies?",
          "No. SROTrac tracks only RBI-recognised SROs. Bodies like AMFI (mutual funds) or the Insurance Institute are recognised by other regulators and are out of scope."),
         ("Is SROTrac affiliated with the RBI or any SRO?",
@@ -730,7 +751,7 @@ def build_about(members, activity):
         ("Is Sahamati recognised by the RBI?",
          "Yes. RBI recognised Sahamati as the SRO for the account aggregator (AA) ecosystem on 5 June 2026. Before recognition, Sahamati spent five years as the AA ecosystem's non-profit standards body (spun out of iSPIRT's work). Its directory lists 110 regulated entities across AAs, FIPs, FIUs and TSPs."),
         ("How many members do the SROs have?",
-         "As of the latest capture: FACE 85, UFF 121, SRPA 18, MFIN 84, FEDAI 108 and Sahamati 110 listed members — 526 rows across the eight SROs. FIDC and Sa-Dhan publish no public roster. Counts are floors, not filings: SRO member pages are marketing pages."),
+         "As of the latest capture: FACE 85, UFF 121, SRPA 18, MFIN 84, FEDAI 108, Sahamati 110 and FIMMDA 116 listed members — 642 rows across the nine SROs. FIDC and Sa-Dhan publish no public roster. Counts are floors, not filings: SRO member pages are marketing pages."),
         ("Can I reuse the data?",
          "Yes. Data is licensed CC BY 4.0 — copy, remix and republish with attribution to SROTrac / CashlessConsumer. The CSVs are linked on the members page and in the GitHub repo."),
     ]
@@ -747,7 +768,7 @@ def build_about(members, activity):
 </div></section>
 <section class="wrap"><div class="callout">
     <h2>Scope: RBI&rsquo;s SROs only</h2>
-    <p>India has several self-regulatory bodies across financial regulators. SROTrac tracks only the eight recognised by the <strong>Reserve Bank of India</strong>: the two SRO-FTs (FACE, UFF), FIDC (NBFCs), SRPA (payment operators), MFIN and Sa-Dhan (microfinance), FEDAI (authorised dealers), and Sahamati (Account Aggregator ecosystem). Bodies under other regulators — e.g. AMFI and IIFL under SEBI, the Insurance Institute under IRDAI — are not covered here, however senior their profiles.</p>
+    <p>India has several self-regulatory bodies across financial regulators. SROTrac tracks only the nine recognised by the <strong>Reserve Bank of India</strong>: the two SRO-FTs (FACE, UFF), FIDC (NBFCs), SRPA (payment operators), MFIN and Sa-Dhan (microfinance), FEDAI (authorised dealers), Sahamati (Account Aggregator ecosystem), and FIMMDA (fixed income, money market and derivatives). Bodies under other regulators — e.g. AMFI and IIFL under SEBI, the Insurance Institute under IRDAI — are not covered here, however senior their profiles.</p>
   </div></section>
 <section class="wrap">
   </section>
@@ -1254,7 +1275,7 @@ def write_agent_files(members, outputs):
     ds = "\n".join(f"- [{fn}]({BASE}/data/{fn})" for fn in datasets)
     llms = f"""# SROTrac — India's RBI-recognised SROs, tracked
 
-> Independent register of the eight self-regulatory organisations (SROs) recognised by the Reserve Bank of India: FACE and UFF (fintech SRO-FTs), FIDC (NBFCs), SRPA (payment system operators), MFIN and Sa-Dhan (microfinance), FEDAI (foreign-exchange dealers), and Sahamati (account aggregator ecosystem). Tracks member rosters, governance, activity and enforcement gaps from a consumer-protection lens. Run by CashlessConsumer. Scope: RBI-recognised SROs only — SEBI/IRDAI industry bodies are out of scope. Data CC BY 4.0.
+> Independent register of the nine self-regulatory organisations (SROs) recognised by the Reserve Bank of India: FACE and UFF (fintech SRO-FTs), FIDC (NBFCs), SRPA (payment system operators), MFIN and Sa-Dhan (microfinance), FEDAI (foreign-exchange dealers), Sahamati (account aggregator ecosystem), and FIMMDA (fixed income / money market / derivatives markets). Tracks member rosters, governance, activity and enforcement gaps from a consumer-protection lens. Run by CashlessConsumer. Scope: RBI-recognised SROs only — SEBI/IRDAI industry bodies are out of scope. Data CC BY 4.0.
 
 Base URL: {BASE}
 
@@ -1265,7 +1286,7 @@ Base URL: {BASE}
 {chr(10).join(dives)}
 
 ## Cross-cutting pages
-- [All members]({BASE}/members.html): searchable 416-row roster with per-SRO filters.
+- [All members]({BASE}/members.html): searchable 642-row roster with per-SRO filters.
 - [Members]({BASE}/members.html): filterable register of all listed entities; includes the cross-SRO overlap matrix and 2+ SRO memberships.
 - [Timeline]({BASE}/timeline.html): 2020–2026 regulatory milestones (frameworks, recognitions, consultations).
 - [Activity]({BASE}/activity.html): dated log of SRO/RBI developments with sources.

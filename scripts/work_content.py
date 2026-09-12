@@ -400,4 +400,55 @@ WORK = {
             ("FEDAI — Workshops", "https://www.fedai.org.in/InnerPageContent.aspx?Cid=5&SCid=16&SSCid=0"),
         ],
     },
+
+    "fimmda": {
+        "tagline": "The bond market's own rulebook: valuations, market practices and standard agreements",
+        "summary": (
+            "FIMMDA (incorporated 4 May 1998) is the oldest market body in the register and the first "
+            "SRO recognised in the financial markets (7 May 2025, RBI PR 2025-2026/274) under RBI's "
+            "August 2024 financial-markets SRO framework. Its 116 listed members span public, private, "
+            "foreign, small-finance and payments banks, primary dealers, insurers, development "
+            "institutions and CCIL."
+        ),
+        "sections": [
+            {
+                "h": "What FIMMDA does",
+                "items": [
+                    "Principal interface with RBI, SEBI and the Ministry of Finance for the fixed income, money and derivatives markets",
+                    "RBI-mandated valuation of government bonds, corporate bonds and securitised papers — the daily prices that bank and primary-dealer portfolios are marked at",
+                    "Standardisation of market practices: FIMMDA Operational Circulars, the Handbook of Market Practices, standard legal agreements (MRA, GMRA, CDS) and the Code of Fair Practices",
+                    "Developmental role: introduced benchmarks (MIBOR history), new products (CPs, securitised papers, OIS) and runs an extensive training programme",
+                ],
+            },
+            {
+                "h": "Membership",
+                "items": [
+                    "116 members in its published list (PDF dated 8 May 2025): 12 public-sector banks, 21 private banks, 34 foreign banks, 7 primary dealers, 5 financial institutions (Exim, NABARD, NHB, SIDBI, NaBFID), 20 insurers, 11 SFBs, 3 payments banks, CCIL, IFCI and IIFCL",
+                    "Fee model: Rs 2.5 lakh one-time registration + Rs 2.5 lakh annual membership (+GST) — an institution-funded body",
+                    "Accredited brokers in the interest-rate-derivatives voice market are governed by a separate accreditation framework and code of conduct",
+                ],
+            },
+            {
+                "h": "SRO transition since recognition",
+                "items": [
+                    "Site header now brands FIMMDA a 'Self-Regulatory Organisation in the Financial Markets Regulated by RBI'",
+                    "Disciplinary Committee of the Board constituted 1 Sep 2026 (Art. 34 AoA): chaired by independent director Manoj Rane, with nominee directors from Union Bank and ICICI Bank",
+                    "Nine-member Board (Sep 2026) led by Shamsher Singh (SBI DMD, Global Markets) as Chairman and Neeraj Gambhir (Axis) as Vice Chairman, with three independent directors",
+                    "Standing committees cover new products, technical market practices, membership, valuation, accreditation of brokers, CDS and skill development",
+                ],
+            },
+        ],
+        "gaps": [
+            "Overview page still claims a '115 member strong' body with category counts that do not match its own 116-row PDF — and the list has not been refreshed since 8 May 2025",
+            "No public disciplinary actions, consultation responses or member circular archive without login; circulars are one-page PDFs",
+            "Legacy frameset website: rosters and disclosures ship as PDFs, not structured pages",
+        ],
+        "sources": [
+            ("RBI press release — FIMMDA recognised as SRO (7 May 2025)", "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=60389"),
+            ("FIMMDA member list (PDF, 8 May 2025)", "https://www.fimmda.org/UploadPopupPageFiles/MembersList_8May2025.pdf"),
+            ("FIMMDA — Board of Directors", "https://www.fimmda.org/PageContent.aspx?Iid=NDk="),
+            ("FIMMDA — Committees", "https://www.fimmda.org/PageContent.aspx?Iid=MTA3"),
+            ("FIMCIR/2026-27/20 — Constitution of Disciplinary Committee (1 Sep 2026)", "https://www.fimmda.org/UploadPopupPageFiles/FIMCIR_2026_27_20.pdf"),
+        ],
+    },
 }

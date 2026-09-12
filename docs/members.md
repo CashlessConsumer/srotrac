@@ -2,7 +2,7 @@
 
 _Generated 2026-09-12 by `scripts/build.py`. Do not hand-edit._
 
-India's eight RBI-recognised self-regulatory organisations. **FACE** and the **Unified Fintech Forum** are the two SRO-FTs (fintech); the register also covers **SRPA** (payment system operators), **FIDC** (NBFCs), **MFIN** and **Sa-Dhan** (NBFC-MFIs), **FEDAI** (authorised dealers in forex) and **Sahamati** (account aggregator ecosystem). FIDC and Sa-Dhan publish no member roster.
+India's nine RBI-recognised self-regulatory organisations. **FACE** and the **Unified Fintech Forum** are the two SRO-FTs (fintech); the register also covers **SRPA** (payment system operators), **FIDC** (NBFCs), **MFIN** and **Sa-Dhan** (NBFC-MFIs), **FEDAI** (authorised dealers in forex), **Sahamati** (account aggregator ecosystem) and **FIMMDA** (fixed income / money market / derivatives markets). FIDC and Sa-Dhan publish no member roster.
 
 ## Totals
 
@@ -16,46 +16,80 @@ India's eight RBI-recognised self-regulatory organisations. **FACE** and the **U
 | Sa-Dhan | microfinance | active | not published |
 | FEDAI | forex | active | 108 |
 | Sahamati | account aggregator / open finance | active | 110 |
+| FIMMDA | financial markets (fixed income / money market / derivatives) | active | 116 |
 
 ## Organisations in more than one SRO
 
-- AU Small Finance Bank Limited — FEDAI, Sahamati
+- AU Small Finance Bank Limited — FEDAI, FIMMDA, Sahamati
 - Apollo Finvest — FACE, UFF
 - Aspire — FACE, UFF
-- Bank of Baroda — FEDAI, Sahamati, UFF
+- Axis Bank Limited — FIMMDA, Sahamati
+- BNP Paribas — FEDAI, FIMMDA
+- Bandhan Bank — FIMMDA, MFIN
+- Bank of Baroda — FEDAI, FIMMDA, Sahamati, UFF
+- Bank of Ceylon — FEDAI, FIMMDA
+- Bank of India — FEDAI, FIMMDA
+- Bank of Maharashtra — FEDAI, FIMMDA
 - BharatPe — FACE, UFF
 - Branch — FACE, UFF
 - Bureau — FACE, UFF
 - CADRE — FACE, UFF
 - CRED — SRPA, UFF
+- Canara Bank — FEDAI, FIMMDA
+- Central Bank of India — FEDAI, FIMMDA
+- DBS Bank India Limited — FEDAI, FIMMDA
 - Decentro — FACE, UFF
+- Export-Import Bank of India — FEDAI, FIMMDA
 - GetVantage — FACE, UFF
 - HDFC Bank Limited — FEDAI, Sahamati
 - HyperVerge — FACE, UFF
 - ICICI Bank — MFIN, Sahamati
+- ICICI Securities Primary Dealership Limited — FEDAI, FIMMDA
 - IDFC FIRST Bank Limited — FEDAI, Sahamati
+- IDFC First Bank — FIMMDA, MFIN
 - InCred — FACE, UFF
+- Indian Bank — FEDAI, FIMMDA
+- Indian Overseas Bank — FEDAI, FIMMDA
+- IndusInd Bank — FIMMDA, MFIN
 - IndusInd Bank Limited — FEDAI, Sahamati
+- Industrial Bank of Korea — FEDAI, FIMMDA
+- Industrial and Commercial Bank of China Limited — FEDAI, FIMMDA
+- KEB Hana Bank — FEDAI, FIMMDA
+- Kookmin Bank — FEDAI, FIMMDA
 - Kotak Mahindra Bank Limited — FEDAI, Sahamati
 - KreditBee — FACE, UFF
 - Light Microfinance — MFIN, UFF
+- Mizuho Bank Limited — FEDAI, FIMMDA
 - MobiKwik — FACE, SRPA, UFF
 - Moneyview — FACE, UFF
+- NABARD — FIMMDA, Sahamati
 - Northern Arc — FACE, UFF
 - Paisabazaar — FACE, UFF
 - Paytm — FACE, UFF
 - Perfios — FACE, UFF
 - PhonePe — FACE, SRPA
 - Progcap — FACE, UFF
-- Punjab National Bank — FEDAI, Sahamati
-- RBL Bank — MFIN, UFF
+- Punjab National Bank — FEDAI, FIMMDA, Sahamati
+- Qatar National Bank (Q.P.S.C.) — FEDAI, FIMMDA
+- RBL Bank — FIMMDA, MFIN, UFF
 - Razorpay — FACE, SRPA
 - Revfin — FACE, UFF
 - Saafe — FACE, UFF
 - Small Industries Development Bank of India — FEDAI, Sahamati
 - Spice Money — SRPA, UFF
+- Standard Chartered Bank — FEDAI, FIMMDA
+- State Bank of India — FEDAI, FIMMDA
+- The Clearing Corporation of India Ltd — FEDAI, FIMMDA
+- The South Indian Bank Ltd — FIMMDA, Sahamati
 - True Balance — FACE, UFF
+- UBS AG — FEDAI, FIMMDA
+- UCO Bank — FEDAI, FIMMDA
+- Ujjivan Small Finance Bank — FIMMDA, Sahamati
 - Uni — FACE, UFF
+- Union Bank of India — FEDAI, FIMMDA
+- Unity Small Finance Bank — FIMMDA, MFIN
+- Woori Bank — FEDAI, FIMMDA
+- Yes Bank — FIMMDA, MFIN
 - Zeta — FACE, UFF
 
 ## FACE — 85 members
@@ -613,6 +647,127 @@ India's eight RBI-recognised self-regulatory organisations. **FACE** and the **U
 | 108 | Upstox | https://upstox.com/ | member |
 | 109 | Vivifi India Finance | https://www.vivifin.com/ | member |
 | 110 | Zerodha Broking Ltd | https://zerodha.com/ | member |
+
+## FIMMDA — 116 members
+
+| # | Member | Website | Type |
+|---|--------|---------|------|
+| 1 | Bank of Baroda |  | member |
+| 2 | Bank of India |  | member |
+| 3 | Bank of Maharashtra |  | member |
+| 4 | Canara Bank |  | member |
+| 5 | Central Bank of India |  | member |
+| 6 | Indian Bank |  | member |
+| 7 | Indian Overseas Bank |  | member |
+| 8 | Punjab and Sindh Bank |  | member |
+| 9 | Punjab National Bank |  | member |
+| 10 | State Bank of India |  | member |
+| 11 | UCO Bank |  | member |
+| 12 | Union Bank of India |  | member |
+| 13 | Axis Bank Limited |  | member |
+| 14 | Bandhan Bank |  | member |
+| 15 | CSB Bank |  | member |
+| 16 | City Union Bank |  | member |
+| 17 | DCB Bank |  | member |
+| 18 | DBS Bank India Limited |  | member |
+| 19 | Dhanlaxmi Bank Ltd |  | member |
+| 20 | Federal Bank Ltd |  | member |
+| 21 | HDFC Bank Ltd |  | member |
+| 22 | ICICI Bank Ltd |  | member |
+| 23 | IDBI Bank |  | member |
+| 24 | IDFC First Bank |  | member |
+| 25 | IndusInd Bank |  | member |
+| 26 | Jammu & Kashmir Bank |  | member |
+| 27 | Karnataka Bank Ltd |  | member |
+| 28 | Karur Vysya Bank |  | member |
+| 29 | Kotak Mahindra Bank |  | member |
+| 30 | RBL Bank |  | member |
+| 31 | The South Indian Bank Ltd |  | member |
+| 32 | Tamilnad Mercantile Bank Ltd |  | member |
+| 33 | Yes Bank |  | member |
+| 34 | Australia and New Zealand Bank |  | member |
+| 35 | Bank of America |  | member |
+| 36 | Bank of Bahrain and Kuwait B.S.C |  | member |
+| 37 | Bank of Ceylon |  | member |
+| 38 | Bank of Nova Scotia |  | member |
+| 39 | Barclays Bank |  | member |
+| 40 | BNP Paribas |  | member |
+| 41 | Citibank NA |  | member |
+| 42 | Credit Agricole Corporate & Investment Bank |  | member |
+| 43 | CTBC Bank Co., Ltd |  | member |
+| 44 | Deutsche Bank |  | member |
+| 45 | Doha Bank QPSC |  | member |
+| 46 | Emirates NBD PJSC |  | member |
+| 47 | First Abudhabi Bank |  | member |
+| 48 | Hongkong & Shanghai Banking Corporation Limited India |  | member |
+| 49 | Industrial and Commercial Bank of China Limited |  | member |
+| 50 | Industrial Bank of Korea |  | member |
+| 51 | J.P. Morgan Chase Bank N.A |  | member |
+| 52 | KEB Hana Bank |  | member |
+| 53 | Kookmin Bank |  | member |
+| 54 | MASHREQBANK PSC |  | member |
+| 55 | Mizuho Bank Limited |  | member |
+| 56 | MUFG Bank Limited |  | member |
+| 57 | Qatar National Bank (Q.P.S.C.) |  | member |
+| 58 | NatWest Markets Plc |  | member |
+| 59 | Nonghyup BANK |  | member |
+| 60 | Cooperatieve Rabobak U.A |  | member |
+| 61 | SBM Bank India Limited |  | member |
+| 62 | Société Générale Bank |  | member |
+| 63 | Standard Chartered Bank |  | member |
+| 64 | Sumitomo Mitsui |  | member |
+| 65 | UBS AG |  | member |
+| 66 | United Overseas Bank |  | member |
+| 67 | Woori Bank |  | member |
+| 68 | Goldman Sachs (I) Capital Markets Private Limited |  | member |
+| 69 | ICICI Securities Primary Dealership Limited |  | member |
+| 70 | Morgan Stanley India Primary Dealer Private Ltd |  | member |
+| 71 | Nomura Fixed Income Securities |  | member |
+| 72 | PNB Gilts Ltd |  | member |
+| 73 | SBI DFHI |  | member |
+| 74 | STCI Primary Dealer Limited |  | member |
+| 75 | Export-Import Bank of India |  | member |
+| 76 | NABARD |  | member |
+| 77 | National Housing Bank |  | member |
+| 78 | Small Industries Development Bank of India [SIDBI] |  | member |
+| 79 | National Bank for Financing Infrastructure & Devlopment |  | member |
+| 80 | Bandhan Life Insurance Co.Ltd |  | member |
+| 81 | Bajaj Allainz Life Insurance Co. Ltd |  | member |
+| 82 | Deposit Insurance and Credit Guarantee Corporation |  | member |
+| 83 | HDFC ERGO General Insurance Company Limited |  | member |
+| 84 | ICICI Lombard General Insurance Company Limited |  | member |
+| 85 | ICICI Prudential Life Insurance Company Limited |  | member |
+| 86 | IndiaFirst Life Insurance Company Ltd |  | member |
+| 87 | Life Insurance Corporation of India |  | member |
+| 88 | Pramerica Life Insurance Ltd |  | member |
+| 89 | Reliance General Insurance Co. LTd |  | member |
+| 90 | Reliance Nippon Life Insurance Co. LTd |  | member |
+| 91 | SBI General Insurance Company Ltd |  | member |
+| 92 | SBI Life Insurance Company Limited |  | member |
+| 93 | Universal Sompo General Insurance Co. Ltd |  | member |
+| 94 | Edelweiss Tokio Life Insurance Company Limited |  | member |
+| 95 | Chola MS General Insurance Co Ltd |  | member |
+| 96 | Tata Aia Life Insurance Co |  | member |
+| 97 | Shriram General Insurance Company Limited |  | member |
+| 98 | Star Health Insurance |  | member |
+| 99 | Star Union Daiichi Life Insurance Co |  | member |
+| 100 | AU Small Finance Bank Limited |  | member |
+| 101 | Capital Small Finance Bank ltd |  | member |
+| 102 | Equitas Small Finance Bank |  | member |
+| 103 | ESAF SMALL FINANCE BANK |  | member |
+| 104 | Jana Small Finance Bank |  | member |
+| 105 | North East Small Finance Bank Limited |  | member |
+| 106 | Suryodaya Small Finance Bank |  | member |
+| 107 | Ujjivan Small Finance Bank |  | member |
+| 108 | Utkarsh Small Finance Bank |  | member |
+| 109 | Unity Small Finance Bank |  | member |
+| 110 | Shivalik Small Finance Bank |  | member |
+| 111 | India Post Payments Bank Ltd |  | member |
+| 112 | NSDL Payments Bank Limited |  | member |
+| 113 | Paytm Payments Bank Ltd |  | member |
+| 114 | The Clearing Corporation of India Ltd |  | member |
+| 115 | IFCI Ltd |  | member |
+| 116 | India Infrastructure Finance Company Limited |  | member |
 
 ## Caveats
 

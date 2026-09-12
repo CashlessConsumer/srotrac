@@ -24,17 +24,6 @@ RBI created a Self-Regulatory Organisation framework for the fintech sector (dra
 | **FACE** | Fintech Association for Consumer Empowerment | 28 Aug 2024 (first SRO-FT) | https://faceofindia.org |
 | **UFF** | Unified Fintech Forum (formerly DLAI) | 10 Sep 2026 (second SRO-FT) | https://unifiedfintech.in |
 
-`data/sros.csv` holds the register. It also carries two **related** RBI SROs for context — they are not fintech SRO-FTs but they sit in the same regulatory family and are often compared to FACE/UFF:
-
-| SRO | Sector | Recognised | Website | Status |
-|-----|--------|-----------|---------|--------|
-| **FIDC** — Finance Industry Development Council | NBFC | 3 Oct 2025 | https://www.fidcindia.org.in | related |
-| **SRPA** — Self-Regulated PSO Association | Payment system operators | 11 Nov 2025 | https://srpa.org.in | related |
-
-SRPA lists 18 PSO members (BillDesk, Razorpay, PhonePe, CRED, MobiKwik, Mswipe, Infibeam Avenues, Euronet, SabPaisa, Spice Money, …), captured in `data/srpa_members.csv`. These names were decoded from the logo images on the site, which are not text. FIDC publishes no member roster (see above), so it has no members file.
-
-Add new SROs there.
-
 ## Data
 
 | File | Contents |
@@ -43,11 +32,12 @@ Add new SROs there.
 | `data/face_members.csv` | FACE members (name, website) |
 | `data/uff_members.csv` | UFF members (name, website, member_type, logo_file) |
 | `data/srpa_members.csv` | SRPA PSO members (name, website, logo_file) |
+| `data/fimmda_members.csv` | FIMMDA members (name, category — parsed from `data/raw/fimmda_members.pdf`, list dated 8 May 2025) |
 | `data/srotrac.duckdb` | `sros` + `members` tables, built from the CSVs |
 | `docs/members.md` | Human-readable member listings + overlap between the two SROs |
 | `data/raw/` | Raw HTML snapshots the lists were parsed from |
 
-Snapshot (2026-09-11): register expanded to **7 RBI-recognised SROs** — FACE (85 listed members), UFF (121), SRPA (18), MFIN (84), FEDAI (108, with LEIs), plus FIDC and Sa-Dhan whose rosters are not published (flagged). 416 rows total, 30 organisations in 2+ SROs.
+Snapshot (2026-09-12): register expanded to **9 RBI-recognised SROs** — FACE (85 listed members), UFF (121), SRPA (18), MFIN (84), FEDAI (108, with LEIs), Sahamati (110), FIMMDA (116, PDF roster dated 8 May 2025), plus FIDC and Sa-Dhan whose rosters are not published (flagged). 642 rows total, 71 organisations in 2+ SROs.
 
 **Automation:** `scripts/refresh.sh` re-fetches all source pages, rebuilds data + site, and pushes on change. Run daily by a scheduled agent (07:30 IST); a weekly agent (Mon 08:30 IST) writes the SROTrac Weekly post in `blog/posts/` and deploys it.
 
@@ -63,7 +53,7 @@ Snapshot (2026-09-11): register expanded to **7 RBI-recognised SROs** — FACE (
 python3 scripts/build.py     # parse data/raw/*.html -> CSVs -> DuckDB
 ```
 
-The SRPA list is parsed by matching the partner logo filenames on the homepage against a name map (filenames like `oncerto.jpg` are truncated). The FACE list is parsed from image `alt` text + surrounding links on `/membership/`. The UFF list comes from the linked logo gallery on the homepage; several UFF logos use opaque filenames (`117.png`, `128-1.png`, …), so `scripts/build.py` carries a name map for those. Verify a mapping before trusting it.
+The SRPA list is parsed by matching the partner logo filenames on the homepage against a name map (filenames like `oncerto.jpg` are truncated). The FACE list is parsed from image `alt` text + surrounding links on `/membership/`. The UFF list comes from the linked logo gallery on the homepage; several UFF logos use opaque filenames (`117.png`, `128-1.png`, …), so `scripts/build.py` carries a name map for those. FIMMDA publishes no web roster: its member list is a PDF (`MembersList_8May2025.pdf`, captured in `data/raw/fimmda_members.pdf`); the coordinate-level extraction was done once into `data/raw/fimmda_members.csv`, which `build.py` validates and copies through. Verify a mapping before trusting it.
 
 Sources can drift — re-snapshot the raw HTML before rebuilding if the counts move.
 

@@ -1,0 +1,117 @@
+sro,member_name,website,member_type,category
+FIMMDA,Bank of Baroda,,member,public sector bank
+FIMMDA,Bank of India,,member,public sector bank
+FIMMDA,Bank of Maharashtra,,member,public sector bank
+FIMMDA,Canara Bank,,member,public sector bank
+FIMMDA,Central Bank of India,,member,public sector bank
+FIMMDA,Indian Bank,,member,public sector bank
+FIMMDA,Indian Overseas Bank,,member,public sector bank
+FIMMDA,Punjab and Sindh Bank,,member,public sector bank
+FIMMDA,Punjab National Bank,,member,public sector bank
+FIMMDA,State Bank of India,,member,public sector bank
+FIMMDA,UCO Bank,,member,public sector bank
+FIMMDA,Union Bank of India,,member,public sector bank
+FIMMDA,Axis Bank Limited,,member,private sector bank
+FIMMDA,Bandhan Bank,,member,private sector bank
+FIMMDA,CSB Bank,,member,private sector bank
+FIMMDA,City Union Bank,,member,private sector bank
+FIMMDA,DCB Bank,,member,private sector bank
+FIMMDA,DBS Bank India Limited,,member,private sector bank
+FIMMDA,Dhanlaxmi Bank Ltd,,member,private sector bank
+FIMMDA,Federal Bank Ltd,,member,private sector bank
+FIMMDA,HDFC Bank Ltd,,member,private sector bank
+FIMMDA,ICICI Bank Ltd,,member,private sector bank
+FIMMDA,IDBI Bank,,member,private sector bank
+FIMMDA,IDFC First Bank,,member,private sector bank
+FIMMDA,IndusInd Bank,,member,private sector bank
+FIMMDA,Jammu & Kashmir Bank,,member,private sector bank
+FIMMDA,Karnataka Bank Ltd,,member,private sector bank
+FIMMDA,Karur Vysya Bank,,member,private sector bank
+FIMMDA,Kotak Mahindra Bank,,member,private sector bank
+FIMMDA,RBL Bank,,member,private sector bank
+FIMMDA,The South Indian Bank Ltd,,member,private sector bank
+FIMMDA,Tamilnad Mercantile Bank Ltd,,member,private sector bank
+FIMMDA,Yes Bank,,member,private sector bank
+FIMMDA,Australia and New Zealand Bank,,member,foreign bank
+FIMMDA,Bank of America,,member,foreign bank
+FIMMDA,Bank of Bahrain and Kuwait B.S.C,,member,foreign bank
+FIMMDA,Bank of Ceylon,,member,foreign bank
+FIMMDA,Bank of Nova Scotia,,member,foreign bank
+FIMMDA,Barclays Bank,,member,foreign bank
+FIMMDA,BNP Paribas,,member,foreign bank
+FIMMDA,Citibank NA,,member,foreign bank
+FIMMDA,Credit Agricole Corporate & Investment Bank,,member,foreign bank
+FIMMDA,"CTBC Bank Co., Ltd",,member,foreign bank
+FIMMDA,Deutsche Bank,,member,foreign bank
+FIMMDA,Doha Bank QPSC,,member,foreign bank
+FIMMDA,Emirates NBD PJSC,,member,foreign bank
+FIMMDA,First Abudhabi Bank,,member,foreign bank
+FIMMDA,Hongkong & Shanghai Banking Corporation Limited India,,member,foreign bank
+FIMMDA,Industrial and Commercial Bank of China Limited,,member,foreign bank
+FIMMDA,Industrial Bank of Korea,,member,foreign bank
+FIMMDA,J.P. Morgan Chase Bank N.A,,member,foreign bank
+FIMMDA,KEB Hana Bank,,member,foreign bank
+FIMMDA,Kookmin Bank,,member,foreign bank
+FIMMDA,MASHREQBANK PSC,,member,foreign bank
+FIMMDA,Mizuho Bank Limited,,member,foreign bank
+FIMMDA,MUFG Bank Limited,,member,foreign bank
+FIMMDA,Qatar National Bank (Q.P.S.C.),,member,foreign bank
+FIMMDA,NatWest Markets Plc,,member,foreign bank
+FIMMDA,Nonghyup BANK,,member,foreign bank
+FIMMDA,Cooperatieve Rabobak U.A,,member,foreign bank
+FIMMDA,SBM Bank India Limited,,member,foreign bank
+FIMMDA,Société Générale Bank,,member,foreign bank
+FIMMDA,Standard Chartered Bank,,member,foreign bank
+FIMMDA,Sumitomo Mitsui,,member,foreign bank
+FIMMDA,UBS AG,,member,foreign bank
+FIMMDA,United Overseas Bank,,member,foreign bank
+FIMMDA,Woori Bank,,member,foreign bank
+FIMMDA,Goldman Sachs (I) Capital Markets Private Limited,,member,primary dealer
+FIMMDA,ICICI Securities Primary Dealership Limited,,member,primary dealer
+FIMMDA,Morgan Stanley India Primary Dealer Private Ltd,,member,primary dealer
+FIMMDA,Nomura Fixed Income Securities,,member,primary dealer
+FIMMDA,PNB Gilts Ltd,,member,primary dealer
+FIMMDA,SBI DFHI,,member,primary dealer
+FIMMDA,STCI Primary Dealer Limited,,member,primary dealer
+FIMMDA,Export-Import Bank of India,,member,financial institution
+FIMMDA,NABARD,,member,financial institution
+FIMMDA,National Housing Bank,,member,financial institution
+FIMMDA,Small Industries Development Bank of India [SIDBI],,member,financial institution
+FIMMDA,National Bank for Financing Infrastructure & Devlopment,,member,financial institution
+FIMMDA,Bandhan Life Insurance Co.Ltd,,member,insurance company
+FIMMDA,Bajaj Allainz Life Insurance Co. Ltd,,member,insurance company
+FIMMDA,Deposit Insurance and Credit Guarantee Corporation,,member,insurance company
+FIMMDA,HDFC ERGO General Insurance Company Limited,,member,insurance company
+FIMMDA,ICICI Lombard General Insurance Company Limited,,member,insurance company
+FIMMDA,ICICI Prudential Life Insurance Company Limited,,member,insurance company
+FIMMDA,IndiaFirst Life Insurance Company Ltd,,member,insurance company
+FIMMDA,Life Insurance Corporation of India,,member,insurance company
+FIMMDA,Pramerica Life Insurance Ltd,,member,insurance company
+FIMMDA,Reliance General Insurance Co. LTd,,member,insurance company
+FIMMDA,Reliance Nippon Life Insurance Co. LTd,,member,insurance company
+FIMMDA,SBI General Insurance Company Ltd,,member,insurance company
+FIMMDA,SBI Life Insurance Company Limited,,member,insurance company
+FIMMDA,Universal Sompo General Insurance Co. Ltd,,member,insurance company
+FIMMDA,Edelweiss Tokio Life Insurance Company Limited,,member,insurance company
+FIMMDA,Chola MS General Insurance Co Ltd,,member,insurance company
+FIMMDA,Tata Aia Life Insurance Co,,member,insurance company
+FIMMDA,Shriram General Insurance Company Limited,,member,insurance company
+FIMMDA,Star Health Insurance,,member,insurance company
+FIMMDA,Star Union Daiichi Life Insurance Co,,member,insurance company
+FIMMDA,AU Small Finance Bank Limited,,member,small finance bank
+FIMMDA,Capital Small Finance Bank ltd,,member,small finance bank
+FIMMDA,Equitas Small Finance Bank,,member,small finance bank
+FIMMDA,ESAF SMALL FINANCE BANK,,member,small finance bank
+FIMMDA,Jana Small Finance Bank,,member,small finance bank
+FIMMDA,North East Small Finance Bank Limited,,member,small finance bank
+FIMMDA,Suryodaya Small Finance Bank,,member,small finance bank
+FIMMDA,Ujjivan Small Finance Bank,,member,small finance bank
+FIMMDA,Utkarsh Small Finance Bank,,member,small finance bank
+FIMMDA,Unity Small Finance Bank,,member,small finance bank
+FIMMDA,Shivalik Small Finance Bank,,member,small finance bank
+FIMMDA,India Post Payments Bank Ltd,,member,payments bank
+FIMMDA,NSDL Payments Bank Limited,,member,payments bank
+FIMMDA,Paytm Payments Bank Ltd,,member,payments bank
+FIMMDA,The Clearing Corporation of India Ltd,,member,market infrastructure
+FIMMDA,IFCI Ltd,,member,infrastructure company
+FIMMDA,India Infrastructure Finance Company Limited,,member,infrastructure company

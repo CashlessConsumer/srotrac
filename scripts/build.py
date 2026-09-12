@@ -395,6 +395,13 @@ SROS = [
         "recognition": "RBI-recognised SRO for the Account Aggregator (AA) ecosystem (5 Jun 2026)",
         "recognised_date": "2026-06-05", "status": "active", "sector": "account aggregator / open finance",
     },
+    {
+        "sro_id": "fimmda", "name": "Fixed Income Money Market and Derivatives Association of India",
+        "abbr": "FIMMDA", "website": "https://www.fimmda.org",
+        "nlp_site": "https://www.fimmda.org/UploadPopupPageFiles/MembersList_8May2025.pdf",
+        "recognition": "RBI-recognised SRO in financial markets (first; under the Aug 2024 financial-markets SRO framework; RBI PR 2025-2026/274)",
+        "recognised_date": "2025-05-07", "status": "active", "sector": "financial markets (fixed income / money market / derivatives)",
+    },
 ]
 
 # SROs whose full member roster is not published on the public site.
@@ -423,11 +430,12 @@ def write_members_md(rosters, sros):
         "",
         f"_Generated {today} by `scripts/build.py`. Do not hand-edit._",
         "",
-        "India's eight RBI-recognised self-regulatory organisations. **FACE** and the "
+        "India's nine RBI-recognised self-regulatory organisations. **FACE** and the "
         "**Unified Fintech Forum** are the two SRO-FTs (fintech); the register also covers "
         "**SRPA** (payment system operators), **FIDC** (NBFCs), **MFIN** and **Sa-Dhan** "
-        "(NBFC-MFIs), **FEDAI** (authorised dealers in forex) and **Sahamati** (account "
-        "aggregator ecosystem). FIDC and Sa-Dhan publish no member roster.",
+        "(NBFC-MFIs), **FEDAI** (authorised dealers in forex), **Sahamati** (account "
+        "aggregator ecosystem) and **FIMMDA** (fixed income / money market / derivatives "
+        "markets). FIDC and Sa-Dhan publish no member roster.",
         "",
         "## Totals",
         "",
@@ -506,6 +514,29 @@ def parse_sahamati():
     return rows
 
 
+def parse_fimmda():
+    """FIMMDA roster: member list is a PDF (MembersList_8May2025.pdf), not a web page.
+
+    data/raw/fimmda_members.pdf is the source capture; data/raw/fimmda_members.csv
+    is the one-off coordinate-level extraction from it (category column = the PDF's
+    own section headers). build.py validates and copies it through.
+    """
+    path = RAW / "fimmda_members.csv"
+    if not path.exists():
+        return []
+    rows = []
+    with open(path, newline="", encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            if not r.get("member_name"):
+                continue
+            rows.append({
+                "sro": "FIMMDA", "member_name": r["member_name"],
+                "website": r.get("website", ""), "member_type": r.get("member_type", "member"),
+                "category": r.get("category", ""),
+            })
+    return rows
+
+
 def main():
     face = parse_face()
     uff = parse_uff()
@@ -513,7 +544,9 @@ def main():
     mfin = parse_mfin()
     fedai = parse_fedai()
     sahamati = parse_sahamati()
-    rosters = {"FACE": face, "UFF": uff, "SRPA": srpa, "MFIN": mfin, "FEDAI": fedai, "Sahamati": sahamati}
+    fimmda = parse_fimmda()
+    rosters = {"FACE": face, "UFF": uff, "SRPA": srpa, "MFIN": mfin, "FEDAI": fedai,
+               "Sahamati": sahamati, "FIMMDA": fimmda}
 
     write_csv(OUT / "face_members.csv", face, ["sro", "member_name", "website", "member_type"])
     write_csv(OUT / "uff_members.csv", uff, ["sro", "member_name", "website", "member_type", "logo_file"])
@@ -521,6 +554,7 @@ def main():
     write_csv(OUT / "mfin_members.csv", mfin, ["sro", "member_name", "website", "member_type", "logo_file"])
     write_csv(OUT / "fedai_members.csv", fedai, ["sro", "member_name", "website", "member_type", "lei"])
     write_csv(OUT / "sahamati_members.csv", sahamati, ["sro", "member_name", "website", "member_type", "logo_file"])
+    write_csv(OUT / "fimmda_members.csv", fimmda, ["sro", "member_name", "website", "member_type", "category"])
     write_csv(OUT / "sros.csv", SROS, ["sro_id", "name", "abbr", "website", "nlp_site", "recognition", "recognised_date", "status", "sector"])
 
     db = OUT / "srotrac.duckdb"
@@ -528,7 +562,7 @@ def main():
         db.unlink()
     union = "\n      UNION ALL ".join(
         f"SELECT sro, member_name, website, member_type FROM read_csv_auto('{OUT/f'{k.lower()}_members.csv'}')"
-        for k in ["face", "uff", "srpa", "mfin", "fedai", "sahamati"]
+        for k in ["face", "uff", "srpa", "mfin", "fedai", "sahamati", "fimmda"]
     )
     sql = f"""
     CREATE TABLE sros AS SELECT * FROM read_csv_auto('{OUT/'sros.csv'}');
@@ -542,6 +576,7 @@ def main():
     print(f"FACE members: {len(face)}")
     print(f"UFF members:  {len(uff)}")
     print(f"SRPA members: {len(srpa)}")
+    print(f"FIMMDA members: {len(fimmda)}")
     print(f"Total members: {total}")
     print("Wrote docs/members.md")
 

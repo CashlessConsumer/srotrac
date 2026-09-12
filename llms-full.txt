@@ -6,18 +6,18 @@ Source: https://srotrac.cashlessconsumer.in (CC BY 4.0). One section per page.
 Register of RBI-recognised self-regulatory organisations · India 
  Who watches India’s fintech watchdogs ? 
 
- RBI-Recognised × 8 
+ RBI-Recognised × 9 
  2 × SRO-FT 
 
- RBI outsources first-line supervision of fintechs, NBFCs and payment operators to self-regulatory organisations — industry bodies with the power to write conduct codes and police their own members. SROTrac tracks who sits on these SROs, what they do, and whether they work for consumers. Scope: only the eight SROs recognised by RBI — industry bodies under SEBI, IRDAI or other regulators are out of scope. 
+ RBI outsources first-line supervision of fintechs, NBFCs and payment operators to self-regulatory organisations — industry bodies with the power to write conduct codes and police their own members. SROTrac tracks who sits on these SROs, what they do, and whether they work for consumers. Scope: only the nine SROs recognised by RBI — industry bodies under SEBI, IRDAI or other regulators are out of scope. 
 
- 8 RBI-recognised SROs 
- 526 listed member orgs 
- 38 in 2+ SROs 
+ 9 RBI-recognised SROs 
+ 642 listed member orgs 
+ 71 in 2+ SROs 
  2 fintech SRO-FTs 
 
  The register 
- Seven bodies, one contract with the regulator. Click a folder for members, governance and activity. 
+ Nine bodies, one contract with the regulator. Click a folder for members, governance and activity. 
 
  Active SRO-FT 
  Fintech Association for Consumer Empowerment 
@@ -59,6 +59,11 @@ Register of RBI-recognised self-regulatory organisations · India
  Account Aggregator (AA) ecosystem — AAs, FIPs, FIUs, TSPs 
  Recognised 05 Jun 2026 · 110 listed members 
 
+ Active SRO (financial markets; first under the Aug 2024 framework) 
+ Fixed Income Money Market and Derivatives Association of India 
+ Financial markets: fixed income, money market and derivatives (banks, primary dealers, insurers, public financial institutions) 
+ Recognised 07 May 2025 · 116 listed members 
+
  What is an SRO, in plain words? 
  RBI can't directly supervise thousands of fintechs, NBFCs and payment companies. So it recognises industry associations as self-regulatory organisations — with a contract: broad membership, independent boards, codes of conduct, monitoring of member compliance, and grievance redress. In return the regulator gets a first line of supervision, and the industry gets a single voice. 
  For consumers, the SRO is one more place to escalate when a lender or payment company misbehaves — but only if the SRO actually enforces. That is what this tracker watches: rosters, governance, consultations, enforcement, and the gaps in between. 
@@ -67,6 +72,8 @@ Register of RBI-recognised self-regulatory organisations · India
 
  2026-09-10 UFF 
  UFF recognised as India's second SRO-FT 
+ 2026-09-01 FIMMDA 
+ FIMMDA constitutes a Disciplinary Committee of the Board 
  2026-08 FACE 
  FACE Personal Loan Report 2026 
  2026-06-05 FIDC 
@@ -75,8 +82,6 @@ Register of RBI-recognised self-regulatory organisations · India
  FEDAI recognised as SRO for all Authorised Dealers 
  2025-11-11 SRPA 
  SRPA becomes RBI-recognised SRO for payment system operators 
- 2025-10-03 FIDC 
- FIDC recognised as RBI's SRO for NBFCs 
 
  Full activity log → 
 
@@ -89,16 +94,16 @@ Register of RBI-recognised self-regulatory organisations · India
 
 ## members — https://srotrac.cashlessconsumer.in/members.html
 All members 
- 486 organisations across the six published rosters (FIDC and Sa-Dhan publish no public roster). One row per organisation — SRO badges show every register it appears in. Filter by SRO, entity type, or search by name. Cross-SRO membership overlap is below the table . 
+ 565 organisations across the seven published rosters (FIDC and Sa-Dhan publish no public roster). One row per organisation — SRO badges show every register it appears in. Filter by SRO, entity type, or search by name. Cross-SRO membership overlap is below the table . 
 
  SRO 
  All 
- FACE UFF SRPA MFIN FEDAI Sahamati 
+ FACE UFF SRPA MFIN FEDAI Sahamati FIMMDA 
  In 2+ SROs 
 
  Type 
  All 
- NBFC (106) Bank (96) Fintech / LSP (73) Tech / TSP (47) NBFC-MFI (31) Payments / PSO (28) Investments / Wealth (19) Other / Services (17) Small Finance Bank (16) Account Aggregator (11) Securities Broker (10) Cooperative Bank (9) AMC / Mutual Fund (6) Insurer (5) Credit Bureau (3) Housing Finance (3) Development FI (2) Forex / Remittance (2) Market Infrastructure (2) 
+ Bank (130) NBFC (106) Fintech / LSP (73) Tech / TSP (47) NBFC-MFI (31) Payments / PSO (28) Insurer (24) Small Finance Bank (24) Investments / Wealth (19) Other / Services (17) Account Aggregator (11) Development FI (10) Cooperative Bank (9) Primary Dealer (9) Securities Broker (8) AMC / Mutual Fund (6) Credit Bureau (3) Housing Finance (3) Payments Bank (3) Forex / Remittance (2) Market Infrastructure (2) 
 
  Organisation Entity type SROs Website 
 
@@ -107,11 +112,11 @@ All members
  Shared members matrix 
  Each cell counts organisations registered with both the row and column SRO. Click a cell to open those organisations in the members table. 
 
- FACE UFF FIDC SRPA MFIN Sa-Dhan FEDAI Sahamati FACE 85 23 · 3 · · · · UFF 23 121 · 3 2 · 1 1 FIDC · · 0 · · · · · SRPA 3 3 · 18 · · · · MFIN · 2 · · 84 · · 1 Sa-Dhan · · · · · 0 · · FEDAI · 1 · · · · 108 8 Sahamati · 1 · · 1 · 8 110 
+ FACE UFF FIDC SRPA MFIN Sa-Dhan FEDAI Sahamati FIMMDA FACE 85 23 · 3 · · · · · UFF 23 121 · 3 2 · 1 1 2 FIDC · · 0 · · · · · · SRPA 3 3 · 18 · · · · · MFIN · 2 · · 84 · · 1 6 Sa-Dhan · · · · · 0 · · · FEDAI · 1 · · · · 108 8 27 Sahamati · 1 · · 1 · 8 110 7 FIMMDA · 2 · · 6 · 27 7 116 
 
- Organisations in 2+ SROs (38) 
+ Organisations in 2+ SROs (71) 
 
- Organisation Type SROs Apollo Finvest NBFC FACE UFF Aspire Fintech / LSP FACE UFF AU Small Finance Bank Limited Small Finance Bank FEDAI Sahamati Bank of Baroda Bank UFF FEDAI Sahamati BharatPe Payments / PSO FACE UFF Branch Fintech / LSP FACE UFF Bureau Tech / TSP FACE UFF CADRE Other / Services FACE UFF CRED Fintech / LSP UFF SRPA Decentro Tech / TSP FACE UFF GetVantage Fintech / LSP FACE UFF HDFC Bank Limited Bank FEDAI Sahamati HyperVerge Tech / TSP FACE UFF ICICI Bank Bank MFIN Sahamati IDFC FIRST Bank Limited Bank FEDAI Sahamati InCred NBFC FACE UFF IndusInd Bank Limited Bank FEDAI Sahamati Kotak Mahindra Bank Limited Bank FEDAI Sahamati KreditBee Fintech / LSP FACE UFF Light Microfinance NBFC-MFI UFF MFIN MobiKwik Payments / PSO FACE UFF SRPA Moneyview Fintech / LSP FACE UFF Northern Arc NBFC FACE UFF Paisabazaar Fintech / LSP FACE UFF Paytm Payments / PSO FACE UFF Perfios Tech / TSP FACE UFF PhonePe Payments / PSO FACE SRPA Progcap Fintech / LSP FACE UFF Punjab National Bank Bank FEDAI Sahamati Razorpay Payments / PSO FACE SRPA RBL Bank Bank UFF MFIN Revfin Fintech / LSP FACE UFF Saafe Tech / TSP FACE UFF Small Industries Development Bank of India Bank FEDAI Sahamati Spice Money Payments / PSO UFF SRPA True Balance Payments / PSO FACE UFF Uni Fintech / LSP FACE UFF Zeta Tech / TSP FACE UFF 
+ Organisation Type SROs Apollo Finvest NBFC FACE UFF Aspire Fintech / LSP FACE UFF AU Small Finance Bank Limited Small Finance Bank FEDAI Sahamati FIMMDA Axis Bank Limited Bank Sahamati FIMMDA Bandhan Bank Bank MFIN FIMMDA Bank of Baroda Bank UFF FEDAI Sahamati FIMMDA Bank of Ceylon Bank FEDAI FIMMDA Bank of India Bank FEDAI FIMMDA Bank of Maharashtra Bank FEDAI FIMMDA BharatPe Payments / PSO FACE UFF BNP Paribas Bank FEDAI FIMMDA Branch Fintech / LSP FACE UFF Bureau Tech / TSP FACE UFF CADRE Other / Services FACE UFF Canara Bank Bank FEDAI FIMMDA Central Bank of India Bank FEDAI FIMMDA CRED Fintech / LSP UFF SRPA DBS Bank India Limited Bank FEDAI FIMMDA Decentro Tech / TSP FACE UFF Export-Import Bank of India Development FI FEDAI FIMMDA GetVantage Fintech / LSP FACE UFF HDFC Bank Limited Bank FEDAI Sahamati HyperVerge Tech / TSP FACE UFF ICICI Bank Bank MFIN Sahamati ICICI Securities Primary Dealership Limited Primary Dealer FEDAI FIMMDA IDFC First Bank Bank MFIN FIMMDA IDFC FIRST Bank Limited Bank FEDAI Sahamati InCred NBFC FACE UFF Indian Bank Bank FEDAI FIMMDA Indian Overseas Bank Bank FEDAI FIMMDA IndusInd Bank Bank MFIN FIMMDA IndusInd Bank Limited Bank FEDAI Sahamati Industrial and Commercial Bank of China Limited Bank FEDAI FIMMDA Industrial Bank of Korea Bank FEDAI FIMMDA KEB Hana Bank Bank FEDAI FIMMDA Kookmin Bank Bank FEDAI FIMMDA Kotak Mahindra Bank Limited Bank FEDAI Sahamati KreditBee Fintech / LSP FACE UFF Light Microfinance NBFC-MFI UFF MFIN Mizuho Bank Limited Bank FEDAI FIMMDA MobiKwik Payments / PSO FACE UFF SRPA Moneyview Fintech / LSP FACE UFF NABARD Development FI Sahamati FIMMDA Northern Arc NBFC FACE UFF Paisabazaar Fintech / LSP FACE UFF Paytm Payments / PSO FACE UFF Perfios Tech / TSP FACE UFF PhonePe Payments / PSO FACE SRPA Progcap Fintech / LSP FACE UFF Punjab National Bank Bank FEDAI Sahamati FIMMDA Qatar National Bank (Q.P.S.C.) Bank FEDAI FIMMDA Razorpay Payments / PSO FACE SRPA RBL Bank Bank UFF MFIN FIMMDA Revfin Fintech / LSP FACE UFF Saafe Tech / TSP FACE UFF Small Industries Development Bank of India Development FI FEDAI Sahamati Spice Money Payments / PSO UFF SRPA Standard Chartered Bank Bank FEDAI FIMMDA State Bank of India Bank FEDAI FIMMDA The Clearing Corporation of India Ltd Market Infrastructure FEDAI FIMMDA The South Indian Bank Ltd Bank Sahamati FIMMDA True Balance Payments / PSO FACE UFF UBS AG Bank FEDAI FIMMDA UCO Bank Bank FEDAI FIMMDA Ujjivan Small Finance Bank Small Finance Bank Sahamati FIMMDA Uni Fintech / LSP FACE UFF Union Bank of India Bank FEDAI FIMMDA Unity Small Finance Bank Small Finance Bank MFIN FIMMDA Woori Bank Bank FEDAI FIMMDA Yes Bank Bank MFIN FIMMDA Zeta Tech / TSP FACE UFF 
 
  People in 2+ SROs 
  Person Roles Jiji Mammen FIDC: Advisory Council; Sa-Dhan: Executive Director & CEO N S Vishwanathan FIDC: Governing Council Member (Additional Director wef 2026-06-23); UFF: Independent Board Member Shachindra Nath FIDC: Governing Council Member; UFF: EC Member Sugandh Saxena FACE: CEO (first CEO; MFIN: Member Secretary 
@@ -128,6 +133,10 @@ Regulatory timeline
  2026-09-10 UFF recognition 
  UFF recognised as India's second SRO-FT 
  RBI granted SRO-FT registration to Unified Fintech Forum (ex-DLAI) ahead of RBI's Global Fintech Fest address; second fintech SRO after FACE. 
+
+ 2026-09-01 FIMMDA governance 
+ FIMMDA constitutes a Disciplinary Committee of the Board 
+ First visible post-recognition enforcement machinery: Disciplinary Committee constituted under Article 34 of its AoA (FIMCIR/2026-27/20) — chaired by Manoj Rane (Independent Director), with Abhijit Basak (Union Bank) and Manish Luharuka (ICICI Bank). 
 
  2026-08 FACE report 
  FACE Personal Loan Report 2026 
@@ -154,6 +163,14 @@ Regulatory timeline
  2025-08 FACE tool 
  DLA Validator — consumer tool for checking digital lending apps 
  FACE's consumer corner offers a DLA (digital lending application) validator so borrowers can check an app before taking a loan. 
+
+ 2025-05-08 FIMMDA roster 
+ FIMMDA publishes List of Current Members (116 institutions) 
+ Member list PDF dated 8 May 2025: 12 public sector banks, 21 private banks, 34 foreign banks, 7 primary dealers, 5 financial institutions, 20 insurers, 11 SFBs, 3 payments banks, CCIL and 2 infrastructure financiers. Only public roster FIMMDA publishes — a PDF, not a web directory. 
+
+ 2025-05-07 FIMMDA recognition 
+ FIMMDA recognised as RBI's first SRO in financial markets 
+ RBI recognised the Fixed Income Money Market and Derivatives Association of India (est. 1998) as an SRO in the financial markets it regulates (Press Release 2025-2026/274) — the first recognition under the August 2024 financial-markets SRO framework. 
 
  2025-04-16 UFF announcement 
  DLAI rebrands as Unified Fintech Forum (UFF); new leadership elected 
@@ -232,7 +249,7 @@ Regulatory timeline
 Activity log 
  Frameworks, recognitions, consultation responses, reports and announcements — dated and linked. 
 
- All announcement (5) consultation (2) framework (5) partnership (1) recognition (7) report (1) tool (1)
+ All announcement (5) consultation (2) framework (5) governance (1) partnership (1) recognition (8) report (1) roster (1) tool (1)
 
 
 ## about — https://srotrac.cashlessconsumer.in/about.html
@@ -240,7 +257,7 @@ About SROTrac
  An independent, open-data register of India's RBI-recognised self-regulatory organisations — built by CashlessConsumer, a consumer collective working on digital payments and fintech. Licensed CC BY 4.0 (data) and MIT (code). 
 
  Scope: RBI’s SROs only 
- India has several self-regulatory bodies across financial regulators. SROTrac tracks only the eight recognised by the Reserve Bank of India : the two SRO-FTs (FACE, UFF), FIDC (NBFCs), SRPA (payment operators), MFIN and Sa-Dhan (microfinance), FEDAI (authorised dealers), and Sahamati (Account Aggregator ecosystem). Bodies under other regulators — e.g. AMFI and IIFL under SEBI, the Insurance Institute under IRDAI — are not covered here, however senior their profiles. 
+ India has several self-regulatory bodies across financial regulators. SROTrac tracks only the nine recognised by the Reserve Bank of India : the two SRO-FTs (FACE, UFF), FIDC (NBFCs), SRPA (payment operators), MFIN and Sa-Dhan (microfinance), FEDAI (authorised dealers), Sahamati (Account Aggregator ecosystem), and FIMMDA (fixed income, money market and derivatives). Bodies under other regulators — e.g. AMFI and IIFL under SEBI, the Insurance Institute under IRDAI — are not covered here, however senior their profiles. 
 
  Method 
 
@@ -258,7 +275,7 @@ About SROTrac
  Recognition ≠ effectiveness. An SRO can be fully compliant on paper and still never discipline a member. This tracker will log enforcement actions as they surface. 
 
  FAQ 
- Which SROs does India have? The Reserve Bank of India has recognised eight self-regulatory organisations: FACE and UFF for fintech (SRO-FT framework), FIDC for NBFCs, SRPA for payment system operators, MFIN and Sa-Dhan for microfinance lenders, FEDAI for authorised dealers in foreign exchange, and Sahamati for the account aggregator ecosystem. Does SROTrac cover SEBI or IRDAI industry bodies? No. SROTrac tracks only RBI-recognised SROs. Bodies like AMFI (mutual funds) or the Insurance Institute are recognised by other regulators and are out of scope. Is SROTrac affiliated with the RBI or any SRO? No. SROTrac is an independent project by CashlessConsumer, a consumer collective. It uses only publicly available sources: SRO websites, RBI press releases and dated news reports. Is Sahamati recognised by the RBI? Yes. RBI recognised Sahamati as the SRO for the account aggregator (AA) ecosystem on 5 June 2026. Before recognition, Sahamati spent five years as the AA ecosystem's non-profit standards body (spun out of iSPIRT's work). Its directory lists 110 regulated entities across AAs, FIPs, FIUs and TSPs. How many members do the SROs have? As of the latest capture: FACE 85, UFF 121, SRPA 18, MFIN 84, FEDAI 108 and Sahamati 110 listed members — 526 rows across the eight SROs. FIDC and Sa-Dhan publish no public roster. Counts are floors, not filings: SRO member pages are marketing pages. Can I reuse the data? Yes. Data is licensed CC BY 4.0 — copy, remix and republish with attribution to SROTrac / CashlessConsumer. The CSVs are linked on the members page and in the GitHub repo. 
+ Which SROs does India have? The Reserve Bank of India has recognised nine self-regulatory organisations: FACE and UFF for fintech (SRO-FT framework), FIDC for NBFCs, SRPA for payment system operators, MFIN and Sa-Dhan for microfinance lenders, FEDAI for authorised dealers in foreign exchange, Sahamati for the account aggregator ecosystem, and FIMMDA for the fixed income, money market and derivatives markets. Does SROTrac cover SEBI or IRDAI industry bodies? No. SROTrac tracks only RBI-recognised SROs. Bodies like AMFI (mutual funds) or the Insurance Institute are recognised by other regulators and are out of scope. Is SROTrac affiliated with the RBI or any SRO? No. SROTrac is an independent project by CashlessConsumer, a consumer collective. It uses only publicly available sources: SRO websites, RBI press releases and dated news reports. Is Sahamati recognised by the RBI? Yes. RBI recognised Sahamati as the SRO for the account aggregator (AA) ecosystem on 5 June 2026. Before recognition, Sahamati spent five years as the AA ecosystem's non-profit standards body (spun out of iSPIRT's work). Its directory lists 110 regulated entities across AAs, FIPs, FIUs and TSPs. How many members do the SROs have? As of the latest capture: FACE 85, UFF 121, SRPA 18, MFIN 84, FEDAI 108, Sahamati 110 and FIMMDA 116 listed members — 642 rows across the nine SROs. FIDC and Sa-Dhan publish no public roster. Counts are floors, not filings: SRO member pages are marketing pages. Can I reuse the data? Yes. Data is licensed CC BY 4.0 — copy, remix and republish with attribution to SROTrac / CashlessConsumer. The CSVs are linked on the members page and in the GitHub repo. 
 
  License & reuse 
  Code: MIT. Data: CC BY 4.0 — copy, remix and republish with attribution to SROTrac / CashlessConsumer. 
@@ -532,7 +549,7 @@ RBI-recognised SRO
 
  Recognised 14 Jan 2026 
  Status Active SRO (FX; Omnibus framework; 1-yr transition to Jan 2027) 
- Listed members 108 (83 Bank · 9 Cooperative Bank · 6 Small Finance Bank · 5 Securities Broker) 
+ Listed members 108 (81 Bank · 9 Cooperative Bank · 6 Small Finance Bank · 3 Development FI) 
  Site www.fedai.org.in 
 
  Why it matters if you borrow or pay 
@@ -575,7 +592,7 @@ RBI-recognised SRO
 
  Recognised 05 Jun 2026 
  Status Active SRO (AA ecosystem; 8th RBI-recognised SRO) 
- Listed members 110 (31 NBFC · 16 Investments / Wealth · 13 Bank · 12 Tech / TSP) 
+ Listed members 110 (31 NBFC · 16 Investments / Wealth · 12 Tech / TSP · 12 Bank) 
  Site sahamati.org.in 
 
  Why it matters if you borrow or pay 
@@ -608,6 +625,49 @@ What Sahamati actually does
  Gaps & open questions No public disciplinary/enforcement log yet — dashboards show volumes, not actions. Board, EC and conflict-of-interest disclosures are thinner than FACE's published governance. Unclear how TSPs (not RBI-regulated) sit inside an omnibus-framework SRO. 
  Sources Current RE Members Industry stats & dashboards SRO recognition (what-we-do) 
  Captured 2026-09-10–11 from Sahamati’s own site. Deep-dive under methodology · ← register entry
+
+
+## FIMMDA register entry — https://srotrac.cashlessconsumer.in/sro-fimmda.html
+RBI-recognised SRO 
+ Fixed Income Money Market and Derivatives Association of India FIMMDA 
+ Deep-dive: what FIMMDA actually does → 
+ Financial markets: fixed income, money market and derivatives (banks, primary dealers, insurers, public financial institutions) 
+
+ Recognised 07 May 2025 
+ Status Active SRO (financial markets; first under the Aug 2024 framework) 
+ Listed members 116 (66 Bank · 19 Insurer · 11 Small Finance Bank · 8 Development FI) 
+ Site www.fimmda.org 
+
+ Why it matters if you borrow or pay 
+ The bond and money-market rules your mutual fund, pension fund and insurer trade under are drafted here — FIMMDA sets market practices, standard agreements and the code of fair conduct for the fixed-income market. RBI mandates its valuation of government bonds, corporate bonds and securitised papers — the daily prices that sit inside nearly every debt portfolio in the country. Constituted a Disciplinary Committee (1 Sep 2026, chaired by an independent director) — the enforcement machinery its new SRO status requires. 
+
+ What we're watching 
+ Its overview page claims a “115 member strong” body (13 PSBs, 19 private banks, 35 foreign banks…) — its own member-list PDF (8 May 2025) shows 116 rows with different category counts, and the list has not been refreshed since. Recognised on 7 May 2025; disciplinary committee only constituted 16 months later (Sep 2026) — enforcement record starts from zero. Website is a legacy frameset and the roster ships as a PDF — public disclosure lags peer SROs like FEDAI. 
+
+ Governance 
+ Board / Governing Council Name Role Affiliation Ashwani Sindhwani Independent Director Manoj Rane Independent Director Shamsher Singh Chairman Deputy Managing Director (Global Markets), State Bank of India Neeraj Gambhir Vice Chairman Group Executive — Treasury/Markets, Axis Bank Ashish Parthasarthy Director Treasurer, HDFC Bank Abhijit Basak Director Chief General Manager, Union Bank of India Manish Luharuka Director Head — Fixed Income & Forex Trading, ICICI Bank Shashi Dhar Director Chief General Manager — Treasury & Global Markets, Bank of Baroda Ashok Kumar Gautam Independent Director MD & CEO, India International Bullion Exchange (IIBX) Executive Committee / Office bearers Name Role Affiliation Ravindranath Gandrakota Chief Executive ex-SBI Chief General Manager; FIMMDA CEO since Sep 2020 
+
+ Members (116) 
+
+ Organisation Type Website 
+ AU Small Finance Bank Limited member Australia and New Zealand Bank member Axis Bank Limited member Bajaj Allainz Life Insurance Co. Ltd member Bandhan Bank member Bandhan Life Insurance Co.Ltd member Bank of America member Bank of Bahrain and Kuwait B.S.C member Bank of Baroda member Bank of Ceylon member Bank of India member Bank of Maharashtra member Bank of Nova Scotia member Barclays Bank member BNP Paribas member Canara Bank member Capital Small Finance Bank ltd member Central Bank of India member Chola MS General Insurance Co Ltd member Citibank NA member City Union Bank member Cooperatieve Rabobak U.A member Credit Agricole Corporate & Investment Bank member CSB Bank member CTBC Bank Co., Ltd member DBS Bank India Limited member DCB Bank member Deposit Insurance and Credit Guarantee Corporation member Deutsche Bank member Dhanlaxmi Bank Ltd member Doha Bank QPSC member Edelweiss Tokio Life Insurance Company Limited member Emirates NBD PJSC member Equitas Small Finance Bank member ESAF SMALL FINANCE BANK member Export-Import Bank of India member Federal Bank Ltd member First Abudhabi Bank member Goldman Sachs (I) Capital Markets Private Limited member HDFC Bank Ltd member HDFC ERGO General Insurance Company Limited member Hongkong & Shanghai Banking Corporation Limited India member ICICI Bank Ltd member ICICI Lombard General Insurance Company Limited member ICICI Prudential Life Insurance Company Limited member ICICI Securities Primary Dealership Limited member IDBI Bank member IDFC First Bank member IFCI Ltd member India Infrastructure Finance Company Limited member India Post Payments Bank Ltd member IndiaFirst Life Insurance Company Ltd member Indian Bank member Indian Overseas Bank member IndusInd Bank member Industrial and Commercial Bank of China Limited member Industrial Bank of Korea member J.P. Morgan Chase Bank N.A member Jammu & Kashmir Bank member Jana Small Finance Bank member Karnataka Bank Ltd member Karur Vysya Bank member KEB Hana Bank member Kookmin Bank member Kotak Mahindra Bank member Life Insurance Corporation of India member MASHREQBANK PSC member Mizuho Bank Limited member Morgan Stanley India Primary Dealer Private Ltd member MUFG Bank Limited member NABARD member National Bank for Financing Infrastructure & Devlopment member National Housing Bank member NatWest Markets Plc member Nomura Fixed Income Securities member Nonghyup BANK member North East Small Finance Bank Limited member NSDL Payments Bank Limited member Paytm Payments Bank Ltd member PNB Gilts Ltd member Pramerica Life Insurance Ltd member Punjab and Sindh Bank member Punjab National Bank member Qatar National Bank (Q.P.S.C.) member RBL Bank member Reliance General Insurance Co. LTd member Reliance Nippon Life Insurance Co. LTd member SBI DFHI member SBI General Insurance Company Ltd member SBI Life Insurance Company Limited member SBM Bank India Limited member Shivalik Small Finance Bank member Shriram General Insurance Company Limited member Small Industries Development Bank of India [SIDBI] member Société Générale Bank member Standard Chartered Bank member Star Health Insurance member Star Union Daiichi Life Insurance Co member State Bank of India member STCI Primary Dealer Limited member Sumitomo Mitsui member Suryodaya Small Finance Bank member Tamilnad Mercantile Bank Ltd member Tata Aia Life Insurance Co member The Clearing Corporation of India Ltd member The South Indian Bank Ltd member UBS AG member UCO Bank member Ujjivan Small Finance Bank member Union Bank of India member United Overseas Bank member Unity Small Finance Bank member Universal Sompo General Insurance Co. Ltd member Utkarsh Small Finance Bank member Woori Bank member Yes Bank member 
+
+ Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+
+ Activity 
+ 2026-09-01 governance FIMMDA constitutes a Disciplinary Committee of the Board 2025-05-08 roster FIMMDA publishes List of Current Members (116 institutions) 2025-05-07 recognition FIMMDA recognised as RBI's first SRO in financial markets
+
+
+## FIMMDA work deep-dive — https://srotrac.cashlessconsumer.in/work-fimmda.html
+What FIMMDA actually does 
+ Fixed Income Money Market and Derivatives Association of India FIMMDA 
+ The bond market's own rulebook: valuations, market practices and standard agreements 
+
+ FIMMDA (incorporated 4 May 1998) is the oldest market body in the register and the first SRO recognised in the financial markets (7 May 2025, RBI PR 2025-2026/274) under RBI's August 2024 financial-markets SRO framework. Its 116 listed members span public, private, foreign, small-finance and payments banks, primary dealers, insurers, development institutions and CCIL. 
+ What FIMMDA does Principal interface with RBI, SEBI and the Ministry of Finance for the fixed income, money and derivatives markets RBI-mandated valuation of government bonds, corporate bonds and securitised papers — the daily prices that bank and primary-dealer portfolios are marked at Standardisation of market practices: FIMMDA Operational Circulars, the Handbook of Market Practices, standard legal agreements (MRA, GMRA, CDS) and the Code of Fair Practices Developmental role: introduced benchmarks (MIBOR history), new products (CPs, securitised papers, OIS) and runs an extensive training programme Membership 116 members in its published list (PDF dated 8 May 2025): 12 public-sector banks, 21 private banks, 34 foreign banks, 7 primary dealers, 5 financial institutions (Exim, NABARD, NHB, SIDBI, NaBFID), 20 insurers, 11 SFBs, 3 payments banks, CCIL, IFCI and IIFCL Fee model: Rs 2.5 lakh one-time registration + Rs 2.5 lakh annual membership (+GST) — an institution-funded body Accredited brokers in the interest-rate-derivatives voice market are governed by a separate accreditation framework and code of conduct SRO transition since recognition Site header now brands FIMMDA a 'Self-Regulatory Organisation in the Financial Markets Regulated by RBI' Disciplinary Committee of the Board constituted 1 Sep 2026 (Art. 34 AoA): chaired by independent director Manoj Rane, with nominee directors from Union Bank and ICICI Bank Nine-member Board (Sep 2026) led by Shamsher Singh (SBI DMD, Global Markets) as Chairman and Neeraj Gambhir (Axis) as Vice Chairman, with three independent directors Standing committees cover new products, technical market practices, membership, valuation, accreditation of brokers, CDS and skill development 
+ Gaps & open questions Overview page still claims a '115 member strong' body with category counts that do not match its own 116-row PDF — and the list has not been refreshed since 8 May 2025 No public disciplinary actions, consultation responses or member circular archive without login; circulars are one-page PDFs Legacy frameset website: rosters and disclosures ship as PDFs, not structured pages 
+ Sources RBI press release — FIMMDA recognised as SRO (7 May 2025) FIMMDA member list (PDF, 8 May 2025) FIMMDA — Board of Directors FIMMDA — Committees FIMCIR/2026-27/20 — Constitution of Disciplinary Committee (1 Sep 2026) 
+ Captured 2026-09-10–11 from FIMMDA’s own site. Deep-dive under methodology · ← register entry
 
 
 ## Blog post: 2026-09-11-srotrac-weekly-1 — https://srotrac.cashlessconsumer.in/blog/2026-09-11-srotrac-weekly-1.html
