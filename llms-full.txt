@@ -12,8 +12,8 @@ Register of RBI-recognised self-regulatory organisations · India
  RBI outsources first-line supervision of fintechs, NBFCs and payment operators to self-regulatory organisations — industry bodies with the power to write conduct codes and police their own members. SROTrac tracks who sits on these SROs, what they do, and whether they work for consumers. Scope: only the nine SROs recognised by RBI — industry bodies under SEBI, IRDAI or other regulators are out of scope. 
 
  9 RBI-recognised SROs 
- 521 listed member orgs 
- 46 in 2+ SROs 
+ 642 listed member orgs 
+ 71 in 2+ SROs 
  2 fintech SRO-FTs 
 
  The register 
@@ -27,7 +27,7 @@ Register of RBI-recognised self-regulatory organisations · India
  Active SRO-FT (recognised at GFF 2026) 
  Unified Fintech Forum 
  Fintech (broad): lenders, wallets/PPIs, neobanks, BNPL 
- Recognised 10 Sep 2026 · 0 listed members 
+ Recognised 10 Sep 2026 · 121 listed members 
 
  Active SRO (NBFC) 
  Finance Industry Development Council 
@@ -94,16 +94,16 @@ Register of RBI-recognised self-regulatory organisations · India
 
 ## members — https://srotrac.cashlessconsumer.in/members.html
 All members 
- 472 organisations across the seven published rosters (FIDC and Sa-Dhan publish no public roster). One row per organisation — SRO badges show every register it appears in. Filter by SRO, entity type, or search by name. Cross-SRO membership overlap is below the table . 
+ 565 organisations across the seven published rosters (FIDC and Sa-Dhan publish no public roster). One row per organisation — SRO badges show every register it appears in. Filter by SRO, entity type, or search by name. Cross-SRO membership overlap is below the table . 
 
  SRO 
  All 
- FACE SRPA MFIN FEDAI Sahamati FIMMDA 
+ FACE UFF SRPA MFIN FEDAI Sahamati FIMMDA 
  In 2+ SROs 
 
  Type 
  All 
- Bank (130) NBFC (77) Fintech / LSP (44) Tech / TSP (32) NBFC-MFI (31) Insurer (24) Small Finance Bank (24) Payments / PSO (23) Investments / Wealth (18) Account Aggregator (11) Development FI (10) Cooperative Bank (9) Primary Dealer (9) Securities Broker (8) AMC / Mutual Fund (6) Other / Services (5) Housing Finance (3) Payments Bank (3) Forex / Remittance (2) Market Infrastructure (2) Credit Bureau (1) 
+ Bank (130) NBFC (106) Fintech / LSP (73) Tech / TSP (47) NBFC-MFI (31) Payments / PSO (28) Insurer (24) Small Finance Bank (24) Investments / Wealth (19) Other / Services (17) Account Aggregator (11) Development FI (10) Cooperative Bank (9) Primary Dealer (9) Securities Broker (8) AMC / Mutual Fund (6) Credit Bureau (3) Housing Finance (3) Payments Bank (3) Forex / Remittance (2) Market Infrastructure (2) 
 
  Organisation Entity type SROs Website 
 
@@ -112,11 +112,11 @@ All members
  Shared members matrix 
  Each cell counts organisations registered with both the row and column SRO. Click a cell to open those organisations in the members table. 
 
- FACE UFF FIDC SRPA MFIN Sa-Dhan FEDAI Sahamati FIMMDA FACE 85 · · 3 · · · · · UFF · 0 · · · · · · · FIDC · · 0 · · · · · · SRPA 3 · · 18 · · · · · MFIN · · · · 84 · · 1 6 Sa-Dhan · · · · · 0 · · · FEDAI · · · · · · 108 8 27 Sahamati · · · · 1 · 8 110 7 FIMMDA · · · · 6 · 27 7 116 
+ FACE UFF FIDC SRPA MFIN Sa-Dhan FEDAI Sahamati FIMMDA FACE 85 23 · 3 · · · · · UFF 23 121 · 3 2 · 1 1 2 FIDC · · 0 · · · · · · SRPA 3 3 · 18 · · · · · MFIN · 2 · · 84 · · 1 6 Sa-Dhan · · · · · 0 · · · FEDAI · 1 · · · · 108 8 27 Sahamati · 1 · · 1 · 8 110 7 FIMMDA · 2 · · 6 · 27 7 116 
 
- Organisations in 2+ SROs (46) 
+ Organisations in 2+ SROs (71) 
 
- Organisation Type SROs AU Small Finance Bank Limited Small Finance Bank FEDAI Sahamati FIMMDA Axis Bank Limited Bank Sahamati FIMMDA Bandhan Bank Bank MFIN FIMMDA Bank of Baroda Bank FEDAI Sahamati FIMMDA Bank of Ceylon Bank FEDAI FIMMDA Bank of India Bank FEDAI FIMMDA Bank of Maharashtra Bank FEDAI FIMMDA BNP Paribas Bank FEDAI FIMMDA Canara Bank Bank FEDAI FIMMDA Central Bank of India Bank FEDAI FIMMDA DBS Bank India Limited Bank FEDAI FIMMDA Export-Import Bank of India Development FI FEDAI FIMMDA HDFC Bank Limited Bank FEDAI Sahamati ICICI Bank Bank MFIN Sahamati ICICI Securities Primary Dealership Limited Primary Dealer FEDAI FIMMDA IDFC First Bank Bank MFIN FIMMDA IDFC FIRST Bank Limited Bank FEDAI Sahamati Indian Bank Bank FEDAI FIMMDA Indian Overseas Bank Bank FEDAI FIMMDA IndusInd Bank Bank MFIN FIMMDA IndusInd Bank Limited Bank FEDAI Sahamati Industrial and Commercial Bank of China Limited Bank FEDAI FIMMDA Industrial Bank of Korea Bank FEDAI FIMMDA KEB Hana Bank Bank FEDAI FIMMDA Kookmin Bank Bank FEDAI FIMMDA Kotak Mahindra Bank Limited Bank FEDAI Sahamati Mizuho Bank Limited Bank FEDAI FIMMDA MobiKwik Payments / PSO FACE SRPA NABARD Development FI Sahamati FIMMDA PhonePe Payments / PSO FACE SRPA Punjab National Bank Bank FEDAI Sahamati FIMMDA Qatar National Bank (Q.P.S.C.) Bank FEDAI FIMMDA Razorpay Payments / PSO FACE SRPA RBL Bank Bank MFIN FIMMDA Small Industries Development Bank of India Development FI FEDAI Sahamati Standard Chartered Bank Bank FEDAI FIMMDA State Bank of India Bank FEDAI FIMMDA The Clearing Corporation of India Ltd Market Infrastructure FEDAI FIMMDA The South Indian Bank Ltd Bank Sahamati FIMMDA UBS AG Bank FEDAI FIMMDA UCO Bank Bank FEDAI FIMMDA Ujjivan Small Finance Bank Small Finance Bank Sahamati FIMMDA Union Bank of India Bank FEDAI FIMMDA Unity Small Finance Bank Small Finance Bank MFIN FIMMDA Woori Bank Bank FEDAI FIMMDA Yes Bank Bank MFIN FIMMDA 
+ Organisation Type SROs Apollo Finvest NBFC FACE UFF Aspire Fintech / LSP FACE UFF AU Small Finance Bank Limited Small Finance Bank FEDAI Sahamati FIMMDA Axis Bank Limited Bank Sahamati FIMMDA Bandhan Bank Bank MFIN FIMMDA Bank of Baroda Bank UFF FEDAI Sahamati FIMMDA Bank of Ceylon Bank FEDAI FIMMDA Bank of India Bank FEDAI FIMMDA Bank of Maharashtra Bank FEDAI FIMMDA BharatPe Payments / PSO FACE UFF BNP Paribas Bank FEDAI FIMMDA Branch Fintech / LSP FACE UFF Bureau Tech / TSP FACE UFF CADRE Other / Services FACE UFF Canara Bank Bank FEDAI FIMMDA Central Bank of India Bank FEDAI FIMMDA CRED Fintech / LSP UFF SRPA DBS Bank India Limited Bank FEDAI FIMMDA Decentro Tech / TSP FACE UFF Export-Import Bank of India Development FI FEDAI FIMMDA GetVantage Fintech / LSP FACE UFF HDFC Bank Limited Bank FEDAI Sahamati HyperVerge Tech / TSP FACE UFF ICICI Bank Bank MFIN Sahamati ICICI Securities Primary Dealership Limited Primary Dealer FEDAI FIMMDA IDFC First Bank Bank MFIN FIMMDA IDFC FIRST Bank Limited Bank FEDAI Sahamati InCred NBFC FACE UFF Indian Bank Bank FEDAI FIMMDA Indian Overseas Bank Bank FEDAI FIMMDA IndusInd Bank Bank MFIN FIMMDA IndusInd Bank Limited Bank FEDAI Sahamati Industrial and Commercial Bank of China Limited Bank FEDAI FIMMDA Industrial Bank of Korea Bank FEDAI FIMMDA KEB Hana Bank Bank FEDAI FIMMDA Kookmin Bank Bank FEDAI FIMMDA Kotak Mahindra Bank Limited Bank FEDAI Sahamati KreditBee Fintech / LSP FACE UFF Light Microfinance NBFC-MFI UFF MFIN Mizuho Bank Limited Bank FEDAI FIMMDA MobiKwik Payments / PSO FACE UFF SRPA Moneyview Fintech / LSP FACE UFF NABARD Development FI Sahamati FIMMDA Northern Arc NBFC FACE UFF Paisabazaar Fintech / LSP FACE UFF Paytm Payments / PSO FACE UFF Perfios Tech / TSP FACE UFF PhonePe Payments / PSO FACE SRPA Progcap Fintech / LSP FACE UFF Punjab National Bank Bank FEDAI Sahamati FIMMDA Qatar National Bank (Q.P.S.C.) Bank FEDAI FIMMDA Razorpay Payments / PSO FACE SRPA RBL Bank Bank UFF MFIN FIMMDA Revfin Fintech / LSP FACE UFF Saafe Tech / TSP FACE UFF Small Industries Development Bank of India Development FI FEDAI Sahamati Spice Money Payments / PSO UFF SRPA Standard Chartered Bank Bank FEDAI FIMMDA State Bank of India Bank FEDAI FIMMDA The Clearing Corporation of India Ltd Market Infrastructure FEDAI FIMMDA The South Indian Bank Ltd Bank Sahamati FIMMDA True Balance Payments / PSO FACE UFF UBS AG Bank FEDAI FIMMDA UCO Bank Bank FEDAI FIMMDA Ujjivan Small Finance Bank Small Finance Bank Sahamati FIMMDA Uni Fintech / LSP FACE UFF Union Bank of India Bank FEDAI FIMMDA Unity Small Finance Bank Small Finance Bank MFIN FIMMDA Woori Bank Bank FEDAI FIMMDA Yes Bank Bank MFIN FIMMDA Zeta Tech / TSP FACE UFF 
 
  People in 2+ SROs 
  Person Roles Jiji Mammen FIDC: Advisory Council; Sa-Dhan: Executive Director & CEO N S Vishwanathan FIDC: Governing Council Member (Additional Director wef 2026-06-23); UFF: Independent Board Member Shachindra Nath FIDC: Governing Council Member; UFF: EC Member Sugandh Saxena FACE: CEO (first CEO; MFIN: Member Secretary 
@@ -336,7 +336,7 @@ RBI-recognised SRO
 
  Recognised 10 Sep 2026 
  Status Active SRO-FT (recognised at GFF 2026) 
- Listed members 0 () 
+ Listed members 121 (39 Fintech / LSP · 32 NBFC · 21 Tech / TSP · 13 Other / Services) 
  Site unifiedfintech.in 
 
  Why it matters if you borrow or pay 
@@ -348,9 +348,10 @@ RBI-recognised SRO
  Governance 
  Board / Governing Council Name Role Affiliation Alok Prasad Chairman - Independent Board Member Ex veteran banker Dhananjay Tambe Independent Board Member Ex-Deputy MD & CIO, SBI Meena Hemchandra Independent Board Member Ex-ED, Department of Supervision, RBI Mohammad Mustafa Independent Board Member Ex-Chairman & MD, SIDBI / NHB / CERSAI N S Vishwanathan Independent Board Member Ex-Deputy Governor, RBI Y G Parande Independent Board Member Ex-Member, CBEC, MoF, IRS Alok Mittal Board Member Co-Founder - Indifi Anuj Kacker Board Member Co-Founder & COO - Freo Harshvardhan Lunia Board Member Founder & CEO - Finsagex Technologies (Lendingkart) Jitendra Gupta Board Member Founder - Jupiter Manish Lunia Board Member Co-Founder - FlexiLoans Sunil Kulkarni Board Member Advisor BCFI - Chair WG Reserve Bank Innovation Hub Executive Committee / Office bearers Name Role Affiliation Manish Lunia President Co-Founder - FlexiLoans Upasana Taku Vice-President & Chair Events Co-Founder, ED & CFO - MobiKwik Anil Pinapala Co-Chair SRO Founder & MD - Vivifi Pallavi Shrivastava Chair SRO Co-Founder - Progcap Sangram Singh Chair Knowledge CEO - Indifi Anurag Sinha Chair Knowledge Co-founder - Onecard Sashank Rishyasringa Co-Chair Policy Product & Tech Co-Founder - Axio Gaurav Chopra Co-Chair Events Founder - Indialends Anuj Kacker Chair PR Co-Founder & COO - Freo Shachindra Nath EC Member Founder & MD - UGRO Capital Chiranth Patil EC Member Co-founder - Riskcovry Srikanth Rajgopalan EC Member CEO - Perfios AA Nalin Negi EC Member CEO - BharatPe Advisory Council Name Role Affiliation Sathyan David Advisory Council Former CGM (Dept. of Supervision) RBI Alpana Killawala Advisory Council Veteran central bank communications & PR expert Siba Narayan Panda Advisory Council Veteran central banker and technology specialist 
 
- Members (0) 
+ Members (121) 
 
  Organisation Type Website 
+ Achiievers Finance member www.achiieversfinance.com Advance.ai member www.advance.ai Apollo Finvest member www.apollofinvest.com Aspire member www.letsaspire.in AuthBridge member authbridge.com Avanse member www.avanse.com Axio member www.axio.co.in Bank of Baroda associate www.bankofbaroda.in BDO associate www.bdo.global/en-gb/home BharatNXT member web.bharatnxt.in BharatPe member www.bharatpe.com BPJ N BFC member bpjnbfc.in Branch member branchapp.in BSFG Finance member bsfg.finance Bueno Finance member buenofinanceinc.com Bureau associate www.bureau.id CADRE member cadreodr.com Capitabel member capitabel.com Capri Loans member www.capriloans.in CARS24 member www.cars24.com Chinmay Finlease member www.chinmayfinlease.com Clari5 associate www.clari5.com CRED member www.cred.club Credit Saison member creditsaison.in CreditSea member www.creditsea.com Creditt member creditt.in CRIF High Mark associate www.crifhighmark.com Cyber Ambassador associate www.cyberambassador.co.in Decentro member decentro.tech Deleverage member www.deleverage.in DMI Finance member www.dmifinance.in DRN Legal associate www.drnlegal.com Ecofin Services member www.ecofinservices.com Eduvanz member eduvanz.com Eko member eko.in Entitled member www.entitled.co.in Experian member www.experian.in EY associate www.ey.com/en_in Ezfinanz member ezfinanz.com FameScore member famescore.in Fi Money member fi.money FinBox member finbox.in Finova member www.finova.in Finpedia member www.finpedia.id FlexiLoans member flexiloans.com Freo member freo.money Frog8 member frog8.co.in Fundfina member www.fundfina.com GetKosh member getkosh.com GetVantage member getvantage.co Gromor member gromor.in HyperVerge member hyperverge.co/in iGnosis member ignosis.ai IIFL member www.iifl.com InCred member www.incred.com IndiaGold member refer.indiagold.co IndiaLends member indialends.com Indifi member www.indifi.com iSPIRT associate ispirt.in Khaitan & Co associate www.khaitanco.com Kinara Capital member kinaracapital.com KPMG associate kpmg.com/in/en.html KreditBee member www.kreditbee.in Lendingkart member www.lendingkart.com LendingPlate member lendingplate.com LexisNexis Risk associate lexisnexisrisk.com Light Microfinance member lightmicrofinance.com Loaney member loaney.in Lucid Ledger member www.lucidledger.co.in MiMo IQ member mimoiq.com MobiKwik member www.mobikwik.com Moneyloji member www.moneyloji.com Moneyview member moneyview.in Muthoot Fincorp member www.muthootfincorp.com MyPaisaa member www.mypaisaa.com Navi member navi.com NBFC Advisor associate www.nbfcadvisor.com Nelito associate www.nelito.com NeoGrowth member neogrowth.in NeoKred member www.neokred.tech Niro member niro.money Niyogin member www.niyogin.in Northern Arc member www.northernarc.com OKCredit member okcredit.com Oxyzo member www.oxyzo.in Paisabazaar member www.paisabazaar.com PayRupik member www.payrupikloan.in PaySprint member www.paysprint.in/index.html Paytm member paytm.com PayU Finance member payufin.in Perfios member www.perfios.com Progcap member progcap.com Protium member protium.co.in Quadrillion Finance member www.quadrillion.finance RapidRupee member www.rapidrupee.in RBL Bank associate www.rblbank.com Revfin member www.revfin.in Rezolve.ai member www.rezolve.ai Saafe member saafe.in SalaryDay member salaryday.in ScoreMe member www.scoreme.in Shubh Loans member www.shubhloans.com Signzy associate www.signzy.com SmartCoin member smartcoin.co.in SMC Finance member www.smcfinance.com Spice Money member spicemoney.com SwipeLoan member swipeloan.in Tala member tala.co.in TeleSign associate www.telesign.com Tezz Capital member tezzcapital.com/company True Balance member www.truebalance.io Udaan member udaan.com UGRO Capital member www.ugrocapital.com Uni member www.uni.cards Vaibhav Vyapaar member www.vaibhav-vyapaar.com Vivifi member vivifin.com Voxomos associate voxomos.ai WeRize member www.werize.com Yubi member www.go-yubi.com Zaggle member www.zaggle.in Zeta member www.zeta.tech 
 
  Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
 
