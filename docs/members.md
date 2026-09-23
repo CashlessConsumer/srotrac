@@ -1,6 +1,6 @@
 # SROTrac — Member Listings
 
-_Generated 2026-09-22 by `scripts/build.py`. Do not hand-edit._
+_Generated 2026-09-23 by `scripts/build.py`. Do not hand-edit._
 
 India's nine RBI-recognised self-regulatory organisations. **FACE** and the **Unified Fintech Forum** are the two SRO-FTs (fintech); the register also covers **SRPA** (payment system operators), **FIDC** (NBFCs), **MFIN** and **Sa-Dhan** (NBFC-MFIs), **FEDAI** (authorised dealers in forex), **Sahamati** (account aggregator ecosystem) and **FIMMDA** (fixed income / money market / derivatives markets). FIDC and Sa-Dhan publish no member roster.
 
