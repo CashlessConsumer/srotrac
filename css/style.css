@@ -216,13 +216,22 @@ tbody tr:hover{background:var(--paper-hi)}
 .grid-posts{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:18px;margin-top:1.4rem}
 .post-card{background:var(--card);border:1px solid var(--rule);box-shadow:3px 3px 0 var(--rule);padding:1.2rem 1.25rem;transition:transform .16s,box-shadow .16s}
 .post-card:hover{transform:translateY(-4px);box-shadow:6px 8px 0 var(--rule)}
-.post-card h2{font-size:1.15rem;margin:.4em 0;border:none}
+.post-card h2,.post-card h3{font-size:1.15rem;margin:.4em 0;border:none}
 .post-card h2::after{display:none}
+.post-card h3 a,.post-card h2 a{color:var(--ink);text-decoration:none}
+.post-card h3 a:hover,.post-card h2 a:hover{color:var(--seal)}
 .post-card .date{display:block;margin-bottom:.2rem}
 .page-head{margin:2.4rem 0 .4rem}
 .page-head h1{margin-bottom:.15em}
-.post-full{max-width:46rem}
+.post-full{max-width:46rem;margin:0 auto}
 .post-full h2{font-size:1.3rem}
+.post-full table{display:block;border-collapse:collapse;width:100%;margin:14px 0;font-size:.88rem;overflow-x:auto}
+.post-full th,.post-full td{border:1px solid var(--rule);padding:6px 9px;text-align:left}
+.post-full th{background:var(--paper-hi);font-family:var(--mono);font-size:.78rem}
+.post-full blockquote{border-left:3px solid var(--seal);margin:12px 0;padding:4px 14px;color:var(--ink-soft);background:var(--paper-hi)}
+.post-full code{background:var(--paper-deep);padding:1px 5px;border-radius:4px;font-size:.86em}
+.post-full pre{background:var(--paper-hi);border:1px solid var(--rule);padding:12px 14px;overflow-x:auto}
+.post-full pre code{background:none;padding:0}
 
 /* ---------- footer ---------- */
 .site-footer{border-top:1px solid var(--ink);background:var(--paper-deep);padding:1.8rem 0;color:var(--ink-soft);font-size:.88rem;position:relative}

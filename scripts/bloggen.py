@@ -39,7 +39,11 @@ def parse_post(md_path):
             m = re.match(r"^(\w+):\s*(.+)$", ln.strip())
             if m:
                 meta[m.group(1).lower()] = m.group(2).strip().strip('"')
-    return meta, "\n".join(lines[body_start:])
+    text = "\n".join(lines[body_start:])
+    m = re.match(r"^\s*#\s+.+\n+", text)
+    if m:
+        text = text[m.end():]
+    return meta, text
 
 
 def build():
@@ -70,51 +74,26 @@ def build():
 
     (out_dir / "index.html").write_text(page(
         "Blog", "blog/index.html",
-        f'''<section class="page-head"><h1>SROTrac Weekly</h1>
+        f'''<section class="wrap page-head"><h1>SROTrac Weekly</h1>
         <p>What changed in India's SRO-land this week — roster moves, consultations,
         enforcement, recognition news. Generated from the tracker's own diffs plus
         source monitoring.</p></section>
-        <section class="grid-posts">{items}</section>''',
+        <section class="wrap grid-posts">{items}</section>''',
     ), encoding="utf-8")
 
     for p in posts:
         (out_dir / f'{p["slug"]}.html').write_text(page(
             f'{p["title"]}', "blog/index.html",
-            f'''<article class="post-full"><div class="date">{fmt_date(p["date"])}</div>
+            f'''<section class="wrap"><article class="post-full"><div class="date">{fmt_date(p["date"])}</div>
             <h1>{esc(p["title"])}</h1>
             {p["html"]}</article>
-            <p><a href="/blog/index.html">&larr; All posts</a></p>''',
+            <p><a href="/blog/index.html">&larr; All posts</a></p></section>''',
         ), encoding="utf-8")
     return len(posts)
 
 
-BLOG_CSS = """
-.grid-posts{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-top:20px}
-.post-card{background:#fff;border:1px solid #e7e2d8;border-radius:10px;padding:16px 18px}
-.post-card .date{font-size:.8rem;color:#8a8375;margin-bottom:6px}
-.post-card h3{margin:0 0 6px;font-size:1.02rem}
-.post-card a{color:var(--ink);text-decoration:none}
-.post-card a:hover{color:var(--accent)}
-.post-card p{margin:0;color:#57534e;font-size:.9rem}
-.post-full{max-width:780px;margin:0 auto;background:#fff;border:1px solid #e7e2d8;border-radius:10px;padding:32px 36px}
-.post-full .date{font-size:.85rem;color:#8a8375;margin-bottom:10px}
-.post-full h1{margin:0 0 18px;font-size:1.7rem}
-.post-full h2{margin:26px 0 10px;font-size:1.2rem}
-.post-full table{border-collapse:collapse;width:100%;margin:14px 0;font-size:.88rem}
-.post-full th,.post-full td{border:1px solid #e7e2d8;padding:6px 9px;text-align:left}
-.post-full th{background:#f6f3ec}
-.post-full blockquote{border-left:3px solid var(--accent);margin:12px 0;padding:4px 14px;color:#57534e;background:#f8f6f1}
-.post-full code{background:#f3efe6;padding:1px 5px;border-radius:4px;font-size:.86em}
-"""
-
-
 def main():
     n = build()
-    # append blog styles once
-    css_path = Path(ROOT) / "css" / "style.css"
-    css = css_path.read_text(encoding="utf-8")
-    if ".grid-posts" not in css:
-        css_path.write_text(css + "\n" + BLOG_CSS, encoding="utf-8")
     print(f"blog: wrote index + {n} post page(s)")
 
 
