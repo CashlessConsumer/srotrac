@@ -5,6 +5,7 @@ Tracking India's fintech SROs (self-regulatory organisations) and their member r
 ## Canonical paths
 
 - Register of SROs: `data/sros.csv`
+- Social presence: `data/social.csv` (curated register of each SRO's official accounts; `source` marks where the link was verified) -> page `social.html`; drift check `scripts/social_check.py` writes `data/social_check.json` (site.py renders the result)
 - Member lists: `data/face_members.csv`, `data/uff_members.csv`, `data/srpa_members.csv`, `data/fimmda_members.csv` (FIDC and Sa-Dhan publish no roster; FIMMDA's roster is a PDF — raw capture in `data/raw/fimmda_members.pdf` + one-off extraction in `data/raw/fimmda_members.csv`)
 - Queryable DB: `data/srotrac.duckdb` (tables `sros`, `members`)
 - Readable output: `docs/members.md`
@@ -29,11 +30,12 @@ Tracking India's fintech SROs (self-regulatory organisations) and their member r
 
 - Seeded: the two RBI fintech SRO-FTs (FACE, UFF) plus two related RBI SROs for context — SRPA (PSOs, 11 Nov 2025) and FIDC (NBFCs, 3 Oct 2025). FIDC does not publish its member roster.
 - Register now covers all 9 RBI-recognised SROs: FACE, UFF (SRO-FTs), FIDC, SRPA, MFIN, Sa-Dhan, FEDAI, Sahamati, FIMMDA. Wider landscape (SEBI: AMFI, ANMI, BASL; IRDAI: GI Council, IBAI) is context-only on About — not tracked.
-- `scripts/refresh.sh` = fetch → build.py → site.py → bloggen.py → commit/push on change. Run daily 07:30 IST by automation agent `c2bd955d` (posts to Discord #policy-research). Weekly blog agent (`45950f8d`) writes `blog/posts/` Mon 09:20 IST.
+- `scripts/refresh.sh` = fetch (incl. FIDC / Sa-Dhan / Sahamati / FIMMDA homepage snapshots backing the social drift check) → build.py → site.py → bloggen.py → social_check.py → commit/push on change. Run daily 07:30 IST by automation agent `c2bd955d` (posts to Discord #policy-research). Weekly blog agent (`45950f8d`) writes `blog/posts/` Mon 09:20 IST.
 - FEDAI/MFIN/Sa-Dhan/FIMMDA sites are JS-heavy or frames-based: raw curl fetches may fail (refresh.sh logs FETCH FAIL, non-fatal); use agent-browser to re-capture data/raw/*.html when rosters look stale. FIMMDA's roster is a PDF (`data/raw/fimmda_members.pdf`); `build.py` reads the committed extraction `data/raw/fimmda_members.csv` — re-extract by hand if the PDF changes.
 - UFF logo filenames without an obvious company name rely on a manual name map in `scripts/build.py`; spot-check when the roster changes.
 - Possible next steps: categorise members by segment, capture join dates, track roster changes over time, link FACE grievance/DAK data.
 
+- 2026-09-25 (social page): `social.html` — 29 official accounts across 9 SROs (✓ = linked from the SRO's own site, ✎ = verified via announcement/platform search); per-SRO social strips on all sro-*.html; drift check 23/23; desktop + 390px agent-browser passes, no console errors.
 ## QA (2026-09-11 E2E pass, live via agent-browser)
 
 - All 15 pages: zero console/page errors; all assets 200.

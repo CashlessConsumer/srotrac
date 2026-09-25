@@ -264,3 +264,17 @@ tbody tr:hover{background:var(--paper-hi)}
   .sro-grid{grid-template-columns:1fr 1fr;gap:14px}
 }
 @media(max-width:460px){.sro-grid{grid-template-columns:1fr}}
+/* ---------- social monitor ---------- */
+.acct-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:14px;margin:0}
+.acct-card{background:var(--card);border:1px solid var(--rule);border-top:3px solid var(--c);padding:16px 16px 12px}
+.acct-card h3{margin:.1rem 0 .15rem;font-size:1.02rem;font-weight:700}
+.acct{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:7px 9px;border:1px solid var(--rule-soft);margin-bottom:6px;text-decoration:none}
+.acct:hover{background:color-mix(in srgb,var(--c) 8%,var(--card));text-decoration:none}
+.acct .pf{font-family:var(--mono);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);white-space:nowrap}
+.acct .hd{font-weight:600;font-size:.82rem;text-align:right;word-break:break-word}
+.acct .ok{color:#1a7f37;font-weight:700}
+.acct .ann{color:#9a6700;font-weight:700}
+.absent{font-family:var(--mono);font-size:.62rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-soft);margin:.4rem 0 0}
+.acct-row{display:flex;flex-wrap:wrap;gap:8px}
+.acct-row .acct{margin-bottom:0}
+@media(max-width:700px){.acct-row .acct{width:100%}}

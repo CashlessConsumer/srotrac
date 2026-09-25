@@ -16,10 +16,22 @@ fetch "https://unifiedfintech.in/"                          "$RAW/uff_home.html"
 fetch "https://srpa.org.in/"                                "$RAW/srpa_home.html"       || { echo "FETCH FAIL srpa"; FAILED=1; }
 fetch "https://mfinindia.org/members"                       "$RAW/mfin_members.html"    || { echo "FETCH FAIL mfin"; FAILED=1; }
 fetch "https://www.fedai.org.in/InnerPageContent.aspx?Cid=2&SCid=1&SSCid=0" "$RAW/fedai_members.html" || { echo "FETCH FAIL fedai"; FAILED=1; }
+fetch "https://www.fidcindia.org.in"                        "$RAW/fidc_home.html"       || { echo "FETCH FAIL fidc home"; }
+fetch "https://www.sa-dhan.net"                             "$RAW/sadhan_home.html"     || { echo "FETCH FAIL sadhan home"; }
+fetch "https://sahamati.org.in"                             "$RAW/sahamati_home.html"   || { echo "FETCH FAIL sahamati home"; }
+fetch "https://www.fimmda.org"                              "$RAW/fimmda_home.html"     || { echo "FETCH FAIL fimmda home"; }
+# homepage snapshots backing the social-presence drift check (failures non-fatal:
+# a stale snapshot keeps the previous handle, the check just skips a beat)
+fetch "https://www.fidcindia.org.in"                        "$RAW/fidc_home.html"       || { echo "FETCH FAIL fidc home"; }
+fetch "https://www.sa-dhan.net"                             "$RAW/sadhan_home.html"     || { echo "FETCH FAIL sadhan home"; }
+fetch "https://sahamati.org.in"                             "$RAW/sahamati_home.html"   || { echo "FETCH FAIL sahamati home"; }
+fetch "https://www.fimmda.org"                              "$RAW/fimmda_home.html"     || { echo "FETCH FAIL fimmda home"; }
 
 python3 scripts/build.py  || exit 1
 python3 scripts/site.py   || exit 1
 python3 scripts/bloggen.py || exit 1
+python3 scripts/social_check.py || echo "SOCIAL CHECK FAIL (non-fatal)"
+python3 scripts/social_check.py || echo "SOCIAL CHECK FAIL (non-fatal)"
 
 if [ -n "$(git status --porcelain -- data docs ':(exclude)data/raw' blog *.html css js)" ]; then
   git add -A

@@ -231,6 +231,7 @@ NAV = [
     ("members.html", "Members"),
     ("timeline.html", "Timeline"),
     ("activity.html", "Activity"),
+    ("social.html", "Social"),
     ("blog/index.html", "Blog"),
     ("about.html", "About"),
 ]
@@ -411,7 +412,7 @@ def build_home(members, activity, overlap):
 <script type="application/ld+json">{home_ld}</script>"""
     return page("India's fintech SROs, tracked", "", body)
 
-def build_sro(sid, members, activity, leadership):
+def build_sro(sid, members, activity, leadership, social=None, check=None):
     s = SROS[sid]
     org_ld = json.dumps({
         "@context": "https://schema.org", "@type": "Organization",
@@ -456,6 +457,12 @@ def build_sro(sid, members, activity, leadership):
     for m in mem:
         ty_counts[classify(m["member_name"])[0]] += 1
     typeline = " · ".join(f"{v} {TYPES[k][0]}" for k, v in sorted(ty_counts.items(), key=lambda x: -x[1])[:4])
+    srows = sorted((r for r in (social or []) if sid_of(r["sro"]) == sid),
+                   key=lambda r: PLATFORM_ORDER.get(r["platform"], 9))
+    if srows:
+        social_html = '<div class="acct-row">' + "".join(acct_chip(r) for r in srows) + "</div>"
+    else:
+        social_html = '<p class="muted">No official social media accounts tracked yet.</p>'
     body = f"""
 <section class="sro-hero" style="--c:{s['accent']}">
   <div class="wrap">
@@ -497,6 +504,11 @@ def build_sro(sid, members, activity, leadership):
   <h2>Activity</h2>
   <ul class="feed">{act_html if act_html else '<li>No dated public activity captured yet.</li>'}
   </ul>
+</section>
+<section class="wrap" id="social">
+  <h2>Social media</h2>
+  {social_html}
+  <p class="muted small"><a href="/social.html">Full social media monitor &rarr;</a></p>
 </section>
 <script type="application/ld+json">{org_ld}</script>"""
     return page(s["abbr"] + " — " + s["name"], f"sro-{sid}.html", body,
@@ -700,6 +712,106 @@ def build_activity(activity):
 <script id="activity-data" type="application/json">{json.dumps(payload)}</script>"""
     return page("Activity log", "activity.html", body)
 
+
+PLATFORM_LABEL = {"x": "X (Twitter)", "linkedin": "LinkedIn", "youtube": "YouTube",
+                  "facebook": "Facebook", "instagram": "Instagram"}
+PLATFORM_ORDER = {k: i for i, k in enumerate(["x", "linkedin", "youtube", "facebook", "instagram"])}
+
+
+def acct_chip(r):
+    label = PLATFORM_LABEL.get(r["platform"], r["platform"].title())
+    accent = SROS.get(sid_of(r["sro"]), {}).get("accent", "#57534e")
+    if r.get("source") == "official site":
+        mark = '<span class="ok" title="Linked from the SRO\'s own website">&#10003;</span>'
+    else:
+        mark = '<span class="ann" title="Verified via the SRO\'s own announcement or platform search">&#9998;</span>'
+    tip = esc(r.get("notes") or "")
+    title = f' title="{tip}"' if tip else ""
+    return (f'<a class="acct" href="{esc(r["url"])}" rel="noopener" style="--c:{accent}"{title}>'
+            f'<span class="pf">{esc(label)}</span>'
+            f'<span class="hd">{mark} {esc(r["handle"])}</span></a>')
+
+
+def build_social(social, check):
+    by_sro = defaultdict(list)
+    for r in social:
+        sid = sid_of(r["sro"])
+        if sid:
+            by_sro[sid].append(r)
+    for rows in by_sro.values():
+        rows.sort(key=lambda r: PLATFORM_ORDER.get(r["platform"], 9))
+
+    total = len(social)
+    n_x = sum(1 for r in social if r["platform"] == "x")
+    with_x = sum(1 for sid in SROS if any(r["platform"] == "x" for r in by_sro.get(sid, [])))
+    li_only = sum(1 for sid in SROS if by_sro.get(sid)
+                  and all(r["platform"] == "linkedin" for r in by_sro[sid]))
+
+    cards = ""
+    for sid, s in SROS.items():
+        rows = by_sro.get(sid, [])
+        chips = "".join(acct_chip(r) for r in rows)
+        absent = ""
+        if rows:
+            have = {r["platform"] for r in rows}
+            bits = (["No X account"] if "x" not in have else []) + (["No YouTube"] if "youtube" not in have else [])
+            if bits:
+                absent = f'<p class="absent">{" &middot; ".join(bits)}</p>'
+        else:
+            chips = '<p class="muted small">No official accounts found.</p>'
+        cards += f"""
+    <div class="acct-card" style="--c:{s['accent']}">
+      <h3><a href="/sro-{sid}.html" style="color:inherit;text-decoration:none">{esc(s['abbr'])}</a></h3>
+      <p class="sector muted small">{esc(s['name'])}</p>
+      {chips}
+      {absent}
+    </div>"""
+
+    if check and check.get("official_site_accounts"):
+        miss = check.get("missing_from_site") or []
+        drift = (f"Last drift check {esc(check.get('checked', '?'))}: "
+                 f"{check.get('still_linked', 0)}/{check.get('official_site_accounts', 0)} "
+                 "official-site links still live.")
+        if miss:
+            drift += f' <strong style="color:#b42318">&#9888; No longer linked: {esc(", ".join(miss))}</strong>'
+    else:
+        drift = "Drift check has not run yet."
+
+    body = f"""
+<section class="hero">
+  <div class="wrap">
+    <p class="kicker rise">Social media monitor &middot; RBI-recognised SROs</p>
+    <h1 class="rise">Where the SROs <em>post</em></h1>
+    <p class="lede rise">Codes of conduct, consultation responses and discipline machinery often surface first on an SRO&rsquo;s own channels &mdash; usually LinkedIn, sometimes X. This page tracks every official account of the nine RBI-recognised SROs, and the daily refresh re-checks each one against the SRO&rsquo;s own website. <strong>&#10003;</strong> = still linked from the SRO&rsquo;s site today &middot; <strong>&#9998;</strong> = verified via the SRO&rsquo;s own announcement or platform search.</p>
+    <div class="stats rise">
+      <div><strong>{total}</strong><span>official accounts tracked</span></div>
+      <div><strong>{n_x}</strong><span>handles on X (Twitter)</span></div>
+      <div><strong>{with_x} of {len(SROS)}</strong><span>SROs reachable on X</span></div>
+      <div><strong>{li_only}</strong><span>LinkedIn-only &mdash; no public feed</span></div>
+    </div>
+  </div>
+</section>
+<section class="wrap" id="accounts">
+  <h2>The accounts</h2>
+  <p class="muted small">Nine cards, one per SRO. Hover a handle for notes; click through to follow.</p>
+  <div class="acct-grid">{cards}
+  </div>
+</section>
+<section class="wrap">
+  <div class="callout">
+    <h2>How this is monitored</h2>
+    <ul class="ticks">
+      <li>The daily refresh re-fetches the SROs&rsquo; own pages, then a drift check (<code>scripts/social_check.py</code>) confirms every &#10003;-marked account is still linked from its official site. {drift}</li>
+      <li>X, LinkedIn, Facebook and Instagram block robots, so follower counts and post contents are not scraped here &mdash; links are curated, dated (verified 2026-09-25) and re-verified in the direction platforms can&rsquo;t block: the SRO&rsquo;s own website.</li>
+      <li>A handle vanishing from an official site is the cheapest early signal of a rebrand, a takeover or a quietly deleted account &mdash; it shows here as a &#9888; flag.</li>
+      <li>Spotted a new or dead handle? It&rsquo;s a one-row fix in <a href="https://github.com/CashlessConsumer/srotrac">data/social.csv</a> (CC BY 4.0).</li>
+    </ul>
+  </div>
+</section>"""
+    return page("Social media monitor", "social.html", body,
+                desc="Every official social media account of India's nine RBI-recognised SROs "
+                     "(FACE, UFF, FIDC, SRPA, MFIN, Sa-Dhan, FEDAI, Sahamati, FIMMDA) on X, LinkedIn, "
+                     "YouTube, Facebook and Instagram — with a daily drift check against the SROs' own websites.")
 
 
 def build_work(sid):
@@ -1077,6 +1189,20 @@ tbody tr:hover{background:var(--paper-hi)}
   .sro-grid{grid-template-columns:1fr 1fr;gap:14px}
 }
 @media(max-width:460px){.sro-grid{grid-template-columns:1fr}}
+/* ---------- social monitor ---------- */
+.acct-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:14px;margin:0}
+.acct-card{background:var(--card);border:1px solid var(--rule);border-top:3px solid var(--c);padding:16px 16px 12px}
+.acct-card h3{margin:.1rem 0 .15rem;font-size:1.02rem;font-weight:700}
+.acct{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:7px 9px;border:1px solid var(--rule-soft);margin-bottom:6px;text-decoration:none}
+.acct:hover{background:color-mix(in srgb,var(--c) 8%,var(--card));text-decoration:none}
+.acct .pf{font-family:var(--mono);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);white-space:nowrap}
+.acct .hd{font-weight:600;font-size:.82rem;text-align:right;word-break:break-word}
+.acct .ok{color:#1a7f37;font-weight:700}
+.acct .ann{color:#9a6700;font-weight:700}
+.absent{font-family:var(--mono);font-size:.62rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-soft);margin:.4rem 0 0}
+.acct-row{display:flex;flex-wrap:wrap;gap:8px}
+.acct-row .acct{margin-bottom:0}
+@media(max-width:700px){.acct-row .acct{width:100%}}
 """
 
 JS = r"""/// SROTrac: nav helpers + members/activity filtering
@@ -1250,7 +1376,8 @@ def write_agent_files(members, outputs):
 
     # --- sitemap.xml ---
     core = [("members.html", "0.9", "daily"),
-            ("activity.html", "0.8", "daily"), ("timeline.html", "0.7", "weekly"),
+            ("activity.html", "0.8", "daily"), ("social.html", "0.8", "daily"),
+            ("timeline.html", "0.7", "weekly"),
             ("about.html", "0.6", "monthly")]
     entries = [("", "1.0", "daily")] + core
     for sid in SROS:
@@ -1299,6 +1426,7 @@ Base URL: {BASE}
 - [Members]({BASE}/members.html): filterable register of all listed entities; includes the cross-SRO overlap matrix and 2+ SRO memberships.
 - [Timeline]({BASE}/timeline.html): 2020–2026 regulatory milestones (frameworks, recognitions, consultations).
 - [Activity]({BASE}/activity.html): dated log of SRO/RBI developments with sources.
+- [Social]({BASE}/social.html): official X/LinkedIn/YouTube/Facebook/Instagram accounts of all nine SROs, with a daily drift check against their own websites.
 - [About & methodology]({BASE}/about.html): scope, method, caveats, FAQ.
 - [Blog]({BASE}/blog/index.html): weekly summaries.
 
@@ -1315,7 +1443,7 @@ Base URL: {BASE}
     # --- llms-full.txt: text of every page + blog posts raw ---
     pages = []
     for name in ["index.html", "members.html", "timeline.html",
-                 "activity.html", "about.html"]:
+                 "activity.html", "social.html", "about.html"]:
         title = name.replace(".html", "").replace("index", "home")
         h = outputs.get(name, "")
         mstart, mend = h.find("<main"), h.find("</main>")
@@ -1351,6 +1479,12 @@ def main():
         m["sro"] = m["sro"].upper()
     activity = sorted(read_csv("activity.csv"), key=lambda a: a["date"], reverse=True)
     leadership = read_csv("leadership.csv")
+    social = read_csv("social.csv")
+    try:
+        with open(os.path.join(DATA, "social_check.json"), encoding="utf-8") as f:
+            social_check = json.load(f)
+    except (OSError, ValueError):
+        social_check = None
 
     orgs = defaultdict(set)
     for m in members:
@@ -1362,10 +1496,11 @@ def main():
         "members.html": build_members(members, leadership),
         "timeline.html": build_timeline(activity),
         "activity.html": build_activity(activity),
+        "social.html": build_social(social, social_check),
         "about.html": build_about(members, activity),
     }
     for sid in SROS:
-        outputs[f"sro-{sid}.html"] = build_sro(sid, members, activity, leadership)
+        outputs[f"sro-{sid}.html"] = build_sro(sid, members, activity, leadership, social, social_check)
     for sid in SROS:
         outputs[f"work-{sid}.html"] = build_work(sid)
 

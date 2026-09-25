@@ -29,6 +29,7 @@ RBI created a Self-Regulatory Organisation framework for the fintech sector (dra
 | File | Contents |
 |------|----------|
 | `data/sros.csv` | SRO register: id, name, abbr, website, source page, recognition, date, status |
+| `data/social.csv` | Official social accounts per SRO: platform, handle, URL, where verified, verification date |
 | `data/face_members.csv` | FACE members (name, website) |
 | `data/uff_members.csv` | UFF members (name, website, member_type, logo_file) |
 | `data/srpa_members.csv` | SRPA PSO members (name, website, logo_file) |
@@ -39,7 +40,7 @@ RBI created a Self-Regulatory Organisation framework for the fintech sector (dra
 
 Snapshot (2026-09-12): register expanded to **9 RBI-recognised SROs** — FACE (85 listed members), UFF (121), SRPA (18), MFIN (84), FEDAI (108, with LEIs), Sahamati (110), FIMMDA (116, PDF roster dated 8 May 2025), plus FIDC and Sa-Dhan whose rosters are not published (flagged). 642 rows total, 71 organisations in 2+ SROs.
 
-**Automation:** `scripts/refresh.sh` re-fetches all source pages, rebuilds data + site, and pushes on change. Run daily by a scheduled agent (07:30 IST); a weekly agent (Mon 08:30 IST) writes the SROTrac Weekly post in `blog/posts/` and deploys it.
+**Automation:** `scripts/refresh.sh` re-fetches all source pages (rosters + SRO homepages), rebuilds data + site, runs the social-presence drift check (`scripts/social_check.py` — flags any handle that disappears from an SRO's own website), and pushes on change. Run daily by a scheduled agent (07:30 IST); a weekly agent (Mon 08:30 IST) writes the SROTrac Weekly post in `blog/posts/` and deploys it.
 
 ## SEO / AEO / agents
 

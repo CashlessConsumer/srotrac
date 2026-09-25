@@ -252,6 +252,67 @@ Activity log
  All announcement (5) consultation (2) framework (5) governance (1) partnership (1) recognition (8) report (1) roster (1) tool (1)
 
 
+## social — https://srotrac.cashlessconsumer.in/social.html
+Social media monitor · RBI-recognised SROs 
+ Where the SROs post 
+ Codes of conduct, consultation responses and discipline machinery often surface first on an SRO’s own channels — usually LinkedIn, sometimes X. This page tracks every official account of the nine RBI-recognised SROs, and the daily refresh re-checks each one against the SRO’s own website. ✓ = still linked from the SRO’s site today · ✎ = verified via the SRO’s own announcement or platform search. 
+
+ 29 official accounts tracked 
+ 7 handles on X (Twitter) 
+ 7 of 9 SROs reachable on X 
+ 2 LinkedIn-only — no public feed 
+
+ The accounts 
+ Nine cards, one per SRO. Hover a handle for notes; click through to follow. 
+
+ FACE 
+ Fintech Association for Consumer Empowerment 
+ X (Twitter) ✓ @FACEOfIndiaOrg LinkedIn ✓ company/faceofindiaorg YouTube ✎ @fintechassociationforconsu4582 Facebook ✓ FACEOfIndiaOrgg Instagram ✓ faceofindiaorg 
+
+ UFF 
+ Unified Fintech Forum 
+ X (Twitter) ✓ @unifiedfintech LinkedIn ✓ company/unifiedfintech 
+ No YouTube 
+
+ FIDC 
+ Finance Industry Development Council 
+ X (Twitter) ✎ @FidcIndia LinkedIn ✓ company/fidc-india Facebook ✓ fidcindia Instagram ✓ fidcindia 
+ No YouTube 
+
+ SRPA 
+ Self-Regulated PSO Association 
+ LinkedIn ✎ company/self-regulated-pso-association 
+ No X account · No YouTube 
+
+ MFIN 
+ Microfinance Institutions Network 
+ X (Twitter) ✓ @mfin_india LinkedIn ✓ company/microfinance-institutions-network YouTube ✓ UCsFL4uW_vTucJ13Xgg0AuWg Facebook ✓ mfinindia.org 
+
+ Sa-Dhan 
+ Sa-Dhan (Association of Community Development Finance Institutions) 
+ X (Twitter) ✓ @Sadhan1999 LinkedIn ✓ in/sa-dhan-association-33b957b3 YouTube ✓ UCJ_Lk8aAjKEkJzGtKt4rlUg Facebook ✓ sadhanassociation1999 Instagram ✓ sadhanassocation 
+
+ FEDAI 
+ Foreign Exchange Dealers' Association of India 
+ X (Twitter) ✎ @FEDAI1958 LinkedIn ✓ company/foreign-exchange-dealers-association-of-india YouTube ✎ UCORwbefpjQ922snbL7zIl2w 
+
+ Sahamati 
+ Sahamati 
+ X (Twitter) ✓ @sahamati LinkedIn ✓ company/sahamati YouTube ✓ UCFJvhLOcH7Sedu9a3zVQ6ig Instagram ✓ sahamati_ 
+
+ FIMMDA 
+ Fixed Income Money Market and Derivatives Association of India 
+ LinkedIn ✎ company/fimmda 
+ No X account · No YouTube 
+
+ How this is monitored 
+
+ The daily refresh re-fetches the SROs’ own pages, then a drift check ( scripts/social_check.py ) confirms every ✓-marked account is still linked from its official site. Last drift check 2026-09-25: 23/23 official-site links still live. 
+ X, LinkedIn, Facebook and Instagram block robots, so follower counts and post contents are not scraped here — links are curated, dated (verified 2026-09-25) and re-verified in the direction platforms can’t block: the SRO’s own website. 
+ A handle vanishing from an official site is the cheapest early signal of a rebrand, a takeover or a quietly deleted account — it shows here as a ⚠ flag. 
+ Spotted a new or dead handle? It’s a one-row fix in data/social.csv (CC BY 4.0).
+
+
 ## about — https://srotrac.cashlessconsumer.in/about.html
 About SROTrac 
  An independent, open-data register of India's RBI-recognised self-regulatory organisations — built by CashlessConsumer, a consumer collective working on digital payments and fintech. Licensed CC BY 4.0 (data) and MIT (code). 
@@ -313,7 +374,11 @@ RBI-recognised SRO
  Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
 
  Activity 
- 2026-08 report FACE Personal Loan Report 2026 2025-08 tool DLA Validator — consumer tool for checking digital lending apps 2024-08-28 recognition FACE becomes India's first RBI-recognised fintech SRO (SRO-FT) 2024-08-14 consultation FACE response to TRAI consultation on DLT-based transaction scrubbing 2023-09 partnership Google x FACE collaboration against predatory digital lending apps 2021-08 announcement FACE applies to RBI for SRO recognition (digital lending)
+ 2026-08 report FACE Personal Loan Report 2026 2025-08 tool DLA Validator — consumer tool for checking digital lending apps 2024-08-28 recognition FACE becomes India's first RBI-recognised fintech SRO (SRO-FT) 2024-08-14 consultation FACE response to TRAI consultation on DLT-based transaction scrubbing 2023-09 partnership Google x FACE collaboration against predatory digital lending apps 2021-08 announcement FACE applies to RBI for SRO recognition (digital lending) 
+
+ Social media 
+ X (Twitter) ✓ @FACEOfIndiaOrg LinkedIn ✓ company/faceofindiaorg YouTube ✎ @fintechassociationforconsu4582 Facebook ✓ FACEOfIndiaOrgg Instagram ✓ faceofindiaorg 
+ Full social media monitor →
 
 
 ## FACE work deep-dive — https://srotrac.cashlessconsumer.in/work-face.html
@@ -356,7 +421,11 @@ RBI-recognised SRO
  Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
 
  Activity 
- 2026-09-10 recognition UFF recognised as India's second SRO-FT 2025-04-16 announcement DLAI rebrands as Unified Fintech Forum (UFF); new leadership elected 2025-04 announcement UFF executive committee and working-group chairs in place 2024-09 announcement DLAI among fintech bodies that applied to RBI for SRO-FT status
+ 2026-09-10 recognition UFF recognised as India's second SRO-FT 2025-04-16 announcement DLAI rebrands as Unified Fintech Forum (UFF); new leadership elected 2025-04 announcement UFF executive committee and working-group chairs in place 2024-09 announcement DLAI among fintech bodies that applied to RBI for SRO-FT status 
+
+ Social media 
+ X (Twitter) ✓ @unifiedfintech LinkedIn ✓ company/unifiedfintech 
+ Full social media monitor →
 
 
 ## UFF work deep-dive — https://srotrac.cashlessconsumer.in/work-uff.html
@@ -398,7 +467,11 @@ RBI-recognised SRO
  Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
 
  Activity 
- 2026-06-05 consultation FIDC views on RBI monetary policy statement (June 2026) 2025-10-03 recognition FIDC recognised as RBI's SRO for NBFCs
+ 2026-06-05 consultation FIDC views on RBI monetary policy statement (June 2026) 2025-10-03 recognition FIDC recognised as RBI's SRO for NBFCs 
+
+ Social media 
+ X (Twitter) ✎ @FidcIndia LinkedIn ✓ company/fidc-india Facebook ✓ fidcindia Instagram ✓ fidcindia 
+ Full social media monitor →
 
 
 ## FIDC work deep-dive — https://srotrac.cashlessconsumer.in/work-fidc.html
@@ -441,7 +514,11 @@ RBI-recognised SRO
  Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
 
  Activity 
- 2025-11-11 recognition SRPA becomes RBI-recognised SRO for payment system operators
+ 2025-11-11 recognition SRPA becomes RBI-recognised SRO for payment system operators 
+
+ Social media 
+ LinkedIn ✎ company/self-regulated-pso-association 
+ Full social media monitor →
 
 
 ## SRPA work deep-dive — https://srotrac.cashlessconsumer.in/work-srpa.html
@@ -484,7 +561,11 @@ RBI-recognised SRO
  Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
 
  Activity 
- 2014-06-16 recognition MFIN becomes India's first SRO for NBFC-MFIs
+ 2014-06-16 recognition MFIN becomes India's first SRO for NBFC-MFIs 
+
+ Social media 
+ X (Twitter) ✓ @mfin_india LinkedIn ✓ company/microfinance-institutions-network YouTube ✓ UCsFL4uW_vTucJ13Xgg0AuWg Facebook ✓ mfinindia.org 
+ Full social media monitor →
 
 
 ## MFIN work deep-dive — https://srotrac.cashlessconsumer.in/work-mfin.html
@@ -526,7 +607,11 @@ RBI-recognised SRO
  Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
 
  Activity 
- No dated public activity captured yet.
+ No dated public activity captured yet. 
+
+ Social media 
+ X (Twitter) ✓ @Sadhan1999 LinkedIn ✓ in/sa-dhan-association-33b957b3 YouTube ✓ UCJ_Lk8aAjKEkJzGtKt4rlUg Facebook ✓ sadhanassociation1999 Instagram ✓ sadhanassocation 
+ Full social media monitor →
 
 
 ## Sa-Dhan work deep-dive — https://srotrac.cashlessconsumer.in/work-sadhan.html
@@ -569,7 +654,11 @@ RBI-recognised SRO
  Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
 
  Activity 
- 2026-01-14 recognition FEDAI recognised as SRO for all Authorised Dealers
+ 2026-01-14 recognition FEDAI recognised as SRO for all Authorised Dealers 
+
+ Social media 
+ X (Twitter) ✎ @FEDAI1958 LinkedIn ✓ company/foreign-exchange-dealers-association-of-india YouTube ✎ UCORwbefpjQ922snbL7zIl2w 
+ Full social media monitor →
 
 
 ## FEDAI work deep-dive — https://srotrac.cashlessconsumer.in/work-fedai.html
@@ -612,7 +701,11 @@ RBI-recognised SRO
  Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
 
  Activity 
- No dated public activity captured yet.
+ No dated public activity captured yet. 
+
+ Social media 
+ X (Twitter) ✓ @sahamati LinkedIn ✓ company/sahamati YouTube ✓ UCFJvhLOcH7Sedu9a3zVQ6ig Instagram ✓ sahamati_ 
+ Full social media monitor →
 
 
 ## Sahamati work deep-dive — https://srotrac.cashlessconsumer.in/work-sahamati.html
@@ -655,7 +748,11 @@ RBI-recognised SRO
  Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
 
  Activity 
- 2026-09-01 governance FIMMDA constitutes a Disciplinary Committee of the Board 2025-05-08 roster FIMMDA publishes List of Current Members (116 institutions) 2025-05-07 recognition FIMMDA recognised as RBI's first SRO in financial markets
+ 2026-09-01 governance FIMMDA constitutes a Disciplinary Committee of the Board 2025-05-08 roster FIMMDA publishes List of Current Members (116 institutions) 2025-05-07 recognition FIMMDA recognised as RBI's first SRO in financial markets 
+
+ Social media 
+ LinkedIn ✎ company/fimmda 
+ Full social media monitor →
 
 
 ## FIMMDA work deep-dive — https://srotrac.cashlessconsumer.in/work-fimmda.html
