@@ -297,9 +297,20 @@ def page(title, active, body, extra_head="", desc=None):
 <main>
 {body}
 </main>
+<section class="stack" aria-label="The sousveillance stack">
+  <div class="wrap">
+    <p class="stack-kicker"><b>The Sousveillance Stack</b> — who writes, borrows and buys the rules</p>
+    <div class="stack-row">
+      <a href="https://regtrac.cashlessconsumer.in/"><i>Layer 1 · rule-writers</i><b>RegTrac</b><span>India's statutory financial regulators</span><em>live</em></a>
+      <a href="/"><i>Layer 2 · rule-borrowers</i><b>SROTrac</b><span>RBI-recognised self-regulatory organisations</span><em class="here">you are here</em></a>
+      <div class="planned"><i>Layer 3 · rule-buyers</i><b>LobbyWatch</b><span>consultations, access, revolving doors</span><em>planned</em></div>
+    </div>
+  </div>
+</section>
 <footer class="site-footer">
   <div class="wrap">
     <p><strong>SROTrac</strong> — an independent CashlessConsumer project tracking India's self-regulatory organisations. Not affiliated with RBI or any SRO.</p>
+    <p class="colophon">Layer 2 of the sousveillance stack: <a href="https://regtrac.cashlessconsumer.in/">RegTrac</a> (rule-writers) · SROTrac (rule-borrowers) · LobbyWatch (rule-buyers — planned).</p>
     <p><a href="https://cashlessconsumer.in">cashlessconsumer.in</a> · data: <a href="https://github.com/CashlessConsumer/srotrac">GitHub</a> · <a href="/about.html">methodology</a></p>
     <p><strong>Data: CC BY 4.0</strong> — copy, remix and republish with attribution to SROTrac / CashlessConsumer. Code: MIT.</p>
     <p class="colophon">Scope: RBI-recognised SROs only — not SEBI/IRDAI or other regulators&rsquo; SROs &middot; Agent entry: <a href="/llms.txt">llms.txt</a></p>
@@ -1157,6 +1168,28 @@ tbody tr:hover{background:var(--paper-hi)}
 .post-full code{background:var(--paper-deep);padding:1px 5px;border-radius:4px;font-size:.86em}
 .post-full pre{background:var(--paper-hi);border:1px solid var(--rule);padding:12px 14px;overflow-x:auto}
 .post-full pre code{background:none;padding:0}
+
+/* ---------- sousveillance stack band ---------- */
+.stack{border-top:1px solid var(--rule);background:var(--paper)}
+.stack .wrap{padding-top:1.3rem;padding-bottom:1.3rem}
+.stack-kicker{font-family:var(--mono);font-size:.62rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--faded);margin:0 0 .8rem}
+.stack-kicker b{color:var(--seal)}
+.stack-row{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--rule);border:1px solid var(--ink)}
+.stack-row>*{background:var(--paper-hi);padding:.7rem .9rem .8rem;display:block}
+.stack-row a{text-decoration:none}
+.stack-row i{display:block;font-family:var(--mono);font-style:normal;font-size:.56rem;letter-spacing:.14em;text-transform:uppercase;color:var(--faded)}
+.stack-row b{display:block;font-family:var(--serif);font-weight:800;font-size:1rem;color:var(--ink);margin:.12rem 0 .05rem;letter-spacing:-.01em}
+.stack-row span{display:block;font-size:.76rem;color:var(--ink-soft);line-height:1.45}
+.stack-row em{display:inline-block;font-family:var(--mono);font-style:normal;font-size:.55rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--seal);border:1px solid var(--seal);border-radius:2px;padding:2px 7px;margin-top:.5rem}
+.stack-row a:hover b{color:var(--seal)}
+.stack-row em.here{background:var(--seal);color:var(--paper-hi)}
+.stack-row .planned{background:var(--paper-deep)}
+.stack-row .planned b{color:var(--faded)}
+.stack-row .planned em{color:var(--faded);border-color:var(--faded)}
+@media(max-width:640px){
+  .stack-row{grid-template-columns:1fr}
+  .stack-row>*{padding:.6rem .8rem .7rem}
+}
 
 /* ---------- footer ---------- */
 .site-footer{border-top:1px solid var(--ink);background:var(--paper-deep);padding:1.8rem 0;color:var(--ink-soft);font-size:.88rem;position:relative}
