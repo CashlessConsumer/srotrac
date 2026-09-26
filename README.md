@@ -75,3 +75,7 @@ duckdb data/srotrac.duckdb -c "SELECT member_name FROM members GROUP BY 1 HAVING
 - **UFF `member_type` is heuristic.** The site does not label tiers; entities that are clearly vendors, consultancies, law firms, or bureaus (KPMG, BDO, EY, Khaitan, LexisNexis, TeleSign, CRIF, …) are tagged `associate`, everything else `member`.
 - **FACE does not publish a tier or category** — all rows are `member`.
 - Membership lists are marketing pages and are not authoritative; treat the roster as directional, not as a filing.
+
+## License
+
+Code: MIT (see `LICENSE`). Data (`data/*.csv`): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — attribution "SROTrac / CashlessConsumer".
