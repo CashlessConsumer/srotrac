@@ -303,14 +303,14 @@ def page(title, active, body, extra_head="", desc=None):
     <div class="stack-row">
       <a href="https://regtrac.cashlessconsumer.in/"><i>Layer 1 · rule-writers</i><b>RegTrac</b><span>India's statutory financial regulators</span><em>live</em></a>
       <a href="/"><i>Layer 2 · rule-borrowers</i><b>SROTrac</b><span>RBI-recognised self-regulatory organisations</span><em class="here">you are here</em></a>
-      <div class="planned"><i>Layer 3 · rule-buyers</i><b>LobbyWatch</b><span>consultations, access, revolving doors</span><em>planned</em></div>
+      <a href="https://lobbywatch.cashlessconsumer.in/"><i>Layer 3 · rule-buyers</i><b>LobbyWatch</b><span>consultations, access, revolving doors</span><em>live</em></a>
     </div>
   </div>
 </section>
 <footer class="site-footer">
   <div class="wrap">
     <p><strong>SROTrac</strong> — an independent CashlessConsumer project tracking India's self-regulatory organisations. Not affiliated with RBI or any SRO.</p>
-    <p class="colophon">Layer 2 of the sousveillance stack: <a href="https://regtrac.cashlessconsumer.in/">RegTrac</a> (rule-writers) · SROTrac (rule-borrowers) · LobbyWatch (rule-buyers — planned).</p>
+    <p class="colophon">Layer 2 of the sousveillance stack: <a href="https://regtrac.cashlessconsumer.in/">RegTrac</a> (rule-writers) · SROTrac (rule-borrowers) · <a href="https://lobbywatch.cashlessconsumer.in/">LobbyWatch</a> (rule-buyers).</p>
     <p><a href="https://cashlessconsumer.in">cashlessconsumer.in</a> · data: <a href="https://github.com/CashlessConsumer/srotrac">GitHub</a> · <a href="/about.html">methodology</a></p>
     <p><strong>Data: CC BY 4.0</strong> — copy, remix and republish with attribution to SROTrac / CashlessConsumer. Code: MIT.</p>
     <p class="colophon">Scope: RBI-recognised SROs only — not SEBI/IRDAI or other regulators&rsquo; SROs &middot; Agent entry: <a href="/llms.txt">llms.txt</a></p>
