@@ -1768,7 +1768,7 @@ def main():
 
     # overlap.html retired -> redirect stub
     with open(os.path.join(ROOT, "overlap.html"), "w", encoding="utf-8") as f:
-        f.write('<!doctype html><html lang="en"><head><meta charset="utf-8">'
+        f.write('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex">'
                 '<title>Cross-SRO overlap — SROTrac</title>'
                 '<link rel="canonical" href="https://srotrac.cashlessconsumer.in/members.html#overlap">'
                 '<meta http-equiv="refresh" content="0;url=/members.html#overlap"></head>'
