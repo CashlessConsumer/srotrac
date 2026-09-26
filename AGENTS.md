@@ -44,3 +44,7 @@ Tracking India's fintech SROs (self-regulatory organisations) and their member r
 - All 15 pages: zero console/page errors; all assets 200.
 - Verified 2026-09-12 (FIMMDA add): 9 sro-cards, stats 9/642/71/2, FIMMDA register + work pages render (116 members, typeline 66 Bank · 19 Insurer · 11 SFB · 8 DFI), sitemap/llms include sro-fimmda + work-fimmda. Earlier E2E pass (2026-09-11): nav dropdown (hover/click/Escape-outside/keyboard focus-within), members search + SRO chips + MULTI, activity chips, per-SRO badge accents, mobile 390px no horizontal overflow, prefers-reduced-motion safe.
 - Conventions: css/js URLs are cache-busted per build (`?v=<UTC timestamp>` in `page()`); asset fixes must go through `scripts/site.py` (source of truth), then `python3 scripts/site.py && python3 scripts/bloggen.py`.
+
+## Design language (decision 2026-09-26)
+
+Separate design language per sousveillance layer — the skins are earned, not drift: RegTrac = dark intelligence-brief (navy/amber, watching the rule-writers), SROTrac = light gazette/ledger with stamps (satire of borrowed authority). Shared structural contract across the stack: 1080px wrap, sticky masthead, kicker/dek hero, stats grid, CC BY footer, llms.txt, and the sousveillance stack band (Layer 1 RegTrac · Layer 2 SROTrac · Layer 3 LobbyWatch planned) + footer layer line on every page. SROTrac side lives in `scripts/site.py` `page()` (`.stack` section + `.stack-*` CSS); rebuilds preserve it. Do not unify the two sites under one skin.
