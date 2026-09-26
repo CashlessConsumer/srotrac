@@ -307,7 +307,7 @@ Social media monitor · RBI-recognised SROs
 
  How this is monitored 
 
- The daily refresh re-fetches the SROs’ own pages, then a drift check ( scripts/social_check.py ) confirms every ✓-marked account is still linked from its official site. Last drift check 2026-09-25: 23/23 official-site links still live. 
+ The daily refresh re-fetches the SROs’ own pages, then a drift check ( scripts/social_check.py ) confirms every ✓-marked account is still linked from its official site. Last drift check 2026-09-26: 23/23 official-site links still live. 
  X, LinkedIn, Facebook and Instagram block robots, so follower counts and post contents are not scraped here — links are curated, dated (verified 2026-09-25) and re-verified in the direction platforms can’t block: the SRO’s own website. 
  A handle vanishing from an official site is the cheapest early signal of a rebrand, a takeover or a quietly deleted account — it shows here as a ⚠ flag. 
  Spotted a new or dead handle? It’s a one-row fix in data/social.csv (CC BY 4.0).
