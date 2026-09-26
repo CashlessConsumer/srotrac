@@ -452,3 +452,210 @@ WORK = {
         ],
     },
 }
+
+
+# ------------------------------------------------------------------
+# Multi-regulator expansion (2026-09-26): SEBI / IRDAI / IBBI bodies.
+# ------------------------------------------------------------------
+WORK.update({
+    "basl": {
+        "tagline": "Administration and supervision of investment advisers and research analysts (SEBI)",
+        "summary": "BASL (BSE Administration & Supervision Ltd), a wholly-owned BSE subsidiary, was recognised by SEBI as the Investment Adviser Administration and Supervisory Body (IAASB) for three years from 1 June 2021. Under SEBI's April 2024 framework (circular of 16 May 2024, effective 25 July 2024), BSE/BASL also administers research analysts as the RAASB. Every SEBI-registered IA is deemed a BASL member; every registered RA is deemed enlisted with the RAASB.",
+        "sections": [
+            {"h": "Mandate & machinery", "items": [
+                "Administration: enrolment/membership of investment advisers, fee collection, record-keeping for the IA and RA pools.",
+                "Supervision: monitoring compliance with the SEBI (Investment Advisers) Regulations 2013 and RA Regulations 2014, inspections and complaint handling.",
+                "Half-yearly reporting to SEBI on supervision of the adviser/analyst pools.",
+            ]},
+            {"h": "Membership", "items": [
+                "All SEBI-registered investment advisers are deemed BASL members (no opt-in list is published).",
+                "Research analysts deemed enlisted with the RAASB from 25 July 2024.",
+            ]},
+        ],
+        "gaps": [
+            "No public member roster or complaint statistics — membership is defined by SEBI registers, not by a BASL page.",
+            "Recognition has been extended in multi-year terms; extension decisions are not logged on the BASL site in a dated, easily auditable way.",
+            "Supervisory output (inspections, warnings, expulsions) has no public, dated trail yet — the key watch item.",
+        ],
+        "sources": [
+            ("RIAs have to register with BASL — Morningstar", "https://www.morningstar.in/posts/63664/rias-register-bse-administration-supervision-ltd.aspx"),
+            ("SEBI framework for supervision of RAs and IAs — Moneycontrol", "https://www.moneycontrol.com/news/business/personal-finance/sebi-releases-framework-for-supervision-of-research-analysts-investment-advisers-12713441.html"),
+            ("BASL website", "https://www.basl.in/"),
+        ],
+    },
+    "aibi": {
+        "tagline": "SEBI-recognised standards body for investment (merchant) bankers",
+        "summary": "The Association of Investment Bankers of India (AIBI, formerly the Association of Merchant Bankers of India, AMBI) holds SEBI recognition recorded since the SEBI Annual Report 1997-98 'to set up professional standards... and establish standard practices in investment banking'. It is the investment-banking industry's sole representative body to SEBI, with 109 members on its own count.",
+        "sections": [
+            {"h": "Mandate & machinery", "items": [
+                "Professional standards and standard practices for merchant/investment banking activity.",
+                "Representation on SEBI's Primary Market Advisory Committee (via its Chairperson).",
+                "Annual summits with the SEBI Chairman as chief guest; seminars, panels, research initiatives and an e-magazine; due-diligence guidance material for members.",
+            ]},
+            {"h": "Membership", "items": [
+                "109 members (aibi.org.in counter, 2026-09-26). Voluntary membership, but a valid SEBI merchant-banking licence is an eligibility requirement.",
+                "Life membership (Rs 5,00,000 + GST entrance) and associate membership tiers.",
+            ]},
+        ],
+        "gaps": [
+            "No public member roster — member.asp is a join/download page, and the roster is available only on request.",
+            "No published enforcement, complaint or disciplinary record — standards exist as guidance, not as an enforced code with a dated trail.",
+        ],
+        "sources": [
+            ("About AIBI", "https://aibi.org.in/about.asp"),
+            ("AIBI website", "https://aibi.org.in"),
+            ("SEBI Annual Report 1997-98 (AMBI recognition)", "https://www.sebi.gov.in/sebi_data/commondocs/ar97983d_h.html"),
+        ],
+    },
+    "lic": {
+        "tagline": "Statutory self-regulatory council for life insurance (Insurance Act s.64C, IRDAI)",
+        "summary": "The Life Insurance Council is the statutory self-regulatory body of India's life-insurance industry, constituted under section 64C of the Insurance Act, 1938. Its member roster spans the life industry — from LIC to private insurers and new entrants — and its remit covers efficiency, public interest, advice to government/IRDAI, and education via affiliated insurance institutes.",
+        "sections": [
+            {"h": "Statutory role", "items": [
+                "Promote efficiency among life insurers, advance the public interest, and advise government and IRDAI on the industry's growth.",
+                "Runs education and training through affiliated insurance institutes; publishes the industry year book and journals.",
+            ]},
+            {"h": "Membership (captured 2026-09-26)", "items": [
+                "27 life insurers listed on lifeinscouncil.org — LIC, private insurers (HDFC Life, SBI Life, ICICI Prudential Life...), and recent entrants (Acko Life, CreditAccess Life).",
+                "Council office-bearers are drawn from member-insurer leadership; the site lists insurers with their CEOs.",
+            ]},
+        ],
+        "gaps": [
+            "No published enforcement or code-discipline record — the council's consumer relevance depends on machinery that is not publicly traceable.",
+            "Grievance data is not published by the council; consumer complaints flow to insurers and IRDAI's Bima Bharosa instead.",
+        ],
+        "sources": [
+            ("List of member insurers — Life Insurance Council", "http://www.lifeinscouncil.org/consumers/ListOfCompanies"),
+            ("Life Insurance Council website", "http://www.lifeinscouncil.org/"),
+        ],
+    },
+    "gic": {
+        "tagline": "Statutory self-regulatory council for general and health insurance (Insurance Act s.64C, IRDAI)",
+        "summary": "The General Insurance Council (GIC) is the statutory self-regulatory body for the general, health and reinsurance industry under section 64C of the Insurance Act, 1938. Its 49 members (badge count on the council's own member page) include standalone health insurers, public-sector insurers, and reinsurance operations in India (GIC Re, Swiss Re, Lloyd's, AXA France VIE and General Re branches).",
+        "sections": [
+            {"h": "Statutory role", "items": [
+                "Self-regulation of the non-life industry: promoting efficiency, fair practices and public interest; advising government and IRDAI.",
+                "Publishes a Code of Good Insurance Practices; runs industry working groups on claims, health and co-insurance (ETASS).",
+                "Anchor of IRDAI's 'Insurance for All by 2047' industry-side work.",
+            ]},
+            {"h": "Membership (captured 2026-09-26)", "items": [
+                "49 members captured from gicouncil.in's member grid (the page advertises '49 Members').",
+                "Composition includes general insurers, standalone health insurers (Care, Niva Bupa, ManipalCigna, Galaxy, Prudential HCL) and reinsurance branches.",
+            ]},
+        ],
+        "gaps": [
+            "The member page is a JS-rendered grid (Angular) — roster requires a browser capture, which weakens reproducibility.",
+            "No published discipline/enforcement log; practice codes lack a dated compliance trail.",
+        ],
+        "sources": [
+            ("Member companies — General Insurance Council", "https://www.gicouncil.in/members-of-gi-council/"),
+            ("General Insurance Council website", "https://www.gicouncil.in/"),
+        ],
+    },
+    "iiipi": {
+        "tagline": "First registered insolvency professional agency — ICAI (IBBI/IPA/16-17/01)",
+        "summary": "The Indian Institute of Insolvency Professionals of ICAI (IIIPI) is a section-8 company wholly owned by ICAI, registered with IBBI as an Insolvency Professional Agency (registration IBBI/IPA/16-17/01 — first of the three agencies) under the Insolvency and Bankruptcy Code, 2016. IPAs enrol insolvency professionals as members and enforce the code of conduct on them.",
+        "sections": [
+            {"h": "Mandate & machinery", "items": [
+                "Enrol insolvency professionals (IPs) as professional members; lay down standards; monitor and discipline members under the IBBI (Insolvency Professionals) Regulations 2016.",
+                "Governed by a board with independent directors; operates disciplinary committees for member conduct.",
+            ]},
+            {"h": "Registers", "items": [
+                "IP rosters live in IBBI's own registers (individual IP registration numbers begin IBBI/IPA-001/... for IIIPI members); IIIPI does not publish a simple member directory.",
+            ]},
+        ],
+        "gaps": [
+            "Member counts and disciplinary outcomes are scattered across IBBI board reports and individual orders — no single public enforcement ledger.",
+        ],
+        "sources": [
+            ("Registered Insolvency Professional Agencies — IBBI", "https://ibbi.gov.in/service-provider/professional-agencies"),
+            ("IIIPI (ICAI) website", "https://www.iiipicai.in/"),
+        ],
+    },
+    "icsiip": {
+        "tagline": "Insolvency professional agency of ICSI (IBBI/IPA/16-17/02)",
+        "summary": "ICSI Institute of Insolvency Professionals (ICSI IIP) is a wholly-owned subsidiary of the Institute of Company Secretaries of India (section 8), registered with IBBI as the second Insolvency Professional Agency (IBBI/IPA/16-17/02). It enrols company-secretary-route insolvency professionals and enforces the IBBI code of conduct.",
+        "sections": [
+            {"h": "Mandate & machinery", "items": [
+                "Enrolment, monitoring and discipline of IPs; standards development; continuing education for insolvency practice.",
+                "Its own site describes it as a 'frontline regulator registered with IBBI under the Insolvency and Bankruptcy Code, 2016'.",
+            ]},
+            {"h": "Registers", "items": [
+                "Member IP registration numbers carry the IBBI/IPA-002/ prefix; the authoritative register is IBBI's.",
+            ]},
+        ],
+        "gaps": [
+            "No aggregated public record of complaints and disciplinary orders against its members.",
+        ],
+        "sources": [
+            ("Registered Insolvency Professional Agencies — IBBI", "https://ibbi.gov.in/service-provider/professional-agencies"),
+            ("ICSI IIP website", "https://www.icsiiip.in/"),
+        ],
+    },
+    "ipaicmai": {
+        "tagline": "Insolvency professional agency of ICMAI (IBBI/IPA/16-17/03)",
+        "summary": "The Insolvency Professional Agency of the Institute of Cost Accountants of India (IPA ICMAI), registered with IBBI as the third agency (IBBI/IPA/16-17/03), enrols cost-accountant-route insolvency professionals and polices their conduct under the IBBI framework.",
+        "sections": [
+            {"h": "Mandate & machinery", "items": [
+                "Enrolment of professional members, code-of-conduct enforcement, disciplinary machinery under the IBBI (Insolvency Professionals) Regulations 2016.",
+                "Headquartered at CMA Bhawan, Lodhi Road, New Delhi.",
+            ]},
+            {"h": "Registers", "items": [
+                "Member IP registration numbers carry the IBBI/IPA-003/ prefix; the authoritative register is IBBI's.",
+            ]},
+        ],
+        "gaps": [
+            "Smallest of the three agencies; publishes no roster or enforcement summary.",
+        ],
+        "sources": [
+            ("Registered Insolvency Professional Agencies — IBBI", "https://ibbi.gov.in/service-provider/professional-agencies"),
+            ("IPA ICMAI website", "https://www.ipaicmai.in/"),
+        ],
+    },
+    "amfi": {
+        "tagline": "Mutual funds' association — self-regulatory in practice, not by recognition (SEBI context entry)",
+        "summary": "The Association of Mutual Funds in India (AMFI, est. 1995, CIN U65991MH1995NPL092062) is the mutual-fund industry's association. It behaves self-regulatorily — codes of conduct for AMCs and distributors, the ARN registration regime — but SEBI has never granted it formal SRO recognition (a gap documented in the World Bank's 2007 SRO policy note, and unchanged by SEBI's 2024 SRO framework, which covers stock brokers, IAs and RAs).",
+        "sections": [
+            {"h": "Self-regulatory work", "items": [
+                "AMFI Code of Conduct for AMCs; codes and norms for distributors (ARN holders) incl. investor-protection and conduct rules.",
+                "Industry data office: daily/weekly/monthly MF folio and AUM statistics that underpin most sector reporting.",
+                "Investor-awareness programmes (AMFI-appointed 'Mutual Funds Sahi Hai' campaign).",
+            ]},
+            {"h": "Membership (captured 2026-09-26)", "items": [
+                "56 member AMCs listed on amfiindia.com's Members tab (from 360 ONE and Abakkus to Zerodha and old-line sponsors).",
+                "Count has grown rapidly with new AMC licences (Angel One, Capitalmind, AlphaGrep, Groww, Helios et al).",
+            ]},
+        ],
+        "gaps": [
+            "Not a recognised SRO: no SEBI-granted disciplinary mandate; distributor discipline (ARN suspensions) exists but without a dated public trail.",
+            "A 'context' register row — upgraded to tracked only if SEBI formalises an MF-sector SRO.",
+        ],
+        "sources": [
+            ("AMFI Members — amfiindia.com (Members tab)", "https://www.amfiindia.com/aboutamfi"),
+            ("World Bank SRO Policy Note (2007)", "https://openknowledge.worldbank.org/bitstreams/c74178aa-a1a4-55ed-a9d4-2c3e7127b87f/download"),
+        ],
+    },
+    "anmi": {
+        "tagline": "Stock brokers' pan-India association — campaigning for SRO status (SEBI context entry)",
+        "summary": "The Association of National Exchanges Members of India (ANMI, est. 1996) is a pan-India body of ~900 trading members of NSE, BSE and MSE. It engages SEBI and the exchanges on brokerage-industry issues but is not a recognised SRO; its own press releases solicit 'SRO status and a greater say in policy making'.",
+        "sections": [
+            {"h": "Profile & work", "items": [
+                "Representation and advocacy: pre-budget memoranda, regulatory feedback, compliance seminars for brokers across exchanges.",
+                "Runs an annual capital-market conference graced by the Finance Minister and SEBI Chairman; publishes a magazine.",
+                "Board of directors drawn from member-broker leadership; committees for exchange-specific member segments.",
+            ]},
+            {"h": "Membership", "items": [
+                "~900 active stock brokers (ASIFMA profile; ANMI's own 'about' describes a pan-India body of trading members of NSE/BSE/MSE).",
+                "No public member directory; membership rosters sit behind the member area login.",
+            ]},
+        ],
+        "gaps": [
+            "Not a recognised SRO — included as context because it is the most probable candidate if SEBI recognises a brokers' SRO under the 2024-25 framework work.",
+            "Self-description ('Voice of Capital Market') is marketing, not regulatory standing.",
+        ],
+        "sources": [
+            ("ANMI website", "https://anmi.in/anmi_front"),
+            ("ANMI profile — ASIFMA", "https://www.asifma.org/sponsors/anmi-the-association-of-national-exchanges-members-of-india-2020-india"),
+        ],
+    },
+})

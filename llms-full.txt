@@ -3,66 +3,112 @@ Source: https://srotrac.cashlessconsumer.in (CC BY 4.0). One section per page.
 
 
 ## home — https://srotrac.cashlessconsumer.in/
-Register of RBI-recognised self-regulatory organisations · India 
+Register of India’s financial-sector self-regulatory organisations · RBI · SEBI · IRDAI · IBBI 
  Who watches India’s fintech watchdogs ? 
 
- RBI-Recognised × 9 
+ Recognised SROs × 18 
  2 × SRO-FT 
 
- RBI outsources first-line supervision of fintechs, NBFCs and payment operators to self-regulatory organisations — industry bodies with the power to write conduct codes and police their own members. SROTrac tracks who sits on these SROs, what they do, and whether they work for consumers. Scope: only the nine SROs recognised by RBI — industry bodies under SEBI, IRDAI or other regulators are out of scope. 
+ India’s regulators outsource first-line supervision to self-regulatory organisations — industry bodies empowered to write conduct codes and police their own members. SROTrac tracks who sits on them, what they do, and whether they work for consumers — across RBI, SEBI, IRDAI and IBBI , plus the two industry giants (AMFI, ANMI) that self-regulate without ever being recognised. 
 
- 9 RBI-recognised SROs 
- 642 listed member orgs 
- 71 in 2+ SROs 
+ 18 SROs tracked 
+ 4 regulators 
+ 774 listed member orgs 
+ 79 in 2+ SROs 
  2 fintech SRO-FTs 
 
  The register 
- Nine bodies, one contract with the regulator. Click a folder for members, governance and activity. 
+ Sixteen recognised bodies across four regulators, plus two unrecognised associations tracked for context. Click a folder for members, governance and activity. 
 
  Active SRO-FT 
  Fintech Association for Consumer Empowerment 
  Fintech / digital lending 
- Recognised 28 Aug 2024 · 85 listed members 
+ RBI · 2024-08-28 · 85 members 
 
  Active SRO-FT (recognised at GFF 2026) 
  Unified Fintech Forum 
  Fintech (broad): lenders, wallets/PPIs, neobanks, BNPL 
- Recognised 10 Sep 2026 · 121 listed members 
+ RBI · 2026-09-10 · 121 members 
 
  Active SRO (NBFC) 
  Finance Industry Development Council 
  NBFCs (incl. digital lenders) — recognised under omnibus framework, not the SRO-FT framework 
- Recognised 03 Oct 2025 · 0 listed members 
+ RBI · 2025-10-03 · 0 members 
 
  Active SRO (PSO) 
  Self-Regulated PSO Association 
  Payment system operators: payment aggregators, wallets/PPIs, POS 
- Recognised 11 Nov 2025 · 18 listed members 
+ RBI · 2025-11-11 · 18 members 
 
  Active SRO (microfinance; RBI letter 16 Jun 2014 — first SRO in this family) 
  Microfinance Institutions Network 
  NBFC-MFIs (+ banks/SFBs lending microfinance as associate members) 
- Recognised 16 Jun 2014 · 84 listed members 
+ RBI · 2014-06-16 · 84 members 
 
  Active SRO (microfinance; recognised Mar 2015) 
  Sa-Dhan (Association of Community Development Finance Institutions) 
  Microfinance (broad network: MFIs, SFBs, banks, investors) 
- Recognised 11 Mar 2015 · 0 listed members 
+ RBI · 2015-03-11 · 0 members 
 
  Active SRO (FX; Omnibus framework; 1-yr transition to Jan 2027) 
  Foreign Exchange Dealers' Association of India 
  Authorised Dealers in foreign exchange (banks + FEMA-authorised entities) 
- Recognised 14 Jan 2026 · 108 listed members 
+ RBI · 2026-01-14 · 108 members 
 
  Active SRO (AA ecosystem; 8th RBI-recognised SRO) 
  Sahamati 
  Account Aggregator (AA) ecosystem — AAs, FIPs, FIUs, TSPs 
- Recognised 05 Jun 2026 · 110 listed members 
+ RBI · 2026-06-05 · 110 members 
 
  Active SRO (financial markets; first under the Aug 2024 framework) 
  Fixed Income Money Market and Derivatives Association of India 
  Financial markets: fixed income, money market and derivatives (banks, primary dealers, insurers, public financial institutions) 
- Recognised 07 May 2025 · 116 listed members 
+ RBI · 2025-05-07 · 116 members 
+
+ Active SRO-body (IAASB + RAASB) 
+ BSE Administration and Supervision Ltd 
+ Investment advisers (IAASB) + research analysts (RAASB) 
+ SEBI · 2021-06-01 · 0 members 
+
+ Active SRO (investment banking) 
+ Association of Investment Bankers of India 
+ Merchant bankers / investment banks 
+ SEBI · 1997-98 (AR) · 0 members 
+
+ Active statutory SRO (life insurance) 
+ Life Insurance Council 
+ Life insurers (entire industry) 
+ IRDAI · 1938 (s.64C) · 0 members 
+
+ Active statutory SRO (general insurance) 
+ General Insurance Council 
+ General + health insurers and reinsurers 
+ IRDAI · 1938 (s.64C) · 0 members 
+
+ Active SRO-body (insolvency; IBBI/IPA/16-17/01) 
+ Indian Institute of Insolvency Professionals of ICAI 
+ Insolvency professionals (IPA, reg. IBBI/IPA/16-17/01) 
+ IBBI · 2016-17 · 0 members 
+
+ Active SRO-body (insolvency; IBBI/IPA/16-17/02) 
+ ICSI Institute of Insolvency Professionals 
+ Insolvency professionals (IPA, reg. IBBI/IPA/16-17/02) 
+ IBBI · 2016-17 · 0 members 
+
+ Active SRO-body (insolvency; IBBI/IPA/16-17/03) 
+ Insolvency Professional Agency of the Institute of Cost Accountants of India 
+ Insolvency professionals (IPA, reg. IBBI/IPA/16-17/03) 
+ IBBI · 2016-17 · 0 members 
+
+ Industry body — not a recognised SRO 
+ Association of Mutual Funds in India 
+ Asset management companies (all SEBI-registered AMCs) 
+ SEBI · — (association, 1995) · 56 members 
+
+ Industry body — not a recognised SRO 
+ Association of National Exchanges Members of India 
+ Stock brokers (NSE, BSE, MSE trading members) 
+ SEBI · — (association, 1996) · 0 members 
 
  What is an SRO, in plain words? 
  RBI can't directly supervise thousands of fintechs, NBFCs and payment companies. So it recognises industry associations as self-regulatory organisations — with a contract: broad membership, independent boards, codes of conduct, monitoring of member compliance, and grievance redress. In return the regulator gets a first line of supervision, and the industry gets a single voice. 
@@ -94,16 +140,16 @@ Register of RBI-recognised self-regulatory organisations · India
 
 ## members — https://srotrac.cashlessconsumer.in/members.html
 All members 
- 565 organisations across the seven published rosters (FIDC and Sa-Dhan publish no public roster). One row per organisation — SRO badges show every register it appears in. Filter by SRO, entity type, or search by name. Cross-SRO membership overlap is below the table . 
+ 689 organisations across the thirteen published rosters (FIDC, Sa-Dhan, BASL, AIBI and the three insolvency agencies publish none). One row per organisation — SRO badges show every register it appears in. Filter by SRO, entity type, or search by name. Cross-SRO membership overlap is below the table . 
 
  SRO 
  All 
- FACE UFF SRPA MFIN FEDAI Sahamati FIMMDA 
+ FACE UFF SRPA MFIN FEDAI Sahamati FIMMDA LI Council GI Council AMFI 
  In 2+ SROs 
 
  Type 
  All 
- Bank (130) NBFC (106) Fintech / LSP (73) Tech / TSP (47) NBFC-MFI (31) Payments / PSO (28) Insurer (24) Small Finance Bank (24) Investments / Wealth (19) Other / Services (17) Account Aggregator (11) Development FI (10) Cooperative Bank (9) Primary Dealer (9) Securities Broker (8) AMC / Mutual Fund (6) Credit Bureau (3) Housing Finance (3) Payments Bank (3) Forex / Remittance (2) Market Infrastructure (2) 
+ Bank (131) NBFC (106) Insurer (88) Fintech / LSP (73) AMC / Mutual Fund (59) Tech / TSP (47) NBFC-MFI (31) Payments / PSO (28) Small Finance Bank (24) Other / Services (23) Investments / Wealth (19) Account Aggregator (11) Development FI (10) Cooperative Bank (9) Primary Dealer (9) Securities Broker (8) Credit Bureau (3) Housing Finance (3) Payments Bank (3) Forex / Remittance (2) Market Infrastructure (2) 
 
  Organisation Entity type SROs Website 
 
@@ -112,11 +158,11 @@ All members
  Shared members matrix 
  Each cell counts organisations registered with both the row and column SRO. Click a cell to open those organisations in the members table. 
 
- FACE UFF FIDC SRPA MFIN Sa-Dhan FEDAI Sahamati FIMMDA FACE 85 23 · 3 · · · · · UFF 23 121 · 3 2 · 1 1 2 FIDC · · 0 · · · · · · SRPA 3 3 · 18 · · · · · MFIN · 2 · · 84 · · 1 6 Sa-Dhan · · · · · 0 · · · FEDAI · 1 · · · · 108 8 27 Sahamati · 1 · · 1 · 8 110 7 FIMMDA · 2 · · 6 · 27 7 116 
+ FACE UFF FIDC SRPA MFIN Sa-Dhan FEDAI Sahamati FIMMDA BASL AIBI LI Council GI Council IIIPI ICSI IIP IPA ICMAI AMFI ANMI FACE 85 23 · 3 · · · · · · · · · · · · · · UFF 23 121 · 3 2 · 1 1 2 · · · · · · · · · FIDC · · 0 · · · · · · · · · · · · · · · SRPA 3 3 · 18 · · · · · · · · · · · · · · MFIN · 2 · · 84 · · 1 6 · · · · · · · · · Sa-Dhan · · · · · 0 · · · · · · · · · · · · FEDAI · 1 · · · · 108 8 27 · · · · · · · · · Sahamati · 1 · · 1 · 8 110 7 · · 2 1 · · · 2 · FIMMDA · 2 · · 6 · 27 7 116 · · 3 · · · · · · BASL · · · · · · · · · 0 · · · · · · · · AIBI · · · · · · · · · · 0 · · · · · · · LI Council · · · · · · · 2 3 · · 27 · · · · · · GI Council · · · · · · · 1 · · · · 49 · · · · · IIIPI · · · · · · · · · · · · · 0 · · · · ICSI IIP · · · · · · · · · · · · · · 0 · · · IPA ICMAI · · · · · · · · · · · · · · · 0 · · AMFI · · · · · · · 2 · · · · · · · · 56 · ANMI · · · · · · · · · · · · · · · · · 0 
 
- Organisations in 2+ SROs (71) 
+ Organisations in 2+ SROs (79) 
 
- Organisation Type SROs Apollo Finvest NBFC FACE UFF Aspire Fintech / LSP FACE UFF AU Small Finance Bank Limited Small Finance Bank FEDAI Sahamati FIMMDA Axis Bank Limited Bank Sahamati FIMMDA Bandhan Bank Bank MFIN FIMMDA Bank of Baroda Bank UFF FEDAI Sahamati FIMMDA Bank of Ceylon Bank FEDAI FIMMDA Bank of India Bank FEDAI FIMMDA Bank of Maharashtra Bank FEDAI FIMMDA BharatPe Payments / PSO FACE UFF BNP Paribas Bank FEDAI FIMMDA Branch Fintech / LSP FACE UFF Bureau Tech / TSP FACE UFF CADRE Other / Services FACE UFF Canara Bank Bank FEDAI FIMMDA Central Bank of India Bank FEDAI FIMMDA CRED Fintech / LSP UFF SRPA DBS Bank India Limited Bank FEDAI FIMMDA Decentro Tech / TSP FACE UFF Export-Import Bank of India Development FI FEDAI FIMMDA GetVantage Fintech / LSP FACE UFF HDFC Bank Limited Bank FEDAI Sahamati HyperVerge Tech / TSP FACE UFF ICICI Bank Bank MFIN Sahamati ICICI Securities Primary Dealership Limited Primary Dealer FEDAI FIMMDA IDFC First Bank Bank MFIN FIMMDA IDFC FIRST Bank Limited Bank FEDAI Sahamati InCred NBFC FACE UFF Indian Bank Bank FEDAI FIMMDA Indian Overseas Bank Bank FEDAI FIMMDA IndusInd Bank Bank MFIN FIMMDA IndusInd Bank Limited Bank FEDAI Sahamati Industrial and Commercial Bank of China Limited Bank FEDAI FIMMDA Industrial Bank of Korea Bank FEDAI FIMMDA KEB Hana Bank Bank FEDAI FIMMDA Kookmin Bank Bank FEDAI FIMMDA Kotak Mahindra Bank Limited Bank FEDAI Sahamati KreditBee Fintech / LSP FACE UFF Light Microfinance NBFC-MFI UFF MFIN Mizuho Bank Limited Bank FEDAI FIMMDA MobiKwik Payments / PSO FACE UFF SRPA Moneyview Fintech / LSP FACE UFF NABARD Development FI Sahamati FIMMDA Northern Arc NBFC FACE UFF Paisabazaar Fintech / LSP FACE UFF Paytm Payments / PSO FACE UFF Perfios Tech / TSP FACE UFF PhonePe Payments / PSO FACE SRPA Progcap Fintech / LSP FACE UFF Punjab National Bank Bank FEDAI Sahamati FIMMDA Qatar National Bank (Q.P.S.C.) Bank FEDAI FIMMDA Razorpay Payments / PSO FACE SRPA RBL Bank Bank UFF MFIN FIMMDA Revfin Fintech / LSP FACE UFF Saafe Tech / TSP FACE UFF Small Industries Development Bank of India Development FI FEDAI Sahamati Spice Money Payments / PSO UFF SRPA Standard Chartered Bank Bank FEDAI FIMMDA State Bank of India Bank FEDAI FIMMDA The Clearing Corporation of India Ltd Market Infrastructure FEDAI FIMMDA The South Indian Bank Ltd Bank Sahamati FIMMDA True Balance Payments / PSO FACE UFF UBS AG Bank FEDAI FIMMDA UCO Bank Bank FEDAI FIMMDA Ujjivan Small Finance Bank Small Finance Bank Sahamati FIMMDA Uni Fintech / LSP FACE UFF Union Bank of India Bank FEDAI FIMMDA Unity Small Finance Bank Small Finance Bank MFIN FIMMDA Woori Bank Bank FEDAI FIMMDA Yes Bank Bank MFIN FIMMDA Zeta Tech / TSP FACE UFF 
+ Organisation Type SROs Aditya Birla Health Insurance Co Ltd Insurer Sahamati RBI Apollo Finvest NBFC FACE UFF Aspire Fintech / LSP FACE UFF AU Small Finance Bank Limited Small Finance Bank FEDAI Sahamati FIMMDA Axis Bank Limited Bank Sahamati FIMMDA Axis Mutual Fund AMC / Mutual Fund Sahamati AMFI Bajaj Life Insurance Limited Insurer Sahamati RBI Bandhan Bank Bank MFIN FIMMDA Bank of Baroda Bank UFF FEDAI Sahamati FIMMDA Bank of Ceylon Bank FEDAI FIMMDA Bank of India Bank FEDAI FIMMDA Bank of Maharashtra Bank FEDAI FIMMDA BharatPe Payments / PSO FACE UFF BNP Paribas Bank FEDAI FIMMDA Branch Fintech / LSP FACE UFF Bureau Tech / TSP FACE UFF CADRE Other / Services FACE UFF Canara Bank Bank FEDAI FIMMDA Central Bank of India Bank FEDAI FIMMDA CRED Fintech / LSP UFF SRPA CreditAccess Life Insurance Limited Insurer Sahamati RBI DBS Bank India Limited Bank FEDAI FIMMDA Decentro Tech / TSP FACE UFF Export-Import Bank of India Development FI FEDAI FIMMDA GetVantage Fintech / LSP FACE UFF HDFC Bank Limited Bank FEDAI Sahamati HyperVerge Tech / TSP FACE UFF ICICI Bank Bank MFIN Sahamati ICICI Prudential Life Insurance Company Limited Insurer FIMMDA RBI ICICI Securities Primary Dealership Limited Primary Dealer FEDAI FIMMDA IDFC First Bank Bank MFIN FIMMDA IDFC FIRST Bank Limited Bank FEDAI Sahamati InCred NBFC FACE UFF Indian Bank Bank FEDAI FIMMDA Indian Overseas Bank Bank FEDAI FIMMDA IndusInd Bank Bank MFIN FIMMDA IndusInd Bank Limited Bank FEDAI Sahamati Industrial and Commercial Bank of China Limited Bank FEDAI FIMMDA Industrial Bank of Korea Bank FEDAI FIMMDA KEB Hana Bank Bank FEDAI FIMMDA Kookmin Bank Bank FEDAI FIMMDA Kotak Mahindra Bank Limited Bank FEDAI Sahamati KreditBee Fintech / LSP FACE UFF Life Insurance Corporation of India Insurer FIMMDA RBI Light Microfinance NBFC-MFI UFF MFIN Mizuho Bank Limited Bank FEDAI FIMMDA MobiKwik Payments / PSO FACE UFF SRPA Moneyview Fintech / LSP FACE UFF NABARD Development FI Sahamati FIMMDA Northern Arc NBFC FACE UFF Paisabazaar Fintech / LSP FACE UFF Paytm Payments / PSO FACE UFF Perfios Tech / TSP FACE UFF PhonePe Payments / PSO FACE SRPA Progcap Fintech / LSP FACE UFF Punjab National Bank Bank FEDAI Sahamati FIMMDA Qatar National Bank (Q.P.S.C.) Bank FEDAI FIMMDA Razorpay Payments / PSO FACE SRPA RBL Bank Bank UFF MFIN FIMMDA Revfin Fintech / LSP FACE UFF Saafe Tech / TSP FACE UFF SBI Life Insurance Company Limited Insurer FIMMDA RBI SBI Mutual Fund AMC / Mutual Fund Sahamati AMFI Small Industries Development Bank of India Development FI FEDAI Sahamati Spice Money Payments / PSO UFF SRPA Standard Chartered Bank Bank FEDAI FIMMDA State Bank of India Bank FEDAI FIMMDA The Clearing Corporation of India Ltd Market Infrastructure FEDAI FIMMDA The South Indian Bank Ltd Bank Sahamati FIMMDA True Balance Payments / PSO FACE UFF UBS AG Bank FEDAI FIMMDA UCO Bank Bank FEDAI FIMMDA Ujjivan Small Finance Bank Small Finance Bank Sahamati FIMMDA Uni Fintech / LSP FACE UFF Union Bank of India Bank FEDAI FIMMDA Unity Small Finance Bank Small Finance Bank MFIN FIMMDA Woori Bank Bank FEDAI FIMMDA Yes Bank Bank MFIN FIMMDA Zeta Tech / TSP FACE UFF 
 
  People in 2+ SROs 
  Person Roles Jiji Mammen FIDC: Advisory Council; Sa-Dhan: Executive Director & CEO N S Vishwanathan FIDC: Governing Council Member (Additional Director wef 2026-06-23); UFF: Independent Board Member Shachindra Nath FIDC: Governing Council Member; UFF: EC Member Sugandh Saxena FACE: CEO (first CEO; MFIN: Member Secretary 
@@ -202,6 +248,10 @@ Regulatory timeline
  Final framework for recognising Self-Regulatory Organisations in the fintech sector (SRO-FT) 
  Final SRO-FT framework: recognised SRO-FTs to monitor fintech compliance with regulations and codes, support innovation, and protect consumers. 
 
+ 2024-05-16 BASL framework 
+ SEBI framework for administration and supervision of research analysts and investment advisers - BSE/BASL designated both IAASB and RAASB 
+ Effective 25 Jul 2024: existing IAs who are BASL members and all registered RAs deemed enlisted with the supervisory bodies. 
+
  2024-03-21 RBI framework 
  Omnibus framework for recognising self-regulatory organisations in regulated financial entities 
  Generic framework applicable across RBI-regulated sectors (NBFCs, PSOs, etc.), each sector supervisor to invite/recognise SROs. 
@@ -221,6 +271,10 @@ Regulatory timeline
  2021-08 FACE announcement 
  FACE applies to RBI for SRO recognition (digital lending) 
  FACE was among the first industry bodies to apply to RBI for SRO status in digital lending, months after the draft framework chatter began. 
+
+ 2021-06-01 BASL recognition 
+ SEBI recognises BASL (BSE Administration and Supervision Ltd) as the Investment Adviser Administration and Supervisory Body (IAASB) 
+ Three-year recognition from 1 Jun 2021; all SEBI-registered investment advisers deemed enlisted with BASL. First supervisory body of its kind for IAs. 
 
  2020 
 
@@ -249,17 +303,17 @@ Regulatory timeline
 Activity log 
  Frameworks, recognitions, consultation responses, reports and announcements — dated and linked. 
 
- All announcement (5) consultation (2) framework (5) governance (1) partnership (1) recognition (8) report (1) roster (1) tool (1)
+ All announcement (5) consultation (2) framework (6) governance (1) partnership (1) recognition (9) report (1) roster (1) tool (1)
 
 
 ## social — https://srotrac.cashlessconsumer.in/social.html
-Social media monitor · RBI-recognised SROs 
+Social media monitor · tracked SROs 
  Where the SROs post 
- Codes of conduct, consultation responses and discipline machinery often surface first on an SRO’s own channels — usually LinkedIn, sometimes X. This page tracks every official account of the nine RBI-recognised SROs, and the daily refresh re-checks each one against the SRO’s own website. ✓ = still linked from the SRO’s site today · ✎ = verified via the SRO’s own announcement or platform search. 
+ Codes of conduct, consultation responses and discipline machinery often surface first on an SRO’s own channels — usually LinkedIn, sometimes X. This page tracks every official account of the tracked SROs, and the daily refresh re-checks each one against the SRO’s own website. ✓ = still linked from the SRO’s site today · ✎ = verified via the SRO’s own announcement or platform search. 
 
  29 official accounts tracked 
  7 handles on X (Twitter) 
- 7 of 9 SROs reachable on X 
+ 7 of 18 SROs reachable on X 
  2 LinkedIn-only — no public feed 
 
  The accounts 
@@ -305,6 +359,42 @@ Social media monitor · RBI-recognised SROs
  LinkedIn ✎ company/fimmda 
  No X account · No YouTube 
 
+ BASL 
+ BSE Administration and Supervision Ltd 
+ No official accounts found. 
+
+ AIBI 
+ Association of Investment Bankers of India 
+ No official accounts found. 
+
+ LI Council 
+ Life Insurance Council 
+ No official accounts found. 
+
+ GI Council 
+ General Insurance Council 
+ No official accounts found. 
+
+ IIIPI 
+ Indian Institute of Insolvency Professionals of ICAI 
+ No official accounts found. 
+
+ ICSI IIP 
+ ICSI Institute of Insolvency Professionals 
+ No official accounts found. 
+
+ IPA ICMAI 
+ Insolvency Professional Agency of the Institute of Cost Accountants of India 
+ No official accounts found. 
+
+ AMFI 
+ Association of Mutual Funds in India 
+ No official accounts found. 
+
+ ANMI 
+ Association of National Exchanges Members of India 
+ No official accounts found. 
+
  How this is monitored 
 
  The daily refresh re-fetches the SROs’ own pages, then a drift check ( scripts/social_check.py ) confirms every ✓-marked account is still linked from its official site. Last drift check 2026-09-26: 23/23 official-site links still live. 
@@ -347,12 +437,12 @@ About SROTrac
 
 
 ## FACE register entry — https://srotrac.cashlessconsumer.in/sro-face.html
-RBI-recognised SRO 
+RBI · SRO register 
  Fintech Association for Consumer Empowerment FACE 
  Deep-dive: what FACE actually does → 
  Fintech / digital lending 
 
- Recognised 28 Aug 2024 
+ Recognised (RBI) 2024-08-28 
  Status Active SRO-FT 
  Listed members 85 (37 Fintech / LSP · 18 Tech / TSP · 13 Payments / PSO · 10 NBFC) 
  Site faceofindia.org 
@@ -371,7 +461,7 @@ RBI-recognised SRO
  Organisation Type Website 
  Airpay member Airtel Finance member www.airtel.in/airtel-finance AngelOne member www.angelone.in Apollo Finvest member www.apollofinvest.in Aspire member www.letsaspire.in Ayekart member www.ayekart.com Bajaj Finserv member www.bajajfinserv.in Bankbazaar member www.bankbazaar.com BharatPe member www.bharatpe.com BillMart member www.billmart.in BimaPay member www.bimapay.in Branch member www.branch.co.in Bureau member www.bureau.id CADRE member www.cadre.org.in Cashfree Payments member www.cashfree.com Castler member www.castler.com Credgenics member www.credgenics.com Credit Saison India member www.creditsaison.in CRIF member www.crif.com/in Decentro member www.decentro.tech Digio member www.digio.in Doqfy member www.doqfy.in DPDzero member www.dpdzero.com Easebuzz member www.easebuzz.in Faircent member www.faircent.com Fibe member www.fibe.in FinAGG member www.finagg.in Finarkein member www.finarkein.com Finbox member www.finbox.in finmantri member finmantri.com Finvu member www.finvu.in Flexmoney member www.flexmoney.in GetVantage member www.getvantage.co Glimmer Technologies member www.glimmertech.in Gnani.ai member www.gnani.ai Groww member www.groww.in HyperVerge member www.hyperverge.co IDfy member www.idfy.com InCred member www.incred.com India Gold member www.indiagold.co Kissht member www.kissht.com Knight Fintech member www.knightfintech.com KreditBee member www.kreditbee.in LeadSquared member www.leadsquared.com Lendbox member www.lendbox.in LightMoney member www.lightmoney.in LiquiLoans member www.liquiloans.com Lxme member www.lxme.in Manipal Fintech member www.manipalfintech.com MAS Financial member www.masfin.in MicroSave Consulting member www.microsave.net MobiKwik member www.mobikwik.com Moneyview member www.moneyview.in Navanc member www.navanc.com Newtap Finance member www.newtap.in Northern Arc member www.northernarc.com Novopay member www.novopay.in Olyv member www.olyv.co.in OneCard member www.getonecard.app OneMoney member www.onemoney.in OnGrid member www.ongrid.in Paisabazaar member www.paisabazaar.com Pay Nearby member www.paynearby.in Paytm member www.paytm.com PayU member www.payu.in Perfios member www.perfios.com PhonePe member www.phonepe.com Pine Labs member www.pinelabs.com Pocketly member www.pocketly.in Progcap member www.progcap.com Razorpay member www.razorpay.com Revfin member www.revfin.in Rezolv member www.getrezolv.com Rupeek member www.rupeek.com Saafe member www.saafe.in Simpl member www.simpl.credit Spocto X member www.spocto.com Stable Money member www.stablemoney.in Surepass member www.surepass.io TransBnk member www.transbnk.co.in True Balance member www.truebalanceindia.com Uni member www.uni.cards Zerodha Capital member www.zerodha.com Zeta member www.zeta.tech Zoop Money member www.zoop.one 
 
- Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+ Captured from https://faceofindia.org/membership/ on 2026-09-10. Marketing rosters, not filings — see methodology . 
 
  Activity 
  2026-08 report FACE Personal Loan Report 2026 2025-08 tool DLA Validator — consumer tool for checking digital lending apps 2024-08-28 recognition FACE becomes India's first RBI-recognised fintech SRO (SRO-FT) 2024-08-14 consultation FACE response to TRAI consultation on DLT-based transaction scrubbing 2023-09 partnership Google x FACE collaboration against predatory digital lending apps 2021-08 announcement FACE applies to RBI for SRO recognition (digital lending) 
@@ -394,12 +484,12 @@ What FACE actually does
 
 
 ## UFF register entry — https://srotrac.cashlessconsumer.in/sro-uff.html
-RBI-recognised SRO 
+RBI · SRO register 
  Unified Fintech Forum UFF 
  Deep-dive: what UFF actually does → 
  Fintech (broad): lenders, wallets/PPIs, neobanks, BNPL 
 
- Recognised 10 Sep 2026 
+ Recognised (RBI) 2026-09-10 
  Status Active SRO-FT (recognised at GFF 2026) 
  Listed members 121 (39 Fintech / LSP · 32 NBFC · 21 Tech / TSP · 13 Other / Services) 
  Site unifiedfintech.in 
@@ -418,7 +508,7 @@ RBI-recognised SRO
  Organisation Type Website 
  Achiievers Finance member www.achiieversfinance.com Advance.ai member www.advance.ai Apollo Finvest member www.apollofinvest.com Aspire member www.letsaspire.in AuthBridge member authbridge.com Avanse member www.avanse.com Axio member www.axio.co.in Bank of Baroda associate www.bankofbaroda.in BDO associate www.bdo.global/en-gb/home BharatNXT member web.bharatnxt.in BharatPe member www.bharatpe.com BPJ N BFC member bpjnbfc.in Branch member branchapp.in BSFG Finance member bsfg.finance Bueno Finance member buenofinanceinc.com Bureau associate www.bureau.id CADRE member cadreodr.com Capitabel member capitabel.com Capri Loans member www.capriloans.in CARS24 member www.cars24.com Chinmay Finlease member www.chinmayfinlease.com Clari5 associate www.clari5.com CRED member www.cred.club Credit Saison member creditsaison.in CreditSea member www.creditsea.com Creditt member creditt.in CRIF High Mark associate www.crifhighmark.com Cyber Ambassador associate www.cyberambassador.co.in Decentro member decentro.tech Deleverage member www.deleverage.in DMI Finance member www.dmifinance.in DRN Legal associate www.drnlegal.com Ecofin Services member www.ecofinservices.com Eduvanz member eduvanz.com Eko member eko.in Entitled member www.entitled.co.in Experian member www.experian.in EY associate www.ey.com/en_in Ezfinanz member ezfinanz.com FameScore member famescore.in Fi Money member fi.money FinBox member finbox.in Finova member www.finova.in Finpedia member www.finpedia.id FlexiLoans member flexiloans.com Freo member freo.money Frog8 member frog8.co.in Fundfina member www.fundfina.com GetKosh member getkosh.com GetVantage member getvantage.co Gromor member gromor.in HyperVerge member hyperverge.co/in iGnosis member ignosis.ai IIFL member www.iifl.com InCred member www.incred.com IndiaGold member refer.indiagold.co IndiaLends member indialends.com Indifi member www.indifi.com iSPIRT associate ispirt.in Khaitan & Co associate www.khaitanco.com Kinara Capital member kinaracapital.com KPMG associate kpmg.com/in/en.html KreditBee member www.kreditbee.in Lendingkart member www.lendingkart.com LendingPlate member lendingplate.com LexisNexis Risk associate lexisnexisrisk.com Light Microfinance member lightmicrofinance.com Loaney member loaney.in Lucid Ledger member www.lucidledger.co.in MiMo IQ member mimoiq.com MobiKwik member www.mobikwik.com Moneyloji member www.moneyloji.com Moneyview member moneyview.in Muthoot Fincorp member www.muthootfincorp.com MyPaisaa member www.mypaisaa.com Navi member navi.com NBFC Advisor associate www.nbfcadvisor.com Nelito associate www.nelito.com NeoGrowth member neogrowth.in NeoKred member www.neokred.tech Niro member niro.money Niyogin member www.niyogin.in Northern Arc member www.northernarc.com OKCredit member okcredit.com Oxyzo member www.oxyzo.in Paisabazaar member www.paisabazaar.com PayRupik member www.payrupikloan.in PaySprint member www.paysprint.in/index.html Paytm member paytm.com PayU Finance member payufin.in Perfios member www.perfios.com Progcap member progcap.com Protium member protium.co.in Quadrillion Finance member www.quadrillion.finance RapidRupee member www.rapidrupee.in RBL Bank associate www.rblbank.com Revfin member www.revfin.in Rezolve.ai member www.rezolve.ai Saafe member saafe.in SalaryDay member salaryday.in ScoreMe member www.scoreme.in Shubh Loans member www.shubhloans.com Signzy associate www.signzy.com SmartCoin member smartcoin.co.in SMC Finance member www.smcfinance.com Spice Money member spicemoney.com SwipeLoan member swipeloan.in Tala member tala.co.in TeleSign associate www.telesign.com Tezz Capital member tezzcapital.com/company True Balance member www.truebalance.io Udaan member udaan.com UGRO Capital member www.ugrocapital.com Uni member www.uni.cards Vaibhav Vyapaar member www.vaibhav-vyapaar.com Vivifi member vivifin.com Voxomos associate voxomos.ai WeRize member www.werize.com Yubi member www.go-yubi.com Zaggle member www.zaggle.in Zeta member www.zeta.tech 
 
- Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+ Captured from https://unifiedfintech.in/members-network/ on 2026-09-10. Marketing rosters, not filings — see methodology . 
 
  Activity 
  2026-09-10 recognition UFF recognised as India's second SRO-FT 2025-04-16 announcement DLAI rebrands as Unified Fintech Forum (UFF); new leadership elected 2025-04 announcement UFF executive committee and working-group chairs in place 2024-09 announcement DLAI among fintech bodies that applied to RBI for SRO-FT status 
@@ -441,14 +531,14 @@ What UFF actually does
 
 
 ## FIDC register entry — https://srotrac.cashlessconsumer.in/sro-fidc.html
-RBI-recognised SRO 
+RBI · SRO register 
  Finance Industry Development Council FIDC 
  Deep-dive: what FIDC actually does → 
  NBFCs (incl. digital lenders) — recognised under omnibus framework, not the SRO-FT framework 
 
- Recognised 03 Oct 2025 
+ Recognised (RBI) 2025-10-03 
  Status Active SRO (NBFC) 
- Listed members 0 () 
+ Listed members n/p (no public roster) 
  Site www.fidcindia.org.in 
 
  Why it matters if you borrow or pay 
@@ -464,7 +554,7 @@ RBI-recognised SRO
 
  Organisation Type Website 
 
- Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+ Captured from https://www.fidcindia.org.in/membership-details/ on 2026-09-10. Marketing rosters, not filings — see methodology . 
 
  Activity 
  2026-06-05 consultation FIDC views on RBI monetary policy statement (June 2026) 2025-10-03 recognition FIDC recognised as RBI's SRO for NBFCs 
@@ -487,12 +577,12 @@ What FIDC actually does
 
 
 ## SRPA register entry — https://srotrac.cashlessconsumer.in/sro-srpa.html
-RBI-recognised SRO 
+RBI · SRO register 
  Self-Regulated PSO Association SRPA 
  Deep-dive: what SRPA actually does → 
  Payment system operators: payment aggregators, wallets/PPIs, POS 
 
- Recognised 11 Nov 2025 
+ Recognised (RBI) 2025-11-11 
  Status Active SRO (PSO) 
  Listed members 18 (13 Payments / PSO · 2 Fintech / LSP · 2 Tech / TSP · 1 Forex / Remittance) 
  Site srpa.org.in 
@@ -511,7 +601,7 @@ RBI-recognised SRO
  Organisation Type Website 
  BillDesk member www.billdesk.com Concerto Software & Systems member CRED member cred.club Euronet member www.euronetworldwide.com In-Solutions Global (ISG) member insolutionsglobal.com Infibeam Avenues member www.infibeam.com MobiKwik member www.mobikwik.com Mswipe member www.mswipe.com Open member open.money OxyMoney member www.oxymoney.com PayGlocal member payglocal.com PayWorld member www.payworldindia.com PhonePe member www.phonepe.com Razorpay member razorpay.com SabPaisa member sabpaisa.com Spice Money member www.spicemoney.com Unimoni member www.unimoni.com Zokudo member www.zokudo.com 
 
- Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+ Captured from https://srpa.org.in/ on 2026-09-10. Marketing rosters, not filings — see methodology . 
 
  Activity 
  2025-11-11 recognition SRPA becomes RBI-recognised SRO for payment system operators 
@@ -534,12 +624,12 @@ What SRPA actually does
 
 
 ## MFIN register entry — https://srotrac.cashlessconsumer.in/sro-mfin.html
-RBI-recognised SRO 
+RBI · SRO register 
  Microfinance Institutions Network MFIN 
  Deep-dive: what MFIN actually does → 
  NBFC-MFIs (+ banks/SFBs lending microfinance as associate members) 
 
- Recognised 16 Jun 2014 
+ Recognised (RBI) 2014-06-16 
  Status Active SRO (microfinance; RBI letter 16 Jun 2014 — first SRO in this family) 
  Listed members 84 (34 NBFC · 31 NBFC-MFI · 9 Small Finance Bank · 8 Bank) 
  Site mfinindia.org 
@@ -558,7 +648,7 @@ RBI-recognised SRO
  Organisation Type Website 
  Adhikar Microfinance member adhikarindia.in Adi Chitragupta Finance member acfl.co.in Agora member www.amil.co.in Annapurna Finance member ampl.net.in Arohan Financial Services member www.arohan.in Arth member www.arthfinance.com ASA India member www.asaindia.in Asirvad Microfinance member asirvadmicrofinance.co.in AU Small Finance Bank member www.aubank.in Avanti Finance member avantifinance.in Aviral Finance member www.aviralfinance.com Axis Bank member www.axisbank.com Bajaj Finance member www.bajajfinserv.in Bandhan Bank member bandhanbank.com Belstar Microfinance member www.belstar.in BWDA Finance member bwdafinanceltd.com Centrum Microcredit member www.centrummicrocredit.com CreditAccess Grameen member www.creditaccessgrameen.com DJT Finserv member www.djtfinserv.in Dvara KGFS member www.dvarakgfs.com Equitas SFB member www.equitasbank.com ESAF SFB member www.esafbank.com Fincare Small Finance Bank member fincarebank.com Fino Finance member www.finofinance.in Fusion Microfinance member www.fusionmicrofinance.com Grameen Koota (Growing Opportunity) member www.gopportunity.net Grameen Shakti member www.grameenshakti.co.in GU Finance member www.gufinance.com HDFC Bank member www.hdfcbank.com Hindusthan Microfinance member www.hindusthanmfi.com ICICI Bank member www.icicibank.com IDFC First Bank member www.idfcfirstbank.com Inditrade Capital member www.inditrade.com IndusInd Bank member www.indusind.com ITI Vikas Trust member www.itiorg.com Jagaran Microfin member www.jagaranmf.com Jana SFB member www.janabank.com Janakalyan Financial Services member www.janakalyan.net Jeevan Utthan member jeevanutthan.in K P Microfin member kpmicrofin.in L&T Finance member www.ltfs.com Light Microfinance member www.lightmicrofinance.com LOLC (India) member www.lolc.com M Power Microfinance member mpowermicro.com Magenta Finance member magentafinance.co.in Margdarshak Financial Services member www.margdarshak.org.in Midland Microfin member midlandmicrofin.com Mitrata Inclusive Financial Services member www.mitrata.in MSM Microfinance member msmmicrofinance.com Muthoot Microfin member www.muthootmicrofin.com Namra Finance member namrafinance.com Navi (Chaitanya India Fin) member www.chaitanyaindia.in Nightingale Finvest member www.nightingalefinvest.in Northern Arc Capital member www.northernarc.com Piramal Enterprises member www.piramalfinance.com RBL Bank member www.rblbank.com Saija Finance member saija.in Samasta Microfinance member www.samasta.co.in Samavesh MFI member www.samaveshmfi.com Sarala (Adikar?) member sarala.co.in Sarwadi member www.sarwadi.com Sarwadi (Swarna) member www.sarwadi.in Satin Creditcare member www.satincreditcare.com Satya Microcapital member www.satyamicrocapital.com Save Microfinance (Savi) member savemicrofinance.com Share Microfin (Mera Money) member www.sharemicrofin.com SMFG India Credit member www.smfgindiacredit.com South India Finvest member southindiafinvest.com Spandana Sphoorty member www.spandanasphoorty.com Srifin Credit member www.srifincredit.com Suryoday SFB member www.suryodaybank.com Svasti Microfinance member www.svasti.in Svatantra Microfin member www.svatantramicrofin.com Tata Capital member www.tatacapital.com Ujjivan SFB member www.ujjivansfb.in Unacco Finance member www.unacco.in Unity Small Finance Bank member theunitybank.com Unnati Microfinance member www.unnatimfi.com Utkarsh SFB member www.utkarsh.bank Vaya Finserv member www.vayaindia.com Vector Finance member vectorfinance.in VFSC Capital member www.vfscapital.in Vruksha member vrukshamicrofin.com Yes Bank member www.yesbank.in 
 
- Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+ Captured from https://mfinindia.org/members on 2026-09-10. Marketing rosters, not filings — see methodology . 
 
  Activity 
  2014-06-16 recognition MFIN becomes India's first SRO for NBFC-MFIs 
@@ -581,14 +671,14 @@ What MFIN actually does
 
 
 ## Sa-Dhan register entry — https://srotrac.cashlessconsumer.in/sro-sadhan.html
-RBI-recognised SRO 
+RBI · SRO register 
  Sa-Dhan (Association of Community Development Finance Institutions) Sa-Dhan 
  Deep-dive: what Sa-Dhan actually does → 
  Microfinance (broad network: MFIs, SFBs, banks, investors) 
 
- Recognised 11 Mar 2015 
+ Recognised (RBI) 2015-03-11 
  Status Active SRO (microfinance; recognised Mar 2015) 
- Listed members 0 () 
+ Listed members n/p (no public roster) 
  Site www.sa-dhan.net 
 
  Why it matters if you borrow or pay 
@@ -604,7 +694,7 @@ RBI-recognised SRO
 
  Organisation Type Website 
 
- Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+ Captured from https://www.sa-dhan.net/what-we-do/sro/ on 2026-09-10. Marketing rosters, not filings — see methodology . 
 
  Activity 
  No dated public activity captured yet. 
@@ -627,12 +717,12 @@ What Sa-Dhan actually does
 
 
 ## FEDAI register entry — https://srotrac.cashlessconsumer.in/sro-fedai.html
-RBI-recognised SRO 
+RBI · SRO register 
  Foreign Exchange Dealers' Association of India FEDAI 
  Deep-dive: what FEDAI actually does → 
  Authorised Dealers in foreign exchange (banks + FEMA-authorised entities) 
 
- Recognised 14 Jan 2026 
+ Recognised (RBI) 2026-01-14 
  Status Active SRO (FX; Omnibus framework; 1-yr transition to Jan 2027) 
  Listed members 108 (81 Bank · 9 Cooperative Bank · 6 Small Finance Bank · 3 Development FI) 
  Site www.fedai.org.in 
@@ -651,7 +741,7 @@ RBI-recognised SRO
  Organisation Type Website 
  (Surrendered Banking Licence to RBI and in process of winding up) Firstrand Bank member (Surrendered Banking Licence to RBI and in process of winding up) Krung Thai Bank Public Company Limited member AB Bank PLC member Abhyudaya Co-op. Bank Limited member Abu Dhabi Commercial Bank - &quot;Surrender of AD Category I License is under Process&quot; member AU Small Finance Bank Limited member Australia and New Zealand Banking Group Limited member AXIS Bank Limited member Bandhan Bank Limited member Bank of America NA. member Bank of Bahrain &amp; Kuwait B.S.C. member Bank of Baroda member Bank of Ceylon member Bank of China Limited member Bank of India member Bank of Maharashtra member Barclays Bank PLC member Bassein Catholic Cooperative Bank Ltd member BNP Paribas member Bombay Mercantile Co-operative Bank Limited member Canara Bank member Central Bank of India member Citibank N.A. member City Union Bank Limited member Cooperatieve Rabobank U.A member Credit Agricole Corporate and Investment Bank member Credit Suisse AG member CSB Bank Limited member CTBC Bank Co Ltd member DBS Bank India Limited member DCB Bank Limited member Deutsche Bank AG member Dhanlaxmi Bank Limited member Doha Bank Q.P.S.C. member Emirates NBD Bank (P.J.S.C) member Equitas Small Finance Bank Limited member ESAF Small Finance Bank Ltd member Export-Import Bank of India member First Abu Dhabi Bank PJSC member Goldman Sachs (India) Capital Markets Pvt. Ltd member HDFC Bank Limited member ICICI Bank Limited member ICICI Securities Primary Dealership Limited member IDBI Bank Ltd member IDFC FIRST Bank Limited member IFCI Limited member Indian Bank member Indian Overseas Bank member IndusInd Bank Limited member Industrial and Commercial Bank of China Limited member Industrial Bank of Korea member Jana Small Finance Bank Ltd member JP Morgan Chase Bank N.A. member JSC VTB Bank member Karnataka Bank Limited member KEB Hana Bank member Kookmin Bank member Kotak Mahindra Bank Limited member MashreqBank p.s.c member Mizuho Bank Limited member Morgan Stanley India Primary Dealer Private Limited member MUFG Bank, Ltd. member NatWest Markets Plc. member NKGSB Co-operative Bank Limited member Nomura Fixed Income Securities Pvt Ltd member NongHyup Bank member PNB Gilts Limited member PT Bank Maybank Indonesia TBK member Punjab &amp; Sind Bank member Punjab and Maharashtra Co-operative Bank Limited member Punjab National Bank member Qatar National Bank (Q.P.S.C.) member RBL Bank Limited member SBERBANK member SBM Bank (India) Ltd member Shinhan Bank member Small Industries Development Bank of India member Societe Generale member Sonali Bank PLC member Standard Chartered Bank member State Bank of India member Sumitomo Mitsui Banking Corporation member SVC Co-operative Bank Limited member Tamilnad Mercantile Bank Limited member The Ahmedabad Mercantile Co-op. Bank Limited - &quot;Surrender of AD Category I License is under Process&quot; member The Bank of Nova Scotia member The Bharat Co op Bank (Mumbai) Ltd member The Clearing Corporation of India Ltd member The Cosmos Co-operative Bank Limited member The Federal Bank Limited member The Hongkong and Shanghai Banking Corporation Limited member The Jammu &amp; Kashmir Bank Limited member The Kalupur Commercial Co-operative Bank Limited member The Karur Vysya Bank Limited member The Lakshmi Vilas Bank Limited - (Amalgamated in to DBS Bank India Ltd. w.e.f November 27, 2020.) member The Maharashtra State Co-operative Bank Limited member The Saraswat Co-operative Bank Limited member The South Indian Bank Limited member Thomas Cook (India) Limited member TJSB Sahakari Bank Limited member UBS AG member UCO Bank member Ujjivan Small Finance Bank Limited member Union Bank of India member United Overseas Bank Limited member Unity Small Finance Bank Ltd member Woori Bank member YES Bank Limited member 
 
- Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+ Captured from https://www.fedai.org.in/InnerPageContent.aspx?Cid=2&SCid=1&SSCid=0 on 2026-09-10. Marketing rosters, not filings — see methodology . 
 
  Activity 
  2026-01-14 recognition FEDAI recognised as SRO for all Authorised Dealers 
@@ -674,12 +764,12 @@ What FEDAI actually does
 
 
 ## Sahamati register entry — https://srotrac.cashlessconsumer.in/sro-sahamati.html
-RBI-recognised SRO 
+RBI · SRO register 
  Sahamati 
  Deep-dive: what Sahamati actually does → 
  Account Aggregator (AA) ecosystem — AAs, FIPs, FIUs, TSPs 
 
- Recognised 05 Jun 2026 
+ Recognised (RBI) 2026-06-05 
  Status Active SRO (AA ecosystem; 8th RBI-recognised SRO) 
  Listed members 110 (31 NBFC · 16 Investments / Wealth · 12 Tech / TSP · 12 Bank) 
  Site sahamati.org.in 
@@ -698,7 +788,7 @@ RBI-recognised SRO
  Organisation Type Website 
  121 Finance Pvt ltd member 121finance.com Abakkus Asset Manager Private Limited member www.abakkusinvest.com Aditya Birla Capital Digital Limited member www.adityabirlacapital.com Aditya Birla Capital Limited member www.adityabirlacapital.com Aditya Birla Health Insurance Co Ltd member www.adityabirlacapital.com/healthinsurance/homepage Aditya Birla Housing Finance Limited member homefinance.adityabirlacapital.com Aditya Birla Money Limited member stocksandsecurities.adityabirlacapital.com Aditya Birla Sun Life AMC member mutualfund.adityabirlacapital.com Aditya Birla Sun Life Insurance Company member lifeinsurance.adityabirlacapital.com ADJ Utility Apps Private Limited member khatabook.com Agya Technologies Private Limited member agya.co Angel One Ltd. member www.angelone.in AU Small Finance Bank Limited member www.aubank.in Axis Bank Limited member www.axis.bank.in Axis Finance Limited member www.axisfinance.in Axis Mutual Fund member www.axismf.com Axis Securities Ltd member simplehai.axisdirect.in Bajaj Finance Limited member www.bajajgroup.company/core-companies/bajaj-finance-limited Bajaj Finserv Asset Management Limited member www.bajajamc.com Bajaj Finserv Direct Limited member www.bajajfinservmarkets.in Bajaj Housing Finance Limited member www.bajajhousingfinance.in Bajaj Life Insurance Limited member www.bajajlifeinsurance.com Bandhan Life Insurance Limited member www.bandhanlife.com Bank of Baroda member bankofbaroda.bank.in CAMS Financial Information Services Private Limited member camsfinserv.com Capitalmind Asset Management Private Limited member www.capitalmind.in Cars24 Financial Services Private Limited member www.loans24.co.in Central Depository Services (India) Limited (CDSL) member www.cdslindia.com Computer Age Management Services Limited (NPS) member www.camsonline.com Cookiejar Technologies Private Ltd (Finvu-AA) member finvu.in CreditAccess Life Insurance Limited member creditaccesslife.in CredRight Finance Private Limited member www.credrightfinance.com Crest Capital Management Private Limited member www.crest-capital.com Cygnet Account Aggregation Private Limited member cygnet-aa.com/%20 Dashboard Account Aggregation Services Private Limited (Saafe) member saafe.in Dezerv Investments Private Limited member www.dezerv.in Digio Internet Private Limited member www.digio.link DMI Finance Private Limited member www.dmifinance.in Dreamplug Advisory Solutions Private Limited member cred.money Earlysalary Services Private Limited (Fibe) member earlysalary.in ECL Finance Limited member www.eclf.com Epifi Wealth Private Ltd. member fi.money Federal Bank member www.federalbank.co.in Fee Only Investment Advisers LLP member feeonlyinvestmentadvisers.com Finny member finny.club Finodaya Capital Private Limited member finodayacapital.com FinSec AA Solutions Private Limited (OneMoney) member www.onemoney.in Finteller Advisors Private Limited member goalteller.com Finuture Technologies Private Limited member www.folo.one Finwiser member www.finwiser.org Gromor Finance Private Limited member gromor.in HDB Financial Services Ltd member www.hdbfs.com HDFC Asset Management Company Ltd member www.hdfcfund.com HDFC Bank Limited member www.hdfc.bank.in HDFC Securities member hdfcsky.com ICICI Bank member www.icicibank.com IDFC FIRST Bank Limited member www.idfcfirstbank.com INCRED WEALTH AND INVESTMENT SERVICES PRIVATE LIMITED member www.incredwealth.com Indifi Capital Private Limited member www.indificapital.com INDstocks Private Limited member www.indmoney.com IndusInd Bank Limited member www.indusind.bank.in INK (Unacores AA Solutions Private Limited) member ink-aa.com Innofin Solutions Pvt. Ltd member www.innofin.in Invsify Technologies Private Limited member invsify.com Jio BlackRock Investment Advisers Private Limited member jioblackrock.com Jio Finance Platform and Service Limited member www.jiofinance.in Karat Capital Advisors Private Limited member www.karatcapital.com Kfin Technologies Limited member loksuvidha.com Kisetsu Saison Finance ( India ) Private Limited (Credit Saison India) member creditsaison.in Kotak Mahindra Bank Limited member www.kotak.bank.in Kotak Mahindra Prime Limited member www.primeloans.kotak.com Krazybee Services Private Limited member www.kbnbfc.in L & T Finance Limited member www.ltfinance.com Lok Suvidha Finance Limited member loksuvidha.com Lunchbrake Classic Private Limited member fold.money MobiKwik Investment Adviser Private Limited member www.mobikwik.com NABARD member www.nabard.org Narendra Finance Co Pvt Ltd member nfcpl.in Navi Finserv Limited member navi.com/finserv NAVI INVESTMENT ADVISORS PRIVATE LIMITED member navi.com/niapl NESL Asset Data Limited (NADL) member www.nadl.co.in NSDL member nsdl.co.in OMS Fintech Account Aggregator PVT LTD member www.omsaa.com Paisabazaar Marketing and Consulting Private Limited member www.paisabazaar.com PB Financial Account Aggregators Pvt Ltd member www.pbfintechaa.com/account-aggregator/home Perfios Account Aggregation Services Pvt. Ltd. (Anumati) member www.anumati.co.in Pivot Money member www.pivotmoney.app Protean eGovernance Technologies Limited member www.proteantech.in Protean Suraksha AA member www.proteantech.in Punjab National Bank member pnb.bank.in Raise Financial Services ( Formerly known as Moneylicious Securities Pvt. Ltd.) member dhan.co/about SBI Mutual Fund member www.sbimf.com Scoreme Account Aggregation Solutions Private Limited member www.scoremeaa.com Si Creva Capital Services Private Limited member sicrevacapital.com Small Industries Development Bank of India member www.sidbi.in State Bank Of India member sbi.bank.in STK Credit Private Limited (Inprime Finserv) member inprime.in Tally Account Aggregator Services Private Limited member tallyedge.com/home TATA Capital Housing Finance Limited member www.tatacapital.com Tata Capital Limited member www.tatacapital.com The South Indian Bank Ltd member www.southindianbank.com Transwarranty Finance Limited member www.transwarranty.com%20,%20 Ugro Capital Ltd member www.ugrocapital.com Ujjivan Small Finance Bank member www.ujjivansfb.in Unifinz Capital India Limited member www.lendingplate.com Upmint Solutions Private Limited member www.upmintaa.com Upstox member upstox.com Vivifi India Finance member www.vivifin.com YES BANK LIMITED member www.yes.bank.in Zerodha Broking Ltd member zerodha.com 
 
- Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+ Captured from https://sahamati.org.in/current-re-members/ on 2026-09-10. Marketing rosters, not filings — see methodology . 
 
  Activity 
  No dated public activity captured yet. 
@@ -721,12 +811,12 @@ What Sahamati actually does
 
 
 ## FIMMDA register entry — https://srotrac.cashlessconsumer.in/sro-fimmda.html
-RBI-recognised SRO 
+RBI · SRO register 
  Fixed Income Money Market and Derivatives Association of India FIMMDA 
  Deep-dive: what FIMMDA actually does → 
  Financial markets: fixed income, money market and derivatives (banks, primary dealers, insurers, public financial institutions) 
 
- Recognised 07 May 2025 
+ Recognised (RBI) 2025-05-07 
  Status Active SRO (financial markets; first under the Aug 2024 framework) 
  Listed members 116 (66 Bank · 19 Insurer · 11 Small Finance Bank · 8 Development FI) 
  Site www.fimmda.org 
@@ -745,7 +835,7 @@ RBI-recognised SRO
  Organisation Type Website 
  AU Small Finance Bank Limited member Australia and New Zealand Bank member Axis Bank Limited member Bajaj Allainz Life Insurance Co. Ltd member Bandhan Bank member Bandhan Life Insurance Co.Ltd member Bank of America member Bank of Bahrain and Kuwait B.S.C member Bank of Baroda member Bank of Ceylon member Bank of India member Bank of Maharashtra member Bank of Nova Scotia member Barclays Bank member BNP Paribas member Canara Bank member Capital Small Finance Bank ltd member Central Bank of India member Chola MS General Insurance Co Ltd member Citibank NA member City Union Bank member Cooperatieve Rabobak U.A member Credit Agricole Corporate & Investment Bank member CSB Bank member CTBC Bank Co., Ltd member DBS Bank India Limited member DCB Bank member Deposit Insurance and Credit Guarantee Corporation member Deutsche Bank member Dhanlaxmi Bank Ltd member Doha Bank QPSC member Edelweiss Tokio Life Insurance Company Limited member Emirates NBD PJSC member Equitas Small Finance Bank member ESAF SMALL FINANCE BANK member Export-Import Bank of India member Federal Bank Ltd member First Abudhabi Bank member Goldman Sachs (I) Capital Markets Private Limited member HDFC Bank Ltd member HDFC ERGO General Insurance Company Limited member Hongkong & Shanghai Banking Corporation Limited India member ICICI Bank Ltd member ICICI Lombard General Insurance Company Limited member ICICI Prudential Life Insurance Company Limited member ICICI Securities Primary Dealership Limited member IDBI Bank member IDFC First Bank member IFCI Ltd member India Infrastructure Finance Company Limited member India Post Payments Bank Ltd member IndiaFirst Life Insurance Company Ltd member Indian Bank member Indian Overseas Bank member IndusInd Bank member Industrial and Commercial Bank of China Limited member Industrial Bank of Korea member J.P. Morgan Chase Bank N.A member Jammu & Kashmir Bank member Jana Small Finance Bank member Karnataka Bank Ltd member Karur Vysya Bank member KEB Hana Bank member Kookmin Bank member Kotak Mahindra Bank member Life Insurance Corporation of India member MASHREQBANK PSC member Mizuho Bank Limited member Morgan Stanley India Primary Dealer Private Ltd member MUFG Bank Limited member NABARD member National Bank for Financing Infrastructure & Devlopment member National Housing Bank member NatWest Markets Plc member Nomura Fixed Income Securities member Nonghyup BANK member North East Small Finance Bank Limited member NSDL Payments Bank Limited member Paytm Payments Bank Ltd member PNB Gilts Ltd member Pramerica Life Insurance Ltd member Punjab and Sindh Bank member Punjab National Bank member Qatar National Bank (Q.P.S.C.) member RBL Bank member Reliance General Insurance Co. LTd member Reliance Nippon Life Insurance Co. LTd member SBI DFHI member SBI General Insurance Company Ltd member SBI Life Insurance Company Limited member SBM Bank India Limited member Shivalik Small Finance Bank member Shriram General Insurance Company Limited member Small Industries Development Bank of India [SIDBI] member Société Générale Bank member Standard Chartered Bank member Star Health Insurance member Star Union Daiichi Life Insurance Co member State Bank of India member STCI Primary Dealer Limited member Sumitomo Mitsui member Suryodaya Small Finance Bank member Tamilnad Mercantile Bank Ltd member Tata Aia Life Insurance Co member The Clearing Corporation of India Ltd member The South Indian Bank Ltd member UBS AG member UCO Bank member Ujjivan Small Finance Bank member Union Bank of India member United Overseas Bank member Unity Small Finance Bank member Universal Sompo General Insurance Co. Ltd member Utkarsh Small Finance Bank member Woori Bank member Yes Bank member 
 
- Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+ Captured from https://www.fimmda.org/UploadPopupPageFiles/MembersList_8May2025.pdf on 2026-09-10. Marketing rosters, not filings — see methodology . 
 
  Activity 
  2026-09-01 governance FIMMDA constitutes a Disciplinary Committee of the Board 2025-05-08 roster FIMMDA publishes List of Current Members (116 institutions) 2025-05-07 recognition FIMMDA recognised as RBI's first SRO in financial markets 
@@ -765,6 +855,421 @@ What FIMMDA actually does
  Gaps & open questions Overview page still claims a '115 member strong' body with category counts that do not match its own 116-row PDF — and the list has not been refreshed since 8 May 2025 No public disciplinary actions, consultation responses or member circular archive without login; circulars are one-page PDFs Legacy frameset website: rosters and disclosures ship as PDFs, not structured pages 
  Sources RBI press release — FIMMDA recognised as SRO (7 May 2025) FIMMDA member list (PDF, 8 May 2025) FIMMDA — Board of Directors FIMMDA — Committees FIMCIR/2026-27/20 — Constitution of Disciplinary Committee (1 Sep 2026) 
  Captured 2026-09-10–11 from FIMMDA’s own site. Deep-dive under methodology · ← register entry
+
+
+## BASL register entry — https://srotrac.cashlessconsumer.in/sro-basl.html
+SEBI · SRO register 
+ BSE Administration and Supervision Ltd BASL 
+ Deep-dive: what BASL actually does → 
+ Investment advisers (IAASB) + research analysts (RAASB) 
+
+ Recognised (SEBI) 2021-06-01 
+ Status Active SRO-body (IAASB + RAASB) 
+ Listed members n/p (no public roster) 
+ Site www.basl.in 
+
+ Why it matters if you borrow or pay 
+ Every SEBI-registered investment adviser — anyone paid to advise you on stocks or MFs — is deemed a BASL member; SEBI's 2024 framework made BSE/BASL also the supervisory body (RAASB) for research analysts . Runs registration vetting, compliance supervision and grievance handling for the advice industry; recognised as IAASB for a 3-year term from 1 Jun 2021, continuing under the 2024 supervisory-body framework. If your adviser or a Telegram 'research analyst' rips you off, BASL's complaint desk is the industry-level stop before SEBI. 
+
+ What we're watching 
+ No public member roster. Membership derives from SEBI's IA/RA registers, but BASL publishes no list, no inspection outcomes, no action counts. The IAASB recognition began as a 3-year term (Jun 2021) — watch renewal terms and how many advisers actually face action. 
+
+ Governance 
+ No published governance page. 
+
+ Members (0) 
+
+ Organisation Type Website 
+
+ Captured from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+
+ Activity 
+ 2024-05-16 framework SEBI framework for administration and supervision of research analysts and investment advisers - BSE/BASL designated both IAASB and RAASB 2021-06-01 recognition SEBI recognises BASL (BSE Administration and Supervision Ltd) as the Investment Adviser Administration and Supervisory Body (IAASB) 
+
+ Social media 
+ No official social media accounts tracked yet. 
+ Full social media monitor →
+
+
+## BASL work deep-dive — https://srotrac.cashlessconsumer.in/work-basl.html
+What BASL actually does 
+ BSE Administration and Supervision Ltd BASL 
+ Administration and supervision of investment advisers and research analysts (SEBI) 
+
+ BASL (BSE Administration & Supervision Ltd), a wholly-owned BSE subsidiary, was recognised by SEBI as the Investment Adviser Administration and Supervisory Body (IAASB) for three years from 1 June 2021. Under SEBI's April 2024 framework (circular of 16 May 2024, effective 25 July 2024), BSE/BASL also administers research analysts as the RAASB. Every SEBI-registered IA is deemed a BASL member; every registered RA is deemed enlisted with the RAASB. 
+ Mandate & machinery Administration: enrolment/membership of investment advisers, fee collection, record-keeping for the IA and RA pools. Supervision: monitoring compliance with the SEBI (Investment Advisers) Regulations 2013 and RA Regulations 2014, inspections and complaint handling. Half-yearly reporting to SEBI on supervision of the adviser/analyst pools. Membership All SEBI-registered investment advisers are deemed BASL members (no opt-in list is published). Research analysts deemed enlisted with the RAASB from 25 July 2024. 
+ Gaps & open questions No public member roster or complaint statistics — membership is defined by SEBI registers, not by a BASL page. Recognition has been extended in multi-year terms; extension decisions are not logged on the BASL site in a dated, easily auditable way. Supervisory output (inspections, warnings, expulsions) has no public, dated trail yet — the key watch item. 
+ Sources RIAs have to register with BASL — Morningstar SEBI framework for supervision of RAs and IAs — Moneycontrol BASL website 
+ Captured 2026-09-10–11 from BASL’s own site. Deep-dive under methodology · ← register entry
+
+
+## AIBI register entry — https://srotrac.cashlessconsumer.in/sro-aibi.html
+SEBI · SRO register 
+ Association of Investment Bankers of India AIBI 
+ Deep-dive: what AIBI actually does → 
+ Merchant bankers / investment banks 
+
+ Recognised (SEBI) 1997-98 (AR) 
+ Status Active SRO (investment banking) 
+ Listed members n/p (no public roster) 
+ Site aibi.org.in 
+
+ Why it matters if you borrow or pay 
+ The SEBI-recognised body for merchant bankers — the intermediaries that price and run the IPOs retail money flows into. Recognition is recorded in SEBI's own annual report back to 1997-98. Represents the industry on SEBI's Primary Market Advisory Committee; runs an annual summit where the SEBI chair is chief guest. Claims ~109 members; eligibility requires a live SEBI merchant-banker licence. 
+
+ What we're watching 
+ No public member roster — member.asp is a join page, not a list. No published enforcement or code-of-conduct machinery despite decades of recorded recognition. 
+
+ Governance 
+ No published governance page. 
+
+ Members (0) 
+
+ Organisation Type Website 
+
+ Captured from https://aibi.org.in/member.asp on 2026-09-10. Marketing rosters, not filings — see methodology . 
+
+ Activity 
+ No dated public activity captured yet. 
+
+ Social media 
+ No official social media accounts tracked yet. 
+ Full social media monitor →
+
+
+## AIBI work deep-dive — https://srotrac.cashlessconsumer.in/work-aibi.html
+What AIBI actually does 
+ Association of Investment Bankers of India AIBI 
+ SEBI-recognised standards body for investment (merchant) bankers 
+
+ The Association of Investment Bankers of India (AIBI, formerly the Association of Merchant Bankers of India, AMBI) holds SEBI recognition recorded since the SEBI Annual Report 1997-98 'to set up professional standards... and establish standard practices in investment banking'. It is the investment-banking industry's sole representative body to SEBI, with 109 members on its own count. 
+ Mandate & machinery Professional standards and standard practices for merchant/investment banking activity. Representation on SEBI's Primary Market Advisory Committee (via its Chairperson). Annual summits with the SEBI Chairman as chief guest; seminars, panels, research initiatives and an e-magazine; due-diligence guidance material for members. Membership 109 members (aibi.org.in counter, 2026-09-26). Voluntary membership, but a valid SEBI merchant-banking licence is an eligibility requirement. Life membership (Rs 5,00,000 + GST entrance) and associate membership tiers. 
+ Gaps & open questions No public member roster — member.asp is a join/download page, and the roster is available only on request. No published enforcement, complaint or disciplinary record — standards exist as guidance, not as an enforced code with a dated trail. 
+ Sources About AIBI AIBI website SEBI Annual Report 1997-98 (AMBI recognition) 
+ Captured 2026-09-10–11 from AIBI’s own site. Deep-dive under methodology · ← register entry
+
+
+## LI Council register entry — https://srotrac.cashlessconsumer.in/sro-lic.html
+IRDAI · SRO register 
+ Life Insurance Council LI Council 
+ Deep-dive: what LI Council actually does → 
+ Life insurers (entire industry) 
+
+ Recognised (IRDAI) 1938 (s.64C) 
+ Status Active statutory SRO (life insurance) 
+ Listed members n/p (no public roster) 
+ Site http://www.lifeinscouncil.org 
+
+ Why it matters if you borrow or pay 
+ The entire life-insurance industry self-regulates here by statute — s.64C of the Insurance Act, 1938, not a regulator's discretionary recognition. Publishes the industry's code of conduct; its own member list covers 27 life insurers, LIC to Acko Life. Beyond the insurance ombudsman, this council is the industry-level body a life-policy grievance escalates through. 
+
+ What we're watching 
+ Statutory status from 1938 predates IRDAI (1999) — the council's independence from the insurers that fund it is structural, not chosen. The website publishes little on member discipline; watch for gaps vs IRDAI's own action counts. 
+
+ Governance 
+ No published governance page. 
+
+ Members (0) 
+
+ Organisation Type Website 
+
+ Captured from http://www.lifeinscouncil.org/consumers/ListOfCompanies on 2026-09-26. Marketing rosters, not filings — see methodology . 
+
+ Activity 
+ No dated public activity captured yet. 
+
+ Social media 
+ No official social media accounts tracked yet. 
+ Full social media monitor →
+
+
+## LI Council work deep-dive — https://srotrac.cashlessconsumer.in/work-lic.html
+What LI Council actually does 
+ Life Insurance Council LI Council 
+ Statutory self-regulatory council for life insurance (Insurance Act s.64C, IRDAI) 
+
+ The Life Insurance Council is the statutory self-regulatory body of India's life-insurance industry, constituted under section 64C of the Insurance Act, 1938. Its member roster spans the life industry — from LIC to private insurers and new entrants — and its remit covers efficiency, public interest, advice to government/IRDAI, and education via affiliated insurance institutes. 
+ Statutory role Promote efficiency among life insurers, advance the public interest, and advise government and IRDAI on the industry's growth. Runs education and training through affiliated insurance institutes; publishes the industry year book and journals. Membership (captured 2026-09-26) 27 life insurers listed on lifeinscouncil.org — LIC, private insurers (HDFC Life, SBI Life, ICICI Prudential Life...), and recent entrants (Acko Life, CreditAccess Life). Council office-bearers are drawn from member-insurer leadership; the site lists insurers with their CEOs. 
+ Gaps & open questions No published enforcement or code-discipline record — the council's consumer relevance depends on machinery that is not publicly traceable. Grievance data is not published by the council; consumer complaints flow to insurers and IRDAI's Bima Bharosa instead. 
+ Sources List of member insurers — Life Insurance Council Life Insurance Council website 
+ Captured 2026-09-10–11 from LI Council’s own site. Deep-dive under methodology · ← register entry
+
+
+## GI Council register entry — https://srotrac.cashlessconsumer.in/sro-gic.html
+IRDAI · SRO register 
+ General Insurance Council GI Council 
+ Deep-dive: what GI Council actually does → 
+ General + health insurers and reinsurers 
+
+ Recognised (IRDAI) 1938 (s.64C) 
+ Status Active statutory SRO (general insurance) 
+ Listed members n/p (no public roster) 
+ Site www.gicouncil.in 
+
+ Why it matters if you borrow or pay 
+ General, health and reinsurance companies' statutory self-regulator — 49 members from Acko General and Care Health to GIC Re, Lloyd's and Swiss Re branches. Its code of good insurance practices shapes claims handling across motor, health and fire policies — the fine print of every general-insurance claim you file. Publishes a member directory with named CEOs — the only insurer roster on this register with named accountability. 
+
+ What we're watching 
+ Same 1938 statutory-independence question as the Life Council. Claims-handling and cashless-network discipline live here — watch whether hospital-network disputes ever surface enforcement. 
+
+ Governance 
+ No published governance page. 
+
+ Members (0) 
+
+ Organisation Type Website 
+
+ Captured from https://www.gicouncil.in/members-of-gi-council/ on 2026-09-26. Marketing rosters, not filings — see methodology . 
+
+ Activity 
+ No dated public activity captured yet. 
+
+ Social media 
+ No official social media accounts tracked yet. 
+ Full social media monitor →
+
+
+## GI Council work deep-dive — https://srotrac.cashlessconsumer.in/work-gic.html
+What GI Council actually does 
+ General Insurance Council GI Council 
+ Statutory self-regulatory council for general and health insurance (Insurance Act s.64C, IRDAI) 
+
+ The General Insurance Council (GIC) is the statutory self-regulatory body for the general, health and reinsurance industry under section 64C of the Insurance Act, 1938. Its 49 members (badge count on the council's own member page) include standalone health insurers, public-sector insurers, and reinsurance operations in India (GIC Re, Swiss Re, Lloyd's, AXA France VIE and General Re branches). 
+ Statutory role Self-regulation of the non-life industry: promoting efficiency, fair practices and public interest; advising government and IRDAI. Publishes a Code of Good Insurance Practices; runs industry working groups on claims, health and co-insurance (ETASS). Anchor of IRDAI's 'Insurance for All by 2047' industry-side work. Membership (captured 2026-09-26) 49 members captured from gicouncil.in's member grid (the page advertises '49 Members'). Composition includes general insurers, standalone health insurers (Care, Niva Bupa, ManipalCigna, Galaxy, Prudential HCL) and reinsurance branches. 
+ Gaps & open questions The member page is a JS-rendered grid (Angular) — roster requires a browser capture, which weakens reproducibility. No published discipline/enforcement log; practice codes lack a dated compliance trail. 
+ Sources Member companies — General Insurance Council General Insurance Council website 
+ Captured 2026-09-10–11 from GI Council’s own site. Deep-dive under methodology · ← register entry
+
+
+## IIIPI register entry — https://srotrac.cashlessconsumer.in/sro-iiipi.html
+IBBI · SRO register 
+ Indian Institute of Insolvency Professionals of ICAI IIIPI 
+ Deep-dive: what IIIPI actually does → 
+ Insolvency professionals (IPA, reg. IBBI/IPA/16-17/01) 
+
+ Recognised (IBBI) 2016-17 
+ Status Active SRO-body (insolvency; IBBI/IPA/16-17/01) 
+ Listed members n/p (no public roster) 
+ Site www.iiipicai.in 
+
+ Why it matters if you borrow or pay 
+ One of three IBBI-registered insolvency professional agencies — the bodies that license and police the professionals running Corporate Insolvency Resolution Processes when companies you have deposits, jobs or dues with go under. First of the three agencies registered (2016-17); the ICAI's section-8 subsidiary. Its members decide how creditor money is marshalled in every big NCLT case. 
+
+ What we're watching 
+ No public member roster on its site — the register sits inside IBBI's IP database and member areas. IP disciplinary statistics are thin; IBBI's annual reports carry the enforcement numbers. 
+
+ Governance 
+ No published governance page. 
+
+ Members (0) 
+
+ Organisation Type Website 
+
+ Captured from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+
+ Activity 
+ No dated public activity captured yet. 
+
+ Social media 
+ No official social media accounts tracked yet. 
+ Full social media monitor →
+
+
+## IIIPI work deep-dive — https://srotrac.cashlessconsumer.in/work-iiipi.html
+What IIIPI actually does 
+ Indian Institute of Insolvency Professionals of ICAI IIIPI 
+ First registered insolvency professional agency — ICAI (IBBI/IPA/16-17/01) 
+
+ The Indian Institute of Insolvency Professionals of ICAI (IIIPI) is a section-8 company wholly owned by ICAI, registered with IBBI as an Insolvency Professional Agency (registration IBBI/IPA/16-17/01 — first of the three agencies) under the Insolvency and Bankruptcy Code, 2016. IPAs enrol insolvency professionals as members and enforce the code of conduct on them. 
+ Mandate & machinery Enrol insolvency professionals (IPs) as professional members; lay down standards; monitor and discipline members under the IBBI (Insolvency Professionals) Regulations 2016. Governed by a board with independent directors; operates disciplinary committees for member conduct. Registers IP rosters live in IBBI's own registers (individual IP registration numbers begin IBBI/IPA-001/... for IIIPI members); IIIPI does not publish a simple member directory. 
+ Gaps & open questions Member counts and disciplinary outcomes are scattered across IBBI board reports and individual orders — no single public enforcement ledger. 
+ Sources Registered Insolvency Professional Agencies — IBBI IIIPI (ICAI) website 
+ Captured 2026-09-10–11 from IIIPI’s own site. Deep-dive under methodology · ← register entry
+
+
+## ICSI IIP register entry — https://srotrac.cashlessconsumer.in/sro-icsiip.html
+IBBI · SRO register 
+ ICSI Institute of Insolvency Professionals ICSI IIP 
+ Deep-dive: what ICSI IIP actually does → 
+ Insolvency professionals (IPA, reg. IBBI/IPA/16-17/02) 
+
+ Recognised (IBBI) 2016-17 
+ Status Active SRO-body (insolvency; IBBI/IPA/16-17/02) 
+ Listed members n/p (no public roster) 
+ Site www.icsiiip.in 
+
+ Why it matters if you borrow or pay 
+ The ICSI-run insolvency professional agency — second of the three IBBI-registered bodies that gate and discipline insolvency professionals. Calls itself a 'frontline regulator' under the Insolvency and Bankruptcy Code, 2016 — self-regulation by statute. Which agency an IP belongs to decides whose code of conduct governs your insolvency case. 
+
+ What we're watching 
+ No public member roster — enrolment lists sit behind its portal. Watch IBBI orders against its members — that is where its discipline actually shows. 
+
+ Governance 
+ No published governance page. 
+
+ Members (0) 
+
+ Organisation Type Website 
+
+ Captured from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+
+ Activity 
+ No dated public activity captured yet. 
+
+ Social media 
+ No official social media accounts tracked yet. 
+ Full social media monitor →
+
+
+## ICSI IIP work deep-dive — https://srotrac.cashlessconsumer.in/work-icsiip.html
+What ICSI IIP actually does 
+ ICSI Institute of Insolvency Professionals ICSI IIP 
+ Insolvency professional agency of ICSI (IBBI/IPA/16-17/02) 
+
+ ICSI Institute of Insolvency Professionals (ICSI IIP) is a wholly-owned subsidiary of the Institute of Company Secretaries of India (section 8), registered with IBBI as the second Insolvency Professional Agency (IBBI/IPA/16-17/02). It enrols company-secretary-route insolvency professionals and enforces the IBBI code of conduct. 
+ Mandate & machinery Enrolment, monitoring and discipline of IPs; standards development; continuing education for insolvency practice. Its own site describes it as a 'frontline regulator registered with IBBI under the Insolvency and Bankruptcy Code, 2016'. Registers Member IP registration numbers carry the IBBI/IPA-002/ prefix; the authoritative register is IBBI's. 
+ Gaps & open questions No aggregated public record of complaints and disciplinary orders against its members. 
+ Sources Registered Insolvency Professional Agencies — IBBI ICSI IIP website 
+ Captured 2026-09-10–11 from ICSI IIP’s own site. Deep-dive under methodology · ← register entry
+
+
+## IPA ICMAI register entry — https://srotrac.cashlessconsumer.in/sro-ipaicmai.html
+IBBI · SRO register 
+ Insolvency Professional Agency of the Institute of Cost Accountants of India IPA ICMAI 
+ Deep-dive: what IPA ICMAI actually does → 
+ Insolvency professionals (IPA, reg. IBBI/IPA/16-17/03) 
+
+ Recognised (IBBI) 2016-17 
+ Status Active SRO-body (insolvency; IBBI/IPA/16-17/03) 
+ Listed members n/p (no public roster) 
+ Site www.ipaicmai.in 
+
+ Why it matters if you borrow or pay 
+ The cost accountants' insolvency professional agency — third of the three IBBI-registered bodies (reg. IBBI/IPA/16-17/03). Completes the trio: nearly every insolvency professional in India belongs to one of three institute-run agencies. Three institutes and no independent challenger — concentration worth watching. 
+
+ What we're watching 
+ No public member roster — same IBBI-database arrangement as its siblings. Smallest of the three agencies; check its fee and exam pipeline for capacity red flags. 
+
+ Governance 
+ No published governance page. 
+
+ Members (0) 
+
+ Organisation Type Website 
+
+ Captured from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+
+ Activity 
+ No dated public activity captured yet. 
+
+ Social media 
+ No official social media accounts tracked yet. 
+ Full social media monitor →
+
+
+## IPA ICMAI work deep-dive — https://srotrac.cashlessconsumer.in/work-ipaicmai.html
+What IPA ICMAI actually does 
+ Insolvency Professional Agency of the Institute of Cost Accountants of India IPA ICMAI 
+ Insolvency professional agency of ICMAI (IBBI/IPA/16-17/03) 
+
+ The Insolvency Professional Agency of the Institute of Cost Accountants of India (IPA ICMAI), registered with IBBI as the third agency (IBBI/IPA/16-17/03), enrols cost-accountant-route insolvency professionals and polices their conduct under the IBBI framework. 
+ Mandate & machinery Enrolment of professional members, code-of-conduct enforcement, disciplinary machinery under the IBBI (Insolvency Professionals) Regulations 2016. Headquartered at CMA Bhawan, Lodhi Road, New Delhi. Registers Member IP registration numbers carry the IBBI/IPA-003/ prefix; the authoritative register is IBBI's. 
+ Gaps & open questions Smallest of the three agencies; publishes no roster or enforcement summary. 
+ Sources Registered Insolvency Professional Agencies — IBBI IPA ICMAI website 
+ Captured 2026-09-10–11 from IPA ICMAI’s own site. Deep-dive under methodology · ← register entry
+
+
+## AMFI register entry — https://srotrac.cashlessconsumer.in/sro-amfi.html
+SEBI · SRO register 
+ Association of Mutual Funds in India AMFI 
+ Deep-dive: what AMFI actually does → 
+ Asset management companies (all SEBI-registered AMCs) 
+
+ Recognised (SEBI) — (association, 1995) 
+ Status Industry body — not a recognised SRO 
+ Listed members 56 (55 AMC / Mutual Fund · 1 Bank) 
+ Site www.amfiindia.com 
+
+ Why it matters if you borrow or pay 
+ Sets the codes your mutual fund operates under — the AMC code of conduct, ARN distributor registration, risk disclosures — without ever being recognised as an SRO. All 56 AMCs captured here as context: the most consequential self-regulatory body in Indian finance that no regulator ever formally anointed. Publishes the industry's monthly AUM and SIP data that journalists and regulators quote back at it. 
+
+ What we're watching 
+ SEBI's 2004 SRO regulations and the World Bank's 2007 review both note AMFI was never officially recognised — the ambiguity has now run two decades. Watch whether SEBI's 2024-25 SRO push for advisers and analysts eventually reaches mutual funds. 
+
+ Governance 
+ No published governance page. 
+
+ Members (56) 
+
+ Organisation Type Website 
+ 360 ONE Mutual Fund member Abakkus Mutual Fund member Aditya Birla Sun Life Mutual Fund member AlphaGrep Mutual Fund member Angel One Mutual Fund member Axis Mutual Fund member Bajaj Finserv Mutual Fund member Bandhan Mutual Fund member Bank of India Mutual Fund member Baroda BNP Paribas Mutual Fund member Canara Robeco Mutual Fund member Capitalmind Mutual Fund member Carnelian Mutual Fund member Choice Mutual Fund member DSP Mutual Fund member Edelweiss Mutual Fund member Franklin Templeton Mutual Fund member Groww Mutual Fund member HDFC Mutual Fund member Helios Mutual Fund member HSBC Mutual Fund member ICICI Prudential Mutual Fund member IL&FS Mutual Fund (IDF) member Invesco Mutual Fund member ITI Mutual Fund member Jio BlackRock Mutual Fund member JM Financial Mutual Fund member Kotak Mahindra Mutual Fund member Lakshya Mutual Fund member LIC Mutual Fund member Mahindra Manulife Mutual Fund member Mirae Asset Mutual Fund member Monarch Mutual Fund member Motilal Oswal Mutual Fund member Navi Mutual Fund member Nippon India Mutual Fund member NJ Mutual Fund member Nuvama Mutual Fund member Old Bridge Mutual Fund member PGIM India Mutual Fund member PPFAS Mutual Fund member quant Mutual Fund member Quantum Mutual Fund member Samco Mutual Fund member SBI Mutual Fund member Shriram Mutual Fund member Sundaram Mutual Fund member Tata Mutual Fund member Taurus Mutual Fund member The Wealth Company Mutual Fund member Trust Mutual Fund member Unifi Mutual Fund member Union Mutual Fund member UTI Mutual Fund member WhiteOak Capital Mutual Fund member Zerodha Mutual Fund member 
+
+ Captured from https://www.amfiindia.com/aboutamfi (Members tab) on 2026-09-26. Marketing rosters, not filings — see methodology . 
+
+ Activity 
+ No dated public activity captured yet. 
+
+ Social media 
+ No official social media accounts tracked yet. 
+ Full social media monitor →
+
+
+## AMFI work deep-dive — https://srotrac.cashlessconsumer.in/work-amfi.html
+What AMFI actually does 
+ Association of Mutual Funds in India AMFI 
+ Mutual funds' association — self-regulatory in practice, not by recognition (SEBI context entry) 
+
+ The Association of Mutual Funds in India (AMFI, est. 1995, CIN U65991MH1995NPL092062) is the mutual-fund industry's association. It behaves self-regulatorily — codes of conduct for AMCs and distributors, the ARN registration regime — but SEBI has never granted it formal SRO recognition (a gap documented in the World Bank's 2007 SRO policy note, and unchanged by SEBI's 2024 SRO framework, which covers stock brokers, IAs and RAs). 
+ Self-regulatory work AMFI Code of Conduct for AMCs; codes and norms for distributors (ARN holders) incl. investor-protection and conduct rules. Industry data office: daily/weekly/monthly MF folio and AUM statistics that underpin most sector reporting. Investor-awareness programmes (AMFI-appointed 'Mutual Funds Sahi Hai' campaign). Membership (captured 2026-09-26) 56 member AMCs listed on amfiindia.com's Members tab (from 360 ONE and Abakkus to Zerodha and old-line sponsors). Count has grown rapidly with new AMC licences (Angel One, Capitalmind, AlphaGrep, Groww, Helios et al). 
+ Gaps & open questions Not a recognised SRO: no SEBI-granted disciplinary mandate; distributor discipline (ARN suspensions) exists but without a dated public trail. A 'context' register row — upgraded to tracked only if SEBI formalises an MF-sector SRO. 
+ Sources AMFI Members — amfiindia.com (Members tab) World Bank SRO Policy Note (2007) 
+ Captured 2026-09-10–11 from AMFI’s own site. Deep-dive under methodology · ← register entry
+
+
+## ANMI register entry — https://srotrac.cashlessconsumer.in/sro-anmi.html
+SEBI · SRO register 
+ Association of National Exchanges Members of India ANMI 
+ Deep-dive: what ANMI actually does → 
+ Stock brokers (NSE, BSE, MSE trading members) 
+
+ Recognised (SEBI) — (association, 1996) 
+ Status Industry body — not a recognised SRO 
+ Listed members n/p (no public roster) 
+ Site anmi.in 
+
+ Why it matters if you borrow or pay 
+ ~900 stock brokers' pan-India association — the voice arguing your broker's regulatory burden up or down — that has campaigned for formal SRO status without getting it. Its members hold the customer funds and margins SEBI keeps tightening rules on; ANMI self-regulates by code, not by recognition. Context entry: if SEBI ever recognises a brokers' SRO under its 2024-25 framework, ANMI is the likely candidate. 
+
+ What we're watching 
+ ANMI's own press releases say it 'seeks SRO status' — a public record of its non-recognition. Watch SEBI's brokers-SRO work for a recognition decision that would move ANMI into the tracked register. 
+
+ Governance 
+ No published governance page. 
+
+ Members (0) 
+
+ Organisation Type Website 
+
+ Captured from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see methodology . 
+
+ Activity 
+ No dated public activity captured yet. 
+
+ Social media 
+ No official social media accounts tracked yet. 
+ Full social media monitor →
+
+
+## ANMI work deep-dive — https://srotrac.cashlessconsumer.in/work-anmi.html
+What ANMI actually does 
+ Association of National Exchanges Members of India ANMI 
+ Stock brokers' pan-India association — campaigning for SRO status (SEBI context entry) 
+
+ The Association of National Exchanges Members of India (ANMI, est. 1996) is a pan-India body of ~900 trading members of NSE, BSE and MSE. It engages SEBI and the exchanges on brokerage-industry issues but is not a recognised SRO; its own press releases solicit 'SRO status and a greater say in policy making'. 
+ Profile & work Representation and advocacy: pre-budget memoranda, regulatory feedback, compliance seminars for brokers across exchanges. Runs an annual capital-market conference graced by the Finance Minister and SEBI Chairman; publishes a magazine. Board of directors drawn from member-broker leadership; committees for exchange-specific member segments. Membership ~900 active stock brokers (ASIFMA profile; ANMI's own 'about' describes a pan-India body of trading members of NSE/BSE/MSE). No public member directory; membership rosters sit behind the member area login. 
+ Gaps & open questions Not a recognised SRO — included as context because it is the most probable candidate if SEBI recognises a brokers' SRO under the 2024-25 framework work. Self-description ('Voice of Capital Market') is marketing, not regulatory standing. 
+ Sources ANMI website ANMI profile — ASIFMA 
+ Captured 2026-09-10–11 from ANMI’s own site. Deep-dive under methodology · ← register entry
 
 
 ## Blog post: 2026-09-11-srotrac-weekly-1 — https://srotrac.cashlessconsumer.in/blog/2026-09-11-srotrac-weekly-1.html

@@ -24,6 +24,8 @@ DATA = os.path.join(ROOT, "data")
 
 SROS = {
     "face": {
+        "regulator": "RBI",
+        "regulator": "RBI",
         "abbr": "FACE", "name": "Fintech Association for Consumer Empowerment",
         "sector": "Fintech / digital lending",
         "order": "1st", "recognised": "2024-08-28",
@@ -44,6 +46,8 @@ SROS = {
         ],
     },
     "uff": {
+        "regulator": "RBI",
+        "regulator": "RBI",
         "abbr": "UFF", "name": "Unified Fintech Forum",
         "sector": "Fintech (broad): lenders, wallets/PPIs, neobanks, BNPL",
         "order": "2nd", "recognised": "2026-09-10",
@@ -64,6 +68,8 @@ SROS = {
         ],
     },
     "fidc": {
+        "regulator": "RBI",
+        "regulator": "RBI",
         "abbr": "FIDC", "name": "Finance Industry Development Council",
         "sector": "NBFCs (incl. digital lenders) — recognised under omnibus framework, not the SRO-FT framework",
         "order": "—", "recognised": "2025-10-03",
@@ -83,6 +89,8 @@ SROS = {
         ],
     },
     "srpa": {
+        "regulator": "RBI",
+        "regulator": "RBI",
         "abbr": "SRPA", "name": "Self-Regulated PSO Association",
         "sector": "Payment system operators: payment aggregators, wallets/PPIs, POS",
         "order": "1st", "recognised": "2025-11-11",
@@ -102,6 +110,8 @@ SROS = {
         ],
     },
     "mfin": {
+        "regulator": "RBI",
+        "regulator": "RBI",
         "abbr": "MFIN", "name": "Microfinance Institutions Network",
         "sector": "NBFC-MFIs (+ banks/SFBs lending microfinance as associate members)",
         "order": "1st", "recognised": "2014-06-16",
@@ -123,6 +133,8 @@ SROS = {
         ],
     },
     "sadhan": {
+        "regulator": "RBI",
+        "regulator": "RBI",
         "abbr": "Sa-Dhan", "name": "Sa-Dhan (Association of Community Development Finance Institutions)",
         "sector": "Microfinance (broad network: MFIs, SFBs, banks, investors)",
         "order": "2nd", "recognised": "2015-03-11",
@@ -143,6 +155,8 @@ SROS = {
         ],
     },
     "fedai": {
+        "regulator": "RBI",
+        "regulator": "RBI",
         "abbr": "FEDAI", "name": "Foreign Exchange Dealers' Association of India",
         "sector": "Authorised Dealers in foreign exchange (banks + FEMA-authorised entities)",
         "order": "—", "recognised": "2026-01-14",
@@ -163,6 +177,8 @@ SROS = {
         ],
     },
     "sahamati": {
+        "regulator": "RBI",
+        "regulator": "RBI",
         "abbr": "Sahamati", "name": "Sahamati",
         "sector": "Account Aggregator (AA) ecosystem — AAs, FIPs, FIUs, TSPs",
         "order": "8", "recognised": "2026-06-05",
@@ -183,6 +199,8 @@ SROS = {
         ],
     },
     "fimmda": {
+        "regulator": "RBI",
+        "regulator": "RBI",
         "abbr": "FIMMDA", "name": "Fixed Income Money Market and Derivatives Association of India",
         "sector": "Financial markets: fixed income, money market and derivatives (banks, primary dealers, insurers, public financial institutions)",
         "order": "1st", "recognised": "2025-05-07",
@@ -203,7 +221,200 @@ SROS = {
             "Website is a legacy frameset and the roster ships as a PDF — public disclosure lags peer SROs like FEDAI.",
         ],
     },
+
+    "basl": {
+        "regulator": "SEBI",
+        "abbr": "BASL", "name": "BSE Administration and Supervision Ltd",
+        "sector": "Investment advisers (IAASB) + research analysts (RAASB)",
+        "order": "—", "recognised": "2021-06-01",
+        "website": "https://www.basl.in",
+        "members_site": "",
+        "hq": "Mumbai (wholly-owned BSE subsidiary)",
+        "cin": "",
+        "status": "Active SRO-body (IAASB + RAASB)",
+        "accent": "#b45309",
+        "consumer": [
+            "Every SEBI-registered <strong>investment adviser</strong> — anyone paid to advise you on stocks or MFs — is deemed a BASL member; SEBI's 2024 framework made BSE/BASL also the supervisory body (RAASB) for <strong>research analysts</strong>.",
+            "Runs registration vetting, compliance supervision and grievance handling for the advice industry; recognised as IAASB for a 3-year term from 1 Jun 2021, continuing under the 2024 supervisory-body framework.",
+            "If your adviser or a Telegram 'research analyst' rips you off, BASL's complaint desk is the industry-level stop before SEBI.",
+        ],
+        "watch": [
+            "<strong>No public member roster.</strong> Membership derives from SEBI's IA/RA registers, but BASL publishes no list, no inspection outcomes, no action counts.",
+            "The IAASB recognition began as a 3-year term (Jun 2021) — watch renewal terms and how many advisers actually face action.",
+        ],
+    },
+    "aibi": {
+        "regulator": "SEBI",
+        "abbr": "AIBI", "name": "Association of Investment Bankers of India",
+        "sector": "Merchant bankers / investment banks",
+        "order": "—", "recognised": "1997-98 (AR)",
+        "website": "https://aibi.org.in",
+        "members_site": "https://aibi.org.in/member.asp",
+        "hq": "Mumbai (as AMBI; renamed AIBI)",
+        "cin": "",
+        "status": "Active SRO (investment banking)",
+        "accent": "#b45309",
+        "consumer": [
+            "The SEBI-recognised body for merchant bankers — the intermediaries that price and run the IPOs retail money flows into. Recognition is recorded in SEBI's own annual report back to 1997-98.",
+            "Represents the industry on SEBI's Primary Market Advisory Committee; runs an annual summit where the SEBI chair is chief guest.",
+            "Claims ~109 members; eligibility requires a live SEBI merchant-banker licence.",
+        ],
+        "watch": [
+            "<strong>No public member roster</strong> — member.asp is a join page, not a list.",
+            "No published enforcement or code-of-conduct machinery despite decades of recorded recognition.",
+        ],
+    },
+    "lic": {
+        "regulator": "IRDAI",
+        "abbr": "LI Council", "name": "Life Insurance Council",
+        "sector": "Life insurers (entire industry)",
+        "order": "—", "recognised": "1938 (s.64C)",
+        "website": "http://www.lifeinscouncil.org",
+        "members_site": "http://www.lifeinscouncil.org/consumers/ListOfCompanies",
+        "hq": "Mumbai (statutory council under the Insurance Act, 1938)",
+        "cin": "",
+        "status": "Active statutory SRO (life insurance)",
+        "accent": "#be123c",
+        "consumer": [
+            "The entire life-insurance industry self-regulates here by statute — s.64C of the Insurance Act, 1938, not a regulator's discretionary recognition.",
+            "Publishes the industry's code of conduct; its own member list covers 27 life insurers, LIC to Acko Life.",
+            "Beyond the insurance ombudsman, this council is the industry-level body a life-policy grievance escalates through.",
+        ],
+        "watch": [
+            "Statutory status from 1938 predates IRDAI (1999) — the council's independence from the insurers that fund it is structural, not chosen.",
+            "The website publishes little on member discipline; watch for gaps vs IRDAI's own action counts.",
+        ],
+    },
+    "gic": {
+        "regulator": "IRDAI",
+        "abbr": "GI Council", "name": "General Insurance Council",
+        "sector": "General + health insurers and reinsurers",
+        "order": "—", "recognised": "1938 (s.64C)",
+        "website": "https://www.gicouncil.in",
+        "members_site": "https://www.gicouncil.in/members-of-gi-council/",
+        "hq": "Mumbai (statutory council under the Insurance Act, 1938)",
+        "cin": "",
+        "status": "Active statutory SRO (general insurance)",
+        "accent": "#be123c",
+        "consumer": [
+            "General, health and reinsurance companies' statutory self-regulator — 49 members from Acko General and Care Health to GIC Re, Lloyd's and Swiss Re branches.",
+            "Its code of good insurance practices shapes claims handling across motor, health and fire policies — the fine print of every general-insurance claim you file.",
+            "Publishes a member directory with named CEOs — the only insurer roster on this register with named accountability.",
+        ],
+        "watch": [
+            "Same 1938 statutory-independence question as the Life Council.",
+            "Claims-handling and cashless-network discipline live here — watch whether hospital-network disputes ever surface enforcement.",
+        ],
+    },
+    "iiipi": {
+        "regulator": "IBBI",
+        "abbr": "IIIPI", "name": "Indian Institute of Insolvency Professionals of ICAI",
+        "sector": "Insolvency professionals (IPA, reg. IBBI/IPA/16-17/01)",
+        "order": "—", "recognised": "2016-17",
+        "website": "https://www.iiipicai.in",
+        "members_site": "",
+        "hq": "New Delhi (ICAI subsidiary, s.8 company)",
+        "cin": "",
+        "status": "Active SRO-body (insolvency; IBBI/IPA/16-17/01)",
+        "accent": "#7c3aed",
+        "consumer": [
+            "One of three IBBI-registered insolvency professional agencies — the bodies that license and police the professionals running <strong>Corporate Insolvency Resolution Processes</strong> when companies you have deposits, jobs or dues with go under.",
+            "First of the three agencies registered (2016-17); the ICAI's section-8 subsidiary.",
+            "Its members decide how creditor money is marshalled in every big NCLT case.",
+        ],
+        "watch": [
+            "<strong>No public member roster on its site</strong> — the register sits inside IBBI's IP database and member areas.",
+            "IP disciplinary statistics are thin; IBBI's annual reports carry the enforcement numbers.",
+        ],
+    },
+    "icsiip": {
+        "regulator": "IBBI",
+        "abbr": "ICSI IIP", "name": "ICSI Institute of Insolvency Professionals",
+        "sector": "Insolvency professionals (IPA, reg. IBBI/IPA/16-17/02)",
+        "order": "—", "recognised": "2016-17",
+        "website": "https://www.icsiiip.in",
+        "members_site": "",
+        "hq": "New Delhi (ICSI subsidiary, s.8 company)",
+        "cin": "",
+        "status": "Active SRO-body (insolvency; IBBI/IPA/16-17/02)",
+        "accent": "#7c3aed",
+        "consumer": [
+            "The ICSI-run insolvency professional agency — second of the three IBBI-registered bodies that gate and discipline insolvency professionals.",
+            "Calls itself a 'frontline regulator' under the Insolvency and Bankruptcy Code, 2016 — self-regulation by statute.",
+            "Which agency an IP belongs to decides whose code of conduct governs your insolvency case.",
+        ],
+        "watch": [
+            "<strong>No public member roster</strong> — enrolment lists sit behind its portal.",
+            "Watch IBBI orders against its members — that is where its discipline actually shows.",
+        ],
+    },
+    "ipaicmai": {
+        "regulator": "IBBI",
+        "abbr": "IPA ICMAI", "name": "Insolvency Professional Agency of the Institute of Cost Accountants of India",
+        "sector": "Insolvency professionals (IPA, reg. IBBI/IPA/16-17/03)",
+        "order": "—", "recognised": "2016-17",
+        "website": "https://www.ipaicmai.in",
+        "members_site": "",
+        "hq": "New Delhi (ICMAI subsidiary, s.8 company)",
+        "cin": "",
+        "status": "Active SRO-body (insolvency; IBBI/IPA/16-17/03)",
+        "accent": "#7c3aed",
+        "consumer": [
+            "The cost accountants' insolvency professional agency — third of the three IBBI-registered bodies (reg. IBBI/IPA/16-17/03).",
+            "Completes the trio: nearly every insolvency professional in India belongs to one of three institute-run agencies.",
+            "Three institutes and no independent challenger — concentration worth watching.",
+        ],
+        "watch": [
+            "<strong>No public member roster</strong> — same IBBI-database arrangement as its siblings.",
+            "Smallest of the three agencies; check its fee and exam pipeline for capacity red flags.",
+        ],
+    },
+    "amfi": {
+        "regulator": "SEBI",
+        "abbr": "AMFI", "name": "Association of Mutual Funds in India",
+        "sector": "Asset management companies (all SEBI-registered AMCs)",
+        "order": "—", "recognised": "— (association, 1995)",
+        "website": "https://www.amfiindia.com",
+        "members_site": "https://www.amfiindia.com/aboutamfi (Members tab)",
+        "hq": "Mumbai (CIN U65991MH1995NPL092062)",
+        "cin": "U65991MH1995NPL092062",
+        "status": "Industry body — not a recognised SRO",
+        "accent": "#78716c",
+        "consumer": [
+            "Sets the codes your mutual fund operates under — the AMC code of conduct, ARN distributor registration, risk disclosures — without ever being recognised as an SRO.",
+            "All 56 AMCs captured here as context: the most consequential self-regulatory body in Indian finance that no regulator ever formally anointed.",
+            "Publishes the industry's monthly AUM and SIP data that journalists and regulators quote back at it.",
+        ],
+        "watch": [
+            "SEBI's 2004 SRO regulations and the World Bank's 2007 review both note AMFI was never officially recognised — the ambiguity has now run two decades.",
+            "Watch whether SEBI's 2024-25 SRO push for advisers and analysts eventually reaches mutual funds.",
+        ],
+    },
+    "anmi": {
+        "regulator": "SEBI",
+        "abbr": "ANMI", "name": "Association of National Exchanges Members of India",
+        "sector": "Stock brokers (NSE, BSE, MSE trading members)",
+        "order": "—", "recognised": "— (association, 1996)",
+        "website": "https://anmi.in",
+        "members_site": "",
+        "hq": "Mumbai (est. 1996)",
+        "cin": "",
+        "status": "Industry body — not a recognised SRO",
+        "accent": "#78716c",
+        "consumer": [
+            "~900 stock brokers' pan-India association — the voice arguing your broker's regulatory burden up or down — that has <strong>campaigned for formal SRO status</strong> without getting it.",
+            "Its members hold the customer funds and margins SEBI keeps tightening rules on; ANMI self-regulates by code, not by recognition.",
+            "Context entry: if SEBI ever recognises a brokers' SRO under its 2024-25 framework, ANMI is the likely candidate.",
+        ],
+        "watch": [
+            "ANMI's own press releases say it 'seeks SRO status' — a public record of its non-recognition.",
+            "Watch SEBI's brokers-SRO work for a recognition decision that would move ANMI into the tracked register.",
+        ],
+    },
 }
+
+
+CAPTURE_DATES = {"amfi": "2026-09-26", "lic": "2026-09-26", "gic": "2026-09-26"}
 
 
 def esc(s):
@@ -238,7 +449,7 @@ NAV = [
 
 
 BASE = "https://srotrac.cashlessconsumer.in"
-GENERIC_DESC = "Independent tracker of India's RBI-recognised self-regulatory organisations in fintech, NBFC and payments: members, governance, activity, and what they mean for consumers."
+GENERIC_DESC = "Independent tracker of India's financial-sector self-regulatory organisations across RBI, SEBI, IRDAI and IBBI: members, governance, activity, and what they mean for consumers."
 
 
 def page(title, active, body, extra_head="", desc=None):
@@ -302,7 +513,7 @@ def page(title, active, body, extra_head="", desc=None):
     <p class="stack-kicker"><b>The Sousveillance Stack</b> — who writes, borrows and buys the rules</p>
     <div class="stack-row">
       <a href="https://regtrac.cashlessconsumer.in/"><i>Layer 1 · rule-writers</i><b>RegTrac</b><span>India's statutory financial regulators</span><em>live</em></a>
-      <a href="/"><i>Layer 2 · rule-borrowers</i><b>SROTrac</b><span>RBI-recognised self-regulatory organisations</span><em class="here">you are here</em></a>
+      <a href="/"><i>Layer 2 · rule-borrowers</i><b>SROTrac</b><span>India's financial-sector self-regulatory organisations</span><em class="here">you are here</em></a>
       <a href="https://lobbywatch.cashlessconsumer.in/"><i>Layer 3 · rule-buyers</i><b>LobbyWatch</b><span>consultations, access, revolving doors</span><em>live</em></a>
     </div>
   </div>
@@ -313,7 +524,7 @@ def page(title, active, body, extra_head="", desc=None):
     <p class="colophon">Layer 2 of the sousveillance stack: <a href="https://regtrac.cashlessconsumer.in/">RegTrac</a> (rule-writers) · SROTrac (rule-borrowers) · <a href="https://lobbywatch.cashlessconsumer.in/">LobbyWatch</a> (rule-buyers).</p>
     <p><a href="https://cashlessconsumer.in">cashlessconsumer.in</a> · data: <a href="https://github.com/CashlessConsumer/srotrac">GitHub</a> · <a href="/about.html">methodology</a></p>
     <p><strong>Data: CC BY 4.0</strong> — copy, remix and republish with attribution to SROTrac / CashlessConsumer. Code: MIT.</p>
-    <p class="colophon">Scope: RBI-recognised SROs only — not SEBI/IRDAI or other regulators&rsquo; SROs &middot; Agent entry: <a href="/llms.txt">llms.txt</a></p>
+    <p class="colophon">Scope: recognised + statutory SROs across RBI, SEBI, IRDAI and IBBI · context: AMFI, ANMI &middot; Agent entry: <a href="/llms.txt">llms.txt</a></p>
   </div>
 </footer>
 <script src="/js/main.js?v={v}"></script>
@@ -345,13 +556,15 @@ def build_home(members, activity, overlap):
             {"@type": "WebSite", "name": "SROTrac", "url": BASE + "/",
              "publisher": {"@type": "Organization", "name": "CashlessConsumer", "url": "https://cashlessconsumer.in"}},
             {"@type": "Organization", "name": "SROTrac", "url": BASE + "/",
-             "description": "Independent register of India's RBI-recognised self-regulatory organisations.",
+             "description": "Independent register of India's financial-sector self-regulatory organisations (RBI, SEBI, IRDAI, IBBI).",
              "parentOrganization": {"@type": "Organization", "name": "CashlessConsumer"}},
         ],
     })
     total = len(members)
     both = sum(1 for o in overlap if len(o["sros"]) > 1)
     srofts = sum(1 for s in SROS.values() if "SRO-FT" in s["status"])
+    regs = len({s.get("regulator", "—") for s in SROS.values()})
+    regs = len({s.get("regulator", "—") for s in SROS.values()})
     counts = defaultdict(int)
     for m in members:
         counts[sid_of(m["sro"])] += 1
@@ -364,7 +577,7 @@ def build_home(members, activity, overlap):
       <span class="pill">{esc(s['status'])}</span></div>
       <h3>{esc(s['name'])}</h3>
       <p class="sector">{esc(s['sector'])}</p>
-      <p class="meta">Recognised {fmt_date(s['recognised'])} · {counts.get(sid, 0)} listed members</p>
+      <p class="meta">{esc(s.get("regulator", "—"))} · {esc(s["recognised"])} · {counts.get(sid, 0)} members</p>
     </a>"""
     items = ""
     for a in recent:
@@ -374,15 +587,16 @@ def build_home(members, activity, overlap):
     body = f"""
 <section class="hero">
   <div class="wrap">
-    <p class="kicker rise">Register of RBI-recognised self-regulatory organisations · India</p>
+    <p class="kicker rise">Register of India&rsquo;s financial-sector self-regulatory organisations &middot; RBI &middot; SEBI &middot; IRDAI &middot; IBBI</p>
     <h1 class="rise">Who watches India&rsquo;s fintech <em>watchdogs</em>?</h1>
     <div class="hero-stamps">
-      <span class="stamp seal-in">RBI-Recognised × {len(SROS)}</span>
+      <span class="stamp seal-in">Recognised SROs × {len(SROS)}</span>
       <span class="stamp blue seal-in" style="animation-delay:.45s">{srofts} × SRO-FT</span>
     </div>
-    <p class="lede rise">RBI outsources first-line supervision of fintechs, NBFCs and payment operators to <strong>self-regulatory organisations</strong> — industry bodies with the power to write conduct codes and police their own members. SROTrac tracks who sits on these SROs, what they do, and whether they work for consumers. Scope: <strong>only the nine SROs recognised by RBI</strong> — industry bodies under SEBI, IRDAI or other regulators are out of scope.</p>
+    <p class="lede rise">India&rsquo;s regulators outsource first-line supervision to <strong>self-regulatory organisations</strong> — industry bodies empowered to write conduct codes and police their own members. SROTrac tracks who sits on them, what they do, and whether they work for consumers — across <strong>RBI, SEBI, IRDAI and IBBI</strong>, plus the two industry giants (AMFI, ANMI) that self-regulate without ever being recognised.</p>
     <div class="stats rise">
-      <div><strong>{len(SROS)}</strong><span>RBI-recognised SROs</span></div>
+      <div><strong>{len(SROS)}</strong><span>SROs tracked</span></div>
+      <div><strong>{regs}</strong><span>regulators</span></div>
       <div><strong>{total}</strong><span>listed member orgs</span></div>
       <div><strong>{both}</strong><span>in 2+ SROs</span></div>
       <div><strong>{srofts}</strong><span>fintech SRO-FTs</span></div>
@@ -391,7 +605,7 @@ def build_home(members, activity, overlap):
 </section>
 <section class="wrap" id="register">
   <h2>The register</h2>
-  <p class="muted small">Nine bodies, one contract with the regulator. Click a folder for members, governance and activity.</p>
+  <p class="muted small">Sixteen recognised bodies across four regulators, plus two unrecognised associations tracked for context. Click a folder for members, governance and activity.</p>
   <div class="sro-grid">{cards}
   </div>
 </section>
@@ -418,7 +632,7 @@ def build_home(members, activity, overlap):
   </div>
 </section>
 <script type="application/ld+json">
-{{"@context":"https://schema.org","@type":"Dataset","name":"SROTrac","description":"Members, governance and activity of RBI-recognised self-regulatory organisations in India (FACE, UFF, FIDC, SRPA, MFIN, Sa-Dhan, FEDAI, Sahamati, FIMMDA)","url":"https://srotrac.cashlessconsumer.in/","creator":{{"@type":"Organization","name":"CashlessConsumer","url":"https://cashlessconsumer.in"}},"license":"https://creativecommons.org/licenses/by/4.0/"}}
+{{"@context":"https://schema.org","@type":"Dataset","name":"SROTrac","description":"Members, governance and activity of India's financial-sector self-regulatory organisations across RBI, SEBI, IRDAI and IBBI","url":"https://srotrac.cashlessconsumer.in/","creator":{{"@type":"Organization","name":"CashlessConsumer","url":"https://cashlessconsumer.in"}},"license":"https://creativecommons.org/licenses/by/4.0/"}}
 </script>
 <script type="application/ld+json">{home_ld}</script>"""
     return page("India's fintech SROs, tracked", "", body)
@@ -428,9 +642,9 @@ def build_sro(sid, members, activity, leadership, social=None, check=None):
     org_ld = json.dumps({
         "@context": "https://schema.org", "@type": "Organization",
         "name": s["name"], "alternateName": s["abbr"], "url": s["website"],
-        "description": "RBI-recognised self-regulatory organisation for " + s["sector"]
-                       + ". Recognised by the Reserve Bank of India on " + s["recognised"] + ".",
-        "identifier": {"@type": "PropertyValue", "name": "RBI SRO recognition", "value": s["recognised"]},
+        "description": "Self-regulatory organisation for " + s["sector"]
+                       + ". Recognition: " + s["recognised"] + " (" + s.get("regulator", "—") + ").",
+        "identifier": {"@type": "PropertyValue", "name": "Recognition", "value": s["recognised"]},
     })
     mem = [m for m in members if sid_of(m["sro"]) == sid]
     types = defaultdict(int)
@@ -477,14 +691,14 @@ def build_sro(sid, members, activity, leadership, social=None, check=None):
     body = f"""
 <section class="sro-hero" style="--c:{s['accent']}">
   <div class="wrap">
-    <p class="kicker">RBI-recognised SRO</p>
+    <p class="kicker">{esc(s.get("regulator", "—"))} &middot; SRO register</p>
     <h1>{esc(s['name'])}{'' if s['name'] == s['abbr'] else f' <span class="abbr-chip">{s["abbr"]}</span>'}</h1>
   <p class="work-jump"><a href="/work-{sid}.html">Deep-dive: what {s['abbr']} actually does &rarr;</a></p>
     <p class="lede">{esc(s['sector'])}</p>
     <div class="factbar">
-      <div><span>Recognised</span><strong>{fmt_date(s['recognised'])}</strong></div>
+      <div><span>Recognised ({esc(s.get("regulator", "—"))})</span><strong>{esc(s["recognised"])}</strong></div>
       <div><span>Status</span><strong>{esc(s['status'])}</strong></div>
-      <div><span>Listed members</span><strong>{len(mem)}</strong> <em class="muted">({esc(typeline)})</em></div>
+      <div><span>Listed members</span><strong>{len(mem) if mem else 'n/p'}</strong> <em class="muted">({esc(typeline) if typeline else 'no public roster'})</em></div>
       <div><span>Site</span><strong><a href="{esc(s['website'])}" rel="noopener">{esc(s['website'].replace('https://', ''))}</a></strong></div>
     </div>
   </div>
@@ -509,7 +723,7 @@ def build_sro(sid, members, activity, leadership, social=None, check=None):
     <thead><tr><th>Organisation</th><th>Type</th><th>Website</th></tr></thead>
     <tbody>{rows}</tbody>
   </table>
-  <p class="muted small">Parsed from the SRO's published member page on 2026-09-10. Marketing rosters, not filings — see <a href="/about.html">methodology</a>.</p>
+  <p class="muted small">Captured from {esc(s["members_site"] or "the SRO's published member page")} on {CAPTURE_DATES.get(sid, "2026-09-10")}. Marketing rosters, not filings — see <a href="/about.html">methodology</a>.</p>
 </section>
 <section class="wrap">
   <h2>Activity</h2>
@@ -523,7 +737,7 @@ def build_sro(sid, members, activity, leadership, social=None, check=None):
 </section>
 <script type="application/ld+json">{org_ld}</script>"""
     return page(s["abbr"] + " — " + s["name"], f"sro-{sid}.html", body,
-                desc=f"{s['name']} ({s['abbr']}), the RBI-recognised SRO for {s['sector']}. Full member list, governance, activity and gaps — tracked by SROTrac.")
+                desc=f"{s['name']} ({s['abbr']}), the {s.get('regulator', '—')}-governed self-regulatory body for {s['sector']}. Full member list, governance, activity and gaps — tracked by SROTrac.")
 
 
 def org_table(members):
@@ -615,7 +829,7 @@ def build_members(members, leadership):
 <section class="hero slim">
   <div class="wrap">
     <h1>All members</h1>
-    <p class="lede">{len(payload)} organisations across the seven published rosters (FIDC and Sa-Dhan publish no public roster). One row per organisation — SRO badges show every register it appears in. Filter by SRO, entity type, or search by name. Cross-SRO membership overlap is <a href="#overlap">below the table</a>.</p>
+    <p class="lede">{len(payload)} organisations across the thirteen published rosters (FIDC, Sa-Dhan, BASL, AIBI and the three insolvency agencies publish none). One row per organisation — SRO badges show every register it appears in. Filter by SRO, entity type, or search by name. Cross-SRO membership overlap is <a href="#overlap">below the table</a>.</p>
   </div>
 </section>
 <section class="wrap">
@@ -791,9 +1005,9 @@ def build_social(social, check):
     body = f"""
 <section class="hero">
   <div class="wrap">
-    <p class="kicker rise">Social media monitor &middot; RBI-recognised SROs</p>
+    <p class="kicker rise">Social media monitor &middot; tracked SROs</p>
     <h1 class="rise">Where the SROs <em>post</em></h1>
-    <p class="lede rise">Codes of conduct, consultation responses and discipline machinery often surface first on an SRO&rsquo;s own channels &mdash; usually LinkedIn, sometimes X. This page tracks every official account of the nine RBI-recognised SROs, and the daily refresh re-checks each one against the SRO&rsquo;s own website. <strong>&#10003;</strong> = still linked from the SRO&rsquo;s site today &middot; <strong>&#9998;</strong> = verified via the SRO&rsquo;s own announcement or platform search.</p>
+    <p class="lede rise">Codes of conduct, consultation responses and discipline machinery often surface first on an SRO&rsquo;s own channels &mdash; usually LinkedIn, sometimes X. This page tracks every official account of the tracked SROs, and the daily refresh re-checks each one against the SRO&rsquo;s own website. <strong>&#10003;</strong> = still linked from the SRO&rsquo;s site today &middot; <strong>&#9998;</strong> = verified via the SRO&rsquo;s own announcement or platform search.</p>
     <div class="stats rise">
       <div><strong>{total}</strong><span>official accounts tracked</span></div>
       <div><strong>{n_x}</strong><span>handles on X (Twitter)</span></div>
@@ -820,7 +1034,7 @@ def build_social(social, check):
   </div>
 </section>"""
     return page("Social media monitor", "social.html", body,
-                desc="Every official social media account of India's nine RBI-recognised SROs "
+                desc="Every official social media account of India's tracked financial-sector SROs "
                      "(FACE, UFF, FIDC, SRPA, MFIN, Sa-Dhan, FEDAI, Sahamati, FIMMDA) on X, LinkedIn, "
                      "YouTube, Facebook and Instagram — with a daily drift check against the SROs' own websites.")
 
@@ -931,7 +1145,7 @@ def build_about(members, activity):
   </ul>
 </section>"""
     return page("About", "about.html", body,
-                desc="What SROTrac covers (RBI-recognised SROs only), how the data is built, caveats, FAQ, and CC BY 4.0 licensing. An independent CashlessConsumer project.")
+                desc="What SROTrac covers (recognised SROs across RBI, SEBI, IRDAI and IBBI), how the data is built, caveats, FAQ, and CC BY 4.0 licensing. An independent CashlessConsumer project.")
 
 
 CSS = """:root{
@@ -1442,9 +1656,9 @@ def write_agent_files(members, outputs):
     dives = [f"- [{s['abbr']} work]({BASE}/work-{sid}.html): {WORK[sid]['tagline']}" for sid, s in SROS.items()]
     datasets = sorted(fn for fn in os.listdir(os.path.join(root, "data")) if fn.endswith(".csv"))
     ds = "\n".join(f"- [{fn}]({BASE}/data/{fn})" for fn in datasets)
-    llms = f"""# SROTrac — India's RBI-recognised SROs, tracked
+    llms = f"""# SROTrac — India's self-regulatory organisations, tracked
 
-> Independent register of the nine self-regulatory organisations (SROs) recognised by the Reserve Bank of India: FACE and UFF (fintech SRO-FTs), FIDC (NBFCs), SRPA (payment system operators), MFIN and Sa-Dhan (microfinance), FEDAI (foreign-exchange dealers), Sahamati (account aggregator ecosystem), and FIMMDA (fixed income / money market / derivatives markets). Tracks member rosters, governance, activity and enforcement gaps from a consumer-protection lens. Run by CashlessConsumer. Scope: RBI-recognised SROs only — SEBI/IRDAI industry bodies are out of scope. Data CC BY 4.0.
+> Independent register of India's self-regulatory organisations across four regulators: RBI (FACE, UFF, FIDC, SRPA, MFIN, Sa-Dhan, FEDAI, Sahamati, FIMMDA), SEBI (BASL for investment advisers/research analysts, AIBI for investment bankers; AMFI and ANMI tracked as unrecognised context), IRDAI (Life Insurance Council, General Insurance Council — statutory councils under the Insurance Act 1938 s.64C), and IBBI (the three insolvency professional agencies: IIIPI of ICAI, ICSI IIP, IPA of ICMAI). Tracks member rosters, governance, activity and enforcement gaps from a consumer-protection lens. Run by CashlessConsumer. Scope: recognised and statutory SROs of RBI, SEBI, IRDAI and IBBI (18 entries; AMFI and ANMI flagged as unrecognised context). Data CC BY 4.0.
 
 Base URL: {BASE}
 

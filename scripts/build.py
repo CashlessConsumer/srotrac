@@ -3,6 +3,8 @@
 
 Sources (data/raw/):
   - face_membership.html : https://faceofindia.org/membership/
+  - AMFI members tab (JS; agent-browser capture), Life Insurance Council roster,
+    GI Council members page (2026-09-26 captures in data/raw/),
   - uff_home.html        : https://unifiedfintech.in/  (member logo wall)
   - srpa_home.html       : https://srpa.org.in/  (partner logo wall)
 
@@ -340,67 +342,129 @@ NAME_MAP_MFIN = {
 
 SROS = [
     {
-        "sro_id": "face", "name": "Fintech Association for Consumer Empowerment",
+        "sro_id": "face", "regulator": "RBI", "name": "Fintech Association for Consumer Empowerment",
         "abbr": "FACE", "website": "https://faceofindia.org",
         "nlp_site": "https://faceofindia.org/membership/",
         "recognition": "RBI-recognised SRO-FT (first)",
         "recognised_date": "2024-08-28", "status": "active", "sector": "fintech",
     },
     {
-        "sro_id": "uff", "name": "Unified Fintech Forum",
+        "sro_id": "uff", "regulator": "RBI", "name": "Unified Fintech Forum",
         "abbr": "UFF", "website": "https://unifiedfintech.in",
         "nlp_site": "https://unifiedfintech.in/members-network/",
         "recognition": "RBI-recognised SRO-FT (second); rebranded from DLAI (Apr 2025)",
         "recognised_date": "2026-09-10", "status": "active", "sector": "fintech",
     },
     {
-        "sro_id": "srpa", "name": "Self-Regulated PSO Association",
+        "sro_id": "srpa", "regulator": "RBI", "name": "Self-Regulated PSO Association",
         "abbr": "SRPA", "website": "https://srpa.org.in",
         "nlp_site": "https://srpa.org.in/",
         "recognition": "RBI-recognised SRO for Payment System Operators (not a fintech SRO-FT); tracked for context",
         "recognised_date": "2025-11-11", "status": "related", "sector": "pso",
     },
     {
-        "sro_id": "fidc", "name": "Finance Industry Development Council",
+        "sro_id": "fidc", "regulator": "RBI", "name": "Finance Industry Development Council",
         "abbr": "FIDC", "website": "https://www.fidcindia.org.in",
         "nlp_site": "https://www.fidcindia.org.in/membership-details/",
         "recognition": "RBI-recognised SRO for NBFCs (not a fintech SRO-FT); tracked for context",
         "recognised_date": "2025-10-03", "status": "related", "sector": "nbfc",
     },
     {
-        "sro_id": "mfin", "name": "Microfinance Institutions Network",
+        "sro_id": "mfin", "regulator": "RBI", "name": "Microfinance Institutions Network",
         "abbr": "MFIN", "website": "https://mfinindia.org",
         "nlp_site": "https://mfinindia.org/members",
         "recognition": "RBI-recognised SRO for NBFC-MFIs (first; RBI letter dated 16 Jun 2014)",
         "recognised_date": "2014-06-16", "status": "active", "sector": "microfinance",
     },
     {
-        "sro_id": "sadhan", "name": "Sa-Dhan",
+        "sro_id": "sadhan", "regulator": "RBI", "name": "Sa-Dhan",
         "abbr": "Sa-Dhan", "website": "https://www.sa-dhan.net",
         "nlp_site": "https://www.sa-dhan.net/what-we-do/sro/",
         "recognition": "RBI-recognised SRO for NBFC-MFIs (second; Mar 2015)",
         "recognised_date": "2015-03-11", "status": "active", "sector": "microfinance",
     },
     {
-        "sro_id": "fedai", "name": "Foreign Exchange Dealers' Association of India",
+        "sro_id": "fedai", "regulator": "RBI", "name": "Foreign Exchange Dealers' Association of India",
         "abbr": "FEDAI", "website": "https://www.fedai.org.in",
         "nlp_site": "https://www.fedai.org.in/Default.aspx",
         "recognition": "RBI-recognised SRO for all Authorised Dealers in foreign exchange (Omnibus framework; 1-yr transition to Jan 2027)",
         "recognised_date": "2026-01-14", "status": "active", "sector": "forex",
     },
     {
-        "sro_id": "sahamati", "name": "Sahamati",
+        "sro_id": "sahamati", "regulator": "RBI", "name": "Sahamati",
         "abbr": "Sahamati", "website": "https://sahamati.org.in",
         "nlp_site": "https://sahamati.org.in/current-re-members/",
         "recognition": "RBI-recognised SRO for the Account Aggregator (AA) ecosystem (5 Jun 2026)",
         "recognised_date": "2026-06-05", "status": "active", "sector": "account aggregator / open finance",
     },
     {
-        "sro_id": "fimmda", "name": "Fixed Income Money Market and Derivatives Association of India",
+        "sro_id": "fimmda", "regulator": "RBI", "name": "Fixed Income Money Market and Derivatives Association of India",
         "abbr": "FIMMDA", "website": "https://www.fimmda.org",
         "nlp_site": "https://www.fimmda.org/UploadPopupPageFiles/MembersList_8May2025.pdf",
         "recognition": "RBI-recognised SRO in financial markets (first; under the Aug 2024 financial-markets SRO framework; RBI PR 2025-2026/274)",
         "recognised_date": "2025-05-07", "status": "active", "sector": "financial markets (fixed income / money market / derivatives)",
+    },    {
+        "sro_id": "basl", "regulator": "SEBI",
+        "name": "BSE Administration and Supervision Ltd", "abbr": "BASL",
+        "website": "https://www.basl.in", "nlp_site": "",
+        "recognition": "SEBI-recognised IAASB for investment advisers (3 years from 1 Jun 2021); designated IAASB + RAASB under SEBI's 2024 supervision framework (circular 16 May 2024, effective 25 Jul 2024)",
+        "recognised_date": "2021-06-01", "status": "active", "sector": "investment advisers (IAASB) + research analysts (RAASB)",
+    },
+    {
+        "sro_id": "aibi", "regulator": "SEBI",
+        "name": "Association of Investment Bankers of India", "abbr": "AIBI",
+        "website": "https://aibi.org.in", "nlp_site": "https://aibi.org.in/member.asp",
+        "recognition": "SEBI recognition recorded since AR 1997-98 ('granted recognition to set up professional standards...'; as AMBI, renamed AIBI)",
+        "recognised_date": "1997-98", "status": "active", "sector": "merchant bankers / investment banks",
+    },
+    {
+        "sro_id": "lic", "regulator": "IRDAI",
+        "name": "Life Insurance Council", "abbr": "LI Council",
+        "website": "http://www.lifeinscouncil.org", "nlp_site": "http://www.lifeinscouncil.org/consumers/ListOfCompanies",
+        "recognition": "Statutory self-regulatory council under s.64C of the Insurance Act, 1938",
+        "recognised_date": "statutory (1938 Act s.64C)", "status": "active", "sector": "life insurers",
+    },
+    {
+        "sro_id": "gic", "regulator": "IRDAI",
+        "name": "General Insurance Council", "abbr": "GI Council",
+        "website": "https://www.gicouncil.in", "nlp_site": "https://www.gicouncil.in/members-of-gi-council/",
+        "recognition": "Statutory self-regulatory council under s.64C of the Insurance Act, 1938",
+        "recognised_date": "statutory (1938 Act s.64C)", "status": "active", "sector": "general + health insurers and reinsurers",
+    },
+    {
+        "sro_id": "iiipi", "regulator": "IBBI",
+        "name": "Indian Institute of Insolvency Professionals of ICAI", "abbr": "IIIPI",
+        "website": "https://www.iiipicai.in", "nlp_site": "",
+        "recognition": "First IBBI-registered insolvency professional agency (FY 2016-17; reg. IBBI/IPA/16-17/01)",
+        "recognised_date": "2016-17", "status": "active", "sector": "insolvency professionals (ICAI arm)",
+    },
+    {
+        "sro_id": "icsiip", "regulator": "IBBI",
+        "name": "ICSI Institute of Insolvency Professionals", "abbr": "ICSI IIP",
+        "website": "https://www.icsiiip.in", "nlp_site": "",
+        "recognition": "IBBI-registered insolvency professional agency (FY 2016-17; reg. IBBI/IPA/16-17/02)",
+        "recognised_date": "2016-17", "status": "active", "sector": "insolvency professionals (ICSI arm)",
+    },
+    {
+        "sro_id": "ipaicmai", "regulator": "IBBI",
+        "name": "Insolvency Professional Agency of the Institute of Cost Accountants of India", "abbr": "IPA ICMAI",
+        "website": "https://www.ipaicmai.in", "nlp_site": "",
+        "recognition": "IBBI-registered insolvency professional agency (FY 2016-17; reg. IBBI/IPA/16-17/03)",
+        "recognised_date": "2016-17", "status": "active", "sector": "insolvency professionals (ICMAI arm)",
+    },
+    {
+        "sro_id": "amfi", "regulator": "SEBI",
+        "name": "Association of Mutual Funds in India", "abbr": "AMFI",
+        "website": "https://www.amfiindia.com", "nlp_site": "https://www.amfiindia.com/aboutamfi (Members tab)",
+        "recognition": "Industry association (est. 1995) with self-regulatory codes — never recognised by SEBI as an SRO; tracked for context",
+        "recognised_date": "1995 (association)", "status": "context", "sector": "mutual funds",
+    },
+    {
+        "sro_id": "anmi", "regulator": "SEBI",
+        "name": "Association of National Exchanges Members of India", "abbr": "ANMI",
+        "website": "https://anmi.in", "nlp_site": "",
+        "recognition": "Industry body (est. 1996, ~900 trading members) — has publicly sought SRO status; not recognised; tracked for context",
+        "recognised_date": "1996 (association)", "status": "context", "sector": "stock brokers",
     },
 ]
 
@@ -412,6 +476,18 @@ NO_ROSTER = {
     "FIDC": "No public member roster. The 'list of NBFCs' page is RBI registration "
             "lists by scale/type, not FIDC's own membership. FIDC claims ~400 members "
             "in press material; roster available only via annual report / on request.",
+    "BASL": "No public roster page. Membership is derived from SEBI registers: every "
+            "SEBI-registered investment adviser is deemed enlisted with BASL (IAASB), and "
+            "research analysts with BSE/BASL as RAASB under the 2024 supervision framework.",
+    "AIBI": "No public roster. aibi.org.in states 109 members; membership requires a valid "
+            "SEBI merchant-banking licence; the list is member-only.",
+    "IIIPI": "No simple roster page. Registered insolvency professionals and entities are "
+             "searchable on the agency's site and in IBBI's registers.",
+    "ICSI IIP": "No simple roster page. Registered insolvency professionals and entities are "
+                "searchable on the agency's site and in IBBI's registers.",
+    "IPA ICMAI": "No simple roster page. Registered insolvency professionals and entities are "
+                 "searchable on the agency's site and in IBBI's registers.",
+    "ANMI": "No public roster; the site advertises ~900 trading members without publishing a list.",
 }
 
 
@@ -430,12 +506,14 @@ def write_members_md(rosters, sros):
         "",
         f"_Generated {today} by `scripts/build.py`. Do not hand-edit._",
         "",
-        "India's nine RBI-recognised self-regulatory organisations. **FACE** and the "
-        "**Unified Fintech Forum** are the two SRO-FTs (fintech); the register also covers "
-        "**SRPA** (payment system operators), **FIDC** (NBFCs), **MFIN** and **Sa-Dhan** "
-        "(NBFC-MFIs), **FEDAI** (authorised dealers in forex), **Sahamati** (account "
-        "aggregator ecosystem) and **FIMMDA** (fixed income / money market / derivatives "
-        "markets). FIDC and Sa-Dhan publish no member roster.",
+        "India's recognised self-regulatory organisations across four financial regulators. "
+        "**RBI (9):** FACE and UFF (SRO-FTs), SRPA (PSOs), FIDC (NBFCs), MFIN and Sa-Dhan "
+        "(NBFC-MFIs), FEDAI (forex ADs), Sahamati (account aggregators), FIMMDA (fixed income). "
+        "**SEBI (2):** BASL (investment advisers + research analysts) and AIBI (merchant "
+        "bankers). **IRDAI (2, statutory under s.64C):** the Life Insurance Council and the "
+        "General Insurance Council. **IBBI (3):** the insolvency professional agencies of ICAI, "
+        "ICSI and ICMAI. Context-only (not recognised): AMFI (mutual funds) and ANMI (brokers). "
+        "BASL, AIBI and the three IPAs publish no member roster.",
         "",
         "## Totals",
         "",
@@ -537,6 +615,25 @@ def parse_fimmda():
     return rows
 
 
+def parse_roster_csv(sro_abbr, fname):
+    """Generic roster reader for data/raw/<fname> (sro_id, member_name, member_type, source_url, captured_on)."""
+    path = RAW / fname
+    if not path.exists():
+        return []
+    rows = []
+    with open(path, newline="", encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            name = (r.get("member_name") or "").strip()
+            if not name:
+                continue
+            rows.append({
+                "sro": sro_abbr, "member_name": name,
+                "website": (r.get("website") or "").strip(),
+                "member_type": (r.get("member_type") or "member").strip(),
+            })
+    return rows
+
+
 def main():
     face = parse_face()
     uff = parse_uff()
@@ -545,8 +642,12 @@ def main():
     fedai = parse_fedai()
     sahamati = parse_sahamati()
     fimmda = parse_fimmda()
+    amfi = parse_roster_csv("AMFI", "amfi_members.csv")
+    lic = parse_roster_csv("LI Council", "lic_members.csv")
+    gic = parse_roster_csv("GI Council", "gicouncil_members.csv")
     rosters = {"FACE": face, "UFF": uff, "SRPA": srpa, "MFIN": mfin, "FEDAI": fedai,
-               "Sahamati": sahamati, "FIMMDA": fimmda}
+               "Sahamati": sahamati, "FIMMDA": fimmda, "AMFI": amfi, "LI Council": lic,
+               "GI Council": gic}
 
     write_csv(OUT / "face_members.csv", face, ["sro", "member_name", "website", "member_type"])
     write_csv(OUT / "uff_members.csv", uff, ["sro", "member_name", "website", "member_type", "logo_file"])
@@ -555,14 +656,16 @@ def main():
     write_csv(OUT / "fedai_members.csv", fedai, ["sro", "member_name", "website", "member_type", "lei"])
     write_csv(OUT / "sahamati_members.csv", sahamati, ["sro", "member_name", "website", "member_type", "logo_file"])
     write_csv(OUT / "fimmda_members.csv", fimmda, ["sro", "member_name", "website", "member_type", "category"])
-    write_csv(OUT / "sros.csv", SROS, ["sro_id", "name", "abbr", "website", "nlp_site", "recognition", "recognised_date", "status", "sector"])
+    for abbr, rows_ in (("amfi", amfi), ("lic", lic), ("gic", gic)):
+        write_csv(OUT / f"{abbr}_members.csv", rows_, ["sro", "member_name", "website", "member_type"])
+    write_csv(OUT / "sros.csv", SROS, ["sro_id", "name", "abbr", "website", "nlp_site", "recognition", "recognised_date", "status", "sector", "regulator"])
 
     db = OUT / "srotrac.duckdb"
     if db.exists():
         db.unlink()
     union = "\n      UNION ALL ".join(
         f"SELECT sro, member_name, website, member_type FROM read_csv_auto('{OUT/f'{k.lower()}_members.csv'}')"
-        for k in ["face", "uff", "srpa", "mfin", "fedai", "sahamati", "fimmda"]
+        for k in ["face", "uff", "srpa", "mfin", "fedai", "sahamati", "fimmda", "amfi", "lic", "gic"]
     )
     sql = f"""
     CREATE TABLE sros AS SELECT * FROM read_csv_auto('{OUT/'sros.csv'}');

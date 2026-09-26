@@ -2,7 +2,7 @@
 
 _Generated 2026-09-26 by `scripts/build.py`. Do not hand-edit._
 
-India's nine RBI-recognised self-regulatory organisations. **FACE** and the **Unified Fintech Forum** are the two SRO-FTs (fintech); the register also covers **SRPA** (payment system operators), **FIDC** (NBFCs), **MFIN** and **Sa-Dhan** (NBFC-MFIs), **FEDAI** (authorised dealers in forex), **Sahamati** (account aggregator ecosystem) and **FIMMDA** (fixed income / money market / derivatives markets). FIDC and Sa-Dhan publish no member roster.
+India's recognised self-regulatory organisations across four financial regulators. **RBI (9):** FACE and UFF (SRO-FTs), SRPA (PSOs), FIDC (NBFCs), MFIN and Sa-Dhan (NBFC-MFIs), FEDAI (forex ADs), Sahamati (account aggregators), FIMMDA (fixed income). **SEBI (2):** BASL (investment advisers + research analysts) and AIBI (merchant bankers). **IRDAI (2, statutory under s.64C):** the Life Insurance Council and the General Insurance Council. **IBBI (3):** the insolvency professional agencies of ICAI, ICSI and ICMAI. Context-only (not recognised): AMFI (mutual funds) and ANMI (brokers). BASL, AIBI and the three IPAs publish no member roster.
 
 ## Totals
 
@@ -17,14 +17,26 @@ India's nine RBI-recognised self-regulatory organisations. **FACE** and the **Un
 | FEDAI | forex | active | 108 |
 | Sahamati | account aggregator / open finance | active | 110 |
 | FIMMDA | financial markets (fixed income / money market / derivatives) | active | 116 |
+| BASL | investment advisers (IAASB) + research analysts (RAASB) | active | not published |
+| AIBI | merchant bankers / investment banks | active | not published |
+| LI Council | life insurers | active | 27 |
+| GI Council | general + health insurers and reinsurers | active | 49 |
+| IIIPI | insolvency professionals (ICAI arm) | active | not published |
+| ICSI IIP | insolvency professionals (ICSI arm) | active | not published |
+| IPA ICMAI | insolvency professionals (ICMAI arm) | active | not published |
+| AMFI | mutual funds | context | 56 |
+| ANMI | stock brokers | context | not published |
 
 ## Organisations in more than one SRO
 
 - AU Small Finance Bank Limited — FEDAI, FIMMDA, Sahamati
+- Aditya Birla Health Insurance Co Ltd — GI Council, Sahamati
 - Apollo Finvest — FACE, UFF
 - Aspire — FACE, UFF
 - Axis Bank Limited — FIMMDA, Sahamati
+- Axis Mutual Fund — AMFI, Sahamati
 - BNP Paribas — FEDAI, FIMMDA
+- Bajaj Life Insurance Limited — LI Council, Sahamati
 - Bandhan Bank — FIMMDA, MFIN
 - Bank of Baroda — FEDAI, FIMMDA, Sahamati, UFF
 - Bank of Ceylon — FEDAI, FIMMDA
@@ -37,6 +49,7 @@ India's nine RBI-recognised self-regulatory organisations. **FACE** and the **Un
 - CRED — SRPA, UFF
 - Canara Bank — FEDAI, FIMMDA
 - Central Bank of India — FEDAI, FIMMDA
+- CreditAccess Life Insurance Limited — LI Council, Sahamati
 - DBS Bank India Limited — FEDAI, FIMMDA
 - Decentro — FACE, UFF
 - Export-Import Bank of India — FEDAI, FIMMDA
@@ -44,6 +57,7 @@ India's nine RBI-recognised self-regulatory organisations. **FACE** and the **Un
 - HDFC Bank Limited — FEDAI, Sahamati
 - HyperVerge — FACE, UFF
 - ICICI Bank — MFIN, Sahamati
+- ICICI Prudential Life Insurance Company Limited — FIMMDA, LI Council
 - ICICI Securities Primary Dealership Limited — FEDAI, FIMMDA
 - IDFC FIRST Bank Limited — FEDAI, Sahamati
 - IDFC First Bank — FIMMDA, MFIN
@@ -58,6 +72,7 @@ India's nine RBI-recognised self-regulatory organisations. **FACE** and the **Un
 - Kookmin Bank — FEDAI, FIMMDA
 - Kotak Mahindra Bank Limited — FEDAI, Sahamati
 - KreditBee — FACE, UFF
+- Life Insurance Corporation of India — FIMMDA, LI Council
 - Light Microfinance — MFIN, UFF
 - Mizuho Bank Limited — FEDAI, FIMMDA
 - MobiKwik — FACE, SRPA, UFF
@@ -74,6 +89,8 @@ India's nine RBI-recognised self-regulatory organisations. **FACE** and the **Un
 - RBL Bank — FIMMDA, MFIN, UFF
 - Razorpay — FACE, SRPA
 - Revfin — FACE, UFF
+- SBI Life Insurance Company Limited — FIMMDA, LI Council
+- SBI Mutual Fund — AMFI, Sahamati
 - Saafe — FACE, UFF
 - Small Industries Development Bank of India — FEDAI, Sahamati
 - Spice Money — SRPA, UFF
@@ -768,6 +785,153 @@ India's nine RBI-recognised self-regulatory organisations. **FACE** and the **Un
 | 114 | The Clearing Corporation of India Ltd |  | member |
 | 115 | IFCI Ltd |  | member |
 | 116 | India Infrastructure Finance Company Limited |  | member |
+
+## AMFI — 56 members
+
+| # | Member | Website | Type |
+|---|--------|---------|------|
+| 1 | 360 ONE Mutual Fund |  | member |
+| 2 | Abakkus Mutual Fund |  | member |
+| 3 | Aditya Birla Sun Life Mutual Fund |  | member |
+| 4 | AlphaGrep Mutual Fund |  | member |
+| 5 | Angel One Mutual Fund |  | member |
+| 6 | Axis Mutual Fund |  | member |
+| 7 | Bajaj Finserv Mutual Fund |  | member |
+| 8 | Bandhan Mutual Fund |  | member |
+| 9 | Bank of India Mutual Fund |  | member |
+| 10 | Baroda BNP Paribas Mutual Fund |  | member |
+| 11 | Canara Robeco Mutual Fund |  | member |
+| 12 | Capitalmind Mutual Fund |  | member |
+| 13 | Carnelian Mutual Fund |  | member |
+| 14 | Choice Mutual Fund |  | member |
+| 15 | DSP Mutual Fund |  | member |
+| 16 | Edelweiss Mutual Fund |  | member |
+| 17 | Franklin Templeton Mutual Fund |  | member |
+| 18 | Groww Mutual Fund |  | member |
+| 19 | HDFC Mutual Fund |  | member |
+| 20 | Helios Mutual Fund |  | member |
+| 21 | HSBC Mutual Fund |  | member |
+| 22 | ICICI Prudential Mutual Fund |  | member |
+| 23 | IL&FS Mutual Fund (IDF) |  | member |
+| 24 | Invesco Mutual Fund |  | member |
+| 25 | ITI Mutual Fund |  | member |
+| 26 | Jio BlackRock Mutual Fund |  | member |
+| 27 | JM Financial Mutual Fund |  | member |
+| 28 | Kotak Mahindra Mutual Fund |  | member |
+| 29 | Lakshya Mutual Fund |  | member |
+| 30 | LIC Mutual Fund |  | member |
+| 31 | Mahindra Manulife Mutual Fund |  | member |
+| 32 | Mirae Asset Mutual Fund |  | member |
+| 33 | Monarch Mutual Fund |  | member |
+| 34 | Motilal Oswal Mutual Fund |  | member |
+| 35 | Navi Mutual Fund |  | member |
+| 36 | Nippon India Mutual Fund |  | member |
+| 37 | NJ Mutual Fund |  | member |
+| 38 | Nuvama Mutual Fund |  | member |
+| 39 | Old Bridge Mutual Fund |  | member |
+| 40 | PGIM India Mutual Fund |  | member |
+| 41 | PPFAS Mutual Fund |  | member |
+| 42 | quant Mutual Fund |  | member |
+| 43 | Quantum Mutual Fund |  | member |
+| 44 | Samco Mutual Fund |  | member |
+| 45 | SBI Mutual Fund |  | member |
+| 46 | Shriram Mutual Fund |  | member |
+| 47 | Sundaram Mutual Fund |  | member |
+| 48 | Tata Mutual Fund |  | member |
+| 49 | Taurus Mutual Fund |  | member |
+| 50 | Trust Mutual Fund |  | member |
+| 51 | Unifi Mutual Fund |  | member |
+| 52 | Union Mutual Fund |  | member |
+| 53 | UTI Mutual Fund |  | member |
+| 54 | The Wealth Company Mutual Fund |  | member |
+| 55 | WhiteOak Capital Mutual Fund |  | member |
+| 56 | Zerodha Mutual Fund |  | member |
+
+## LI Council — 27 members
+
+| # | Member | Website | Type |
+|---|--------|---------|------|
+| 1 | ACKO LIFE INSURANCE LIMITED |  | member |
+| 2 | Aditya Birla Sun Life Insurance Company Limited |  | member |
+| 3 | AGEAS Federal Life Insurance Company Limited |  | member |
+| 4 | Aviva Life Insurance Company India Limited |  | member |
+| 5 | Axis Max Life Insurance Limited |  | member |
+| 6 | Bajaj Life Insurance Limited |  | member |
+| 7 | Bandhan Life Insurance Limited (Formerly Aegon Life Insurance Company Limited) |  | member |
+| 8 | Bharti AXA Life Insurance Company Limited |  | member |
+| 9 | Canara HSBC Life Insurance Company Limited |  | member |
+| 10 | CreditAccess Life Insurance Limited |  | member |
+| 11 | Edelweiss Life Insurance Company Limited |  | member |
+| 12 | Exide Life Insurance Company Limited |  | member |
+| 13 | Generali Central Life Insurance Company Limited |  | member |
+| 14 | Go Digit Life Insurance Limited |  | member |
+| 15 | HDFC Life Insurance Company Limited |  | member |
+| 16 | ICICI Prudential Life Insurance Company Limited |  | member |
+| 17 | IndiaFirst Life Insurance Company Limited |  | member |
+| 18 | IndusInd Nippon Life Insurance Company Limited |  | member |
+| 19 | Kotak Mahindra Life Insurance Company Limited |  | member |
+| 20 | Life Insurance Corporation of India |  | member |
+| 21 | PNB MetLife India Insurance Company Limited |  | member |
+| 22 | Pramerica Life Insurance Company Limited |  | member |
+| 23 | Sahara India Life Insurance Company Limited |  | member |
+| 24 | SBI Life Insurance Company Limited |  | member |
+| 25 | Shriram Life Insurance Company Limited |  | member |
+| 26 | Star Union Dai-ichi Life Insurance Company Limited |  | member |
+| 27 | Tata AIA Life Insurance Company Limited |  | member |
+
+## GI Council — 49 members
+
+| # | Member | Website | Type |
+|---|--------|---------|------|
+| 1 | Acko General Insurance Limited |  | member |
+| 2 | Aditya Birla Health Insurance Co Ltd |  | member |
+| 3 | Agriculture Insurance Co. Of India Ltd. |  | member |
+| 4 | Allianz Global Corporate &amp; Speciality SE, India Branch |  | member |
+| 5 | AXA France VIE – India Reinsurance Branch |  | member |
+| 6 | Bajaj General Insurance Limited |  | member |
+| 7 | Care Health Insurance Ltd |  | member |
+| 8 | Cholamandalam MS General Insurance Co. Ltd. |  | member |
+| 9 | ECGC Ltd |  | member |
+| 10 | Factory Mutual Insurance Co – India Branch |  | member |
+| 11 | Galaxy Health Insurance Company Limited |  | member |
+| 12 | General Insurance Corporation of India Ltd |  | member |
+| 13 | General Reinsurance AG - India Branch |  | member |
+| 14 | Generali Central Insurance Company Limited |  | member |
+| 15 | Go Digit General Insurance Limited |  | member |
+| 16 | Hannover Ruck SE - India Branch |  | member |
+| 17 | HDFC ERGO General Insurance Co Ltd |  | member |
+| 18 | ICICI Lombard General Insurance Co Ltd |  | member |
+| 19 | IFFCO-Tokio General Insurance Co Ltd |  | member |
+| 20 | IndusInd General Insurance Company Limited |  | member |
+| 21 | Kiwi General Insurance Ltd |  | member |
+| 22 | Kshema General Insurance Limited |  | member |
+| 23 | Liberty General Insurance Limited |  | member |
+| 24 | Lloyd's India |  | member |
+| 25 | Magma General Insurance Limited |  | member |
+| 26 | ManipalCigna Health Insurance Company Limited |  | member |
+| 27 | Munich Re - India Branch |  | member |
+| 28 | Narayana Health Insurance Limited |  | member |
+| 29 | National Insurance Co. Ltd |  | member |
+| 30 | Navi General Insurance Ltd. |  | member |
+| 31 | The New India Assurance Co. Ltd. |  | member |
+| 32 | Niva Bupa Health Insurance Company Limited |  | member |
+| 33 | Raheja QBE General Insurance Co. Ltd. |  | member |
+| 34 | RGA Life Reinsurance Co. of Canada – India Branch |  | member |
+| 35 | Royal Sundaram General Insurance Co. Ltd. |  | member |
+| 36 | SBI General Insurance Co. Ltd. |  | member |
+| 37 | SCOR SE - India Branch |  | member |
+| 38 | Shriram General Insurance Co. Ltd. |  | member |
+| 39 | Star Health &amp; Allied Insurance Co. Ltd. |  | member |
+| 40 | Swiss Reinsurance Company Ltd. India Branch |  | member |
+| 41 | Tata AIG General Insurance Co. Ltd. |  | member |
+| 42 | The Oriental Insurance Co. Ltd. |  | member |
+| 43 | United India Insurance Co. Ltd. |  | member |
+| 44 | Universal Sompo General Insurance Co. Ltd. |  | member |
+| 45 | Valueattics Reinsurance Limited |  | member |
+| 46 | XL Insurance Co SE - India Reinsurance Branch |  | member |
+| 47 | Zuno General Insurance Limited |  | member |
+| 48 | Zurich Kotak General Insurance Company (India) Limited |  | member |
+| 49 | Prudential HCL Health Insurance Ltd |  | member |
 
 ## Caveats
 

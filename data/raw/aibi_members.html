@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>AIBI | Member</title>
+    <link rel="icon" href="images/fev.ico">
+
+	<!-- css start -->
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    
+    <!-- js start -->
+	 <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript">
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 1){  
+			$('.we_header').addClass("sticky");
+		}
+		else{
+			$('.we_header').removeClass("sticky");
+		}
+	});
+	</script>
+</head>
+
+<body>
+<form method="Post">
+	<div class="top_section3">
+    
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+<style type="text/css">
+.we_form{display:none;}
+.we_form .login_btn{width:50px;border:none;color:#fff !important;padding:5px 10px;border-radius:20px;background:#6532fb;font-size:12px;text-transform:uppercase;}	
+.we_form .login_btn:hover{color:#fff !important;background:#5b2de3;}
+.we_form .login_btn:focus{color:#fff !important;background:#5b2de3;}  
+.we_form h3{font-size: 14px;margin: 0px; text-indent: 15px; color: #fff; padding-bottom: 15px; text-align:center;background:#263238;padding:5px;line-height:20px;
+ margin-bottom:10px;font-family: 'source_sans_prosemibold';}	     
+.we_form {position: absolute;right: 0px;top:100px;width:235px;background: #fff;border: 1px solid #ddd; }
+.we_form label{font-weight:normal;font-family: 'source_sans_proregular';}
+.we_form .form-group{margin-bottom:0px; padding:0px 15px 10px;} 
+.we_form input.form-control{height:30px;border-radius:0px; box-shadow:none;}  
+.we_form .form-group p{margin:0px;}       
+.we_form .form-group p a{font-size:12px; padding:0px;} 
+.we_form .form-group p a:hover{text-decoration:none;} 
+</style>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#we_login").click(function () {
+            $(".we_form").toggle();
+        });
+
+    });
+    function openwindow(addr, windo, param) {
+        window.open(addr, windo, param);
+    }
+</script>
+
+<script type="text/javascript">
+    function login_user() {
+        
+        Inputform = document.forms[0];
+        if (Inputform.userid.value == "" || Inputform.password.value == "") {
+            alert("Please enter correct userid & password");
+            Inputform.userid.value = "";
+            Inputform.password.value = "";
+            Inputform.userid.focus();
+
+            return false;
+        }
+        else {
+
+            Inputform.action = "validation.asp";
+            Inputform.submit();
+            return true;
+        }
+
+    }
+</script>
+
+</head>
+<body>
+
+
+<!--<form name="AIBI" action="validation.asp" method="post">-->
+ <!-- navigation section start -->
+<nav class="navbar navbar-inverse header_top we_header" role="navigation">
+        <div class="main_section">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand we_brand" href="index.asp"><img src="images/logo.png" width="132"></a>
+            </div>
+            <div class="collapse navbar-collapse we_nav" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.asp">Home</a></li>
+
+                    <li class="dropdown">
+                        <a href="about.asp" class="dropdown-toggle">About Us</a>
+
+                        <ul class="dropdown-menu">
+                            <li><a href="investment.asp">Investment Banking</a></li>
+                            <li><a href="who-we-are.asp#section2">Board of Directors</a></li>
+                            <li><a href="advisor.asp">Advisor</a></li>
+                            <li><a href="who-we-are.asp#CEO">CEO</a></li>
+                            <li><a href="files/AIBI_Form_MGT_7_31_3_2025_Website.pdf" download="files/AIBI_Form_MGT_7_31_3_2025_Website.pdf">AIBI Form MGT 7</a></li>
+                            <li><a href="files/AIBI_press_release_6th_September_PH.pdf" download="files/AIBI_press_release_6th_September_PH.pdf">PRESS RELEASE</a></li>
+
+                            <!-- <li><a href="JavaScript:Void(0);">AIBI Secretariat</a></li> -->
+                        </ul>
+                    </li>
+
+                    <!--<li><a href="forthcoming.asp" class="up_btn" style="color:#fff !important;">Forthcoming Events</a></li>-->
+
+                    <li class="dropdown">
+                        <a href="JavaScript:Void(0);" class="dropdown-toggle">AIBI Events</a>
+                        <ul class="dropdown-menu">
+                            <!--<li><a href="aibi_annual_convention.aspx">AIBI Annual Convention</a></li>-->
+                            <li><a href="summits.asp#AIBI_Connect">AIBI Connect</a></li>
+                            <li><a href="summits.asp#AIBI_Workshop_2023">AIBI Workshop 2023</a></li>
+                            <li><a href="summits.asp#summit1">AIBI Summits</a></li>
+                            <li><a href="event.asp">AIBI - KNOWLEDGE SEMINAR SERIES </a></li>
+                            <li><a href="summits.asp#summit3">MEMBERS’ MEET AND OTHER EVENTS</a></li>
+                            <li><a href="summits.asp#summit4">26<span style="text-transform:none;"><sup>th</sup></span> AGM</a></li>
+                            <li><a href="summits.asp#summit5">27<span style="text-transform:none;"><sup>th</sup></span> AGM</a></li>
+                            <li><a href="summits.asp#summit6">28<span style="text-transform:none;"><sup>th</sup></span> AGM</a></li>
+                            <li><a href="summits.asp#summit7">29<span style="text-transform:none;"><sup>th</sup></span> AGM</a></li>
+                            <li><a href="summits.asp#summit8">30<span style="text-transform:none;"><sup>th</sup></span> AGM</a></li>
+                            <li><a href="summits.asp#summit9">31<span style="text-transform:none;"><sup>st</sup></span> AGM</a></li>
+                            <li><a href="summits.asp#summit10">32<span style="text-transform:none;"><sup>nd</sup></span> AGM</a></li>
+                            <li><a href="summits.asp#summit11">33<span style="text-transform:none;"><sup>rd</sup></span> AGM</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li><a href="member.asp">Membership</a></li>
+
+                    <li><a href="index.asp#manual_down2">DD Manual</a></li>
+
+                    <li><a href="faq.asp">FAQ<span style="text-transform:lowercase;">s</span> – Rights Issues</a></li>
+
+                    <li><a href="GID.asp">GID</a></li>
+
+                    <li class="dropdown">
+                        <a href="JavaScript:Void(0);" class="dropdown-toggle">Resource Centre</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="resource.asp#resource1">SEBI Regulations</a></li>
+                            <li><a href="resource.asp#resource2">SEBI Circulars</a></li>
+
+                            <li><a href="SEBI-Press-Release.asp">SEBI Press Release</a></li>
+
+                            <li><a href="his_data.asp">Key Primary Market Data</a></li>
+                            <li><a href="NISM.asp">NISM</a></li>
+                            <li><a href="discussion.asp">Discussion Papers</a></li> 
+                            <li><a href="standard_observations.asp">Standard Observations</a></li> 
+                            
+                        </ul>
+                    </li>
+                    <li><a href="search.aspx" style="color:red !important">Track Record</a></li>
+                    <li><a href="trackrecord_new.aspx">Consolidated 5 Year Track Record</a></li>
+                    <!--<li class="dropdown">
+                        <a href="JavaScript:Void(0);" class="dropdown-toggle">Investors</a>
+                        <ul class="dropdown-menu inv">
+                            <li><a href="JavaScript:Void(0);">IPO GUIDE</a></li>
+                            <li><a href="JavaScript:Void(0);">CURRENT ISSUES</a>
+                            <ul class="dropdown-menu inv left-80" id="ci-dropdown">
+                            <li><a href="JavaScript:Void(0);">CURRENT IPOs</a></li>
+                            <li><a href="JavaScript:Void(0);">CURRENT FPOs</a></li>
+                            <li><a href="JavaScript:Void(0);">CURRENT OFS (SE)</a></li>
+                            <li><a href="JavaScript:Void(0);">CURRENT QIPs</a></li>
+                            <li><a href="JavaScript:Void(0);">CURRENT RIGHTS ISSUES</a></li>
+                            <li><a href="JavaScript:Void(0);">CURRENT PUBLIC DEBT ISSUES</a></li>
+                            <li><a href="JavaScript:Void(0);">CURRENT SME IPOs</a></li>
+                            <li><a href="JavaScript:Void(0);">CURRENT SME FPOs</a></li>
+                            <li><a href="JavaScript:Void(0);">CURRENT SME RIGHTS ISSUES</a></li>
+                            <li><a href="JavaScript:Void(0);">CURRENT InvITs</a></li>
+                            <li><a href="JavaScript:Void(0);">CURRENT ReITs</a></li>
+                            <li><a href="JavaScript:Void(0);">CURRENT InvITs/ReITs-OFS (SE)</a></li>
+                            <li><a href="JavaScript:Void(0);">CURRENT InvITs/ReITs-QIPs</a></li>
+                            <li><a href="JavaScript:Void(0);">CURRENT InvITs/ReITs-RIGHTS ISSUES</a></li>
+                            <li><a href="JavaScript:Void(0);">CURRENT InvITs/ReITs-DEBT ISSUES</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="JavaScript:Void(0);">CURRENT IPO VIDEOS</a></li>
+                        </ul>
+                    </li>-->
+
+                    <li class="dropdown">
+                        <a href="JavaScript:Void(0);" class="dropdown-toggle">Investors</a>
+                        <ul class="dropdown-menu inv">
+                            <li><a href="ipo_guide.asp">IPO GUIDE</a></li>
+                            <li><a href="JavaScript:Void(0);">CURRENT ISSUES</a>
+                            <ul class="dropdown-menu inv left-80" id="ci-dropdown">
+                            <li><a href="investors.asp#IPOs">CURRENT IPOs</a></li>
+                            <li><a href="investors.asp#FPOs">CURRENT FPOs</a></li>
+                            <li><a href="investors.asp#OFS (SE)">CURRENT OFS (SE)</a></li>
+                            <li><a href="investors.asp#QIPs">CURRENT QIPs</a></li>
+                            <li><a href="investors.asp#RIGHTS ISSUES">CURRENT RIGHTS ISSUES</a></li>
+                            <li><a href="investors.asp#PUBLIC DEBT ISSUES">CURRENT PUBLIC DEBT ISSUES</a></li>
+                            <li><a href="investors.asp#SME IPOs">CURRENT SME IPOs</a></li>
+                            <li><a href="investors.asp#SME FPOs">CURRENT SME FPOs</a></li>
+                            <li><a href="investors.asp#SME RIGHTS ISSUES">CURRENT SME RIGHTS ISSUES</a></li>
+                            <li><a href="investors.asp#InvITs">CURRENT InvITs</a></li>
+                            <li><a href="investors.asp#ReITs">CURRENT ReITs</a></li>
+                            <li><a href="investors.asp#InvITs/ReITs-OFS (SE)">CURRENT InvITs/ReITs-OFS (SE)</a></li>
+                            <li><a href="investors.asp#InvITs/ReITs-QIPs">CURRENT InvITs/ReITs-QIPs</a></li>
+                            <li><a href="investors.asp#InvITs/ReITs-RIGHTS ISSUES">CURRENT InvITs/ReITs-RIGHTS ISSUES</a></li>
+                            <li><a href="investors.asp#InvITs/ReITs-DEBT ISSUES">CURRENT InvITs/ReITs-DEBT ISSUES</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="ipo_videos.asp">IPO VIDEOS</a></li>
+                            
+                        </ul>
+                    </li>
+
+                    <li><a href="av_presentations.aspx">AV Presentations</a></li>
+
+
+
+
+
+
+                    <!--<li><a href="contact.asp">Contact us</a></li>-->
+                    
+
+                    <li style="display:none;">
+                        <a href="#" id="we_login" class="login_btn">Login</a>
+                        <div class="form-horizontal we_form">
+                            <h3>Login to download Due Diligence<br />Manual and e-Magazine</h3>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input type="email" class="form-control" id="inputEmail3" placeholder="User ID" name="userid" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password" name="password" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-8 text-left" style="display:none">
+                                    <p><a onClick="openwindow('forgot.asp','','scrollbars=yes,status=no,menubar=no,resizable=no,toolbar=no,width=450,height=240,top=0,left=0');" href="#">Forgot Password ?</a></p>
+                                </div>
+                                <div class="col-sm-4 text-right">
+                                    <button type="button" class="btn btn-default login_btn" onclick="return login_user(this.form);">Go</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navigation section close -->
+<!--</form>-->
+</body>
+
+</html>
+
+    
+    <!-- banner section start -->
+    <div class="banner_text3">
+    	<div class="main_section4">
+        	<div class="member_text">               
+                <h1>Become a Member</h1>    
+                <a href="files/AIBI Membership Form 22022019 (Rev) (003).pdf" class="more_btn" target="_blank">Download Membership Form</a>                       
+            </div>
+        </div>   
+    </div>
+    <!-- banner section start -->
+     
+	</div>
+      
+        <!-- membership section start -->
+        <div class="membership">
+        	<div class="main_section2">
+            
+            	<div class="member_heading">
+                	<h1>Benefits of Membership</h1>   
+                    <h3><b>Advantages of Being a Member</b></h3>               
+                </div>
+                              
+                <div class="row">
+                	<div class="benifit">
+                    	<div class="col-md-5 col-sm-5">
+                        	<div class="benifit_img">
+                            	<img src="images/market.png" width="250">
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-sm-7">
+                        	<div class="benifit_text">
+                            	<h1>1.</h1>
+                                <p>AIBI represents the best minds in the country and has a wide cross section of investment banks as its members. AIBI is a thought 
+                                leader and represents ideas, suggestions and recommendations of its members to regulatory authorities, including SEBI. It has the 
+                                necessary resources, position and mandate to make a significant mark in the Indian capital markets.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="benifit">
+                    	<div class="col-md-5 col-sm-5">
+                        	<div class="benifit_img">
+                            	<img src="images/expert.png" width="250">
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-sm-7">
+                        	<div class="benifit_text">
+                            	<h1>2.</h1>
+                                <p>AIBI undertakes a wide range of activities, some of which include:</p>
+                                <ul>
+                                	<li>Annual Summits for its members where regulators, industry experts, investors, issuers and investment come 
+                                    together to discuss the current trends and future opportunities for capital markets. The SEBI Chairman is the 
+                                    chief guest at the annual summits</li>
+                                    <li>Seminars series;</li>
+                                    <li>Panel discussions; </li>
+                                    <li>Research initiatives.</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                                      
+                    <div class="benifit">
+                    	<div class="col-md-5 col-sm-5">
+                        	<div class="benifit_img">
+                            	<img src="images/person.png" width="250">
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-sm-7">
+                        	<div class="benifit_text">
+                            	<h1>3.</h1>
+                                <p>AIBI is represented, through its Chairperson, on SEBI's Primary Market Advisory Committee, a forum that 
+                                provides an opportunity to present the industry's viewpoint and discuss various issues 
+                                relevant to capital markets.</p>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>                               	
+            </div>
+        </div>
+        <!-- membership section close -->
+             
+        <!-- eligibility section start -->
+        <div class="elig">
+        	<div class="main_section2">       
+            	<div class="elig_heading">
+                	<h1>Eligibility</h1>  
+                    <h3>Membership of AIBI is voluntary. However, only those entities who hold valid Merchant Banking Licence issued by SEBI are eligible to become 
+                    members of the AIBI. </h3>               
+                </div>          
+            </div>
+            </div>
+         <!-- eligibility section close -->   
+               
+         <!-- fees section start -->
+        <div class="fees">
+        	<div class="main_section2">
+            
+            	<div class="fees_heading">
+                	<h1>Membership Fees</h1>                
+                </div>
+                
+                <div class="col-md-6 col-sm-6">
+                	<div class="fees_box">
+                        	<img src="images/entrance.png" width="70">
+                            <h3>Entrance Fees</h3>
+                            <p>For Life Members, one-time, lifetime, non-refundable, non-interest-bearing Entrance Fee is Rs. 5,00,000 + GST.</p>
+                        </div>                                      
+                </div>
+                        
+            	<div class="col-md-6 col-sm-6">
+                
+                	 <div class="fees_box">
+                        	<img src="images/watch.png" width="70">
+                            <h3>Annual Membership Fee</h3>
+                            <p>For Life Members – The Annual Membership Fee is Rs. 100,000 + GST (April to March). Mid-year entrants are required to pay the Annual Fee on a pro-rata basis for the remaining period of the current financial year.</p>
+                            <!--<p>For Life Members - The Annual Membership Fee is Rs. 75,000 + GST (April to March). Mid-year entrants are required to pay the Annual Fee on a pro-rata basis, for the remaining period of the present financial year.</p>-->
+                            <!--<p>For Associate Members - The Annual Membership Fee is Rs. 30,000.00 only (April to March). Mid-year entrants are required to pay the 
+                            Annual Fee on a pro-rata basis, for the remaining period of the present financial year.</p>-->
+                        </div>                
+                </div>          
+            </div>
+            </div>
+         <!-- eligibility section close -->   
+               
+        <!-- away section start -->
+        <div class="away">
+        	<div class="main_section2">
+        		<div class="row">
+                	<div class="col-md-8 col-sm-8">
+                    	<div class="away_text">
+                        	<h3>You’re just a step away from<br>becoming a member with us!
+                            </h3>
+                            <a href="files/AIBI Membership Form 22022019 (Rev) (003).pdf" class="away_btn">Download Membership Form</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                    	<div class="away_img">
+                        	<img src="images/away.png" width="250">
+                        </div>
+                    </div>
+                </div>
+        	</div>
+        </div>
+        <!-- away section close -->
+         
+         <div class="marqee_footer">
+
+    
+	
+    <marquee><font color="#00e2ff" style="font-family: 'source_sans_prosemibold';">As on 25 &nbsp;September, 2026:&nbsp;</font> INDEX - S&P CNX NIFTY:   23140.50,     SENSEX:   73895.74,         EXCHANGE RATES  -  INR/ 1 USD:   95.79,      INR/ 1 EUR:   109.98,     INR/ 100 JPY:   60.99,     INR/ 1 GBP:   128.08</marquee>
+    </div><!-- footer section start -->
+        <div class="footer">
+        	<div class="main_section4">
+            	<div class="row">
+                	<div class="col-md-8 col-sm-8">
+                        <div class="footer_list">
+                        	<ul>
+                            	<li><a href="contact.asp">Contact Us</a></li>
+                                <li><a href="disclaimer.asp">Disclaimer</a></li>
+                                <li><a href="feedback.asp">Feedback</a></li>
+                                <li><a href="useful.asp">Useful Links</a></li>
+                            </ul>
+                        </div>
+                        <div class="reserved">
+                            <p id="cyear"></p>
+                            <p>
+                                <script type="text/javascript">
+                                    let date = new Date().getFullYear();
+                                    document.getElementById('cyear').append("© "+date+", Association of Investment Bankers of India |  All Rights Reserved");
+                                </script>
+                            </p>
+                            <p>3rd floor, A wing, Unit 302, Kanakia Zillion, L B S Marg, Kurla West, Kurla bus Depot, Mumbai suburban, Maharashtra, 400070</p>
+
+                        </div>
+                    </div>
+                                       
+                    <div class="col-md-4 col-sm-4">
+                    	
+                    <div class="logo_footer">
+                        <h3>Website Designed and Maintained by</h3>
+                        <p><a href="http://www.primedatabasegroup.com/" target="_blank"><img src="images/p_logo_small2.gif" alt="PRIME Database" width="60" height="59" border="0"></a></p>
+                    </div>
+
+                    </div>
+                </div>
+            </div>           
+        </div>
+         <!-- footer section close -->    
+       
+          
+<script>
+    $(function () {
+        $(".dropdown").hover(
+            function () {
+                $('.dropdown-menu', this).stop(true, true).fadeIn("fast");
+                $(this).toggleClass('open');
+                $('b', this).toggleClass("caret caret-up");
+            },
+            function () {
+                $('.dropdown-menu', this).stop(true, true).fadeOut("fast");
+                $(this).toggleClass('open');
+                $('b', this).toggleClass("caret caret-up");
+            });
+    });
+</script>                   
+<script src="js/bootstrap.min.js"></script>
+</form>
+</body>
+</html>

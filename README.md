@@ -17,12 +17,30 @@ RBI created a Self-Regulatory Organisation framework for the fintech sector (dra
   `CNAME`, host `srotrac`, value `cashlessconsumer.github.io`, TTL 3600.
   HTTPS cert provisions automatically after DNS propagates.
 
-## The SROs tracked
+## The SROs tracked (18 across 4 regulators)
 
-| SRO | Full name | Recognised | Website |
-|-----|-----------|-----------|---------|
-| **FACE** | Fintech Association for Consumer Empowerment | 28 Aug 2024 (first SRO-FT) | https://faceofindia.org |
-| **UFF** | Unified Fintech Forum (formerly DLAI) | 10 Sep 2026 (second SRO-FT) | https://unifiedfintech.in |
+Recognised SROs across RBI (9), SEBI (2: BASL, AIBI), IRDAI (2 statutory councils), IBBI (3 IPAs), plus two self-regulating industry giants held as context (AMFI, ANMI): SEBI's flagship SRO plan (AMFI 2011, LPAs 2025) never materialised, and ANMI has been an SRI since 1998 without ever winning SRO recognition.
+
+| SRO | Regulator | Recognised | Roster |
+|-----|-----------|-----------|--------|
+| **FACE** | RBI | 28 Aug 2024 (first SRO-FT) | published (85) |
+| **UFF** | RBI | 10 Sep 2026 (second SRO-FT) | published (121) |
+| **FIDC** | RBI | 3 Oct 2025 (NBFC) | none published |
+| **SRPA** | RBI | 11 Nov 2025 (PSO) | published (18) |
+| **MFIN** | RBI | 16 Jun 2014 (MFI) | published (84) |
+| **Sa-Dhan** | RBI | 21 Nov 2014 (MFI) | none published |
+| **FEDAI** | RBI | 20 Feb 2025 (AD-I) | published (108) |
+| **Sahamati** | RBI | 5 Jun 2026 (AA) | published (110) |
+| **FIMMDA** | RBI | 7 May 2025 (financial markets) | published (116, PDF) |
+| **BASL** | SEBI | 1 Jun 2021 (brokers); IAASB 2020 + RAASB 2024 | none published |
+| **AIBI** | SEBI | 30 Oct 2025 (merchant bankers) | none published (~109) |
+| **AMFI** | SEBI | context — 2025 LPAs pending | published (56) |
+| **ANMI** | SEBI | context — SRI since 1998 | none published (~900) |
+| **LI Council** | IRDAI | s.160(1) Insurance Act 1938 (statutory) | published (27) |
+| **GI Council** | IRDAI | s.160(2) Insurance Act 1938 (statutory) | published (49) |
+| **IIIPI** | IBBI | 29 Nov 2016 (first IPA) | none published |
+| **ICSIIP** | IBBI | 29 Nov 2016 | none published |
+| **IPAICMAI** | IBBI | 29 Nov 2016 | none published |
 
 ## Data
 
@@ -74,6 +92,7 @@ duckdb data/srotrac.duckdb -c "SELECT member_name FROM members GROUP BY 1 HAVING
 
 - **UFF `member_type` is heuristic.** The site does not label tiers; entities that are clearly vendors, consultancies, law firms, or bureaus (KPMG, BDO, EY, Khaitan, LexisNexis, TeleSign, CRIF, …) are tagged `associate`, everything else `member`.
 - **FACE does not publish a tier or category** — all rows are `member`.
+- **No-roster bodies (7):** FIDC, Sa-Dhan, BASL, AIBI, and the three IBBI IPAs publish no member list. Their `members` count renders as `n/p` and the SRO pages state where membership is derivable from (e.g. SEBI's IA/RA registers for BASL). AMFI/ANMI/GI/LI councils' rosters are marketing pages like the rest.
 - Membership lists are marketing pages and are not authoritative; treat the roster as directional, not as a filing.
 
 ## License

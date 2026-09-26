@@ -1,6 +1,6 @@
-# SROTrac — India's RBI-recognised SROs, tracked
+# SROTrac — India's self-regulatory organisations, tracked
 
-> Independent register of the nine self-regulatory organisations (SROs) recognised by the Reserve Bank of India: FACE and UFF (fintech SRO-FTs), FIDC (NBFCs), SRPA (payment system operators), MFIN and Sa-Dhan (microfinance), FEDAI (foreign-exchange dealers), Sahamati (account aggregator ecosystem), and FIMMDA (fixed income / money market / derivatives markets). Tracks member rosters, governance, activity and enforcement gaps from a consumer-protection lens. Run by CashlessConsumer. Scope: RBI-recognised SROs only — SEBI/IRDAI industry bodies are out of scope. Data CC BY 4.0.
+> Independent register of India's self-regulatory organisations across four regulators: RBI (FACE, UFF, FIDC, SRPA, MFIN, Sa-Dhan, FEDAI, Sahamati, FIMMDA), SEBI (BASL for investment advisers/research analysts, AIBI for investment bankers; AMFI and ANMI tracked as unrecognised context), IRDAI (Life Insurance Council, General Insurance Council — statutory councils under the Insurance Act 1938 s.64C), and IBBI (the three insolvency professional agencies: IIIPI of ICAI, ICSI IIP, IPA of ICMAI). Tracks member rosters, governance, activity and enforcement gaps from a consumer-protection lens. Run by CashlessConsumer. Scope: recognised and statutory SROs of RBI, SEBI, IRDAI and IBBI (18 entries; AMFI and ANMI flagged as unrecognised context). Data CC BY 4.0.
 
 Base URL: https://srotrac.cashlessconsumer.in
 
@@ -14,6 +14,15 @@ Base URL: https://srotrac.cashlessconsumer.in
 - [FEDAI](https://srotrac.cashlessconsumer.in/sro-fedai.html): Foreign Exchange Dealers' Association of India — RBI recognition 2026-01-14; 108 listed members.
 - [Sahamati](https://srotrac.cashlessconsumer.in/sro-sahamati.html): Sahamati — RBI recognition 2026-06-05; 110 listed members.
 - [FIMMDA](https://srotrac.cashlessconsumer.in/sro-fimmda.html): Fixed Income Money Market and Derivatives Association of India — RBI recognition 2025-05-07; 116 listed members.
+- [BASL](https://srotrac.cashlessconsumer.in/sro-basl.html): BSE Administration and Supervision Ltd — RBI recognition 2021-06-01; no published roster.
+- [AIBI](https://srotrac.cashlessconsumer.in/sro-aibi.html): Association of Investment Bankers of India — RBI recognition 1997-98 (AR); no published roster.
+- [LI Council](https://srotrac.cashlessconsumer.in/sro-lic.html): Life Insurance Council — RBI recognition 1938 (s.64C); no published roster.
+- [GI Council](https://srotrac.cashlessconsumer.in/sro-gic.html): General Insurance Council — RBI recognition 1938 (s.64C); no published roster.
+- [IIIPI](https://srotrac.cashlessconsumer.in/sro-iiipi.html): Indian Institute of Insolvency Professionals of ICAI — RBI recognition 2016-17; no published roster.
+- [ICSI IIP](https://srotrac.cashlessconsumer.in/sro-icsiip.html): ICSI Institute of Insolvency Professionals — RBI recognition 2016-17; no published roster.
+- [IPA ICMAI](https://srotrac.cashlessconsumer.in/sro-ipaicmai.html): Insolvency Professional Agency of the Institute of Cost Accountants of India — RBI recognition 2016-17; no published roster.
+- [AMFI](https://srotrac.cashlessconsumer.in/sro-amfi.html): Association of Mutual Funds in India — RBI recognition — (association, 1995); 56 listed members.
+- [ANMI](https://srotrac.cashlessconsumer.in/sro-anmi.html): Association of National Exchanges Members of India — RBI recognition — (association, 1996); no published roster.
 
 ## Deep dives (what each SRO actually does)
 - [FACE work](https://srotrac.cashlessconsumer.in/work-face.html): Standards, oversight & dispute resolution for digital lending
@@ -25,6 +34,15 @@ Base URL: https://srotrac.cashlessconsumer.in
 - [FEDAI work](https://srotrac.cashlessconsumer.in/work-fedai.html): Authorised dealers' rulebook: 30 years of forex standards
 - [Sahamati work](https://srotrac.cashlessconsumer.in/work-sahamati.html): Standards body of the account-aggregator ecosystem — now its RBI-recognised SRO
 - [FIMMDA work](https://srotrac.cashlessconsumer.in/work-fimmda.html): The bond market's own rulebook: valuations, market practices and standard agreements
+- [BASL work](https://srotrac.cashlessconsumer.in/work-basl.html): Administration and supervision of investment advisers and research analysts (SEBI)
+- [AIBI work](https://srotrac.cashlessconsumer.in/work-aibi.html): SEBI-recognised standards body for investment (merchant) bankers
+- [LI Council work](https://srotrac.cashlessconsumer.in/work-lic.html): Statutory self-regulatory council for life insurance (Insurance Act s.64C, IRDAI)
+- [GI Council work](https://srotrac.cashlessconsumer.in/work-gic.html): Statutory self-regulatory council for general and health insurance (Insurance Act s.64C, IRDAI)
+- [IIIPI work](https://srotrac.cashlessconsumer.in/work-iiipi.html): First registered insolvency professional agency — ICAI (IBBI/IPA/16-17/01)
+- [ICSI IIP work](https://srotrac.cashlessconsumer.in/work-icsiip.html): Insolvency professional agency of ICSI (IBBI/IPA/16-17/02)
+- [IPA ICMAI work](https://srotrac.cashlessconsumer.in/work-ipaicmai.html): Insolvency professional agency of ICMAI (IBBI/IPA/16-17/03)
+- [AMFI work](https://srotrac.cashlessconsumer.in/work-amfi.html): Mutual funds' association — self-regulatory in practice, not by recognition (SEBI context entry)
+- [ANMI work](https://srotrac.cashlessconsumer.in/work-anmi.html): Stock brokers' pan-India association — campaigning for SRO status (SEBI context entry)
 
 ## Cross-cutting pages
 - [All members](https://srotrac.cashlessconsumer.in/members.html): searchable 642-row roster with per-SRO filters.
@@ -37,10 +55,13 @@ Base URL: https://srotrac.cashlessconsumer.in
 
 ## Datasets (CC BY 4.0)
 - [activity.csv](https://srotrac.cashlessconsumer.in/data/activity.csv)
+- [amfi_members.csv](https://srotrac.cashlessconsumer.in/data/amfi_members.csv)
 - [face_members.csv](https://srotrac.cashlessconsumer.in/data/face_members.csv)
 - [fedai_members.csv](https://srotrac.cashlessconsumer.in/data/fedai_members.csv)
 - [fimmda_members.csv](https://srotrac.cashlessconsumer.in/data/fimmda_members.csv)
+- [gic_members.csv](https://srotrac.cashlessconsumer.in/data/gic_members.csv)
 - [leadership.csv](https://srotrac.cashlessconsumer.in/data/leadership.csv)
+- [lic_members.csv](https://srotrac.cashlessconsumer.in/data/lic_members.csv)
 - [mfin_members.csv](https://srotrac.cashlessconsumer.in/data/mfin_members.csv)
 - [sahamati_members.csv](https://srotrac.cashlessconsumer.in/data/sahamati_members.csv)
 - [social.csv](https://srotrac.cashlessconsumer.in/data/social.csv)
