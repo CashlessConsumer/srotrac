@@ -1088,7 +1088,7 @@ def build_about(members, activity):
         ("Is Sahamati recognised by the RBI?",
          "Yes. RBI recognised Sahamati as the SRO for the account aggregator (AA) ecosystem on 5 June 2026. Before recognition, Sahamati spent five years as the AA ecosystem's non-profit standards body (spun out of iSPIRT's work). Its directory lists 110 regulated entities across AAs, FIPs, FIUs and TSPs."),
         ("How many members do the SROs have?",
-         "As of the latest capture: FACE 85, UFF 121, SRPA 18, MFIN 84, FEDAI 108, Sahamati 110 and FIMMDA 116 listed members — 642 rows across the nine SROs. FIDC and Sa-Dhan publish no public roster. Counts are floors, not filings: SRO member pages are marketing pages."),
+         "As of the latest capture: FACE 85, UFF 121, SRPA 18, MFIN 84, FEDAI 108, Sahamati 110, FIMMDA 116, AMFI 56, GI Council 49 and LI Council 27 listed members — 774 rows across the 18 tracked bodies. FIDC, Sa-Dhan, BASL, AIBI and the three IBBI IPAs publish no public roster. Counts are floors, not filings: SRO member pages are marketing pages."),
         ("Can I reuse the data?",
          "Yes. Data is licensed CC BY 4.0 — copy, remix and republish with attribution to SROTrac / CashlessConsumer. The CSVs are linked on the members page and in the GitHub repo."),
     ]
@@ -1673,7 +1673,7 @@ Base URL: {BASE}
 - [Members]({BASE}/members.html): filterable register of all listed entities; includes the cross-SRO overlap matrix and 2+ SRO memberships.
 - [Timeline]({BASE}/timeline.html): 2020–2026 regulatory milestones (frameworks, recognitions, consultations).
 - [Activity]({BASE}/activity.html): dated log of SRO/RBI developments with sources.
-- [Social]({BASE}/social.html): official X/LinkedIn/YouTube/Facebook/Instagram accounts of all nine SROs, with a daily drift check against their own websites.
+- [Social]({BASE}/social.html): official X/LinkedIn/YouTube/Facebook/Instagram accounts of the nine RBI-recognised SROs (register covers RBI SROs at present), with a daily drift check against their own websites.
 - [About & methodology]({BASE}/about.html): scope, method, caveats, FAQ.
 - [Blog]({BASE}/blog/index.html): weekly summaries.
 
