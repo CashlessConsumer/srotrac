@@ -6,7 +6,7 @@ Tracking India's fintech SROs (self-regulatory organisations) and their member r
 
 - Register of SROs: `data/sros.csv`
 - Social presence: `data/social.csv` (curated register of each SRO's official accounts; `source` marks where the link was verified) -> page `social.html`; drift check `scripts/social_check.py` writes `data/social_check.json` (site.py renders the result)
-- Member lists: `data/face_members.csv`, `data/uff_members.csv`, `data/srpa_members.csv`, `data/fimmda_members.csv` (FIDC and Sa-Dhan publish no roster; FIMMDA's roster is a PDF — raw capture in `data/raw/fimmda_members.pdf` + one-off extraction in `data/raw/fimmda_members.csv`)
+- Member lists: `data/face_members.csv`, `data/uff_members.csv`, `data/srpa_members.csv`, `data/fimmda_members.csv`, `data/mfin_members.csv`, `data/fedai_members.csv`, `data/sahamati_members.csv` (built) + `data/amfi_members.csv`, `data/lic_members.csv`, `data/gic_members.csv` (FIDC, Sa-Dhan, BASL, AIBI, the three IBBI IPAs publish no roster; FIMMDA's roster is a PDF — raw capture in `data/raw/fimmda_members.pdf` + one-off extraction in `data/raw/fimmda_members.csv`)
 - Queryable DB: `data/srotrac.duckdb` (tables `sros`, `members`)
 - Social register: `data/social.csv` (sro, platform, handle, url, source, verified, notes) — page `social.html`, built by `scripts/site.py` `build_social()`; per-SRO strips on `sro-*.html`
 - Social drift check: `python3 scripts/social_check.py` (after raw fetches) writes `data/social_check.json`; flags handles that vanish from an SRO's own site. Runs inside `refresh.sh` (non-fatal)
@@ -25,7 +25,7 @@ Tracking India's fintech SROs (self-regulatory organisations) and their member r
 
 - FACE = first RBI-recognised SRO-FT (28 Aug 2024). UFF = second (10 Sep 2026); UFF rebranded from DLAI in Apr 2025.
 - FIMMDA = first SRO recognised in the financial markets (7 May 2025, RBI PR 2025-2026/274) under the Aug 2024 financial-markets SRO framework; roster is a PDF dated 8 May 2025 (116 rows); its site overview still claims "115 member strong" with different category counts — flagged as a watch item.
-- 71 organisations appear in more than one SRO (FIMMDA's bank roster overlaps FEDAI's AD list heavily) — useful for tracking where positions might align.
+- 79 organisations appear in more than one SRO (FIMMDA's bank roster overlaps FEDAI's AD list heavily; insurers and AMCs now bridge the council/AMFI layer) — useful for tracking where positions might align.
 - Overlap query: `SELECT member_name FROM members GROUP BY 1 HAVING count(DISTINCT sro)>1;`
 
 ## Open items

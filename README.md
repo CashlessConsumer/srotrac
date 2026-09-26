@@ -2,7 +2,7 @@
 
 **Live:** https://srotrac.cashlessconsumer.in · repo: `CashlessConsumer/srotrac` (GitHub Pages, workflow deploy)
 
-Knowledge repository tracking India's **fintech self-regulatory organisations (SROs)** — the register, member rosters, governance, activity, and the regulatory timeline — run by CashlessConsumer.
+Knowledge repository tracking India's **financial-sector self-regulatory organisations (SROs)** — the register, member rosters, governance, activity, and the regulatory timeline — run by CashlessConsumer.
 
 RBI created a Self-Regulatory Organisation framework for the fintech sector (draft Jan 2024) and has since recognised two SRO-FTs. SROTrac records who they are, and — the part that matters for a consumer desk — **who their members are**, because membership is where industry consensus on fees, grievance handling, and codes of conduct actually gets formed.
 
@@ -52,6 +52,9 @@ Recognised SROs across RBI (9), SEBI (2: BASL, AIBI), IRDAI (2 statutory council
 | `data/uff_members.csv` | UFF members (name, website, member_type, logo_file) |
 | `data/srpa_members.csv` | SRPA PSO members (name, website, logo_file) |
 | `data/fimmda_members.csv` | FIMMDA members (name, category — parsed from `data/raw/fimmda_members.pdf`, list dated 8 May 2025) |
+| `data/amfi_members.csv` | AMFI AMC members (56, from the JS Members tab) |
+| `data/lic_members.csv` | Life Insurance Council insurers (27) |
+| `data/gic_members.csv` | General Insurance Council members (49) |
 | `data/srotrac.duckdb` | `sros` + `members` tables, built from the CSVs |
 | `data/social.csv` | Official social accounts per SRO (platform, handle, url, source, verified) |
 | `docs/members.md` | Human-readable member listings + overlap between the two SROs |
