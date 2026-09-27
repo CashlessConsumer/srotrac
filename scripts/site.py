@@ -417,6 +417,9 @@ SROS = {
 CAPTURE_DATES = {"amfi": "2026-09-26", "lic": "2026-09-26", "gic": "2026-09-26"}
 
 
+FORTY = '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n<meta name="robots" content="noindex">\n<title>Page not found — SROTrac</title>\n<style>body{{margin:0;background:#ededf0;color:#1c1d22;font-family:Georgia,\'Times New Roman\',serif;display:flex;min-height:100vh;align-items:center;justify-content:center}}main{{max-width:34rem;padding:2rem;text-align:center}}.kicker{{font-family:\'IBM Plex Mono\',monospace;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:#1d4ed8}}h1{{font-size:2rem;margin:.4rem 0 .8rem}}p{{line-height:1.6;color:#44454f}}a{{color:#1d4ed8}}</style>\n</head>\n<body><main>\n<div class="kicker">SRO TRAC · a cashlessconsumer register</div>\n<h1>Page not found</h1>\n<p>The ledger has no page at this address. Start from the <a href="/">register</a> or search the full sousveillance stack at <a href="/search.html">/search</a>.</p>\n</main></body>\n</html>\n'
+
+
 def esc(s):
     return html.escape(str(s or ""))
 
@@ -1805,6 +1808,7 @@ def main():
         "activity.html": build_activity(activity),
         "social.html": build_social(social, social_check),
         "about.html": build_about(members, activity),
+        "404.html": FORTY,
     }
     for sid in SROS:
         outputs[f"sro-{sid}.html"] = build_sro(sid, members, activity, leadership, social, social_check)
