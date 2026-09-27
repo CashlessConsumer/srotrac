@@ -1,4 +1,5 @@
 ---
+category: weekly
 title: "SROTrac Weekly #1 — UFF's licence, FEDAI's transition, and a tracker goes live"
 date: 2026-09-11
 summary: "The week India got its second fintech SRO; what the full RBI SRO map looks like; why rosters matter and who won't publish theirs."

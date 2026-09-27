@@ -1,4 +1,5 @@
 ---
+category: weekly
 title: "SROTrac Weekly #2: Register completes at nine SROs; FIMMDA stands up discipline"
 date: 2026-09-14
 summary: "All nine RBI-recognised SROs now tracked on SROTrac. FIMMDA constituted its first disciplinary committee; GFF 2026 put regulatory gap-hopping on notice."

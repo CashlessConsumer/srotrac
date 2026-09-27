@@ -1,4 +1,5 @@
 ---
+category: weekly
 title: "SROTrac Weekly #3: UPI gets a price tag; rosters hold steady"
 date: 2026-09-21
 summary: Rosters hold at 642 members, but UPI's zero-fee era ends Oct 15 — 0.4% MDR above ₹2,000 reshapes the economics of SRPA's payment-operator members.

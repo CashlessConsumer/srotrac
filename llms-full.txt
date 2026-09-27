@@ -1274,6 +1274,7 @@ What ANMI actually does
 
 ## Blog post: 2026-09-11-srotrac-weekly-1 — https://srotrac.cashlessconsumer.in/blog/2026-09-11-srotrac-weekly-1.html
 ---
+category: weekly
 title: "SROTrac Weekly #1 — UFF's licence, FEDAI's transition, and a tracker goes live"
 date: 2026-09-11
 summary: "The week India got its second fintech SRO; what the full RBI SRO map looks like; why rosters matter and who won't publish theirs."
@@ -1324,6 +1325,7 @@ _SROTrac is an independent CashlessConsumer project. Data: [members](/members.ht
 
 ## Blog post: 2026-09-14-srotrac-weekly-2 — https://srotrac.cashlessconsumer.in/blog/2026-09-14-srotrac-weekly-2.html
 ---
+category: weekly
 title: "SROTrac Weekly #2: Register completes at nine SROs; FIMMDA stands up discipline"
 date: 2026-09-14
 summary: "All nine RBI-recognised SROs now tracked on SROTrac. FIMMDA constituted its first disciplinary committee; GFF 2026 put regulatory gap-hopping on notice."
@@ -1385,6 +1387,7 @@ _SROTrac is an independent CashlessConsumer project. Data: [members](/members.ht
 
 ## Blog post: 2026-09-21-srotrac-weekly-3 — https://srotrac.cashlessconsumer.in/blog/2026-09-21-srotrac-weekly-3.html
 ---
+category: weekly
 title: "SROTrac Weekly #3: UPI gets a price tag; rosters hold steady"
 date: 2026-09-21
 summary: Rosters hold at 642 members, but UPI's zero-fee era ends Oct 15 — 0.4% MDR above ₹2,000 reshapes the economics of SRPA's payment-operator members.
