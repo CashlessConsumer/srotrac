@@ -444,6 +444,7 @@ NAV = [
     ("activity.html", "Activity"),
     ("social.html", "Social"),
     ("blog/index.html", "Blog"),
+    ("search.html", "Search"),
     ("about.html", "About"),
 ]
 
@@ -1597,6 +1598,57 @@ var SRO_KEYS = ["FACE", "UFF", "FIDC", "SRPA", "MFIN", "Sa-Dhan", "FEDAI", "Saha
 """
 
 
+
+
+def build_search_page():
+    cfg = "[%s]" % LAYER_CFG
+    extra = (SEARCH_STYLE
+             + "<script>window.STACK_SEARCH={layers:" + cfg + "};</script>"
+             + '<script src="/js/search.js?v=' + BUILD_TS + '" defer></script>')
+    return page("Search the stack \u2014 SROTrac", "search.html",
+                PAGE_BODY, extra_head=extra,
+                desc="One query across the sousveillance stack: RegTrac, SROTrac, LobbyWatch.")
+
+
+def write_register_json():
+    import csv as _csv, json as _json
+    rows = []
+    import glob as _glob
+    for path in sorted(_glob.glob(os.path.join(ROOT, "data", "*_members.csv"))):
+        with open(path, encoding="utf-8") as f:
+            for r in _csv.DictReader(f):
+                rows.append({"sro": r.get("sro", ""), "member_name": r.get("member_name", ""),
+                             "website": r.get("website", ""), "member_type": r.get("member_type", "")})
+    meta = {"generated": BUILD_TS, "license": "CC BY 4.0",
+            "source": "https://srotrac.cashlessconsumer.in"}
+    with open(os.path.join(ROOT, "srotrac.json"), "w", encoding="utf-8") as f:
+        _json.dump(dict(meta, register=SROS, members=rows), f, ensure_ascii=False)
+    print("wrote srotrac.json")
+
+
+def write_search_index(outputs):
+    import json as _json, re as _re
+    def _strip(h):
+        h = _re.sub(r"(?is)<(script|style).*?</\1>", " ", h)
+        h = _re.sub(r"<[^>]+>", " ", h)
+        return _re.sub(r"\s+", " ", h).strip()
+    out = []
+    for url, html in outputs.items():
+        if url == "search.html" or not url.endswith(".html"):
+            continue
+        t = re.search(r"<title>(.*?)</title>", html, re.S)
+        d = re.search(r'<meta name="description" content="([^"]*)"', html)
+        out.append({"url": url, "title": t.group(1).strip() if t else url,
+                    "desc": d.group(1) if d else "",
+                    "text": strip_html(html)[:4000]})
+    meta = {"generated": BUILD_TS, "license": "CC BY 4.0",
+            "source": "https://srotrac.cashlessconsumer.in"}
+    with open(os.path.join(ROOT, "search-index.json"), "w", encoding="utf-8") as f:
+        json.dump(dict(meta, pages=out), f, ensure_ascii=False)
+    print("wrote search-index.json")
+
+
+
 def strip_html(h):
     h = re.sub(r"<script.*?</script>", "", h, flags=re.S)
     h = re.sub(r"<style.*?</style>", "", h, flags=re.S)
@@ -1618,13 +1670,15 @@ def write_agent_files(members, outputs):
                 "anthropic-ai", "PerplexityBot", "Google-Extended", "Applebot-Extended", "CCBot"]:
         robots += f"User-agent: {bot}\nAllow: /\n\n"
     robots += f"Sitemap: {BASE}/sitemap.xml\n"
+    write_search_index(outputs)
+    write_register_json()
     with open(os.path.join(root, "robots.txt"), "w", encoding="utf-8") as f:
         f.write(robots)
 
     # --- sitemap.xml ---
     core = [("members.html", "0.9", "daily"),
             ("activity.html", "0.8", "daily"), ("social.html", "0.8", "daily"),
-            ("timeline.html", "0.7", "weekly"),
+            ("timeline.html", "0.7", "weekly"), ("search.html", "0.6", "monthly"),
             ("about.html", "0.6", "monthly")]
     entries = [("", "1.0", "daily")] + core
     for sid in SROS:
@@ -1718,6 +1772,12 @@ Base URL: {BASE}
     print(f"wrote robots.txt, sitemap.xml ({len(urls)} urls), llms.txt, llms-full.txt ({len(pages)} pages + blog)")
 
 
+SEARCH_STYLE = '<style>.search-page input{width:100%;font:inherit;font-size:1.15rem;padding:.6em .8em;border:1px solid #b9b9c4;background:#fff;border-radius:4px;margin:.6em 0 1em}.search-page input:focus{outline:2px solid #1d4ed8;outline-offset:1px}.ss-layer{margin:1.2em 0}.ss-layer h2{font-size:.85rem;letter-spacing:.12em;text-transform:uppercase;color:#44454f;margin:0 0 .5em}.ss-count{font-family:monospace;background:#e3e6f8;border-radius:3px;padding:0 .4em;margin-left:.4em}.ss-hit{margin:.55em 0;display:flex;flex-direction:column}.ss-hit a{font-weight:600}.ss-desc{color:#44454f}.ss-snip{color:#5a5b66;font-size:.9em}.ss-mute{color:#5a5b66}</style>'
+PAGE_BODY = '<section class="wrap search-page"><h1>Search the stack</h1><p>One query across the sousveillance stack: rule-writers (RegTrac), rule-borrowers (SROTrac), rule-buyers (LobbyWatch). Press <kbd>/</kbd> to focus.</p><input id="stack-search-input" type="search" autocomplete="off" autofocus placeholder="e.g. UPI, NBFC, IBBI, revolving door, consultation"><div id="stack-search-status" aria-live="polite"></div><div id="stack-search-results"></div></section>'
+LAYER_CFG = '{"key":"regtrac","label":"RegTrac \\u2014 rule-writers","base":"https://regtrac.cashlessconsumer.in/"},{"key":"srotrac","label":"SROTrac \\u2014 rule-borrowers","base":"https://srotrac.cashlessconsumer.in/","self":true},{"key":"lobbywatch","label":"LobbyWatch \\u2014 rule-buyers","base":"https://lobbywatch.cashlessconsumer.in/"}'
+BUILD_TS = '202609270742'
+
+
 def main():
     members = []
     for sid in SROS:
@@ -1749,7 +1809,8 @@ def main():
     for sid in SROS:
         outputs[f"sro-{sid}.html"] = build_sro(sid, members, activity, leadership, social, social_check)
     for sid in SROS:
-        outputs[f"work-{sid}.html"] = build_work(sid)
+        outputs[f"work-{sid}.html"] = build_work(sid) if sid in WORK else None
+    outputs["search.html"] = build_search_page()
 
     for name, content in outputs.items():
         with open(os.path.join(ROOT, name), "w", encoding="utf-8") as f:
