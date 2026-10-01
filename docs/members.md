@@ -1,6 +1,6 @@
 # SROTrac — Member Listings
 
-_Generated 2026-09-30 by `scripts/build.py`. Do not hand-edit._
+_Generated 2026-10-01 by `scripts/build.py`. Do not hand-edit._
 
 India's recognised self-regulatory organisations across four financial regulators. **RBI (9):** FACE and UFF (SRO-FTs), SRPA (PSOs), FIDC (NBFCs), MFIN and Sa-Dhan (NBFC-MFIs), FEDAI (forex ADs), Sahamati (account aggregators), FIMMDA (fixed income). **SEBI (2):** BASL (investment advisers + research analysts) and AIBI (merchant bankers). **IRDAI (2, statutory under s.64C):** the Life Insurance Council and the General Insurance Council. **IBBI (3):** the insolvency professional agencies of ICAI, ICSI and ICMAI. Context-only (not recognised): AMFI (mutual funds) and ANMI (brokers). BASL, AIBI and the three IPAs publish no member roster.
 
@@ -9,7 +9,7 @@ India's recognised self-regulatory organisations across four financial regulator
 | SRO | Sector | Status | Members captured |
 |-----|--------|--------|------------------|
 | FACE | fintech | active | 85 |
-| UFF | fintech | active | 121 |
+| UFF | fintech | active | 120 |
 | SRPA | pso | related | 18 |
 | FIDC | nbfc | related | not published |
 | MFIN | microfinance | active | 84 |
@@ -199,7 +199,7 @@ India's recognised self-regulatory organisations across four financial regulator
 | 84 | OnGrid | https://www.ongrid.in | member |
 | 85 | OneMoney | https://www.onemoney.in | member |
 
-## UFF — 121 members
+## UFF — 120 members
 
 | # | Member | Website | Type |
 |---|--------|---------|------|
@@ -250,80 +250,79 @@ India's recognised self-regulatory organisations across four financial regulator
 | 45 | BDO | https://www.bdo.global/en-gb/home | associate |
 | 46 | BPJ N BFC | https://bpjnbfc.in/ | member |
 | 47 | BharatNXT | https://web.bharatnxt.in/ | member |
-| 48 | BSFG Finance | https://bsfg.finance/ | member |
-| 49 | Clari5 | https://www.clari5.com/ | associate |
-| 50 | PaySprint | https://www.paysprint.in/index.html | member |
-| 51 | Cyber Ambassador | https://www.cyberambassador.co.in/ | associate |
-| 52 | Deleverage | http://www.deleverage.in/ | member |
-| 53 | Entitled | https://www.entitled.co.in/ | member |
-| 54 | FameScore | https://famescore.in/ | member |
-| 55 | Fundfina | https://www.fundfina.com/ | member |
-| 56 | GetKosh | https://getkosh.com/ | member |
-| 57 | Frog8 | https://frog8.co.in/ | member |
-| 58 | Lucid Ledger | https://www.lucidledger.co.in/ | member |
-| 59 | MiMo IQ | https://mimoiq.com/ | member |
-| 60 | MyPaisaa | https://www.mypaisaa.com/ | member |
-| 61 | Rezolve.ai | https://www.rezolve.ai/ | member |
-| 62 | Capitabel | https://capitabel.com/ | member |
-| 63 | NBFC Advisor | https://www.nbfcadvisor.com/ | associate |
-| 64 | Achiievers Finance | https://www.achiieversfinance.com/ | member |
-| 65 | Apollo Finvest | https://www.apollofinvest.com/ | member |
-| 66 | Aspire | https://www.letsaspire.in/ | member |
-| 67 | BharatPe | http://www.bharatpe.com/ | member |
-| 68 | Branch | https://branchapp.in/ | member |
-| 69 | Bueno Finance | https://buenofinanceinc.com/ | member |
-| 70 | CADRE | https://cadreodr.com/ | member |
-| 71 | CARS24 | https://www.cars24.com/ | member |
-| 72 | Chinmay Finlease | https://www.chinmayfinlease.com/ | member |
-| 73 | CRED | https://www.cred.club/ | member |
-| 74 | Creditt | https://creditt.in/ | member |
-| 75 | CreditSea | https://www.creditsea.com/ | member |
-| 76 | DMI Finance | https://www.dmifinance.in/ | member |
-| 77 | Ecofin Services | https://www.ecofinservices.com/ | member |
-| 78 | Eduvanz | https://eduvanz.com/ | member |
-| 79 | Ezfinanz | https://ezfinanz.com/ | member |
-| 80 | Finova | https://www.finova.in/ | member |
-| 81 | FlexiLoans | https://flexiloans.com/ | member |
-| 82 | Gromor | https://gromor.in/ | member |
-| 83 | InCred | https://www.incred.com/ | member |
-| 84 | IndiaGold | https://refer.indiagold.co/ | member |
-| 85 | LendingPlate | https://lendingplate.com/ | member |
-| 86 | Light Microfinance | https://lightmicrofinance.com/ | member |
-| 87 | Loaney | https://loaney.in/ | member |
-| 88 | Freo | https://freo.money/ | member |
-| 89 | Moneyloji | https://www.moneyloji.com/ | member |
-| 90 | Muthoot Fincorp | https://www.muthootfincorp.com/ | member |
-| 91 | Niro | https://niro.money/ | member |
-| 92 | Niyogin | https://www.niyogin.in/ | member |
-| 93 | OKCredit | https://okcredit.com/ | member |
-| 94 | Oxyzo | https://www.oxyzo.in/ | member |
-| 95 | Paisabazaar | https://www.paisabazaar.com/ | member |
-| 96 | PayRupik | https://www.payrupikloan.in/ | member |
-| 97 | Paytm | https://paytm.com/ | member |
-| 98 | Progcap | https://progcap.com/ | member |
-| 99 | Quadrillion Finance | https://www.quadrillion.finance/ | member |
-| 100 | Revfin | https://www.revfin.in/ | member |
-| 101 | SalaryDay | https://salaryday.in/ | member |
-| 102 | Shubh Loans | https://www.shubhloans.com/ | member |
-| 103 | SmartCoin | https://smartcoin.co.in/ | member |
-| 104 | SMC Finance | https://www.smcfinance.com/ | member |
-| 105 | Spice Money | https://spicemoney.com/ | member |
-| 106 | Tala | https://tala.co.in/ | member |
-| 107 | Tezz Capital | https://tezzcapital.com/company/ | member |
-| 108 | Udaan | https://udaan.com/ | member |
-| 109 | UGRO Capital | https://www.ugrocapital.com/ | member |
-| 110 | Vaibhav Vyapaar | https://www.vaibhav-vyapaar.com/ | member |
-| 111 | Vivifi | http://vivifin.com/ | member |
-| 112 | Voxomos | https://voxomos.ai/ | associate |
-| 113 | WeRize | https://www.werize.com/ | member |
-| 114 | Zeta | https://www.zeta.tech/ | member |
-| 115 | CRIF High Mark | https://www.crifhighmark.com/ | associate |
-| 116 | SwipeLoan | https://swipeloan.in/ | member |
-| 117 | EY | https://www.ey.com/en_in | associate |
-| 118 | DRN Legal | https://www.drnlegal.com/ | associate |
-| 119 | LexisNexis Risk | http://lexisnexisrisk.com/ | associate |
-| 120 | TeleSign | https://www.telesign.com/ | associate |
-| 121 | GetVantage | https://getvantage.co/ | member |
+| 48 | Clari5 | https://www.clari5.com/ | associate |
+| 49 | PaySprint | https://www.paysprint.in/index.html | member |
+| 50 | Cyber Ambassador | https://www.cyberambassador.co.in/ | associate |
+| 51 | Deleverage | http://www.deleverage.in/ | member |
+| 52 | Entitled | https://www.entitled.co.in/ | member |
+| 53 | FameScore | https://famescore.in/ | member |
+| 54 | Fundfina | https://www.fundfina.com/ | member |
+| 55 | GetKosh | https://getkosh.com/ | member |
+| 56 | Frog8 | https://frog8.co.in/ | member |
+| 57 | Lucid Ledger | https://www.lucidledger.co.in/ | member |
+| 58 | MiMo IQ | https://mimoiq.com/ | member |
+| 59 | MyPaisaa | https://www.mypaisaa.com/ | member |
+| 60 | Rezolve.ai | https://www.rezolve.ai/ | member |
+| 61 | Capitabel | https://capitabel.com/ | member |
+| 62 | NBFC Advisor | https://www.nbfcadvisor.com/ | associate |
+| 63 | Achiievers Finance | https://www.achiieversfinance.com/ | member |
+| 64 | Apollo Finvest | https://www.apollofinvest.com/ | member |
+| 65 | Aspire | https://www.letsaspire.in/ | member |
+| 66 | BharatPe | http://www.bharatpe.com/ | member |
+| 67 | Branch | https://branchapp.in/ | member |
+| 68 | Bueno Finance | https://buenofinanceinc.com/ | member |
+| 69 | CADRE | https://cadreodr.com/ | member |
+| 70 | CARS24 | https://www.cars24.com/ | member |
+| 71 | Chinmay Finlease | https://www.chinmayfinlease.com/ | member |
+| 72 | CRED | https://www.cred.club/ | member |
+| 73 | Creditt | https://creditt.in/ | member |
+| 74 | CreditSea | https://www.creditsea.com/ | member |
+| 75 | DMI Finance | https://www.dmifinance.in/ | member |
+| 76 | Ecofin Services | https://www.ecofinservices.com/ | member |
+| 77 | Eduvanz | https://eduvanz.com/ | member |
+| 78 | Ezfinanz | https://ezfinanz.com/ | member |
+| 79 | Finova | https://www.finova.in/ | member |
+| 80 | FlexiLoans | https://flexiloans.com/ | member |
+| 81 | Gromor | https://gromor.in/ | member |
+| 82 | InCred | https://www.incred.com/ | member |
+| 83 | IndiaGold | https://refer.indiagold.co/ | member |
+| 84 | LendingPlate | https://lendingplate.com/ | member |
+| 85 | Light Microfinance | https://lightmicrofinance.com/ | member |
+| 86 | Loaney | https://loaney.in/ | member |
+| 87 | Freo | https://freo.money/ | member |
+| 88 | Moneyloji | https://www.moneyloji.com/ | member |
+| 89 | Muthoot Fincorp | https://www.muthootfincorp.com/ | member |
+| 90 | Niro | https://niro.money/ | member |
+| 91 | Niyogin | https://www.niyogin.in/ | member |
+| 92 | OKCredit | https://okcredit.com/ | member |
+| 93 | Oxyzo | https://www.oxyzo.in/ | member |
+| 94 | Paisabazaar | https://www.paisabazaar.com/ | member |
+| 95 | PayRupik | https://www.payrupikloan.in/ | member |
+| 96 | Paytm | https://paytm.com/ | member |
+| 97 | Progcap | https://progcap.com/ | member |
+| 98 | Quadrillion Finance | https://www.quadrillion.finance/ | member |
+| 99 | Revfin | https://www.revfin.in/ | member |
+| 100 | SalaryDay | https://salaryday.in/ | member |
+| 101 | Shubh Loans | https://www.shubhloans.com/ | member |
+| 102 | SmartCoin | https://smartcoin.co.in/ | member |
+| 103 | SMC Finance | https://www.smcfinance.com/ | member |
+| 104 | Spice Money | https://spicemoney.com/ | member |
+| 105 | Tala | https://tala.co.in/ | member |
+| 106 | Tezz Capital | https://tezzcapital.com/company/ | member |
+| 107 | Udaan | https://udaan.com/ | member |
+| 108 | UGRO Capital | https://www.ugrocapital.com/ | member |
+| 109 | Vaibhav Vyapaar | https://www.vaibhav-vyapaar.com/ | member |
+| 110 | Vivifi | http://vivifin.com/ | member |
+| 111 | Voxomos | https://voxomos.ai/ | associate |
+| 112 | WeRize | https://www.werize.com/ | member |
+| 113 | Zeta | https://www.zeta.tech/ | member |
+| 114 | CRIF High Mark | https://www.crifhighmark.com/ | associate |
+| 115 | SwipeLoan | https://swipeloan.in/ | member |
+| 116 | EY | https://www.ey.com/en_in | associate |
+| 117 | DRN Legal | https://www.drnlegal.com/ | associate |
+| 118 | LexisNexis Risk | http://lexisnexisrisk.com/ | associate |
+| 119 | TeleSign | https://www.telesign.com/ | associate |
+| 120 | GetVantage | https://getvantage.co/ | member |
 
 ## SRPA — 18 members
 
