@@ -11,7 +11,7 @@ FACE,committee,Ashish Goyal,"Audit, Finance & Remuneration Committee",,https://f
 FACE,committee,Avtar Monga,"Audit, Finance & Remuneration Committee",,https://faceofindia.org/governance/
 FACE,committee,Srinath Sridharan,"Audit, Finance & Remuneration Committee",,https://faceofindia.org/governance/
 FACE,committee,Vineet Sukumar,"Audit, Finance & Remuneration Committee",,https://faceofindia.org/governance/
-FACE,executive,Sugandh Saxena,CEO (first CEO, appointed Aug 2021),
+FACE,executive,Sugandh Saxena,"Managing Director & CEO (first CEO, appointed Aug 2021)",,
 FACE,executive,Dheeraj Bhardwaj,Vice President - Technology,,https://faceofindia.org/team/
 FACE,executive,Jay Tripathi,Vice President,,https://faceofindia.org/team/
 FACE,executive,Monami Dasgupta,AVP - Policy & Research,,https://faceofindia.org/team/
@@ -67,7 +67,7 @@ SRPA,executive,Secretariat,Mumbai secretariat - Info@srpa.org.in,,https://srpa.o
 MFIN,board,Devesh Sachdev,Chairperson,"Founder, Fusion Microfinance",https://mfinindia.org/about/leadership
 MFIN,board,Arnab Roy,Independent Member,"Former Senior Executive Director, RBI",https://mfinindia.org/about/leadership
 MFIN,executive,Alok Misra,"CEO & Director (ex-officio, non-voting)",,https://mfinindia.org/about/leadership
-MFIN,executive,Sugandh Saxena,Member Secretary,,https://mfinindia.org/about/leadership
+MFIN,executive,Sugandh Saxena,"Managing Director & CEO (first CEO, appointed Aug 2021)",,https://mfinindia.org/about/leadership
 Sa-Dhan,board,K. Paul Thomas,Chairman,"MD & CEO, ESAF Small Finance Bank",https://www.sa-dhan.net/our-board/
 Sa-Dhan,board,Surekha Marandi,Independent Member,"Former Executive Director, RBI",https://www.sa-dhan.net/our-board/
 Sa-Dhan,executive,Jiji Mammen,Executive Director & CEO,,https://www.sa-dhan.net/our-team/
@@ -97,5 +97,5 @@ FIMMDA,board,Abhijit Basak,Director,"Chief General Manager, Union Bank of India"
 FIMMDA,board,Manish Luharuka,Director,"Head — Fixed Income & Forex Trading, ICICI Bank",https://www.fimmda.org/PageContent.aspx?Iid=NDk=
 FIMMDA,board,Shashi Dhar,Director,"Chief General Manager — Treasury & Global Markets, Bank of Baroda",https://www.fimmda.org/PageContent.aspx?Iid=NDk=
 FIMMDA,board,Ashok Kumar Gautam,Independent Director,"MD & CEO, India International Bullion Exchange (IIBX)",https://www.fimmda.org/PageContent.aspx?Iid=NDk=
-FACE,board,Hemant Gala,Member Director,,https://faceofindia.org/governance/
-FACE,board,Rajiv Naresh,Member Director,,https://faceofindia.org/governance/
+FACE,board,Hemant Gala,Member Director,PhonePe,https://faceofindia.org/governance/
+FACE,board,Rajiv Naresh,Member Director,Navi,https://faceofindia.org/governance/
