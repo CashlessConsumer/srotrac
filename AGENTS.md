@@ -54,3 +54,8 @@ One shared design language for the sousveillance stack: the gazette/ledger skin,
 ## Blog archive layer (2026-09-27)
 
 `scripts/bloggen.py` renders the full archive machinery from `blog/posts/*.md`: `blog/index.html` (latest 12 + year nav), `blog/archive.html` (all editions grouped year → month with category chips), `blog/<year>.html` per year, `blog/feed.xml` (RSS 2.0, latest 20), and patches `sitemap.xml` with archive/year URLs. Front matter requires `category:` — taxonomy: roster / enforcement / consultation / recognition / weekly / note (default `note`; weeklies use `weekly`). The weekly agent (`55658106`) is instructed to always set it; on the first Monday of January it writes the annual review edition ("The year in SROs <YYYY>").
+
+## Freshness audit 2026-10-02
+
+- Content-freshness sweep (Sep 26 → Oct 2): FACE board refreshed — Hemant Gala (PhonePe) and Rajiv Naresh (Navi) elected Member Directors (reported late Sep 2026); Avtar Monga and Srinath Sridharan now Independent Directors; Ashish Goyal off the board (stays on Audit, Finance & Remuneration Committee) per faceofindia.org/governance (verified 2 Oct 2026). leadership.csv + sro-face.html + activity.csv updated; live verified.
+- GOTCHA: per-SRO pages (sro-*.html) are hand-authored statics — build.py does NOT regenerate them. Leadership facts live in BOTH data/leadership.csv AND the sro-*.html page tables; update both. Also fixed a cell-split bug (a comma in a role split it across Role/Affiliation cells).
