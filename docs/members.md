@@ -1,6 +1,6 @@
 # SROTrac — Member Listings
 
-_Generated 2026-10-02 by `scripts/build.py`. Do not hand-edit._
+_Generated 2026-10-03 by `scripts/build.py`. Do not hand-edit._
 
 India's recognised self-regulatory organisations across four financial regulators. **RBI (9):** FACE and UFF (SRO-FTs), SRPA (PSOs), FIDC (NBFCs), MFIN and Sa-Dhan (NBFC-MFIs), FEDAI (forex ADs), Sahamati (account aggregators), FIMMDA (fixed income). **SEBI (2):** BASL (investment advisers + research analysts) and AIBI (merchant bankers). **IRDAI (2, statutory under s.64C):** the Life Insurance Council and the General Insurance Council. **IBBI (3):** the insolvency professional agencies of ICAI, ICSI and ICMAI. Context-only (not recognised): AMFI (mutual funds) and ANMI (brokers). BASL, AIBI and the three IPAs publish no member roster.
 

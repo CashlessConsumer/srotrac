@@ -116,6 +116,10 @@ Register of India’s financial-sector self-regulatory organisations · RBI · S
 
  Latest activity 
 
+ 2026-10-01 FACE 
+ FACE elects Hemant Gala and Rajiv Naresh to Board as Member Directors 
+ 2026-09-30 FACE 
+ FACE elects Hemant Gala (PhonePe) and Rajiv Naresh (Navi) as Member Directors 
  2026-09-10 UFF 
  UFF recognised as India's second SRO-FT 
  2026-09-01 FIMMDA 
@@ -124,10 +128,6 @@ Register of India’s financial-sector self-regulatory organisations · RBI · S
  FACE Personal Loan Report 2026 
  2026-06-05 FIDC 
  FIDC views on RBI monetary policy statement (June 2026) 
- 2026-01-14 FEDAI 
- FEDAI recognised as SRO for all Authorised Dealers 
- 2025-11-11 SRPA 
- SRPA becomes RBI-recognised SRO for payment system operators 
 
  Full activity log → 
 
@@ -165,7 +165,7 @@ All members
  Organisation Type SROs Aditya Birla Health Insurance Co Ltd Insurer Sahamati RBI Apollo Finvest NBFC FACE UFF Aspire Fintech / LSP FACE UFF AU Small Finance Bank Limited Small Finance Bank FEDAI Sahamati FIMMDA Axis Bank Limited Bank Sahamati FIMMDA Axis Mutual Fund AMC / Mutual Fund Sahamati AMFI Bajaj Life Insurance Limited Insurer Sahamati RBI Bandhan Bank Bank MFIN FIMMDA Bank of Baroda Bank UFF FEDAI Sahamati FIMMDA Bank of Ceylon Bank FEDAI FIMMDA Bank of India Bank FEDAI FIMMDA Bank of Maharashtra Bank FEDAI FIMMDA BharatPe Payments / PSO FACE UFF BNP Paribas Bank FEDAI FIMMDA Branch Fintech / LSP FACE UFF Bureau Tech / TSP FACE UFF CADRE Other / Services FACE UFF Canara Bank Bank FEDAI FIMMDA Central Bank of India Bank FEDAI FIMMDA CRED Fintech / LSP UFF SRPA CreditAccess Life Insurance Limited Insurer Sahamati RBI DBS Bank India Limited Bank FEDAI FIMMDA Decentro Tech / TSP FACE UFF Export-Import Bank of India Development FI FEDAI FIMMDA GetVantage Fintech / LSP FACE UFF HDFC Bank Limited Bank FEDAI Sahamati HyperVerge Tech / TSP FACE UFF ICICI Bank Bank MFIN Sahamati ICICI Prudential Life Insurance Company Limited Insurer FIMMDA RBI ICICI Securities Primary Dealership Limited Primary Dealer FEDAI FIMMDA IDFC First Bank Bank MFIN FIMMDA IDFC FIRST Bank Limited Bank FEDAI Sahamati InCred NBFC FACE UFF Indian Bank Bank FEDAI FIMMDA Indian Overseas Bank Bank FEDAI FIMMDA IndusInd Bank Bank MFIN FIMMDA IndusInd Bank Limited Bank FEDAI Sahamati Industrial and Commercial Bank of China Limited Bank FEDAI FIMMDA Industrial Bank of Korea Bank FEDAI FIMMDA KEB Hana Bank Bank FEDAI FIMMDA Kookmin Bank Bank FEDAI FIMMDA Kotak Mahindra Bank Limited Bank FEDAI Sahamati KreditBee Fintech / LSP FACE UFF Life Insurance Corporation of India Insurer FIMMDA RBI Light Microfinance NBFC-MFI UFF MFIN Mizuho Bank Limited Bank FEDAI FIMMDA MobiKwik Payments / PSO FACE UFF SRPA Moneyview Fintech / LSP FACE UFF NABARD Development FI Sahamati FIMMDA Northern Arc NBFC FACE UFF Paisabazaar Fintech / LSP FACE UFF Paytm Payments / PSO FACE UFF Perfios Tech / TSP FACE UFF PhonePe Payments / PSO FACE SRPA Progcap Fintech / LSP FACE UFF Punjab National Bank Bank FEDAI Sahamati FIMMDA Qatar National Bank (Q.P.S.C.) Bank FEDAI FIMMDA Razorpay Payments / PSO FACE SRPA RBL Bank Bank UFF MFIN FIMMDA Revfin Fintech / LSP FACE UFF Saafe Tech / TSP FACE UFF SBI Life Insurance Company Limited Insurer FIMMDA RBI SBI Mutual Fund AMC / Mutual Fund Sahamati AMFI Small Industries Development Bank of India Development FI FEDAI Sahamati Spice Money Payments / PSO UFF SRPA Standard Chartered Bank Bank FEDAI FIMMDA State Bank of India Bank FEDAI FIMMDA The Clearing Corporation of India Ltd Market Infrastructure FEDAI FIMMDA The South Indian Bank Ltd Bank Sahamati FIMMDA True Balance Payments / PSO FACE UFF UBS AG Bank FEDAI FIMMDA UCO Bank Bank FEDAI FIMMDA Ujjivan Small Finance Bank Small Finance Bank Sahamati FIMMDA Uni Fintech / LSP FACE UFF Union Bank of India Bank FEDAI FIMMDA Unity Small Finance Bank Small Finance Bank MFIN FIMMDA Woori Bank Bank FEDAI FIMMDA Yes Bank Bank MFIN FIMMDA Zeta Tech / TSP FACE UFF 
 
  People in 2+ SROs 
- Person Roles Jiji Mammen FIDC: Advisory Council; Sa-Dhan: Executive Director & CEO N S Vishwanathan FIDC: Governing Council Member (Additional Director wef 2026-06-23); UFF: Independent Board Member Shachindra Nath FIDC: Governing Council Member; UFF: EC Member Sugandh Saxena FACE: CEO (first CEO; MFIN: Member Secretary 
+ Person Roles Jiji Mammen FIDC: Advisory Council; Sa-Dhan: Executive Director & CEO N S Vishwanathan FIDC: Governing Council Member (Additional Director wef 2026-06-23); UFF: Independent Board Member Shachindra Nath FIDC: Governing Council Member; UFF: EC Member Sugandh Saxena FACE: Managing Director & CEO (first CEO, appointed Aug 2021); MFIN: Managing Director & CEO (first CEO, appointed Aug 2021) 
 
  Why this matters: the omnibus SRO framework requires SROs to avoid conflicts of interest. Shared directors and EC members across SROs are legal — but when the same fintech executives shape conduct rules at multiple bodies, consumers should know whose interests get harmonised first.
 
@@ -175,6 +175,14 @@ Regulatory timeline
  How RBI built the SRO system — frameworks, recognitions, and what each SRO did about it. 
 
  2026 
+
+ 2026-10-01 FACE governance 
+ FACE elects Hemant Gala and Rajiv Naresh to Board as Member Directors 
+ PhonePe Lending CEO Hemant Gala and Navi MD & CEO Rajiv Naresh elected Member Directors; governance page lists both alongside a refreshed board (Monga and Sridharan moved to Independent; Ashish Goyal off the board) as of 2026-10-02. 
+
+ 2026-09-30 FACE governance 
+ FACE elects Hemant Gala (PhonePe) and Rajiv Naresh (Navi) as Member Directors 
+ Board refresh reported late Sep 2026: PhonePe Lending CEO Gala and Navi MD & CEO Naresh join as Member Directors; Avtar Monga and Srinath Sridharan move to Independent Director; Ashish Goyal ceases to be a board member (stays on Audit, Finance & Remuneration Committee). Board mirrored from faceofindia.org/governance (verified 2 Oct 2026). 
 
  2026-09-10 UFF recognition 
  UFF recognised as India's second SRO-FT 
@@ -303,7 +311,7 @@ Regulatory timeline
 Activity log 
  Frameworks, recognitions, consultation responses, reports and announcements — dated and linked. 
 
- All announcement (5) consultation (2) framework (6) governance (1) partnership (1) recognition (9) report (1) roster (1) tool (1)
+ All announcement (5) consultation (2) framework (6) governance (3) partnership (1) recognition (9) report (1) roster (1) tool (1)
 
 
 ## social — https://srotrac.cashlessconsumer.in/social.html
@@ -454,7 +462,7 @@ RBI · SRO register
  Member count claims (~200+) vs published roster (~85 logos) — the public list is a marketing page, not a register. Enforcement actions are not published; the SRO-FT framework expects oversight of member conduct. 
 
  Governance 
- Board / Governing Council Name Role Affiliation Ram Rastogi Independent Director & Chair Manoranjan Mishra Independent Director Avtar Monga Member Director Srinath Sridharan Member Director Ashish Goyal Member Director Nitin Gupta Member Director Madhusudan Ekambaram Member Director Sanjay Aggarwal Member Director Vineet Sukumar Member Director Executive Committee / Office bearers Name Role Affiliation Sugandh Saxena CEO (first CEO appointed Aug 2021) Dheeraj Bhardwaj Vice President - Technology Jay Tripathi Vice President Monami Dasgupta AVP - Policy & Research Board committees Name Role Affiliation Ashish Goyal Audit, Finance & Remuneration Committee Avtar Monga Audit, Finance & Remuneration Committee Srinath Sridharan Audit, Finance & Remuneration Committee Vineet Sukumar Audit, Finance & Remuneration Committee 
+ Board / Governing Council Name Role Affiliation Ram Rastogi Independent Director & Chair Manoranjan Mishra Independent Director Avtar Monga Independent Director Srinath Sridharan Independent Director Nitin Gupta Member Director Madhusudan Ekambaram Member Director Sanjay Aggarwal Member Director Vineet Sukumar Member Director Hemant Gala Member Director PhonePe Rajiv Naresh Member Director Navi Executive Committee / Office bearers Name Role Affiliation Sugandh Saxena Managing Director & CEO (first CEO, appointed Aug 2021) Dheeraj Bhardwaj Vice President - Technology Jay Tripathi Vice President Monami Dasgupta AVP - Policy & Research Board committees Name Role Affiliation Ashish Goyal Audit, Finance & Remuneration Committee Avtar Monga Audit, Finance & Remuneration Committee Srinath Sridharan Audit, Finance & Remuneration Committee Vineet Sukumar Audit, Finance & Remuneration Committee 
 
  Members (85) 
 
@@ -464,7 +472,7 @@ RBI · SRO register
  Captured from https://faceofindia.org/membership/ on 2026-09-10. Marketing rosters, not filings — see methodology . 
 
  Activity 
- 2026-08 report FACE Personal Loan Report 2026 2025-08 tool DLA Validator — consumer tool for checking digital lending apps 2024-08-28 recognition FACE becomes India's first RBI-recognised fintech SRO (SRO-FT) 2024-08-14 consultation FACE response to TRAI consultation on DLT-based transaction scrubbing 2023-09 partnership Google x FACE collaboration against predatory digital lending apps 2021-08 announcement FACE applies to RBI for SRO recognition (digital lending) 
+ 2026-10-01 governance FACE elects Hemant Gala and Rajiv Naresh to Board as Member Directors 2026-09-30 governance FACE elects Hemant Gala (PhonePe) and Rajiv Naresh (Navi) as Member Directors 2026-08 report FACE Personal Loan Report 2026 2025-08 tool DLA Validator — consumer tool for checking digital lending apps 2024-08-28 recognition FACE becomes India's first RBI-recognised fintech SRO (SRO-FT) 2024-08-14 consultation FACE response to TRAI consultation on DLT-based transaction scrubbing 2023-09 partnership Google x FACE collaboration against predatory digital lending apps 2021-08 announcement FACE applies to RBI for SRO recognition (digital lending) 
 
  Social media 
  X (Twitter) ✓ @FACEOfIndiaOrg LinkedIn ✓ company/faceofindiaorg YouTube ✎ @fintechassociationforconsu4582 Facebook ✓ FACEOfIndiaOrgg Instagram ✓ faceofindiaorg 
@@ -641,7 +649,7 @@ RBI · SRO register
  Roster is a logo wall organised by region — no join/exit dates published. Site text says 53 primary members (Mar 2025) but the logo wall shows 84 organisations — the extra tiles are likely associates; MFIN does not label them. Microfinance distress and RBI tightening make MFIN's enforcement record the one to watch for borrower-side harm. 
 
  Governance 
- Board / Governing Council Name Role Affiliation Devesh Sachdev Chairperson Founder, Fusion Microfinance Arnab Roy Independent Member Former Senior Executive Director, RBI Executive Committee / Office bearers Name Role Affiliation Alok Misra CEO & Director (ex-officio, non-voting) Sugandh Saxena Member Secretary 
+ Board / Governing Council Name Role Affiliation Devesh Sachdev Chairperson Founder, Fusion Microfinance Arnab Roy Independent Member Former Senior Executive Director, RBI Executive Committee / Office bearers Name Role Affiliation Alok Misra CEO & Director (ex-officio, non-voting) Sugandh Saxena Managing Director & CEO (first CEO, appointed Aug 2021) 
 
  Members (84) 
 
