@@ -1,6 +1,6 @@
 # SROTrac — Member Listings
 
-_Generated 2026-10-06 by `scripts/build.py`. Do not hand-edit._
+_Generated 2026-10-07 by `scripts/build.py`. Do not hand-edit._
 
 India's recognised self-regulatory organisations across four financial regulators. **RBI (9):** FACE and UFF (SRO-FTs), SRPA (PSOs), FIDC (NBFCs), MFIN and Sa-Dhan (NBFC-MFIs), FEDAI (forex ADs), Sahamati (account aggregators), FIMMDA (fixed income). **SEBI (2):** BASL (investment advisers + research analysts) and AIBI (merchant bankers). **IRDAI (2, statutory under s.64C):** the Life Insurance Council and the General Insurance Council. **IBBI (3):** the insolvency professional agencies of ICAI, ICSI and ICMAI. Context-only (not recognised): AMFI (mutual funds) and ANMI (brokers). BASL, AIBI and the three IPAs publish no member roster.
 
@@ -214,79 +214,79 @@ India's recognised self-regulatory organisations across four financial regulator
 | 9 | Navi | https://navi.com/ | member |
 | 10 | Uni | https://www.uni.cards/ | member |
 | 11 | Yubi | https://www.go-yubi.com/ | member |
-| 12 | Capri Loans | https://www.capriloans.in/ | member |
-| 13 | iGnosis | https://ignosis.ai/ | member |
-| 14 | PayU Finance | https://payufin.in/ | member |
-| 15 | Signzy | https://www.signzy.com/ | associate |
-| 16 | Avanse | https://www.avanse.com/ | member |
-| 17 | Kinara Capital | https://kinaracapital.com/ | member |
-| 18 | True Balance | https://www.truebalance.io/ | member |
-| 19 | Advance.ai | https://www.advance.ai/ | member |
-| 20 | AuthBridge | https://authbridge.com/ | member |
-| 21 | Bank of Baroda | https://www.bankofbaroda.in/ | associate |
-| 22 | Bureau | https://www.bureau.id/ | associate |
-| 23 | Credit Saison | https://creditsaison.in/ | member |
-| 24 | Decentro | https://decentro.tech/ | member |
-| 25 | Eko | https://eko.in/ | member |
-| 26 | Experian | https://www.experian.in/ | member |
-| 27 | Fi Money | https://fi.money/ | member |
-| 28 | Finpedia | https://www.finpedia.id/ | member |
-| 29 | HyperVerge | https://hyperverge.co/in/ | member |
-| 30 | IIFL | https://www.iifl.com/ | member |
-| 31 | iSPIRT | https://ispirt.in/ | associate |
-| 32 | MobiKwik | https://www.mobikwik.com/ | member |
-| 33 | Nelito | https://www.nelito.com/ | associate |
-| 34 | NeoKred | https://www.neokred.tech/ | member |
-| 35 | Northern Arc | https://www.northernarc.com/ | member |
-| 36 | Perfios | https://www.perfios.com/ | member |
-| 37 | Protium | https://protium.co.in/ | member |
-| 38 | RapidRupee | https://www.rapidrupee.in/ | member |
-| 39 | RBL Bank | https://www.rblbank.com/ | associate |
-| 40 | Saafe | https://saafe.in/ | member |
-| 41 | ScoreMe | https://www.scoreme.in/ | member |
-| 42 | Zaggle | https://www.zaggle.in/ | member |
-| 43 | Khaitan & Co | https://www.khaitanco.com/ | associate |
-| 44 | KPMG | https://kpmg.com/in/en.html | associate |
-| 45 | BDO | https://www.bdo.global/en-gb/home | associate |
-| 46 | BPJ N BFC | https://bpjnbfc.in/ | member |
-| 47 | BharatNXT | https://web.bharatnxt.in/ | member |
-| 48 | Clari5 | https://www.clari5.com/ | associate |
-| 49 | PaySprint | https://www.paysprint.in/index.html | member |
-| 50 | Cyber Ambassador | https://www.cyberambassador.co.in/ | associate |
-| 51 | Deleverage | http://www.deleverage.in/ | member |
-| 52 | Entitled | https://www.entitled.co.in/ | member |
-| 53 | FameScore | https://famescore.in/ | member |
-| 54 | Fundfina | https://www.fundfina.com/ | member |
-| 55 | GetKosh | https://getkosh.com/ | member |
-| 56 | Frog8 | https://frog8.co.in/ | member |
-| 57 | Lucid Ledger | https://www.lucidledger.co.in/ | member |
-| 58 | MiMo IQ | https://mimoiq.com/ | member |
-| 59 | MyPaisaa | https://www.mypaisaa.com/ | member |
-| 60 | Rezolve.ai | https://www.rezolve.ai/ | member |
-| 61 | Capitabel | https://capitabel.com/ | member |
-| 62 | NBFC Advisor | https://www.nbfcadvisor.com/ | associate |
-| 63 | Achiievers Finance | https://www.achiieversfinance.com/ | member |
-| 64 | Apollo Finvest | https://www.apollofinvest.com/ | member |
-| 65 | Aspire | https://www.letsaspire.in/ | member |
-| 66 | BharatPe | http://www.bharatpe.com/ | member |
-| 67 | Branch | https://branchapp.in/ | member |
-| 68 | Bueno Finance | https://buenofinanceinc.com/ | member |
-| 69 | CADRE | https://cadreodr.com/ | member |
-| 70 | CARS24 | https://www.cars24.com/ | member |
-| 71 | Chinmay Finlease | https://www.chinmayfinlease.com/ | member |
-| 72 | CRED | https://www.cred.club/ | member |
-| 73 | Creditt | https://creditt.in/ | member |
-| 74 | CreditSea | https://www.creditsea.com/ | member |
-| 75 | DMI Finance | https://www.dmifinance.in/ | member |
-| 76 | Ecofin Services | https://www.ecofinservices.com/ | member |
-| 77 | Eduvanz | https://eduvanz.com/ | member |
-| 78 | Ezfinanz | https://ezfinanz.com/ | member |
-| 79 | Finova | https://www.finova.in/ | member |
-| 80 | FlexiLoans | https://flexiloans.com/ | member |
-| 81 | Gromor | https://gromor.in/ | member |
-| 82 | InCred | https://www.incred.com/ | member |
-| 83 | IndiaGold | https://refer.indiagold.co/ | member |
-| 84 | LendingPlate | https://lendingplate.com/ | member |
+| 12 | LendingPlate | https://lendingplate.com/ | member |
+| 13 | Capri Loans | https://www.capriloans.in/ | member |
+| 14 | iGnosis | https://ignosis.ai/ | member |
+| 15 | PayU Finance | https://payufin.in/ | member |
+| 16 | Signzy | https://www.signzy.com/ | associate |
+| 17 | Avanse | https://www.avanse.com/ | member |
+| 18 | Kinara Capital | https://kinaracapital.com/ | member |
+| 19 | True Balance | https://www.truebalance.io/ | member |
+| 20 | Advance.ai | https://www.advance.ai/ | member |
+| 21 | AuthBridge | https://authbridge.com/ | member |
+| 22 | Bank of Baroda | https://www.bankofbaroda.in/ | associate |
+| 23 | Bureau | https://www.bureau.id/ | associate |
+| 24 | Credit Saison | https://creditsaison.in/ | member |
+| 25 | Decentro | https://decentro.tech/ | member |
+| 26 | Eko | https://eko.in/ | member |
+| 27 | Experian | https://www.experian.in/ | member |
+| 28 | Fi Money | https://fi.money/ | member |
+| 29 | Finpedia | https://www.finpedia.id/ | member |
+| 30 | HyperVerge | https://hyperverge.co/in/ | member |
+| 31 | IIFL | https://www.iifl.com/ | member |
+| 32 | iSPIRT | https://ispirt.in/ | associate |
+| 33 | MobiKwik | https://www.mobikwik.com/ | member |
+| 34 | Nelito | https://www.nelito.com/ | associate |
+| 35 | NeoKred | https://www.neokred.tech/ | member |
+| 36 | Northern Arc | https://www.northernarc.com/ | member |
+| 37 | Perfios | https://www.perfios.com/ | member |
+| 38 | Protium | https://protium.co.in/ | member |
+| 39 | RapidRupee | https://www.rapidrupee.in/ | member |
+| 40 | RBL Bank | https://www.rblbank.com/ | associate |
+| 41 | Saafe | https://saafe.in/ | member |
+| 42 | ScoreMe | https://www.scoreme.in/ | member |
+| 43 | Zaggle | https://www.zaggle.in/ | member |
+| 44 | Khaitan & Co | https://www.khaitanco.com/ | associate |
+| 45 | KPMG | https://kpmg.com/in/en.html | associate |
+| 46 | BDO | https://www.bdo.global/en-gb/home | associate |
+| 47 | BPJ N BFC | https://bpjnbfc.in/ | member |
+| 48 | BharatNXT | https://web.bharatnxt.in/ | member |
+| 49 | Clari5 | https://www.clari5.com/ | associate |
+| 50 | PaySprint | https://www.paysprint.in/index.html | member |
+| 51 | Cyber Ambassador | https://www.cyberambassador.co.in/ | associate |
+| 52 | Deleverage | http://www.deleverage.in/ | member |
+| 53 | Entitled | https://www.entitled.co.in/ | member |
+| 54 | FameScore | https://famescore.in/ | member |
+| 55 | Fundfina | https://www.fundfina.com/ | member |
+| 56 | GetKosh | https://getkosh.com/ | member |
+| 57 | Frog8 | https://frog8.co.in/ | member |
+| 58 | Lucid Ledger | https://www.lucidledger.co.in/ | member |
+| 59 | MiMo IQ | https://mimoiq.com/ | member |
+| 60 | MyPaisaa | https://www.mypaisaa.com/ | member |
+| 61 | Rezolve.ai | https://www.rezolve.ai/ | member |
+| 62 | Capitabel | https://capitabel.com/ | member |
+| 63 | NBFC Advisor | https://www.nbfcadvisor.com/ | associate |
+| 64 | Achiievers Finance | https://www.achiieversfinance.com/ | member |
+| 65 | Apollo Finvest | https://www.apollofinvest.com/ | member |
+| 66 | Aspire | https://www.letsaspire.in/ | member |
+| 67 | BharatPe | http://www.bharatpe.com/ | member |
+| 68 | Branch | https://branchapp.in/ | member |
+| 69 | Bueno Finance | https://buenofinanceinc.com/ | member |
+| 70 | CADRE | https://cadreodr.com/ | member |
+| 71 | CARS24 | https://www.cars24.com/ | member |
+| 72 | Chinmay Finlease | https://www.chinmayfinlease.com/ | member |
+| 73 | CRED | https://www.cred.club/ | member |
+| 74 | Creditt | https://creditt.in/ | member |
+| 75 | CreditSea | https://www.creditsea.com/ | member |
+| 76 | DMI Finance | https://www.dmifinance.in/ | member |
+| 77 | Ecofin Services | https://www.ecofinservices.com/ | member |
+| 78 | Eduvanz | https://eduvanz.com/ | member |
+| 79 | Ezfinanz | https://ezfinanz.com/ | member |
+| 80 | Finova | https://www.finova.in/ | member |
+| 81 | FlexiLoans | https://flexiloans.com/ | member |
+| 82 | Gromor | https://gromor.in/ | member |
+| 83 | InCred | https://www.incred.com/ | member |
+| 84 | IndiaGold | https://refer.indiagold.co/ | member |
 | 85 | Light Microfinance | https://lightmicrofinance.com/ | member |
 | 86 | Loaney | https://loaney.in/ | member |
 | 87 | Freo | https://freo.money/ | member |
