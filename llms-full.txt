@@ -13,7 +13,7 @@ Register of India’s financial-sector self-regulatory organisations · RBI · S
 
  18 SROs tracked 
  4 regulators 
- 773 listed member orgs 
+ 763 listed member orgs 
  79 in 2+ SROs 
  2 fintech SRO-FTs 
 
@@ -43,7 +43,7 @@ Register of India’s financial-sector self-regulatory organisations · RBI · S
  Active SRO (microfinance; RBI letter 16 Jun 2014 — first SRO in this family) 
  Microfinance Institutions Network 
  NBFC-MFIs (+ banks/SFBs lending microfinance as associate members) 
- RBI · 2014-06-16 · 84 members 
+ RBI · 2014-06-16 · 74 members 
 
  Active SRO (microfinance; recognised Mar 2015) 
  Sa-Dhan (Association of Community Development Finance Institutions) 
@@ -140,7 +140,7 @@ Register of India’s financial-sector self-regulatory organisations · RBI · S
 
 ## members — https://srotrac.cashlessconsumer.in/members.html
 All members 
- 688 organisations across the thirteen published rosters (FIDC, Sa-Dhan, BASL, AIBI and the three insolvency agencies publish none). One row per organisation — SRO badges show every register it appears in. Filter by SRO, entity type, or search by name. Cross-SRO membership overlap is below the table . 
+ 678 organisations across the thirteen published rosters (FIDC, Sa-Dhan, BASL, AIBI and the three insolvency agencies publish none). One row per organisation — SRO badges show every register it appears in. Filter by SRO, entity type, or search by name. Cross-SRO membership overlap is below the table . 
 
  SRO 
  All 
@@ -149,7 +149,7 @@ All members
 
  Type 
  All 
- Bank (131) NBFC (105) Insurer (88) Fintech / LSP (73) AMC / Mutual Fund (59) Tech / TSP (47) NBFC-MFI (31) Payments / PSO (28) Small Finance Bank (24) Other / Services (23) Investments / Wealth (19) Account Aggregator (11) Development FI (10) Cooperative Bank (9) Primary Dealer (9) Securities Broker (8) Credit Bureau (3) Housing Finance (3) Payments Bank (3) Forex / Remittance (2) Market Infrastructure (2) 
+ Bank (131) NBFC (100) Insurer (88) Fintech / LSP (72) AMC / Mutual Fund (59) Tech / TSP (47) Payments / PSO (28) NBFC-MFI (27) Small Finance Bank (24) Other / Services (23) Investments / Wealth (19) Account Aggregator (11) Development FI (10) Cooperative Bank (9) Primary Dealer (9) Securities Broker (8) Credit Bureau (3) Housing Finance (3) Payments Bank (3) Forex / Remittance (2) Market Infrastructure (2) 
 
  Organisation Entity type SROs Website 
 
@@ -158,7 +158,7 @@ All members
  Shared members matrix 
  Each cell counts organisations registered with both the row and column SRO. Click a cell to open those organisations in the members table. 
 
- FACE UFF FIDC SRPA MFIN Sa-Dhan FEDAI Sahamati FIMMDA BASL AIBI LI Council GI Council IIIPI ICSI IIP IPA ICMAI AMFI ANMI FACE 85 23 · 3 · · · · · · · · · · · · · · UFF 23 120 · 3 2 · 1 1 2 · · · · · · · · · FIDC · · 0 · · · · · · · · · · · · · · · SRPA 3 3 · 18 · · · · · · · · · · · · · · MFIN · 2 · · 84 · · 1 6 · · · · · · · · · Sa-Dhan · · · · · 0 · · · · · · · · · · · · FEDAI · 1 · · · · 108 8 27 · · · · · · · · · Sahamati · 1 · · 1 · 8 110 7 · · 2 1 · · · 2 · FIMMDA · 2 · · 6 · 27 7 116 · · 3 · · · · · · BASL · · · · · · · · · 0 · · · · · · · · AIBI · · · · · · · · · · 0 · · · · · · · LI Council · · · · · · · 2 3 · · 27 · · · · · · GI Council · · · · · · · 1 · · · · 49 · · · · · IIIPI · · · · · · · · · · · · · 0 · · · · ICSI IIP · · · · · · · · · · · · · · 0 · · · IPA ICMAI · · · · · · · · · · · · · · · 0 · · AMFI · · · · · · · 2 · · · · · · · · 56 · ANMI · · · · · · · · · · · · · · · · · 0 
+ FACE UFF FIDC SRPA MFIN Sa-Dhan FEDAI Sahamati FIMMDA BASL AIBI LI Council GI Council IIIPI ICSI IIP IPA ICMAI AMFI ANMI FACE 85 23 · 3 · · · · · · · · · · · · · · UFF 23 120 · 3 2 · 1 1 2 · · · · · · · · · FIDC · · 0 · · · · · · · · · · · · · · · SRPA 3 3 · 18 · · · · · · · · · · · · · · MFIN · 2 · · 74 · · 1 6 · · · · · · · · · Sa-Dhan · · · · · 0 · · · · · · · · · · · · FEDAI · 1 · · · · 108 8 27 · · · · · · · · · Sahamati · 1 · · 1 · 8 110 7 · · 2 1 · · · 2 · FIMMDA · 2 · · 6 · 27 7 116 · · 3 · · · · · · BASL · · · · · · · · · 0 · · · · · · · · AIBI · · · · · · · · · · 0 · · · · · · · LI Council · · · · · · · 2 3 · · 27 · · · · · · GI Council · · · · · · · 1 · · · · 49 · · · · · IIIPI · · · · · · · · · · · · · 0 · · · · ICSI IIP · · · · · · · · · · · · · · 0 · · · IPA ICMAI · · · · · · · · · · · · · · · 0 · · AMFI · · · · · · · 2 · · · · · · · · 56 · ANMI · · · · · · · · · · · · · · · · · 0 
 
  Organisations in 2+ SROs (79) 
 
@@ -647,7 +647,7 @@ RBI · SRO register
 
  Recognised (RBI) 2014-06-16 
  Status Active SRO (microfinance; RBI letter 16 Jun 2014 — first SRO in this family) 
- Listed members 84 (34 NBFC · 31 NBFC-MFI · 9 Small Finance Bank · 8 Bank) 
+ Listed members 74 (29 NBFC · 27 NBFC-MFI · 9 Small Finance Bank · 8 Bank) 
  Site mfinindia.org 
 
  Why it matters if you borrow or pay 
@@ -659,10 +659,10 @@ RBI · SRO register
  Governance 
  Board / Governing Council Name Role Affiliation Devesh Sachdev Chairperson Founder, Fusion Microfinance Arnab Roy Independent Member Former Senior Executive Director, RBI Executive Committee / Office bearers Name Role Affiliation Alok Misra CEO & Director (ex-officio, non-voting) Sugandh Saxena Managing Director & CEO (first CEO, appointed Aug 2021) 
 
- Members (84) 
+ Members (74) 
 
  Organisation Type Website 
- Adhikar Microfinance member adhikarindia.in Adi Chitragupta Finance member acfl.co.in Agora member www.amil.co.in Annapurna Finance member ampl.net.in Arohan Financial Services member www.arohan.in Arth member www.arthfinance.com ASA India member www.asaindia.in Asirvad Microfinance member asirvadmicrofinance.co.in AU Small Finance Bank member www.aubank.in Avanti Finance member avantifinance.in Aviral Finance member www.aviralfinance.com Axis Bank member www.axisbank.com Bajaj Finance member www.bajajfinserv.in Bandhan Bank member bandhanbank.com Belstar Microfinance member www.belstar.in BWDA Finance member bwdafinanceltd.com Centrum Microcredit member www.centrummicrocredit.com CreditAccess Grameen member www.creditaccessgrameen.com DJT Finserv member www.djtfinserv.in Dvara KGFS member www.dvarakgfs.com Equitas SFB member www.equitasbank.com ESAF SFB member www.esafbank.com Fincare Small Finance Bank member fincarebank.com Fino Finance member www.finofinance.in Fusion Microfinance member www.fusionmicrofinance.com Grameen Koota (Growing Opportunity) member www.gopportunity.net Grameen Shakti member www.grameenshakti.co.in GU Finance member www.gufinance.com HDFC Bank member www.hdfcbank.com Hindusthan Microfinance member www.hindusthanmfi.com ICICI Bank member www.icicibank.com IDFC First Bank member www.idfcfirstbank.com Inditrade Capital member www.inditrade.com IndusInd Bank member www.indusind.com ITI Vikas Trust member www.itiorg.com Jagaran Microfin member www.jagaranmf.com Jana SFB member www.janabank.com Janakalyan Financial Services member www.janakalyan.net Jeevan Utthan member jeevanutthan.in K P Microfin member kpmicrofin.in L&T Finance member www.ltfs.com Light Microfinance member www.lightmicrofinance.com LOLC (India) member www.lolc.com M Power Microfinance member mpowermicro.com Magenta Finance member magentafinance.co.in Margdarshak Financial Services member www.margdarshak.org.in Midland Microfin member midlandmicrofin.com Mitrata Inclusive Financial Services member www.mitrata.in MSM Microfinance member msmmicrofinance.com Muthoot Microfin member www.muthootmicrofin.com Namra Finance member namrafinance.com Navi (Chaitanya India Fin) member www.chaitanyaindia.in Nightingale Finvest member www.nightingalefinvest.in Northern Arc Capital member www.northernarc.com Piramal Enterprises member www.piramalfinance.com RBL Bank member www.rblbank.com Saija Finance member saija.in Samasta Microfinance member www.samasta.co.in Samavesh MFI member www.samaveshmfi.com Sarala (Adikar?) member sarala.co.in Sarwadi member www.sarwadi.com Sarwadi (Swarna) member www.sarwadi.in Satin Creditcare member www.satincreditcare.com Satya Microcapital member www.satyamicrocapital.com Save Microfinance (Savi) member savemicrofinance.com Share Microfin (Mera Money) member www.sharemicrofin.com SMFG India Credit member www.smfgindiacredit.com South India Finvest member southindiafinvest.com Spandana Sphoorty member www.spandanasphoorty.com Srifin Credit member www.srifincredit.com Suryoday SFB member www.suryodaybank.com Svasti Microfinance member www.svasti.in Svatantra Microfin member www.svatantramicrofin.com Tata Capital member www.tatacapital.com Ujjivan SFB member www.ujjivansfb.in Unacco Finance member www.unacco.in Unity Small Finance Bank member theunitybank.com Unnati Microfinance member www.unnatimfi.com Utkarsh SFB member www.utkarsh.bank Vaya Finserv member www.vayaindia.com Vector Finance member vectorfinance.in VFSC Capital member www.vfscapital.in Vruksha member vrukshamicrofin.com Yes Bank member www.yesbank.in 
+ Adhikar Microfinance member adhikarindia.in Adi Chitragupta Finance member acfl.co.in Agora member www.amil.co.in Annapurna Finance member ampl.net.in Arohan Financial Services member www.arohan.in ASA India member www.asaindia.in Asirvad Microfinance member asirvadmicrofinance.co.in AU Small Finance Bank member www.aubank.in Avanti Finance member avantifinance.in Aviral Finance member www.aviralfinance.com Axis Bank member www.axisbank.com Bajaj Finance member www.bajajfinserv.in Bandhan Bank member bandhanbank.com Belstar Microfinance member www.belstar.in BWDA Finance member bwdafinanceltd.com CreditAccess Grameen member www.creditaccessgrameen.com DJT Finserv member www.djtfinserv.in Dvara KGFS member www.dvarakgfs.com Equitas SFB member www.equitasbank.com ESAF SFB member www.esafbank.com Fincare Small Finance Bank member fincarebank.com Fino Finance member www.finofinance.in Fusion Microfinance member www.fusionmicrofinance.com HDFC Bank member www.hdfcbank.com Hindusthan Microfinance member www.hindusthanmfi.com ICICI Bank member www.icicibank.com IDFC First Bank member www.idfcfirstbank.com IndusInd Bank member www.indusind.com ITI Vikas Trust member www.itiorg.com Jagaran Microfin member www.jagaranmf.com Jana SFB member www.janabank.com Janakalyan Financial Services member www.janakalyan.net Jeevan Utthan member jeevanutthan.in K P Microfin member kpmicrofin.in L&T Finance member www.ltfs.com Light Microfinance member www.lightmicrofinance.com LOLC (India) member www.lolc.com M Power Microfinance member mpowermicro.com Magenta Finance member magentafinance.co.in Midland Microfin member midlandmicrofin.com Mitrata Inclusive Financial Services member www.mitrata.in MSM Microfinance member msmmicrofinance.com Muthoot Microfin member www.muthootmicrofin.com Namra Finance member namrafinance.com Navi (Chaitanya India Fin) member www.chaitanyaindia.in Nightingale Finvest member www.nightingalefinvest.in Northern Arc Capital member www.northernarc.com Piramal Enterprises member www.piramalfinance.com RBL Bank member www.rblbank.com Saija Finance member saija.in Samasta Microfinance member www.samasta.co.in Samavesh MFI member www.samaveshmfi.com Sarala (Adikar?) member sarala.co.in Sarwadi member www.sarwadi.com Satin Creditcare member www.satincreditcare.com Satya Microcapital member www.satyamicrocapital.com Save Microfinance (Savi) member savemicrofinance.com Share Microfin (Mera Money) member www.sharemicrofin.com SMFG India Credit member www.smfgindiacredit.com South India Finvest member southindiafinvest.com Spandana Sphoorty member www.spandanasphoorty.com Srifin Credit member www.srifincredit.com Suryoday SFB member www.suryodaybank.com Svasti Microfinance member www.svasti.in Svatantra Microfin member www.svatantramicrofin.com Tata Capital member www.tatacapital.com Ujjivan SFB member www.ujjivansfb.in Unacco Finance member www.unacco.in Unity Small Finance Bank member theunitybank.com Utkarsh SFB member www.utkarsh.bank Vector Finance member vectorfinance.in VFSC Capital member www.vfscapital.in Vruksha member vrukshamicrofin.com Yes Bank member www.yesbank.in 
 
  Captured from https://mfinindia.org/members on 2026-09-10. Marketing rosters, not filings — see methodology . 
 

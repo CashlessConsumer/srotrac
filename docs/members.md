@@ -1,6 +1,6 @@
 # SROTrac — Member Listings
 
-_Generated 2026-10-19 by `scripts/build.py`. Do not hand-edit._
+_Generated 2026-10-20 by `scripts/build.py`. Do not hand-edit._
 
 India's recognised self-regulatory organisations across four financial regulators. **RBI (9):** FACE and UFF (SRO-FTs), SRPA (PSOs), FIDC (NBFCs), MFIN and Sa-Dhan (NBFC-MFIs), FEDAI (forex ADs), Sahamati (account aggregators), FIMMDA (fixed income). **SEBI (2):** BASL (investment advisers + research analysts) and AIBI (merchant bankers). **IRDAI (2, statutory under s.64C):** the Life Insurance Council and the General Insurance Council. **IBBI (3):** the insolvency professional agencies of ICAI, ICSI and ICMAI. Context-only (not recognised): AMFI (mutual funds) and ANMI (brokers). BASL, AIBI and the three IPAs publish no member roster.
 
@@ -12,7 +12,7 @@ India's recognised self-regulatory organisations across four financial regulator
 | UFF | fintech | active | 120 |
 | SRPA | pso | related | 18 |
 | FIDC | nbfc | related | not published |
-| MFIN | microfinance | active | 84 |
+| MFIN | microfinance | active | 74 |
 | Sa-Dhan | microfinance | active | not published |
 | FEDAI | forex | active | 108 |
 | Sahamati | account aggregator / open finance | active | 110 |
@@ -347,94 +347,84 @@ India's recognised self-regulatory organisations across four financial regulator
 | 17 | Unimoni | https://www.unimoni.com | member |
 | 18 | Zokudo | https://www.zokudo.com | member |
 
-## MFIN — 84 members
+## MFIN — 74 members
 
 | # | Member | Website | Type |
 |---|--------|---------|------|
 | 1 | Magenta Finance | https://magentafinance.co.in/ | member |
 | 2 | Fusion Microfinance | http://www.fusionmicrofinance.com/ | member |
-| 3 | Arth | https://www.arthfinance.com/ | member |
-| 4 | Satin Creditcare | https://www.satincreditcare.com/ | member |
-| 5 | Margdarshak Financial Services | http://www.margdarshak.org.in/ | member |
-| 6 | Mitrata Inclusive Financial Services | http://www.mitrata.in/ | member |
-| 7 | Samavesh MFI | https://www.samaveshmfi.com/ | member |
-| 8 | Satya Microcapital | http://www.satyamicrocapital.com/ | member |
-| 9 | DJT Finserv | https://www.djtfinserv.in/ | member |
-| 10 | Midland Microfin | http://midlandmicrofin.com/ | member |
-| 11 | K P Microfin | https://kpmicrofin.in/ | member |
-| 12 | Vruksha | https://vrukshamicrofin.com/ | member |
-| 13 | Asirvad Microfinance | https://asirvadmicrofinance.co.in/ | member |
-| 14 | Belstar Microfinance | https://www.belstar.in/ | member |
-| 15 | BWDA Finance | http://bwdafinanceltd.com/ | member |
-| 16 | Navi (Chaitanya India Fin) | http://www.chaitanyaindia.in/ | member |
-| 17 | Northern Arc Capital | http://www.northernarc.com | member |
-| 18 | CreditAccess Grameen | https://www.creditaccessgrameen.com/ | member |
-| 19 | Grameen Koota (Growing Opportunity) | http://www.gopportunity.net/ | member |
-| 20 | Inditrade Capital | http://www.inditrade.com/ | member |
-| 21 | MSM Microfinance | http://msmmicrofinance.com/ | member |
-| 22 | Muthoot Microfin | http://www.muthootmicrofin.com/ | member |
-| 23 | Vaya Finserv | http://www.vayaindia.com/ | member |
-| 24 | Share Microfin (Mera Money) | http://www.sharemicrofin.com/ | member |
-| 25 | ITI Vikas Trust | https://www.itiorg.com/ | member |
-| 26 | Spandana Sphoorty | https://www.spandanasphoorty.com | member |
-| 27 | Samasta Microfinance | http://www.samasta.co.in/ | member |
-| 28 | South India Finvest | https://southindiafinvest.com/ | member |
-| 29 | Ujjivan SFB | https://www.ujjivansfb.in/ | member |
-| 30 | Srifin Credit | https://www.srifincredit.com/ | member |
-| 31 | Jana SFB | https://www.janabank.com/ | member |
-| 32 | ESAF SFB | https://www.esafbank.com/ | member |
-| 33 | Equitas SFB | https://www.equitasbank.com/ | member |
-| 34 | Dvara KGFS | https://www.dvarakgfs.com/ | member |
-| 35 | SMFG India Credit | https://www.smfgindiacredit.com/ | member |
-| 36 | Grameen Shakti | https://www.grameenshakti.co.in/ | member |
-| 37 | Adi Chitragupta Finance | https://acfl.co.in/ | member |
-| 38 | Annapurna Finance | http://ampl.net.in/ | member |
-| 39 | Arohan Financial Services | http://www.arohan.in/ | member |
-| 40 | ASA India | http://www.asaindia.in/ | member |
-| 41 | GU Finance | https://www.gufinance.com/ | member |
-| 42 | Jagaran Microfin | http://www.jagaranmf.com/ | member |
-| 43 | Janakalyan Financial Services | http://www.janakalyan.net/ | member |
-| 44 | Bandhan Bank | https://bandhanbank.com/ | member |
-| 45 | Saija Finance | http://saija.in/ | member |
-| 46 | Nightingale Finvest | http://www.nightingalefinvest.in/ | member |
-| 47 | Sarwadi (Swarna) | http://www.sarwadi.in/ | member |
-| 48 | Sarala (Adikar?) | https://sarala.co.in/ | member |
-| 49 | Sarwadi | http://www.sarwadi.com/ | member |
-| 50 | Jeevan Utthan | https://jeevanutthan.in/ | member |
-| 51 | Save Microfinance (Savi) | http://savemicrofinance.com/ | member |
-| 52 | Unacco Finance | https://www.unacco.in/ | member |
-| 53 | Vector Finance | https://vectorfinance.in/ | member |
-| 54 | VFSC Capital | https://www.vfscapital.in/ | member |
-| 55 | Adhikar Microfinance | http://adhikarindia.in/ | member |
-| 56 | Axis Bank | https://www.axisbank.com/ | member |
-| 57 | Agora | https://www.amil.co.in/ | member |
-| 58 | Avanti Finance | https://avantifinance.in/ | member |
-| 59 | Suryoday SFB | https://www.suryodaybank.com/ | member |
-| 60 | Centrum Microcredit | https://www.centrummicrocredit.com/ | member |
-| 61 | Fino Finance | http://www.finofinance.in/ | member |
-| 62 | Light Microfinance | http://www.lightmicrofinance.com/ | member |
-| 63 | M Power Microfinance | http://mpowermicro.com/ | member |
-| 64 | Namra Finance | https://namrafinance.com/ | member |
-| 65 | Svasti Microfinance | https://www.svasti.in/ | member |
-| 66 | Svatantra Microfin | https://www.svatantramicrofin.com/ | member |
-| 67 | Unnati Microfinance | http://www.unnatimfi.com/ | member |
-| 68 | Hindusthan Microfinance | http://www.hindusthanmfi.com/ | member |
-| 69 | Yes Bank | https://www.yesbank.in/ | member |
-| 70 | Bajaj Finance | https://www.bajajfinserv.in/ | member |
-| 71 | Tata Capital | https://www.tatacapital.com/ | member |
-| 72 | HDFC Bank | https://www.hdfcbank.com/ | member |
-| 73 | IDFC First Bank | https://www.idfcfirstbank.com/ | member |
-| 74 | L&T Finance | https://www.ltfs.com/ | member |
-| 75 | ICICI Bank | https://www.icicibank.com/ | member |
-| 76 | RBL Bank | http://www.rblbank.com | member |
-| 77 | IndusInd Bank | https://www.indusind.com/ | member |
-| 78 | Unity Small Finance Bank | https://theunitybank.com/ | member |
-| 79 | AU Small Finance Bank | https://www.aubank.in/ | member |
-| 80 | Fincare Small Finance Bank | https://fincarebank.com/ | member |
-| 81 | Utkarsh SFB | https://www.utkarsh.bank/ | member |
-| 82 | LOLC (India) | https://www.lolc.com | member |
-| 83 | Aviral Finance | http://www.aviralfinance.com/ | member |
-| 84 | Piramal Enterprises | http://www.piramalfinance.com | member |
+| 3 | Mitrata Inclusive Financial Services | http://www.mitrata.in/ | member |
+| 4 | Samavesh MFI | https://www.samaveshmfi.com/ | member |
+| 5 | Satya Microcapital | http://www.satyamicrocapital.com/ | member |
+| 6 | DJT Finserv | https://www.djtfinserv.in/ | member |
+| 7 | Midland Microfin | http://midlandmicrofin.com/ | member |
+| 8 | Satin Creditcare | https://www.satincreditcare.com/ | member |
+| 9 | K P Microfin | https://kpmicrofin.in/ | member |
+| 10 | Vruksha | https://vrukshamicrofin.com/ | member |
+| 11 | Asirvad Microfinance | https://asirvadmicrofinance.co.in/ | member |
+| 12 | Belstar Microfinance | https://www.belstar.in/ | member |
+| 13 | BWDA Finance | http://bwdafinanceltd.com/ | member |
+| 14 | Navi (Chaitanya India Fin) | http://www.chaitanyaindia.in/ | member |
+| 15 | Northern Arc Capital | http://www.northernarc.com | member |
+| 16 | CreditAccess Grameen | https://www.creditaccessgrameen.com/ | member |
+| 17 | MSM Microfinance | http://msmmicrofinance.com/ | member |
+| 18 | Muthoot Microfin | http://www.muthootmicrofin.com/ | member |
+| 19 | Share Microfin (Mera Money) | http://www.sharemicrofin.com/ | member |
+| 20 | ITI Vikas Trust | https://www.itiorg.com/ | member |
+| 21 | Spandana Sphoorty | https://www.spandanasphoorty.com | member |
+| 22 | Samasta Microfinance | http://www.samasta.co.in/ | member |
+| 23 | South India Finvest | https://southindiafinvest.com/ | member |
+| 24 | Ujjivan SFB | https://www.ujjivansfb.in/ | member |
+| 25 | Srifin Credit | https://www.srifincredit.com/ | member |
+| 26 | Jana SFB | https://www.janabank.com/ | member |
+| 27 | ESAF SFB | https://www.esafbank.com/ | member |
+| 28 | Equitas SFB | https://www.equitasbank.com/ | member |
+| 29 | Dvara KGFS | https://www.dvarakgfs.com/ | member |
+| 30 | SMFG India Credit | https://www.smfgindiacredit.com/ | member |
+| 31 | Adi Chitragupta Finance | https://acfl.co.in/ | member |
+| 32 | Annapurna Finance | http://ampl.net.in/ | member |
+| 33 | Arohan Financial Services | http://www.arohan.in/ | member |
+| 34 | ASA India | http://www.asaindia.in/ | member |
+| 35 | Jagaran Microfin | http://www.jagaranmf.com/ | member |
+| 36 | Janakalyan Financial Services | http://www.janakalyan.net/ | member |
+| 37 | Bandhan Bank | https://bandhanbank.com/ | member |
+| 38 | Saija Finance | http://saija.in/ | member |
+| 39 | Nightingale Finvest | http://www.nightingalefinvest.in/ | member |
+| 40 | Sarala (Adikar?) | https://sarala.co.in/ | member |
+| 41 | Sarwadi | http://www.sarwadi.com/ | member |
+| 42 | Jeevan Utthan | https://jeevanutthan.in/ | member |
+| 43 | Save Microfinance (Savi) | http://savemicrofinance.com/ | member |
+| 44 | Unacco Finance | https://www.unacco.in/ | member |
+| 45 | Vector Finance | https://vectorfinance.in/ | member |
+| 46 | VFSC Capital | https://www.vfscapital.in/ | member |
+| 47 | Adhikar Microfinance | http://adhikarindia.in/ | member |
+| 48 | Axis Bank | https://www.axisbank.com/ | member |
+| 49 | Agora | https://www.amil.co.in/ | member |
+| 50 | Avanti Finance | https://avantifinance.in/ | member |
+| 51 | Suryoday SFB | https://www.suryodaybank.com/ | member |
+| 52 | Fino Finance | http://www.finofinance.in/ | member |
+| 53 | Light Microfinance | http://www.lightmicrofinance.com/ | member |
+| 54 | M Power Microfinance | http://mpowermicro.com/ | member |
+| 55 | Namra Finance | https://namrafinance.com/ | member |
+| 56 | Svasti Microfinance | https://www.svasti.in/ | member |
+| 57 | Svatantra Microfin | https://www.svatantramicrofin.com/ | member |
+| 58 | Hindusthan Microfinance | http://www.hindusthanmfi.com/ | member |
+| 59 | Yes Bank | https://www.yesbank.in/ | member |
+| 60 | Bajaj Finance | https://www.bajajfinserv.in/ | member |
+| 61 | Tata Capital | https://www.tatacapital.com/ | member |
+| 62 | HDFC Bank | https://www.hdfcbank.com/ | member |
+| 63 | IDFC First Bank | https://www.idfcfirstbank.com/ | member |
+| 64 | L&T Finance | https://www.ltfs.com/ | member |
+| 65 | ICICI Bank | https://www.icicibank.com/ | member |
+| 66 | RBL Bank | http://www.rblbank.com | member |
+| 67 | IndusInd Bank | https://www.indusind.com/ | member |
+| 68 | Unity Small Finance Bank | https://theunitybank.com/ | member |
+| 69 | AU Small Finance Bank | https://www.aubank.in/ | member |
+| 70 | Fincare Small Finance Bank | https://fincarebank.com/ | member |
+| 71 | Utkarsh SFB | https://www.utkarsh.bank/ | member |
+| 72 | LOLC (India) | https://www.lolc.com | member |
+| 73 | Aviral Finance | http://www.aviralfinance.com/ | member |
+| 74 | Piramal Enterprises | http://www.piramalfinance.com | member |
 
 ## FEDAI — 108 members
 
