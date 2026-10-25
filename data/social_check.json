@@ -1,9 +1,6 @@
 {
-  "checked": "2026-10-24",
+  "checked": "2026-10-25",
   "official_site_accounts": 23,
-  "still_linked": 21,
-  "missing_from_site": [
-    "uff:x:@unifiedfintech",
-    "uff:linkedin:company/unifiedfintech"
-  ]
+  "still_linked": 23,
+  "missing_from_site": []
 }
