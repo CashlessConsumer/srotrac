@@ -41,7 +41,7 @@ SROS = {
             "Studies personal-loan pricing and borrower outcomes (Personal Loan Report 2026) and pushed Google on predatory lending apps.",
         ],
         "watch": [
-            "Member count claims (~200+) vs published roster (~85 logos) — the public list is a marketing page, not a register.",
+            "Member count claims (~200+) vs published roster (~86 logos) — the public list is a marketing page, not a register.",
             "Enforcement actions are not published; the SRO-FT framework expects oversight of member conduct.",
         ],
     },
@@ -1092,7 +1092,7 @@ def build_about(members, activity):
         ("Is Sahamati recognised by the RBI?",
          "Yes. RBI recognised Sahamati as the SRO for the account aggregator (AA) ecosystem on 5 June 2026. Before recognition, Sahamati spent five years as the AA ecosystem's non-profit standards body (spun out of iSPIRT's work). Its directory lists 110 regulated entities across AAs, FIPs, FIUs and TSPs."),
         ("How many members do the SROs have?",
-         "As of the latest capture: FACE 85, UFF 120, SRPA 18, MFIN 74, FEDAI 108, Sahamati 110, FIMMDA 116, AMFI 56, GI Council 49 and LI Council 27 listed members — 763 rows across the 18 tracked bodies. FIDC, Sa-Dhan, BASL, AIBI and the three IBBI IPAs publish no public roster. Counts are floors, not filings: SRO member pages are marketing pages."),
+         "As of the latest capture: FACE 86, UFF 120, SRPA 18, MFIN 74, FEDAI 108, Sahamati 110, FIMMDA 116, AMFI 56, GI Council 49 and LI Council 27 listed members — 764 rows across the 18 tracked bodies. FIDC, Sa-Dhan, BASL, AIBI and the three IBBI IPAs publish no public roster. Counts are floors, not filings: SRO member pages are marketing pages."),
         ("Can I reuse the data?",
          "Yes. Data is licensed CC BY 4.0 — copy, remix and republish with attribution to SROTrac / CashlessConsumer. The CSVs are linked on the members page and in the GitHub repo."),
     ]
@@ -1127,7 +1127,7 @@ def build_about(members, activity):
   <div class="col">
     <h2>Caveats</h2>
     <ul class="watchlist">
-      <li>SRO member pages are <strong>marketing pages, not registers</strong>. FACE claims 200+ members but shows ~85 logos; treat counts as a floor.</li>
+      <li>SRO member pages are <strong>marketing pages, not registers</strong>. FACE claims 200+ members but shows ~86 logos; treat counts as a floor.</li>
       <li><strong>FIDC publishes no member roster at all</strong> — its "list of NBFCs" page holds RBI registration statistics, not membership.</li>
       <li>Membership changes constantly; dates matter. Each dataset notes its capture date.</li>
       <li>Recognition ≠ effectiveness. An SRO can be fully compliant on paper and still never discipline a member. This tracker will log enforcement actions as they surface.</li>

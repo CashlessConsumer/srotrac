@@ -116,6 +116,8 @@ Register of India’s financial-sector self-regulatory organisations · RBI · S
 
  Latest activity 
 
+ 2026-10-29 FACE 
+ FACE published roster adds Rinncrest (85 to 86) 
  2026-10-20 MFIN 
  MFIN member wall drops ten names (84 to 74) after page redesign 
  2026-10-01 FACE 
@@ -126,8 +128,6 @@ Register of India’s financial-sector self-regulatory organisations · RBI · S
  FACE releases Digital Personal Loans report (Q1 FY26-27) 
  2026-09-30 FACE 
  FACE elects Hemant Gala (PhonePe) and Rajiv Naresh (Navi) as Member Directors 
- 2026-09-10 UFF 
- UFF recognised as India's second SRO-FT 
 
  Full activity log → 
 
@@ -175,6 +175,10 @@ Regulatory timeline
  How RBI built the SRO system — frameworks, recognitions, and what each SRO did about it. 
 
  2026 
+
+ 2026-10-29 FACE roster 
+ FACE published roster adds Rinncrest (85 to 86) 
+ Daily capture of FACEs membership page on 29 Oct 2026 picked up a new member tile: Rinncrest (rinncrest.in), taking the public wall from 85 to 86 organisations. Register total moves to 764 listed memberships. FACE publishes no join dates; the wall is a marketing page, not a register. 
 
  2026-10-20 MFIN roster 
  MFIN member wall drops ten names (84 to 74) after page redesign 
@@ -323,7 +327,7 @@ Regulatory timeline
 Activity log 
  Frameworks, recognitions, consultation responses, reports and announcements — dated and linked. 
 
- All announcement (5) consultation (2) framework (6) governance (3) partnership (1) recognition (9) report (2) roster (3) tool (1)
+ All announcement (5) consultation (2) framework (6) governance (3) partnership (1) recognition (9) report (2) roster (4) tool (1)
 
 
 ## social — https://srotrac.cashlessconsumer.in/social.html
@@ -417,7 +421,7 @@ Social media monitor · tracked SROs
 
  How this is monitored 
 
- The daily refresh re-fetches the SROs’ own pages, then a drift check ( scripts/social_check.py ) confirms every ✓-marked account is still linked from its official site. Last drift check 2026-11-08: 23/23 official-site links still live. 
+ The daily refresh re-fetches the SROs’ own pages, then a drift check ( scripts/social_check.py ) confirms every ✓-marked account is still linked from its official site. Last drift check 2026-11-09: 23/23 official-site links still live. 
  X, LinkedIn, Facebook and Instagram block robots, so follower counts and post contents are not scraped here — links are curated, dated (verified 2026-09-25) and re-verified in the direction platforms can’t block: the SRO’s own website. 
  A handle vanishing from an official site is the cheapest early signal of a rebrand, a takeover or a quietly deleted account — it shows here as a ⚠ flag. 
  Spotted a new or dead handle? It’s a one-row fix in data/social.csv (CC BY 4.0).
@@ -440,13 +444,13 @@ About SROTrac
 
  Caveats 
 
- SRO member pages are marketing pages, not registers . FACE claims 200+ members but shows ~85 logos; treat counts as a floor. 
+ SRO member pages are marketing pages, not registers . FACE claims 200+ members but shows ~86 logos; treat counts as a floor. 
  FIDC publishes no member roster at all — its "list of NBFCs" page holds RBI registration statistics, not membership. 
  Membership changes constantly; dates matter. Each dataset notes its capture date. 
  Recognition ≠ effectiveness. An SRO can be fully compliant on paper and still never discipline a member. This tracker will log enforcement actions as they surface. 
 
  FAQ 
- Which SROs does India have? The Reserve Bank of India has recognised nine self-regulatory organisations: FACE and UFF for fintech (SRO-FT framework), FIDC for NBFCs, SRPA for payment system operators, MFIN and Sa-Dhan for microfinance lenders, FEDAI for authorised dealers in foreign exchange, Sahamati for the account aggregator ecosystem, and FIMMDA for the fixed income, money market and derivatives markets. Does SROTrac cover SEBI or IRDAI industry bodies? Yes. Since 26 September 2026 the register covers 18 bodies across four regulators: RBI's nine recognised SROs, SEBI's BASL and AIBI, the IRDAI statutory Life and General Insurance Councils, and IBBI's three insolvency professional agencies. AMFI and ANMI sit outside recognition and are tracked for context: AMFI is the mutual-fund industry association, ANMI has sought recognition as a stockbrokers' SRO since 1998. Is SROTrac affiliated with the RBI or any SRO? No. SROTrac is an independent project by CashlessConsumer, a consumer collective. It uses only publicly available sources: SRO websites, RBI press releases and dated news reports. Is Sahamati recognised by the RBI? Yes. RBI recognised Sahamati as the SRO for the account aggregator (AA) ecosystem on 5 June 2026. Before recognition, Sahamati spent five years as the AA ecosystem's non-profit standards body (spun out of iSPIRT's work). Its directory lists 110 regulated entities across AAs, FIPs, FIUs and TSPs. How many members do the SROs have? As of the latest capture: FACE 85, UFF 120, SRPA 18, MFIN 74, FEDAI 108, Sahamati 110, FIMMDA 116, AMFI 56, GI Council 49 and LI Council 27 listed members — 763 rows across the 18 tracked bodies. FIDC, Sa-Dhan, BASL, AIBI and the three IBBI IPAs publish no public roster. Counts are floors, not filings: SRO member pages are marketing pages. Can I reuse the data? Yes. Data is licensed CC BY 4.0 — copy, remix and republish with attribution to SROTrac / CashlessConsumer. The CSVs are linked on the members page and in the GitHub repo. 
+ Which SROs does India have? The Reserve Bank of India has recognised nine self-regulatory organisations: FACE and UFF for fintech (SRO-FT framework), FIDC for NBFCs, SRPA for payment system operators, MFIN and Sa-Dhan for microfinance lenders, FEDAI for authorised dealers in foreign exchange, Sahamati for the account aggregator ecosystem, and FIMMDA for the fixed income, money market and derivatives markets. Does SROTrac cover SEBI or IRDAI industry bodies? Yes. Since 26 September 2026 the register covers 18 bodies across four regulators: RBI's nine recognised SROs, SEBI's BASL and AIBI, the IRDAI statutory Life and General Insurance Councils, and IBBI's three insolvency professional agencies. AMFI and ANMI sit outside recognition and are tracked for context: AMFI is the mutual-fund industry association, ANMI has sought recognition as a stockbrokers' SRO since 1998. Is SROTrac affiliated with the RBI or any SRO? No. SROTrac is an independent project by CashlessConsumer, a consumer collective. It uses only publicly available sources: SRO websites, RBI press releases and dated news reports. Is Sahamati recognised by the RBI? Yes. RBI recognised Sahamati as the SRO for the account aggregator (AA) ecosystem on 5 June 2026. Before recognition, Sahamati spent five years as the AA ecosystem's non-profit standards body (spun out of iSPIRT's work). Its directory lists 110 regulated entities across AAs, FIPs, FIUs and TSPs. How many members do the SROs have? As of the latest capture: FACE 86, UFF 120, SRPA 18, MFIN 74, FEDAI 108, Sahamati 110, FIMMDA 116, AMFI 56, GI Council 49 and LI Council 27 listed members — 764 rows across the 18 tracked bodies. FIDC, Sa-Dhan, BASL, AIBI and the three IBBI IPAs publish no public roster. Counts are floors, not filings: SRO member pages are marketing pages. Can I reuse the data? Yes. Data is licensed CC BY 4.0 — copy, remix and republish with attribution to SROTrac / CashlessConsumer. The CSVs are linked on the members page and in the GitHub repo. 
 
  License & reuse 
  Code: MIT. Data: CC BY 4.0 — copy, remix and republish with attribution to SROTrac / CashlessConsumer. 
@@ -471,7 +475,7 @@ RBI · SRO register
  Runs the DLA Validator — check a lending app before you borrow from it. Publishes a Grievance & Dispute Resolution (GDR) framework and an Oversight & Enforcement policy for members. Studies personal-loan pricing and borrower outcomes (Personal Loan Report 2026) and pushed Google on predatory lending apps. 
 
  What we're watching 
- Member count claims (~200+) vs published roster (~85 logos) — the public list is a marketing page, not a register. Enforcement actions are not published; the SRO-FT framework expects oversight of member conduct. 
+ Member count claims (~200+) vs published roster (~86 logos) — the public list is a marketing page, not a register. Enforcement actions are not published; the SRO-FT framework expects oversight of member conduct. 
 
  Governance 
  Board / Governing Council Name Role Affiliation Ram Rastogi Independent Director & Chair Manoranjan Mishra Independent Director Avtar Monga Independent Director Srinath Sridharan Independent Director Nitin Gupta Member Director Madhusudan Ekambaram Member Director Sanjay Aggarwal Member Director Vineet Sukumar Member Director Hemant Gala Member Director PhonePe Rajiv Naresh Member Director Navi Executive Committee / Office bearers Name Role Affiliation Sugandh Saxena Managing Director & CEO (first CEO, appointed Aug 2021) Dheeraj Bhardwaj Vice President - Technology Jay Tripathi Vice President Monami Dasgupta AVP - Policy & Research Board committees Name Role Affiliation Ashish Goyal Audit, Finance & Remuneration Committee Avtar Monga Audit, Finance & Remuneration Committee Srinath Sridharan Audit, Finance & Remuneration Committee Vineet Sukumar Audit, Finance & Remuneration Committee 
@@ -484,7 +488,7 @@ RBI · SRO register
  Captured from https://faceofindia.org/membership/ on 2026-09-10. Marketing rosters, not filings — see methodology . 
 
  Activity 
- 2026-10-01 governance FACE elects Hemant Gala and Rajiv Naresh to Board as Member Directors 2026-10-01 report FACE releases Digital Personal Loans report (Q1 FY26-27) 2026-09-30 governance FACE elects Hemant Gala (PhonePe) and Rajiv Naresh (Navi) as Member Directors 2026-08 report FACE Personal Loan Report 2026 2025-08 tool DLA Validator — consumer tool for checking digital lending apps 2024-08-28 recognition FACE becomes India's first RBI-recognised fintech SRO (SRO-FT) 2024-08-14 consultation FACE response to TRAI consultation on DLT-based transaction scrubbing 2023-09 partnership Google x FACE collaboration against predatory digital lending apps 2021-08 announcement FACE applies to RBI for SRO recognition (digital lending) 
+ 2026-10-29 roster FACE published roster adds Rinncrest (85 to 86) 2026-10-01 governance FACE elects Hemant Gala and Rajiv Naresh to Board as Member Directors 2026-10-01 report FACE releases Digital Personal Loans report (Q1 FY26-27) 2026-09-30 governance FACE elects Hemant Gala (PhonePe) and Rajiv Naresh (Navi) as Member Directors 2026-08 report FACE Personal Loan Report 2026 2025-08 tool DLA Validator — consumer tool for checking digital lending apps 2024-08-28 recognition FACE becomes India's first RBI-recognised fintech SRO (SRO-FT) 2024-08-14 consultation FACE response to TRAI consultation on DLT-based transaction scrubbing 2023-09 partnership Google x FACE collaboration against predatory digital lending apps 2021-08 announcement FACE applies to RBI for SRO recognition (digital lending) 
 
  Social media 
  X (Twitter) ✓ @FACEOfIndiaOrg LinkedIn ✓ company/faceofindiaorg YouTube ✎ @fintechassociationforconsu4582 Facebook ✓ FACEOfIndiaOrgg Instagram ✓ faceofindiaorg 
@@ -1806,4 +1810,88 @@ Both sides of this deserve the consumer's suspicion in equal measure. Credit-lif
 11. https://srotrac.cashlessconsumer.in/sro-uff.html
 12. https://srotrac.cashlessconsumer.in/social.html
 13. https://github.com/CashlessConsumer/srotrac/blob/main/docs/2026-10-08-bsfg-uff-exit-story.md
+
+
+
+## Blog post: 2026-11-09-srotrac-weekly-9 — https://srotrac.cashlessconsumer.in/blog/2026-11-09-srotrac-weekly-9.html
+---
+category: weekly
+title: "SROTrac Weekly #9: The AA meter slips to December; FIDC's five-year glide path lands at IRDAI; banks count their commission losses; the councils get a grievance month"
+date: 2026-11-09
+summary: Sahamati deferred its rate-card switch-on from 1 November to 1 December, six days before the meter was to start, citing the festive season and requests for postponement — with fee amounts still unpublished and details promised in later circulars; FIDC's 24 October submission to IRDAI is now public: the NBFC SRO wants five years to take credit-linked commissions from 45–49% down to 25%, calling the proposed 2%/5% caps unviable against its own 32%-of-premium cost model; Central Bank of India expects bancassurance fees to fall a third, Canara Bank up to ₹200 crore, LIC expects limited impact, and IRDAI's chairman promises reform only by consensus; IRDAI declares November Grievance Resolution Month with both statutory councils signed on; RBI seats FIMMDA's chairman on its new markets consultative committee; and the register gained one name (FACE +Rinncrest) while UFF's BSFG silence crossed five weeks.
+---
+
+# SROTrac Weekly #9
+
+_Week to 9 November 2026_
+
+## TL;DR
+
+- **The date we flagged did not survive the week.** Last edition noted that 1 November was the day Sahamati's rate card would switch on. On the evening of Monday, 26 October — six days before the switch — the SRO's circular moved it to 1 December, "keeping in mind the upcoming festival season and requests for postponement." Implementation and operational details will follow "via subsequent circulars," which means the fee card itself is still not public. [1] [2] [3]
+- **FIDC's filing is in, and it asks for five years.** The NBFC SRO's 24 October submission to IRDAI argues the proposed caps — 2% on credit life, 5% on credit health — are unviable against its own activity-based cost model, which puts distribution costs at roughly 32% of premium. It wants commissions on credit-linked insurance to glide down from the current 45–49% to 25% over five years, and permission to pay premiums directly to insurers on borrowers' behalf. [4] [5] [6]
+- **The banks count their losses; LIC shrugs.** Central Bank of India expects bancassurance fees to fall from ₹76 crore to ₹49 crore — a 33% hit; Canara Bank sees ₹120–145 crore off its life distribution income, capping the total damage below ₹200 crore. LIC's MD & CEO says the reforms will have limited impact on the country's largest insurer — "higher-cost insurers may face pressure." IRDAI chairman Ajay Seth says the reforms will be implemented only after consensus is built. [7] [8] [9] [10]
+- **November is Grievance Resolution Month.** IRDAI announced on 29 October a month-long drive on pending policyholder grievances — 2.21 lakh cases were pending before consumer commissions and courts as of 31 March 2026, about 72% of them stuck for over a year. Both statutory councils on this register are signed on as supporters. [11]
+- **The rule-borrower gets a seat at the rule-writer's table.** RBI's newly constituted Technical Consultative Committee for financial markets counts FIMMDA's chairman — SBI's Deputy MD Shamsher Singh — among its external members. [12] [13]
+- **One name on the walls.** FACE's published roster added Rinncrest (85 → 86), taking the register to **764** listed memberships across 18 SROs / 4 regulators / 79 orgs in 2+ SROs / 2 SRO-FTs. UFF's About page still says "At present UFF has 120 members" — day 39 since BSFG Finance's row vanished without a word. [14] [15] [16] [17]
+
+## Roster & register changes
+
+**FACE: +1, quietly.** The daily capture of FACE's membership page picked up a new member tile on 29 October — Rinncrest ([rinncrest.in](https://rinncrest.in/)) — taking the public wall from 85 to 86 organisations. [14] [21] As ever with these walls: it is a marketing page, not a register. FACE publishes no join dates, so the tile's arrival date is our capture date, not necessarily the member's. The register's total moves to 764. [17]
+
+**UFF: the silence crosses five weeks.** The BSFG Finance row disappeared from UFF's member wall on or by 1 October. Today is day 39. We re-fetched UFF's About page this morning: it still reads "At present UFF has 120 members" — a claim that has been arithmetically tied to a wall that no longer explains itself. The right-of-reply window closed on 11 October with zero responses from either party, and the full paper trail is in our exit story note. [15] [19]
+
+**The drift check holds.** All 23 official accounts tracked on the social register remain linked from their SROs' own sites (checked 9 November). [16]
+
+**Everyone else's walls held steady** — MFIN at 74 (the ten removed names remain unexplained, and our letter to MFIN still awaits a human sign-off), Sahamati 110, FEDAI 108, FIMMDA 116 (the PDF roster dated 8 May 2025), SRPA 18, AMFI 56, the councils at 49 and 27. No announcements found this week from Sa-Dhan, BASL, AIBI or the three IBBI IPAs. [17]
+
+## The SROs at work
+
+**Sahamati: an SRO grants itself a month.** The AA ecosystem's first standard pricing was announced in a circular reported on 12 October: from 1 November, lenders pay one bill for every data pull, split between the bank holding the data, the AA carrying it, and Sahamati itself; customers cannot be charged directly; technology-service middlemen get nothing. [3] On 26 October, the switch date quietly became 1 December. The circular's stated reasons — the festive season and requests for postponement — map onto what industry executives told Economic Times: legal reviews, multi-party agreements, payment-collection systems, and holiday schedules had eaten the runway. [1] [2]
+
+Read it two ways. The charitable one: pricing an entire network's economics for the first time is genuinely hard, and a deadline missed by an under-prepared ecosystem produces broken billings, not consumer harm. The less charitable one: the same flexibility was never on offer to the people the rate card prices around — FIPs face a minimum data-delivery success rate starting at 80% from 1 December, with escalations for missing it, per the original reporting. [20] The SRO's own revenue line moves a month; the banks' service-level clock starts on the same day. December 1 is now the day the AA network's economics all change at once — pricing, interoperability adoption and ReBIT's client-side standards converge there. [20] We will re-check what "subsequent circulars" actually publish: as of this writing, the per-fetch fee amounts have never appeared in any public document this register can link to.
+
+**FIDC: the representation lands.** Last edition we said to watch for the NBFC SRO's filing with IRDAI. It is now public via Economic Times and Elets BFSI: an October 24 submission arguing that the proposed caps of 2% on credit life and 5% on credit health insurance "do not reflect what it actually costs lenders to distribute these policies." FIDC's activity-based cost model puts distribution expenses at roughly 32% of premium, counting customer acquisition, branch infrastructure, technology, compliance, servicing and the credit risk of financing premiums. The asks: a five-year transition gliding commissions down from the current 45–49% to 25%; permission to pay premiums directly to insurers on behalf of borrowers; and a warning that sharp caps could undermine distribution infrastructure in rural and semi-urban India. [4] [5] [6]
+
+The consumer ledger on this filing is the one we set out last week, and the filing confirms the stakes. Credit-life sold alongside a loan is a persistent mis-selling site — premiums baked into the loan, consent reduced to a signature on a bundle. The regulator's caps exist because current commissions on credit-linked products run to 45–49% of premium. FIDC's five-year glide path asks to keep those economics substantially intact until the early 2030s. The test we will apply when the final norms land: does any of the compressed commission reach the borrower's loan pricing or premium, or does it merely re-balance margins between lender and insurer? Nothing in the reported asks obligates the saving to reach the person paying. The second ask — lenders paying premiums directly to insurers on borrowers' behalf — deserves its own scrutiny: that is the bundling pipeline asking to keep running, just with better plumbing. [4] [5] [6]
+
+**IRDAI: consensus, costed, and a month for grievances.** Chairman Ajay Seth, at the Business Standard BFSI Insights Summit on 27 October: the regulator will implement the distribution reforms only after consulting stakeholders and building consensus — "I'll attempt to build consensus for the reforms needed for the sector and for our economy" — adding that he has been meeting stakeholders extensively since the paper's release. [7] The consultation window closed on 31 October with 650+ submissions in hand; the regulator's stated implementation targets remain 1 January or 1 April 2027. [3] [6]
+
+The industry's numbers are now on the record, and they are the argument in miniature. Central Bank of India's MD & CEO Kalyan Kumar: bancassurance fees will fall to ₹49 crore from ₹76 crore if the proposals take effect as drafted — "a 33% income impact as things stand" — a business worth about 8% of the bank's fee income. Canara Bank's MD & CEO Brajesh Singh: a ₹120–145 crore annual hit to life insurance distribution income, with the total dent across everything the bank distributes not exceeding ₹200 crore. Axis Bank plans to offset via volumes, product mix and alternative fee income; HDFC Bank says it is too early to assess. [8] [9] LIC's MD & CEO R Doraiswamy went the other way on 6 November: limited impact, because the insurer "already operates within several of the proposed limits" — with the corollary that higher-cost insurers may face pressure. [10] Read together: the reform's pain is concentrated where distribution is priciest, and the largest distributor of them all says it is already inside the proposed lines. That is not proof the caps are right; it is evidence the current spread is wide enough that the same product can be sold within them.
+
+Meanwhile IRDAI declared November "Grievance Resolution Month," announced 29 October: insurers are advised to review pending matters, prioritise long-pending cases, settle litigation amicably where sustainable, ensure prompt compliance with Insurance Ombudsman awards, and fix recurring causes — with explicit language that the objective is "not merely to increase disposal numbers." The scale behind it: 2.21 lakh cases pending before consumer commissions and judicial courts as of 31 March 2026, roughly 72.49% of them pending for over a year, and around 11 lakh reportedly pending before MACT. The Life Insurance Council and the General Insurance Council — both on this register — will support the initiative alongside the Council for Insurance Ombudsmen, with state-wise lead insurers running outreach emphasising Tier-II and III cities. [11] Two statutory bodies whose consultation submissions we have been waiting to see will spend November at the grievance coalface. That work is visible and consumer-facing; the submission transparency question from last fortnight remains open.
+
+**FIMMDA's chairman joins RBI's markets committee.** RBI has constituted a Technical Consultative Committee for financial markets, chaired by the Deputy Governor in charge of the Financial Markets Regulation Department, with seven external members — among them Shamsher Singh, chairman of FIMMDA and Deputy MD of State Bank of India, alongside Ananth Narayan (former SEBI whole-time member), Neeraj Gambhir (Axis Bank), Shailendra Jhingan (ICICI Bank), Aditya Bagree (Citi India), Nand Kishore (CCIL) and Ridham Desai (Morgan Stanley India). [12] [13] On principle, market expertise inside the consultative machinery is sound; FIMMDA's roster spans banks, primary dealers, insurers and SFBs, and its members trade the instruments the committee will discuss. The watch item is the usual one: the committee's external chairs all sit on the sell-side or the trading side of the markets it advises on. Who in that room speaks for the person whose pension and mutual funds hold the bonds? The register's job is to keep that question on record.
+
+**FEDAI: trade-facilitation housekeeping.** The forex SRO's circular SPL-04/Trade/2026 walks authorised dealers through export payments that arrive via Payment Aggregator–Cross Border players: who creates the IRM/eFIRC (the AD bank holding the exporter's account, using the e-FIRA the PA-CB issues), how EDPMS entries close, and an instruction to brief branch staff and process such requests "without delay." The circular's letterhead now self-describes FEDAI as the "Self-Regulatory Organisation of all Authorised Dealers regulated by RBI" — the recognition title it picked up in January, working its way into the stationery. [18] Unsexy, useful, and exactly what a trade-body-turned-SRO should be doing.
+
+## What it means for consumers
+
+- **The rate card still has no prices you can read.** December 1 is the new switch-on. Until the "subsequent circulars" publish actual fee amounts, the only consumer guarantee on record is the original one: you cannot be charged for sharing your own data through the network. If any lender adds a "statement fee" or "documentation fee" after 1 December, ask whether it is the AA pass-through wearing a costume — and check whether your loan pricing moved at all. [1] [2] [3]
+- **The credit-life fight is about 2% versus 45–49%.** Whatever transition lands, your protections do not wait for it: you can decline credit-life bundled with a loan, buy term cover separately, and demand the premium shown as a separate line. The filing to watch for when final norms appear is simpler than FIDC's cost model — did your loan's effective cost drop? If commissions fell and pricing did not, the saving stayed inside the distribution chain. [4] [5] [6]
+- **November is the month to push a stuck insurance complaint.** Insurers have been told to clear long-pending grievances, comply promptly with ombudsman awards and settle sustainable litigation. If your case is among the 72% stuck for over a year, cite the month: IRDAI's own advisory is your leverage letter. The Bima Bharosa portal and your insurer's grievance desk are the routes; an ombudsman award is not a suggestion. [11]
+- **A wall is not a register, week three.** FACE added a tile; UFF's count stays at 120 beside a wall that no longer lists 121; MFIN's 74 tiles still carry no dates. Until SROs publish dated membership registers — additions, exits, reasons — every roster number on this site is a floor, and the captures we keep are the only public record of the movement. [14] [15] [17] [19]
+
+## Sources
+
+1. https://www.business-standard.com/finance/news/account-aggregator-network-s-new-pricing-model-rollout-postponed-by-a-month-126102601261_1.html
+2. https://m.economictimes.com/tech/technology/sahamati-defers-new-account-aggregator-fees-to-december-1/articleshow/135203030.cms
+3. https://srotrac.cashlessconsumer.in/blog/2026-10-26-srotrac-weekly-8.html
+4. https://m.economictimes.com/industry/banking/finance/insurance-commission-nbfcs-seek-5-year-transition-period-to-reduce-selling-fee/articleshow/135197256.cms
+5. https://bfsi.eletsonline.com/nbfcs-five-year-transition-irdai-insurance-commission-caps
+6. https://bfsi.economictimes.indiatimes.com/articles/insurance-distributors-seek-longer-transition-but-who-benefits-from-lower-commissions/135378100
+7. https://www.thehindu.com/business/Industry/irdai-to-implement-distribution-reforms-only-after-consensus-ajay-seth/article71633033.ece
+8. https://economictimes.indiatimes.com/industry/banking/finance/banking/banks-also-count-cost-of-insurance-payout-curbs/articleshow/135034779.cms
+9. https://bfsi.economictimes.indiatimes.com/articles/canara-bank-sees-up-to-rs-200-cr-hit-to-distribution-income-under-proposed-irdai-norms/134944221
+10. https://bfsi.economictimes.indiatimes.com/articles/lic-expects-limited-impact-from-irdais-proposed-commission-reforms-higher-cost-insurers-may-face-pressure-md-r-doraiswamy/135602849
+11. https://teamleaseregtech.com/updates/article/60808/irdai-grievance-resolution-month-november-2026
+12. https://m.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63914
+13. https://www.thehindu.com/business/markets/rbi-constitutes-technical-consultative-committee-for-financial-markets/article71664423.ece
+14. https://github.com/CashlessConsumer/srotrac/commit/f714f89736e7b4a7c2c141b9ed5d6e006720a4de
+15. https://unifiedfintech.in/about-us-2
+16. https://srotrac.cashlessconsumer.in/social.html
+17. https://srotrac.cashlessconsumer.in/
+18. https://www.skydo.com/blog/export-declaration-form
+19. https://github.com/CashlessConsumer/srotrac/blob/main/docs/2026-10-08-bsfg-uff-exit-story.md
+20. https://srotrac.cashlessconsumer.in/blog/2026-10-19-srotrac-weekly-7.html
+21. https://faceofindia.org/membership/
 
