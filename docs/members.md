@@ -1,6 +1,6 @@
 # SROTrac — Member Listings
 
-_Generated 2026-11-12 by `scripts/build.py`. Do not hand-edit._
+_Generated 2026-11-13 by `scripts/build.py`. Do not hand-edit._
 
 India's recognised self-regulatory organisations across four financial regulators. **RBI (9):** FACE and UFF (SRO-FTs), SRPA (PSOs), FIDC (NBFCs), MFIN and Sa-Dhan (NBFC-MFIs), FEDAI (forex ADs), Sahamati (account aggregators), FIMMDA (fixed income). **SEBI (2):** BASL (investment advisers + research analysts) and AIBI (merchant bankers). **IRDAI (2, statutory under s.64C):** the Life Insurance Council and the General Insurance Council. **IBBI (3):** the insolvency professional agencies of ICAI, ICSI and ICMAI. Context-only (not recognised): AMFI (mutual funds) and ANMI (brokers). BASL, AIBI and the three IPAs publish no member roster.
 
@@ -519,19 +519,19 @@ India's recognised self-regulatory organisations across four financial regulator
 | 86 | Abhyudaya Co-op. Bank Limited |  | member |
 | 87 | Bassein Catholic Cooperative Bank Ltd |  | member |
 | 88 | Bombay Mercantile Co-operative Bank Limited |  | member |
-| 89 | Export-Import Bank of India |  | member |
-| 90 | Goldman Sachs (India) Capital Markets Pvt. Ltd |  | member |
-| 91 | ICICI Securities Primary Dealership Limited |  | member |
-| 92 | IFCI Limited |  | member |
-| 93 | Morgan Stanley India Primary Dealer Private Limited |  | member |
-| 94 | NKGSB Co-operative Bank Limited |  | member |
-| 95 | Nomura Fixed Income Securities Pvt Ltd |  | member |
-| 96 | PNB Gilts Limited |  | member |
-| 97 | Punjab and Maharashtra Co-operative Bank Limited |  | member |
-| 98 | Small Industries Development Bank of India |  | member |
-| 99 | SVC Co-operative Bank Limited&nbsp; |  | member |
-| 100 | The Ahmedabad Mercantile Co-op. Bank Limited - &quot;Surrender of AD Category I License is under Process&quot; |  | member |
-| 101 | The Bharat Co op Bank (Mumbai) Ltd |  | member |
+| 89 | Bharat Co-operative Bank (Mumbai) Ltd |  | member |
+| 90 | Export-Import Bank of India |  | member |
+| 91 | Goldman Sachs (India) Capital Markets Pvt. Ltd |  | member |
+| 92 | ICICI Securities Primary Dealership Limited |  | member |
+| 93 | IFCI Limited |  | member |
+| 94 | Morgan Stanley India Primary Dealer Private Limited |  | member |
+| 95 | NKGSB Co-operative Bank Limited |  | member |
+| 96 | Nomura Fixed Income Securities Pvt Ltd |  | member |
+| 97 | PNB Gilts Limited |  | member |
+| 98 | Punjab and Maharashtra Co-operative Bank Limited |  | member |
+| 99 | Small Industries Development Bank of India |  | member |
+| 100 | SVC Co-operative Bank Limited&nbsp; |  | member |
+| 101 | The Ahmedabad Mercantile Co-op. Bank Limited - &quot;Surrender of AD Category I License is under Process&quot; |  | member |
 | 102 | The Clearing Corporation of India Ltd |  | member |
 | 103 | The Cosmos Co-operative Bank Limited |  | member |
 | 104 | The Kalupur Commercial Co-operative Bank Limited |  | member |
